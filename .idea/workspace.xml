@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce612421-35f1-46da-aad7-e2de0744ecb4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ce612421-35f1-46da-aad7-e2de0744ecb4" name="Default" comment="try to first push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frameworks/Spring/Spring Boot/ПЛЕЙ-ЛИСТ/МОЯ/примеры/1" beforeDir="false" afterPath="$PROJECT_DIR$/Frameworks/Spring/Spring Boot/ПЛЕЙ-ЛИСТ/МОЯ/примеры/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frameworks/Spring/Spring Boot/ПЛЕЙ-ЛИСТ/МОЯ/примеры/1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frameworks/Spring/Spring Boot/ПЛЕЙ-ЛИСТ/МОЯ/примеры/1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/Comparator" beforeDir="false" afterPath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/Comparator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/Comparator/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/Comparator/src/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/equals  кол-ях и [ ]-ах" beforeDir="false" afterPath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/equals  кол-ях и [ ]-ах" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/equals  кол-ях и [ ]-ах/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/контейнеры(КОЛЛЕКЦИИ)/ТОЛКОВОЕ(+ ГОЛОВАЧ)/equals  кол-ях и [ ]-ах/src/MainClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,14 +22,35 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="896815652">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#68#69#0" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
@@ -82,31 +96,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="java projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java projects" type="462c0819:PsiDirectoryNode" />
+              <item name="javaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaProjects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538259084334" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/temporate" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Settings.CustomPostfixTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,6 +203,9 @@
       <workItem from="1538254155423" duration="192000" />
       <workItem from="1538254951844" duration="312000" />
       <workItem from="1538255318612" duration="190000" />
+      <workItem from="1538255784836" duration="890000" />
+      <workItem from="1538256786831" duration="49000" />
+      <workItem from="1538258565142" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="ddgdgfgf">
       <created>1538252436345</created>
@@ -203,16 +221,23 @@
       <option name="project" value="LOCAL" />
       <updated>1538253433286</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="try to first push">
+      <created>1538255964797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538255964797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6145000" />
+    <option name="totallyTimeSpent" value="7632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28151864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23638968" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -221,13 +246,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42038217" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.5905612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.49744898" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.64540815" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -251,7 +276,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ddgdgfgf" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="try to first push" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to first push" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/temporate/src/start.java">
@@ -263,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#68#69#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
