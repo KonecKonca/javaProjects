@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+<!--<servlet>-->
+    <!--<servlet-name>dispatcher</servlet-name>-->
+    <!--<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>-->
+    <!--<init-param>-->
+        <!--<param-name>contextConfigLocation</param-name>-->
+        <!--<param-value>/web-inf/spring/spring-config.xml</param-value>-->
+    <!--</init-param>-->
+<!--</servlet>-->
+<!--<servlet-mapping>-->
+    <!--<servlet-name>dispatcher</servlet-name>-->
+    <!--<url-pattern>/</url-pattern>-->
+<!--</servlet-mapping>-->
+
+
+    <servlet>
+        <servlet-name>productController</servlet-name>
+        <servlet-class>net.golovach.eshop.controller.ProductController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productController</servlet-name>
+        <url-pattern>/product.do</url-pattern>
+    </servlet-mapping>
+
+<!--mock-->
+    <servlet>
+        <servlet-name>mockController</servlet-name>
+        <servlet-class>net.golovach.eshop.controller.MockController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mockController</servlet-name>
+        <url-pattern>/mock.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mvcMockController</servlet-name>
+        <servlet-class>net.golovach.eshop.controller.MVCMockController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mvcMockController</servlet-name>
+        <url-pattern>/mvcMockController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionMockController</servlet-name>
+        <servlet-class>net.golovach.eshop.controller.SessionMockController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionMockController</servlet-name>
+        <url-pattern>/sessionMock.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cookieMockController</servlet-name>
+        <servlet-class>net.golovach.eshop.controller.CookieMockController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookieMockController</servlet-name>
+        <url-pattern>/cookieMock.do</url-pattern>
+    </servlet-mapping>
+
+    <!--FILTERS-->
+    <!--processing time-->
+    <!--<filter>-->
+        <!--<filter-name>timeFilter</filter-name>-->
+        <!--<filter-class>net.golovach.eshop.filter.ProcessingTimeFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>timeFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+    <!--&lt;!&ndash;request info&ndash;&gt;-->
+    <!--<filter>-->
+        <!--<filter-name>infoFilter</filter-name>-->
+        <!--<filter-class>net.golovach.eshop.filter.RequestInfoFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>infoFilter</filter-name>-->
+        <!--<url-pattern>*.do</url-pattern>-->
+        <!--<dispatcher>REQUEST</dispatcher>-->
+    <!--</filter-mapping>-->
+    <!--&lt;!&ndash;request info&ndash;&gt;-->
+    <!--<filter>-->
+        <!--<filter-name>attributesToSessionFilter</filter-name>-->
+        <!--<filter-class>net.golovach.eshop.filter.AddAttributesToSessionFilter</filter-class>-->
+        <!--<init-param>-->
+            <!--<param-name>filter-param-name-A</param-name>-->
+            <!--<param-value>filter-param-value-A</param-value>-->
+        <!--</init-param>-->
+        <!--<init-param>-->
+            <!--<param-name>filter-param-name-B</param-name>-->
+            <!--<param-value>filter-param-value-B</param-value>-->
+        <!--</init-param>-->
+    <!--</filter>-->
+    <!--&lt;!&ndash;must be mapping&ndash;&gt;-->
+
+</web-app>
+
+
+
+

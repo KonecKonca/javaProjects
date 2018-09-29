@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "808785526466",
+    "firebase_url": "https://clouschat.firebaseio.com",
+    "project_id": "clouschat",
+    "storage_bucket": "clouschat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808785526466:android:91e0a12c8c7d5e2d",
+        "android_client_info": {
+          "package_name": "com.example.cloudchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808785526466-38cgupm1bsfjogh9eu6cfc94th9dtl7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cloudchat",
+            "certificate_hash": "b44cfa44811ec99a3509ef45a9ffd8e8507eb89b"
+          }
+        },
+        {
+          "client_id": "808785526466-kejs2mnnr7st2ep14fbk09c62u5bo1jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNhqolfvHLzHaJJ2qwd1K2jJo_H1A2mlc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808785526466-kejs2mnnr7st2ep14fbk09c62u5bo1jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

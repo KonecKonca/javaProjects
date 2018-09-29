@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\Дроп\Dropbox\java projects\Frameworks\Spring\long play\test\.metadata\.plugins\org.eclipse.jdt.core
+3271193799.index

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA_Compatible" content="ie=edge">
+	<title>Learnig JS</title>
+	<!  <script src="js.js"></script>
+</head>
+<body>
+	<! смена цвета кнопочек !>
+	<h1 id="text">TExt Witch change a color</h1>
+		<button onmouseover="forAlert()">Alertick</button>
+		<button onclick="changeColor('blue')">СИНИЙ</button>
+		<button onclick="changeColor('red')">КРАСНЫЙ</button>
+	<script>
+		function changeColor(newColor){
+			var element = document.getElementById("text");
+			element.style.color = newColor;
+		}
+		function forAlert(){
+			alert("Ты навёл мышка на текст");
+		}
+	</script>
+	
+	<br><br><br><br><br>
+	
+	<!  Формочка для валидации  !>	
+	<form name="MyForm" action="" onsubmit="return validateForm()" mrthod="post">
+		Name: <input type="text" name="fname">
+		<strong>Telefon: </strong> <input type="text" name="fone">
+		<input type="submit" value="Submit">
+	</form>
+	<script>
+		function validateForm(){
+			var element = document.forms["MyForm"]["fname"].value;
+			var tel = document.forms["MyForm"]["fone"].value;
+			if(element == ""){
+				alert("ТЫ Алёшка, забыл Имя");
+				return false; // без этого будет перезагрузка странички (так устроен submit)
+			}
+			else if(tel == ""){
+				alert("ТЫ Алёшка, забыл телефон");
+				return false; // без этого будет перезагрузка странички (так устроен submit)
+			}
+		}
+	</script>
+	
+<script>
+	// данные от юзера
+	/*var message = prompt("Write anything");
+	document.write("It is your message   " + message);*/
+	
+	// мат оперпаторы , вывод строк
+	/*var num1 = 3;
+	var num2 = 9;
+	document.write("Sum is " + (num1 + num2) + "<br>");
+	document.write(" or ", num1 + num2 +  "  ");*/
+	
+	// массивы
+	//var colors = ["1", "2", "3", "666", "x"];
+	/*var colors = new Array("1", "2", "3", "666", "x");  // альтернатива
+	// colors.push("666")  -- переход сразу к этому эелементу
+	for(i = 0; i < colors.length; i++){
+		document.write(i + "<Font color=red>) Element = </Font>" + colors[i] + "<br>");
+	}*/
+	
+	// Functions
+	/*function summ(a, b){
+		return a+b;
+	}
+	document.write("Summ is " + summ(666, 555));*/
+	
+	// Объекты сразу на лету
+	/*var person = {
+		fName: "Andrei",
+		age: 18,
+		adress:{
+			street: "Fogelia",
+			city: "Minsk",
+			country: "Belarus"
+		},
+		
+		toString: function(){
+			return (this.fName + " tratata " + this.age);
+		}
+	}
+	console.log(person.age);
+	console.log(person.adress.city);
+	document.write(person.toString());*/
+	
+	// Другой варик создания
+	/*var apple = new Object();
+	apple.color = "green";
+	apple.shape = "round";
+	apple.anyFunction = function (){
+		return "Pixdatoe iablocko";
+	}
+	console.log(apple.color + " " + apple.shape)
+	console.log(apple.anyFunction());*/
+	
+	// функция(по сути конструктор)  это уже типо привычного созздания
+	/*function Fruit(color, shape){
+		this.color = color;
+		this.shape = shape;
+	}
+	
+	var melon1 = new Fruit("xxx", "yyy");
+	var melon2 = new Fruit("x", "y");
+	melon2.newFunction = function(){
+		return "Melonchik";
+	}
+	document.write("<h2>" + melon1.color +
+	" " + melon1.shape + " " +  melon2.newFunction() + " "  + "</h2>");*/
+	
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
