@@ -1,6 +1,7 @@
 package main;
 
 import library.MinimalizeFunctions;
+import library.TypesOfFunctions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +24,8 @@ public class MainClass {
         System.out.println("Result of cheaking complience SDNF:  " + MinimalizeFunctions.checkComplienceOfFunction(SDNF, 'x', new ArrayList<>(Arrays.asList(0, 1, 2)), "SDNF"));
         System.out.println("Result of cheaking complience SKNF:  " + MinimalizeFunctions.checkComplienceOfFunction(SKNF, 'x', new ArrayList<>(Arrays.asList(0, 1, 2)), "SKNF"));
 
-
+        System.out.println(MinimalizeFunctions.logicMethod(new StringBuilder(SDNF), TypesOfFunctions.SDNF, 'x', new ArrayList<>(Arrays.asList(0, 1, 2))));
+        System.out.println(MinimalizeFunctions.logicMethod(new StringBuilder(SKNF), TypesOfFunctions.SKNF, 'x', new ArrayList<>(Arrays.asList(0, 1, 2))));
 
     }
 

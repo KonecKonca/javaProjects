@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23bdf15c-aaeb-469c-b730-d4de420b5b7b" name="Default" comment="" />
+    <list default="true" id="23bdf15c-aaeb-469c-b730-d4de420b5b7b" name="Default" comment="temorate is clean">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/проект2/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/проект2/start.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,29 +15,39 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/2$start.coverage" NAME="start Coverage Results" MODIFIED="1519074115359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-453917227">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="28" />
+          <entry key="txt" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="28" />
+          <entry key="PLAIN_TEXT" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="start.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+            <state relative-caret-position="136">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-                <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-                <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-                <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-                <element signature="e#2746#2747#0" expanded="true" />
-                <element signature="e#2775#2776#0" expanded="true" />
-                <element signature="e#2816#2817#0" expanded="true" />
-                <element signature="e#2852#2853#0" expanded="true" />
-                <element signature="e#2882#2883#0" expanded="true" />
-                <element signature="e#2911#2912#0" expanded="true" />
-                <element signature="e#2952#2953#0" expanded="true" />
-                <element signature="e#2988#2989#0" expanded="true" />
-                <element signature="class#Combinations#0" expanded="false" />
-                <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-                <element signature="class#DininDolboeb#0" expanded="false" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,10 +62,8 @@
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,21 +84,13 @@
     <option name="width" value="1456" />
     <option name="height" value="916" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,15 +108,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538259166684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538259236719" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -267,46 +266,55 @@
       <workItem from="1537561419715" duration="1165000" />
       <workItem from="1537562634388" duration="352000" />
       <workItem from="1537643868570" duration="22000" />
+      <workItem from="1538259118992" duration="276000" />
     </task>
+    <task id="LOCAL-00001" summary="temorate is clean">
+      <created>1538259305359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538259305359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15900000" />
+    <option name="totallyTimeSpent" value="16176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06624204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1303725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13180515" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5854592" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+      <window_info anchor="right" id="Database" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,597 +323,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="8" />
-    </breakpoint-manager>
-    <watches-manager />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="temorate is clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="temorate is clean" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6682">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -932,30 +362,17 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="method#CounterofTriangles#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#fillCombinations#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#commounOutput#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="method#massToStr#0;class#CounterofTriangles#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-            <element signature="class#Combinations#0" expanded="false" />
-            <element signature="method#generateCombinations#0;class#Combinations#0" expanded="false" />
-            <element signature="class#DininDolboeb#0" expanded="false" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
