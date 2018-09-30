@@ -1,5 +1,7 @@
 package lib;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class AutomateLogic {
@@ -36,7 +38,6 @@ public class AutomateLogic {
         }
         isEvenValue3 = !isEvenValue3;
     }
-
     public States getState(){
         if(isEvenValue1 && isEvenValue2 && isEvenValue3){
             return States.ALL_EVEN;
@@ -63,6 +64,9 @@ public class AutomateLogic {
             return States.VALUE2_VALUE3_EVEN;
         }
 
+    }
+    public List<Integer> getAvailableValues(){
+        return new ArrayList<>(Arrays.asList(value1, value2, value3));
     }
 
 }

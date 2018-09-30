@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f233195-8515-4d3c-a467-e0b5ec9561fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lib/States.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2f233195-8515-4d3c-a467-e0b5ec9561fd" name="Default" comment="complit automat laba(5)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aois_1.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binary/BinaryDouble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binary/BinaryInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binary/BinaryValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binary/Constants/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binary/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/binary/BinaryInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/binary/BinaryValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/binary/Constants/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/binary/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Сохраненное изображение 2018-9-18_19-15-0.167.jpg" beforeDir="false" />
     </list>
     <ignored path="Козицкий.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,18 +25,22 @@
     <session id="2100571222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1058" />
+          <entry key="java" value="1225" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1058" />
+          <entry key="JAVA" value="1225" />
+          <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,13 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#108#109#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -85,8 +73,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AutomateLogic#0;class#AutomateLogic#0" />
+                <element signature="method#addToAnalise#0;class#AutomateLogic#0" />
                 <element signature="method#getState#0;class#AutomateLogic#0" />
               </folding>
             </state>
@@ -184,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,8 +214,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +221,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538326505294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538326940638" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -379,28 +370,35 @@
       <workItem from="1537186107290" duration="7256000" />
       <workItem from="1537290849203" duration="53000" />
       <workItem from="1537698207226" duration="597000" />
-      <workItem from="1538320398791" duration="4396000" />
+      <workItem from="1538320398791" duration="5093000" />
+      <workItem from="1538327058125" duration="160000" />
     </task>
+    <task id="LOCAL-00001" summary="complit automat laba(5)">
+      <created>1538326570061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538326570061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36895000" />
+    <option name="totallyTimeSpent" value="37752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0995671" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46320346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.039490446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,6 +408,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.28756756" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,6 +458,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complit automat laba(5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="complit automat laba(5)" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -471,42 +474,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binary/BinaryDouble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary/BinaryDouble.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryOperations.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/binary/BinaryValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binary/BinaryInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binary/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binary/Constants/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary/BinaryValue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary/BinaryInteger.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary/MainClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary/Constants/Constant.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab11.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lib/States.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,8 +491,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AutomateLogic#0;class#AutomateLogic#0" />
+            <element signature="method#addToAnalise#0;class#AutomateLogic#0" />
             <element signature="method#getState#0;class#AutomateLogic#0" />
           </folding>
         </state>
@@ -527,13 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
         </state>
       </provider>
     </entry>
