@@ -1,6 +1,6 @@
 package com.kozitski.triangle.exception;
 
-public class InvalidSideException extends Exception{
+public class InvalidSideException extends InvalidCoordinateException{
 
     public InvalidSideException() {
         super();

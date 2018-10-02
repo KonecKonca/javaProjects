@@ -8,9 +8,10 @@ public class ServiceTriangleTest {
 
     @Test
     public void test(){
-        Triangle triangle  = Triangle.getInstance(PointForTriangle.getInstance(1, 1),
-                PointForTriangle.getInstance(4, -1), PointForTriangle.getInstance(1, -2));
+        Triangle triangle  = Triangle.getInstance(PointForTriangle.getInstance(0, 0),
+                PointForTriangle.getInstance(0, -7), PointForTriangle.getInstance(7, 1));
         System.out.println(triangle);
+
 
         System.out.println(TriangleOperations.perimeter(triangle));
         System.out.println(TriangleOperations.square(triangle));

@@ -1,6 +1,7 @@
 package com.kozitski.triangle.util;
 
 import com.kozitski.triangle.entity.PointForTriangle;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,6 +10,8 @@ import java.util.List;
 import static java.lang.Math.*;
 
 public class TriangleUtils {
+
+    private static final Logger logger = Logger.getLogger(TriangleUtils.class);
 
     public static List<Double> getSides(PointForTriangle point1, PointForTriangle point2, PointForTriangle point3){
         return new ArrayList<>(Arrays.asList(
@@ -25,6 +28,15 @@ public class TriangleUtils {
                 acos((pow(side1, 2) + pow(side2, 2) - pow(side3, 2)) / (2 * side1 * side2))
 
         ));
+    }
+    public static boolean isCanBeTriangle(PointForTriangle point1, PointForTriangle point2,PointForTriangle point3){
+        if((point1.getCoordinateX() == point2.getCoordinateX() && point1.getCoordinateX() == point3.getCoordinateX()) ||
+                (point1.getCoordinateY() == point2.getCoordinateY() && point1.getCoordinateY() == point3.getCoordinateY())){
+            logger.debug("Current combination of points can NOT be triangle");
+            return false;
+        }
+        logger.debug("Current combination of points can be triangle");
+        return true;
     }
 
 }

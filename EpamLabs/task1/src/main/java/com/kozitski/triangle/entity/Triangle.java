@@ -1,8 +1,7 @@
 package com.kozitski.triangle.entity;
 
-import com.kozitski.triangle.exception.InvalidAngleException;
+
 import com.kozitski.triangle.exception.InvalidCoordinateException;
-import com.kozitski.triangle.exception.InvalidSideException;
 import com.kozitski.triangle.service.generators.TriangleIdGenerator;
 import com.kozitski.triangle.util.TriangleUtils;
 import com.kozitski.triangle.validator.TriangleValidator;
@@ -16,18 +15,14 @@ public class Triangle {
     private List<Double> sides = new ArrayList<>(3);
     private List<Double> angles = new ArrayList<>(3);
 
+
+
     private Triangle(){}
     public static Triangle getInstance(PointForTriangle point1, PointForTriangle point2, PointForTriangle point3){
-        Triangle triangle = new Triangle();
-        triangle.id = TriangleIdGenerator.getId();
-        triangle.sides.addAll(TriangleUtils.getSides(point1, point2, point3));
-        triangle.angles.addAll(TriangleUtils.getAngles(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2)));
-
         TriangleValidator validator = new TriangleValidator();
         try {
-            validator.validateSides(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2));
-            validator.validateAngles(triangle.angles.get(0), triangle.angles.get(1), triangle.angles.get(2));
-        } catch (InvalidSideException | InvalidAngleException e) {
+            validator.validate(point1, point2, point3);
+        } catch (InvalidCoordinateException e) {
 
             // here must be logger
 
@@ -35,6 +30,11 @@ public class Triangle {
             illegalArgumentException.addSuppressed(e);
             throw illegalArgumentException;
         }
+
+        Triangle triangle = new Triangle();
+        triangle.id = TriangleIdGenerator.getId();
+        triangle.sides.addAll(TriangleUtils.getSides(point1, point2, point3));
+        triangle.angles.addAll(TriangleUtils.getAngles(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2)));
 
         return triangle;
     }
@@ -64,7 +64,7 @@ public class Triangle {
         return "Triangle{" +
                 "id=" + id +
                 ", sides=" + sides +
-                ", angles=" + angles +
+                ", angles=" + Math.toDegrees(angles.get(0)) + " " + Math.toDegrees(angles.get(1)) + " " + Math.toDegrees(angles.get(2)) +
                 '}';
     }
 }

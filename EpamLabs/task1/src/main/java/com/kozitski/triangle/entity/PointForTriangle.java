@@ -8,12 +8,12 @@ import java.util.Objects;
 
 public class PointForTriangle {
     private long id;
-    private int coordinateX;
-    private int coordinateY;
+    private double coordinateX;
+    private double coordinateY;
 
     private PointForTriangle() { }
 
-    public static PointForTriangle getInstance(int coordinateX, int coordinateY){
+    public static PointForTriangle getInstance(double coordinateX, double coordinateY){
         PointForTriangle point = new PointForTriangle();
         point.id = PointForTriangleIdGenerator.getId();
 
@@ -34,10 +34,10 @@ public class PointForTriangle {
         return point;
     }
 
-    public int getCoordinateX() {
+    public double getCoordinateX() {
         return coordinateX;
     }
-    public int getCoordinateY() {
+    public double getCoordinateY() {
         return coordinateY;
     }
 

@@ -5,9 +5,12 @@ import com.kozitski.triangle.exception.InvalidCoordinateException;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import org.apache.log4j.Logger;
 
 public class PointForTriangleValidator {
     private Properties properties;
+
+    private static final Logger logger = Logger.getLogger(PointForTriangleValidator.class);
 
     public PointForTriangleValidator() {
         properties = new Properties();
@@ -15,19 +18,24 @@ public class PointForTriangleValidator {
             properties.load(fileInputStream);
         } catch (IOException e) {
 
-            //  here must be logger
+            logger.error("PointForTriangleValidator is not created");
 
         }
+        logger.debug("PointForTriangleValidator successfully created");
     }
 
-    public void validate(int x, int y) throws InvalidCoordinateException {
-        int xMinValue =  Integer.parseInt(properties.getProperty("pointXMinValue"));
+    public void validate(double x, double y) throws InvalidCoordinateException {
+        int xMinValue = Integer.parseInt(properties.getProperty("pointXMinValue"));
         int xMaxValue = Integer.parseInt(properties.getProperty("pointXMaxValue"));
         int yMinValue = Integer.parseInt(properties.getProperty("pointYMinValue"));
         int yMaxValue = Integer.parseInt(properties.getProperty("pointYMaxValue"));
 
+        logger.debug("Data from validationConfigurations.properties was got successfully");
+
         if((x < xMinValue || x > xMaxValue) || (y < yMinValue || y > yMaxValue)){
-            throw new InvalidCoordinateException("Input values are invalid: " + x + ", " + y);
+            InvalidCoordinateException exception = new InvalidCoordinateException("Input values are invalid: " + x + ", " + y);
+            logger.error("Validation PointForTriangleValidator was failed: " + exception);
+            throw exception;
         }
 
     }
