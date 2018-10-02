@@ -5,6 +5,8 @@ import com.kozitski.triangle.exception.InvalidCoordinateException;
 import com.kozitski.triangle.service.generators.TriangleIdGenerator;
 import com.kozitski.triangle.util.TriangleUtils;
 import com.kozitski.triangle.validator.TriangleValidator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +17,7 @@ public class Triangle {
     private List<Double> sides = new ArrayList<>(3);
     private List<Double> angles = new ArrayList<>(3);
 
-
+    private static final Logger logger = LogManager.getLogger(Triangle.class);
 
     private Triangle(){}
     public static Triangle getInstance(PointForTriangle point1, PointForTriangle point2, PointForTriangle point3){
@@ -24,7 +26,7 @@ public class Triangle {
             validator.validate(point1, point2, point3);
         } catch (InvalidCoordinateException e) {
 
-            // here must be logger
+            logger.error("Validation of triangle was failed: " + e);
 
             IllegalArgumentException illegalArgumentException = new IllegalArgumentException();
             illegalArgumentException.addSuppressed(e);

@@ -3,6 +3,9 @@ package com.kozitski.triangle.entity;
 import com.kozitski.triangle.exception.InvalidCoordinateException;
 import com.kozitski.triangle.service.generators.PointForTriangleIdGenerator;
 import com.kozitski.triangle.validator.PointForTriangleValidator;
+import com.kozitski.triangle.validator.TriangleValidator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
@@ -10,6 +13,8 @@ public class PointForTriangle {
     private long id;
     private double coordinateX;
     private double coordinateY;
+
+    private static final Logger logger = LogManager.getLogger(PointForTriangle.class);
 
     private PointForTriangle() { }
 
@@ -22,7 +27,7 @@ public class PointForTriangle {
             validator.validate(coordinateX, coordinateY);
         } catch (InvalidCoordinateException e) {
 
-            // here must be logger
+            logger.error("Validation of PointForTriangle was failed: " + e);
 
             IllegalArgumentException illegalArgumentException = new IllegalArgumentException();
             illegalArgumentException.addSuppressed(e);
