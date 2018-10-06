@@ -1,0 +1,1 @@
+ mvn test -Dgroups=ALL_TESTS  --- for running all Test fro group

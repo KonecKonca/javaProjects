@@ -25,7 +25,7 @@
 
                 <aop:after-throwing pointcut="execution(* test.Plumber.*(..))" method="someTroubles"/>
 
-                <!--что-то типо делегата-->
+                <!--что-то типо делегата хз гдеи как вызывать правда-->
                 <aop:declare-parents types-matching="test.Plumber+"
                                      implement-interface="parent.Additional"
                                      delegate-ref="del"/>

@@ -1,33 +1,30 @@
 package com.kozitski.triangle.entity;
 
-import com.kozitski.triangle.exception.InvalidCoordinateException;
-import com.kozitski.triangle.service.generators.PointForTriangleIdGenerator;
+import com.kozitski.triangle.exception.PointException;
+import com.kozitski.triangle.service.generator.PointForTriangleIdGenerator;
 import com.kozitski.triangle.validator.PointForTriangleValidator;
-import com.kozitski.triangle.validator.TriangleValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Objects;
-
 public class PointForTriangle {
-    private long id;
+    private long pointForTriangleId;
     private double coordinateX;
     private double coordinateY;
 
     private static final Logger logger = LogManager.getLogger(PointForTriangle.class);
 
-    private PointForTriangle() { }
+    private PointForTriangle() {}
 
     public static PointForTriangle getInstance(double coordinateX, double coordinateY){
         PointForTriangle point = new PointForTriangle();
-        point.id = PointForTriangleIdGenerator.getId();
+        point.pointForTriangleId = PointForTriangleIdGenerator.getId();
 
         PointForTriangleValidator validator = new PointForTriangleValidator();
         try {
             validator.validate(coordinateX, coordinateY);
-        } catch (InvalidCoordinateException e) {
+        } catch (PointException e) {
 
-            logger.error("Validation of PointForTriangle was failed: " + e);
+            logger.error("Validation of PointForTriangle was failed: ", e);
 
             IllegalArgumentException illegalArgumentException = new IllegalArgumentException();
             illegalArgumentException.addSuppressed(e);
@@ -57,13 +54,16 @@ public class PointForTriangle {
     }
     @Override
     public int hashCode() {
-        return Objects.hash(getCoordinateX(), getCoordinateY());
+        int hashCode = 31 * ((int)coordinateX);
+        hashCode += (31 * (int) coordinateY );
+
+        return hashCode;
     }
 
     @Override
     public String toString() {
         return "PointForTriangle{" +
-                "id=" + id +
+                "pointForTriangleId=" + pointForTriangleId +
                 ", coordinateX=" + coordinateX +
                 ", coordinateY=" + coordinateY +
                 '}';

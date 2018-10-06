@@ -9,6 +9,7 @@ public class MainClass {
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("aspects.xml");
+
         Plumber plumber = (Plumber) applicationContext.getBean("plumber");
 //
 //        plumber.work();

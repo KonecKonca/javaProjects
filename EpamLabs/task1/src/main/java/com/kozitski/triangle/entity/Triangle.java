@@ -1,9 +1,9 @@
 package com.kozitski.triangle.entity;
 
 
-import com.kozitski.triangle.exception.InvalidCoordinateException;
-import com.kozitski.triangle.service.generators.TriangleIdGenerator;
-import com.kozitski.triangle.util.TriangleUtils;
+import com.kozitski.triangle.exception.PointException;
+import com.kozitski.triangle.service.generator.TriangleIdGenerator;
+import com.kozitski.triangle.util.TriangleUtil;
 import com.kozitski.triangle.validator.TriangleValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Triangle {
-    private long id;
+    private long triangleId;
     private List<Double> sides = new ArrayList<>(3);
     private List<Double> angles = new ArrayList<>(3);
 
@@ -24,19 +24,18 @@ public class Triangle {
         TriangleValidator validator = new TriangleValidator();
         try {
             validator.validate(point1, point2, point3);
-        } catch (InvalidCoordinateException e) {
+        } catch (PointException e) {
 
-            logger.error("Validation of triangle was failed: " + e);
+            logger.error("Validation of triangle was failed: ", e);
 
-            IllegalArgumentException illegalArgumentException = new IllegalArgumentException();
-            illegalArgumentException.addSuppressed(e);
+            IllegalArgumentException illegalArgumentException = new IllegalArgumentException(e);
             throw illegalArgumentException;
         }
 
         Triangle triangle = new Triangle();
-        triangle.id = TriangleIdGenerator.getId();
-        triangle.sides.addAll(TriangleUtils.getSides(point1, point2, point3));
-        triangle.angles.addAll(TriangleUtils.getAngles(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2)));
+        triangle.triangleId = TriangleIdGenerator.getId();
+        triangle.sides.addAll(TriangleUtil.calculateSides(point1, point2, point3));
+        triangle.angles.addAll(TriangleUtil.calculateAngles(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2)));
 
         return triangle;
     }
@@ -59,12 +58,20 @@ public class Triangle {
     }
     @Override
     public int hashCode() {
-        return Objects.hash(sides, angles);
+    int hashcode = 0;
+    for(double value : sides){
+        hashcode += 31 * value;
+    }
+    for(double value : angles){
+        hashcode += 31 * value;
+    }
+
+    return hashcode;
     }
     @Override
     public String toString() {
         return "Triangle{" +
-                "id=" + id +
+                "triangleId=" + triangleId +
                 ", sides=" + sides +
                 ", angles=" + Math.toDegrees(angles.get(0)) + " " + Math.toDegrees(angles.get(1)) + " " + Math.toDegrees(angles.get(2)) +
                 '}';
