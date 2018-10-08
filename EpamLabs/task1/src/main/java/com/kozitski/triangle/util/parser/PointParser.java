@@ -1,6 +1,5 @@
 package com.kozitski.triangle.util.parser;
 
-import com.kozitski.triangle.entity.AllEnteredPoints;
 import com.kozitski.triangle.entity.PointForTriangle;
 import com.kozitski.triangle.entity.Triangle;
 import com.kozitski.triangle.util.reader.TXTPointReader;

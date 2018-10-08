@@ -1,4 +1,6 @@
-package com.kozitski.triangle.entity;
+package com.kozitski.triangle.util.parser;
+
+import com.kozitski.triangle.entity.PointForTriangle;
 
 import java.util.ArrayList;
 import java.util.Collection;

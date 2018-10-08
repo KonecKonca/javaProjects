@@ -11,7 +11,7 @@ public class PointForTriangle {
     private double coordinateX;
     private double coordinateY;
 
-    private static final Logger logger = LogManager.getLogger(PointForTriangle.class);
+    private static final Logger LOGGER = LogManager.getLogger(PointForTriangle.class);
 
     private PointForTriangle() {}
 
@@ -24,7 +24,7 @@ public class PointForTriangle {
             validator.validate(coordinateX, coordinateY);
         } catch (PointException e) {
 
-            logger.error("Validation of PointForTriangle was failed: ", e);
+            LOGGER.error("Validation of PointForTriangle was failed: ", e);
 
             IllegalArgumentException illegalArgumentException = new IllegalArgumentException();
             illegalArgumentException.addSuppressed(e);
@@ -42,7 +42,6 @@ public class PointForTriangle {
     public double getCoordinateY() {
         return coordinateY;
     }
-
 
     @Override
     public boolean equals(Object o) {
@@ -62,10 +61,6 @@ public class PointForTriangle {
 
     @Override
     public String toString() {
-        return "PointForTriangle{" +
-                "pointForTriangleId=" + pointForTriangleId +
-                ", coordinateX=" + coordinateX +
-                ", coordinateY=" + coordinateY +
-                '}';
+        return "(" + coordinateX + ", " + coordinateY + ")";
     }
 }

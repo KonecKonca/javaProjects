@@ -7,4 +7,3 @@ public class start {
         System.out.println("Temorate is clean)))");
     }
 }
-

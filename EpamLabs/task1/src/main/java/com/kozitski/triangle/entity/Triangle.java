@@ -2,6 +2,7 @@ package com.kozitski.triangle.entity;
 
 
 import com.kozitski.triangle.exception.PointException;
+import com.kozitski.triangle.repository.TriangleRepository;
 import com.kozitski.triangle.service.generator.TriangleIdGenerator;
 import com.kozitski.triangle.util.TriangleUtil;
 import com.kozitski.triangle.validator.TriangleValidator;
@@ -16,8 +17,9 @@ public class Triangle {
     private long triangleId;
     private List<Double> sides = new ArrayList<>(3);
     private List<Double> angles = new ArrayList<>(3);
+    private List<PointForTriangle> points = new ArrayList<>(3);
 
-    private static final Logger logger = LogManager.getLogger(Triangle.class);
+    private static final Logger LOGGER = LogManager.getLogger(Triangle.class);
 
     private Triangle(){}
     public static Triangle getInstance(PointForTriangle point1, PointForTriangle point2, PointForTriangle point3){
@@ -26,7 +28,7 @@ public class Triangle {
             validator.validate(point1, point2, point3);
         } catch (PointException e) {
 
-            logger.error("Validation of triangle was failed: ", e);
+            LOGGER.error("Validation of triangle was failed: ", e);
 
             IllegalArgumentException illegalArgumentException = new IllegalArgumentException(e);
             throw illegalArgumentException;
@@ -34,9 +36,13 @@ public class Triangle {
 
         Triangle triangle = new Triangle();
         triangle.triangleId = TriangleIdGenerator.getId();
+        triangle.points.add(point1);
+        triangle.points.add(point2);
+        triangle.points.add(point3);
         triangle.sides.addAll(TriangleUtil.calculateSides(point1, point2, point3));
         triangle.angles.addAll(TriangleUtil.calculateAngles(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2)));
 
+        TriangleRepository.getTriangleRepository().add(triangle);
         return triangle;
     }
 
@@ -46,7 +52,12 @@ public class Triangle {
     public Double getAngle(int index) {
         return angles.get(index);
     }
-
+    public PointForTriangle getPoint(int index){
+        return points.get(index);
+    }
+    public long getTriangleId() {
+        return triangleId;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -70,10 +81,10 @@ public class Triangle {
     }
     @Override
     public String toString() {
-        return "Triangle{" +
-                "triangleId=" + triangleId +
-                ", sides=" + sides +
-                ", angles=" + Math.toDegrees(angles.get(0)) + " " + Math.toDegrees(angles.get(1)) + " " + Math.toDegrees(angles.get(2)) +
-                '}';
+        StringBuilder stringBuilder = new StringBuilder("Triangle: " + "triangleId=" + triangleId + " points: ");
+        for(PointForTriangle point : points){
+            stringBuilder.append(point);
+        }
+        return stringBuilder.toString();
     }
 }

@@ -1,10 +1,6 @@
 package com.kozitski.triangle.service;
 
-import com.kozitski.triangle.entity.AllEnteredPoints;
-import com.kozitski.triangle.entity.PointForTriangle;
-import com.kozitski.triangle.entity.Triangle;
-import com.kozitski.triangle.exception.PointException;
-import com.kozitski.triangle.util.TriangleUtil;
+import com.kozitski.triangle.util.parser.AllEnteredPoints;
 import com.kozitski.triangle.util.parser.PointParser;
 import static org.testng.Assert.*;
 
