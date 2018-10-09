@@ -2,10 +2,13 @@ package com.kozitski.triangle.repository;
 
 import com.kozitski.triangle.entity.PointForTriangle;
 import com.kozitski.triangle.entity.Triangle;
+import com.kozitski.triangle.register.TriangleRegister;
+import com.kozitski.triangle.util.search.SearchRequirement;
 import org.testng.annotations.Test;
 
-import static com.kozitski.triangle.util.sort.SortRequirements.*;
-import static org.testng.Assert.*;
+import static com.kozitski.triangle.util.sort.SortRequirements.X_FIRST_POINT_FUNCTION;
+import static com.kozitski.triangle.util.sort.SortRequirements.X_SECOND_POINT_FUNCTION;
+import static com.kozitski.triangle.util.sort.SortRequirements.Y_FIRST_POINT_FUNCTION;
 
 public class TriangleRepositoryTest {
 
@@ -35,6 +38,19 @@ public class TriangleRepositoryTest {
         System.out.println(repository);
 
 
+
+        System.out.println(repository.query(new SearchRequirement.Builder().setMinPerimeter(5).setMaxPerimeter(105).build().ALL_WITH_PERIMETER_IN_RANGE));
+        System.out.println(TriangleRegister.getInstance());
+
+
+
+        System.out.println(TriangleRegister.getInstance());
+        System.out.println(triangle6);
+
+        triangle6.changePoint(0, PointForTriangle.getInstance(2, 1));
+
+        System.out.println(triangle6);
+        System.out.println(TriangleRegister.getInstance());
 
     }
 

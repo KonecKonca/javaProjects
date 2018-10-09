@@ -22,9 +22,8 @@ public class TriangleRepository implements Repository<Triangle> {
         if(repository != null){
             return repository;
         }
-        LOGGER.info("Triangle repository is created");
         repository = new TriangleRepository();
-        LOGGER.info("TriangleRepository is created");
+        LOGGER.info("is created");
         return repository;
     }
 
@@ -38,11 +37,17 @@ public class TriangleRepository implements Repository<Triangle> {
         if(comparator != null && additionalComparator != null){
             triangleList.sort(Comparator.comparing(comparator).thenComparing(additionalComparator));
         }
+        else {
+            LOGGER.error("Was received invalid comparators for compare");
+        }
     }
     public void sortTriangles(Function<Triangle, Integer> comparator, Function<Triangle, Integer> additionalComparator1,  Function<Triangle, Integer> additionalComparator2){
         Comparator localComparator = Comparator.comparing(comparator);
         if(comparator != null && additionalComparator1 != null && additionalComparator2 != null){
             triangleList.sort(Comparator.comparing(comparator).thenComparing(additionalComparator1).thenComparing(additionalComparator2));
+        }
+        else {
+            LOGGER.error("Was received invalid comparators for compare");
         }
     }
 

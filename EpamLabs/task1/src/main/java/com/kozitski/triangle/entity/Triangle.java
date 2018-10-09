@@ -2,7 +2,11 @@ package com.kozitski.triangle.entity;
 
 
 import com.kozitski.triangle.exception.PointException;
+import com.kozitski.triangle.register.Observable;
+import com.kozitski.triangle.register.Observer;
+import com.kozitski.triangle.register.TriangleRegister;
 import com.kozitski.triangle.repository.TriangleRepository;
+import com.kozitski.triangle.service.TriangleOperation;
 import com.kozitski.triangle.service.generator.TriangleIdGenerator;
 import com.kozitski.triangle.util.TriangleUtil;
 import com.kozitski.triangle.validator.TriangleValidator;
@@ -10,28 +14,28 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class Triangle {
+public class Triangle implements Observable {
     private long triangleId;
     private List<Double> sides = new ArrayList<>(3);
     private List<Double> angles = new ArrayList<>(3);
     private List<PointForTriangle> points = new ArrayList<>(3);
 
+    private List<Observer> observers = new ArrayList<>();
     private static final Logger LOGGER = LogManager.getLogger(Triangle.class);
 
-    private Triangle(){}
+    private Triangle(){
+        observers.add(TriangleRegister.getInstance());
+    }
     public static Triangle getInstance(PointForTriangle point1, PointForTriangle point2, PointForTriangle point3){
         TriangleValidator validator = new TriangleValidator();
         try {
             validator.validate(point1, point2, point3);
         } catch (PointException e) {
-
-            LOGGER.error("Validation of triangle was failed: ", e);
-
-            IllegalArgumentException illegalArgumentException = new IllegalArgumentException(e);
-            throw illegalArgumentException;
+            throw new IllegalArgumentException(e);
         }
 
         Triangle triangle = new Triangle();
@@ -43,7 +47,60 @@ public class Triangle {
         triangle.angles.addAll(TriangleUtil.calculateAngles(triangle.sides.get(0), triangle.sides.get(1), triangle.sides.get(2)));
 
         TriangleRepository.getTriangleRepository().add(triangle);
+        TriangleRegister.getInstance().putSquare(triangle.triangleId, TriangleOperation.calculateSquare(triangle));
+        TriangleRegister.getInstance().putPerimeter(triangle.triangleId, TriangleOperation.calculatePerimeter(triangle));
+
         return triangle;
+    }
+    public void changePoint(int numberOfPoint, PointForTriangle point){
+        if(numberOfPoint <= 2 && numberOfPoint >= 0 && point != null){
+
+            List<Integer> pointPositions = new ArrayList<>(2);
+            if(numberOfPoint == 0){
+                pointPositions.add(1);
+                pointPositions.add(2);
+            }
+            else if(numberOfPoint == 1){
+                pointPositions.add(0);
+                pointPositions.add(2);
+            }
+            else{
+                pointPositions.add(0);
+                pointPositions.add(1);
+            }
+
+            TriangleValidator validator = new TriangleValidator();
+            try {
+                validator.validate(points.get(pointPositions.get(0)), points.get(pointPositions.get(1)), point);
+            } catch (PointException e) {
+                throw new IllegalArgumentException(e);
+            }
+
+            points = new ArrayList<>(Arrays.asList(points.get(pointPositions.get(0)), points.get(pointPositions.get(1)), point));
+            sides = TriangleUtil.calculateSides(points.get(0), points.get(1), points.get(2));
+            angles = TriangleUtil.calculateAngles(sides.get(0), sides.get(1), sides.get(2));
+
+            notifyObservers();
+
+        }
+        else{
+            LOGGER.error("Changing of point for triangle is failed");
+        }
+    }
+
+    @Override
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+    @Override
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
+    @Override
+    public void notifyObservers() {
+        for(Observer observer : observers){
+            observer.handleEvent(this);
+        }
     }
 
     public Double getSide(int index) {
@@ -81,10 +138,12 @@ public class Triangle {
     }
     @Override
     public String toString() {
-        StringBuilder stringBuilder = new StringBuilder("Triangle: " + "triangleId=" + triangleId + " points: ");
+        StringBuilder stringBuilder = new StringBuilder("Triangle: " + "triangleId=" + triangleId + "\n\tpoints: ");
         for(PointForTriangle point : points){
             stringBuilder.append(point);
         }
+        stringBuilder.append("\n\tsides: ");
+        stringBuilder.append(sides);
         return stringBuilder.toString();
     }
 }
