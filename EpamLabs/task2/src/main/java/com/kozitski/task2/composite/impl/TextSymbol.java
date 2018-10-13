@@ -4,8 +4,10 @@ import com.kozitski.task2.composite.AbstractText;
 
 public class TextSymbol implements AbstractText {
     private String symbol;
-
     public TextSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+    public void setSymbol(String symbol) {
         this.symbol = symbol;
     }
 
@@ -19,6 +21,10 @@ public class TextSymbol implements AbstractText {
     }
     @Override
     public boolean remove(AbstractText abstractText) {
+        return false;
+    }
+    @Override
+    public boolean removeAll() {
         return false;
     }
 

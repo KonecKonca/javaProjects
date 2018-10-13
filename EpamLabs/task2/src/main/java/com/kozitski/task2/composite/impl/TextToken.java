@@ -9,14 +9,11 @@ import java.util.List;
 public class TextToken implements AbstractText {
     private List<TextSymbol> symbols = new ArrayList<>();
 
-    public TextToken(String str) {
-        for(int i = 0; i < str.length(); i++){
-            symbols.add(new TextSymbol(String.valueOf(str.charAt(i))));
-        }
-    }
-
     public TextSymbol getSymbol(int index) {
         return symbols.get(index);
+    }
+    public int getNumOfSymbols(){
+        return symbols.size();
     }
 
     @Override
@@ -40,6 +37,11 @@ public class TextToken implements AbstractText {
             return symbols.remove(symbol);
         }
         return false;
+    }
+    @Override
+    public boolean removeAll() {
+        symbols = new ArrayList<>();
+        return true;
     }
 
     @Override

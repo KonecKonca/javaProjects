@@ -11,7 +11,7 @@ package com.kozitski.task2.util.reader;
 
 public class TextReader {
     private static final Logger LOGGER = LogManager.getLogger(TextReader.class);
-    private static final String INPUT_DATA_PATH = "src/main/resources/data/input.txt";
+    public static final String INPUT_DATA_PATH = "src/main/resources/data/input.txt";
 
     public static String readAllText(String path){
         StringBuilder allText = new StringBuilder();

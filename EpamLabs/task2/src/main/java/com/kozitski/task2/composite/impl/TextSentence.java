@@ -8,18 +8,12 @@ import java.util.List;
 
 public class TextSentence implements AbstractText {
     private List<TextToken> tokens = new ArrayList<>();
-    private static final String SPLIT_SENTENCE_REGEXP = "\\s";
-
-    public TextSentence(String str) {
-        List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_SENTENCE_REGEXP)));
-
-        for(String s : allStr){
-            tokens.add(new TextToken(s));
-        }
-    }
 
     public TextToken getToken(int index) {
         return tokens.get(index);
+    }
+    public int getNumOfTokens(){
+        return tokens.size();
     }
 
     @Override
@@ -43,6 +37,12 @@ public class TextSentence implements AbstractText {
             return tokens.remove(token);
         }
         return false;
+    }
+
+    @Override
+    public boolean removeAll() {
+        tokens = new ArrayList<>();
+        return true;
     }
 
     @Override

@@ -8,19 +8,12 @@ import java.util.List;
 
 public class TextParagraph implements AbstractText {
     private List<TextSentence> sentences = new ArrayList<>();
-    private static final String SPLIT_PARAGRAPH_REGEX = "(?<=[.{1}!?])\\s";
-
-    public TextParagraph(String str) {
-        List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_PARAGRAPH_REGEX)));
-
-        for(String s : allStr){
-            sentences.add(new TextSentence(s));
-        }
-
-    }
 
     public TextSentence getSentence(int index) {
         return sentences.get(index);
+    }
+    public int getNumOfSentences(){
+        return sentences.size();
     }
 
     @Override
@@ -44,6 +37,12 @@ public class TextParagraph implements AbstractText {
             return sentences.remove(sentence);
         }
         return false;
+    }
+
+    @Override
+    public boolean removeAll() {
+        sentences = new ArrayList<>();
+        return true;
     }
 
     @Override

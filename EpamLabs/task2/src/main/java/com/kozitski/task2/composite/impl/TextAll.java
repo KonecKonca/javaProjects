@@ -8,17 +8,12 @@ import java.util.List;
 
 public class TextAll implements AbstractText {
     private List<TextParagraph> paragraphs = new ArrayList<>();
-    private static final String SPLIT_PARAGRAPH_REGEXP = "\\s{4}";
 
-    public TextAll(String str) {
-        List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_PARAGRAPH_REGEXP)));
-
-        for(String s : allStr){
-            paragraphs.add(new TextParagraph(s));
-        }
-    }
     public TextParagraph getParagraph(int index) {
         return paragraphs.get(index);
+    }
+    public int getNumOfParagraphs(){
+        return paragraphs.size();
     }
 
     @Override
@@ -42,6 +37,11 @@ public class TextAll implements AbstractText {
             return paragraphs.remove(paragraph);
         }
         return false;
+    }
+    @Override
+    public boolean removeAll() {
+        paragraphs = new ArrayList<>();
+        return true;
     }
 
     @Override

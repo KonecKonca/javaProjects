@@ -2,49 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/exception/TextHandleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/DemoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/MathExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/PolishNotationParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/constants/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/constants/PriorityRangeOfExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/AndOperationExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/IntegerExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/LeftShiftOperatorExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/OrOperationExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/RightShiftOperatorExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/TildeOperatorExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/XorOperationExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/AbstractTextParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/OperationPriority.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task1/src/main/java/com/kozitski/triangle/util/parser/AllEnteredPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/src/main/java/com/kozitski/triangle/util/parser/AllEnteredPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TextAllParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/AbstractTextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/AbstractTextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,25 +27,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputText.txt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="136">
-                    <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1227265485">
@@ -85,20 +40,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="215" />
+          <entry key="class" value="1" />
+          <entry key="java" value="284" />
           <entry key="jpg" value="4" />
-          <entry key="log" value="1" />
+          <entry key="log" value="2" />
           <entry key="ts" value="1" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="15" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="215" />
-          <entry key="Log" value="1" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="284" />
+          <entry key="Log" value="2" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -111,14 +68,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="47" />
-          <entry key="java" value="4993" />
-          <entry key="txt" value="125" />
+          <entry key="java" value="6658" />
+          <entry key="txt" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4993" />
-          <entry key="PLAIN_TEXT" value="172" />
+          <entry key="JAVA" value="6658" />
+          <entry key="PLAIN_TEXT" value="226" />
         </counts>
       </usages-collector>
     </session>
@@ -128,56 +85,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="289">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="method#sortParagraphsByNumOFSentences#0;class#TextOperations#0" />
+                <element signature="method#reverseSortTokensByNumberOfSymbol#0;class#TextOperations#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -214,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/уаау.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/пап.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/IntegerExpression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/MinusExpression.java" />
@@ -243,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/PolishNotationParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/DemoClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/TextSymbol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/TextParagraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/Text.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/Text.java" />
@@ -252,17 +179,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/exception/TextHandleException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/CompositeText.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/TextParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/inputText.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/AbstractTextParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TextAllParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/input.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextOperations.java" />
       </list>
     </option>
   </component>
@@ -280,7 +213,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-52" />
+    <option name="x" value="124" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="916" />
@@ -301,11 +234,6 @@
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
               <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,55 +256,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="composite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="composite" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
@@ -417,7 +296,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539457836997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539466685219" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../task1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -524,50 +403,58 @@
       <option name="presentableId" value="Default" />
       <updated>1539284903853</updated>
       <workItem from="1539284921963" duration="26536000" />
-      <workItem from="1539435701553" duration="9371000" />
+      <workItem from="1539435701553" duration="17795000" />
     </task>
+    <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
+      <created>1539457879903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539457879903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_test - 2018.10.13 at 20h 58m 30s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_test - 2018.10.13 at 20h 58m 47s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_test - 2018.10.13 at 20h 58m 52s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_test - 2018.10.13 at 20h 59m 32s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_test - 2018.10.13 at 21h 00m 04s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_test - 2018.10.13 at 21h 00m 16s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_test - 2018.10.13 at 21h 00m 27s.xml">
-      <configuration name="MainTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest - 2018.10.13 at 21h 00m 39s.xml">
+    <history-entry file="MainTest - 2018.10.13 at 22h 45m 46s.xml">
       <configuration name="MainTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainTest - 2018.10.13 at 21h 00m 48s.xml">
+    <history-entry file="MainTest - 2018.10.13 at 22h 45m 55s.xml">
       <configuration name="MainTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainTest - 2018.10.13 at 21h 00m 55s.xml">
+    <history-entry file="MainTest - 2018.10.13 at 22h 57m 28s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 22h 58m 44s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 22h 58m 48s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 22h 59m 08s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 23h 00m 53s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 23h 02m 25s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 23h 03m 02s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.10.13 at 23h 03m 11s.xml">
       <configuration name="MainTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35907000" />
+    <option name="totallyTimeSpent" value="44331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -576,8 +463,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28030303" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28896105" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17316018" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47727272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -586,7 +473,7 @@
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.6594388" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.0" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32900432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,45 +491,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="epam lab 2.1 -- before chain" />
+    <option name="LAST_COMMIT_MESSAGE" value="epam lab 2.1 -- before chain" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/OrOperationExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/LeftShiftOperatorExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/RightShiftOperatorExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/TildeOperatorExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/impl/IntegerExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OperationPriority.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/ExpressionContext.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/NonTerminalExpressio.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/constants/PriorityRangeOfExpression.java">
@@ -732,22 +585,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/efe.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/exception/TextHandleException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/file/Paths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -831,28 +668,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/TextParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/AbstractTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="method#TextToken#0;class#TextToken#0" />
-            <element signature="method#toString#0;class#TextToken#0" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,93 +714,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/reader/TextReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/TextParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/exception/TextHandleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TextAllParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="method#toString#0;class#TextToken#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextParagraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="149" column="25" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="526" column="13" selection-start-line="526" selection-start-column="13" selection-end-line="526" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="478" selection-start-line="478" selection-end-line="478" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/logs/application.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/AbstractText.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="method#TextSentence#0;class#TextSentence#0" />
+            <element signature="method#sortParagraphsByNumOFSentences#0;class#TextOperations#0" />
+            <element signature="method#reverseSortTokensByNumberOfSymbol#0;class#TextOperations#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/AbstractTextParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SentenceParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/TokenParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/SymbolParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/util/parser/impl/ParagraphParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
