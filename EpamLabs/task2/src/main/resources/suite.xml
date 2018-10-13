@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="RegressionTest">
+        <groups>
+            <run>
+                <include name="ALL_TEST" />
+            </run>
+        </groups>
+
+        <packages>
+            <package name=".*" ></package>
+        </packages>
+
+    </test>
+
+</suite>
