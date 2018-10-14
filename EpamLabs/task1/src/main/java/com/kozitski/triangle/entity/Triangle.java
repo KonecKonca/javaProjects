@@ -146,4 +146,5 @@ public class Triangle implements Observable {
         stringBuilder.append(sides);
         return stringBuilder.toString();
     }
+
 }

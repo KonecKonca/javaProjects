@@ -1,13 +1,12 @@
 package com.kozitski.triangle.repository;
 
 import com.kozitski.triangle.entity.Triangle;
+import com.kozitski.triangle.util.annotations.NotRealisable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
+import java.lang.reflect.Method;
+import java.util.*;
 import java.util.function.Function;
 
 public class TriangleRepository implements Repository<Triangle> {
@@ -27,7 +26,6 @@ public class TriangleRepository implements Repository<Triangle> {
         return repository;
     }
 
-    // in future here must be varArgs for Functions, and try to use Parametrised Types
     public void sortTriangles(Function<Triangle, Integer> comparator){
         if(comparator != null){
             triangleList.sort(Comparator.comparing(comparator));
@@ -42,7 +40,6 @@ public class TriangleRepository implements Repository<Triangle> {
         }
     }
     public void sortTriangles(Function<Triangle, Integer> comparator, Function<Triangle, Integer> additionalComparator1,  Function<Triangle, Integer> additionalComparator2){
-        Comparator localComparator = Comparator.comparing(comparator);
         if(comparator != null && additionalComparator1 != null && additionalComparator2 != null){
             triangleList.sort(Comparator.comparing(comparator).thenComparing(additionalComparator1).thenComparing(additionalComparator2));
         }
@@ -50,6 +47,22 @@ public class TriangleRepository implements Repository<Triangle> {
             LOGGER.error("Was received invalid comparators for compare");
         }
     }
+    @NotRealisable("It doesn't work now")
+    public void sortTriangles(Function<Triangle, Integer> comparator, Function<Triangle, Integer> ... additionalComparators){
+        if(comparator != null && additionalComparators != null){
+            Comparator<Triangle> compare = Comparator.comparing(comparator);
+
+            for (Function<Triangle, Integer> additionalComparator : additionalComparators) {
+                compare.thenComparing(additionalComparator);
+            }
+
+            triangleList.sort(compare);
+        }
+        else {
+            LOGGER.error("Was received invalid comparators for compare");
+        }
+    }
+
 
     @Override
     public void add(Triangle triangle) {
@@ -66,6 +79,18 @@ public class TriangleRepository implements Repository<Triangle> {
                 triangleList.set(i, triangle);
             }
         }
+    }
+    @Override
+    public Triangle get(int index) {
+        return triangleList.get(index);
+    }
+    public ArrayList<Triangle> getAllTriangles(){
+        ArrayList<Triangle> list = new ArrayList<>();
+        list.addAll(triangleList);
+        return list;
+    }
+    public int size() {
+        return triangleList.size();
     }
 
     @Override

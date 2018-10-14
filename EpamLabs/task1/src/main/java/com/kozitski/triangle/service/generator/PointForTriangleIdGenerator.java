@@ -15,7 +15,7 @@ public class PointForTriangleIdGenerator {
             return counter++;
         }
         else {
-            LOGGER.fatal("ID for Point is not generated");
+            LOGGER.error("ID for Point is not generated");
             throw new RuntimeException("Id value is bigger than, allowed: " + counter);
         }
     }

@@ -15,7 +15,7 @@ public class TriangleIdGenerator {
             return counter++;
         }
         else {
-            LOGGER.fatal("ID for Triangle is not generated");
+            LOGGER.error("ID for Triangle is not generated");
             throw new RuntimeException("Id value is bigger than, allowed: " + counter);
         }
     }

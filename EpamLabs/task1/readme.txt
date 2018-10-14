@@ -1,1 +1,1 @@
- mvn test -Dgroups=ALL_TESTS  --- for running all Test fro group
+ mvn test -Dgroups=ALL_TESTS  --- for running all Test with Maven

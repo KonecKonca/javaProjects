@@ -12,15 +12,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class SearchRequirement {
-    private static SearchRequirement searchRequirement;
-    public SearchRequirement getInstance(){
-        if(searchRequirement != null){
-            return searchRequirement;
-        }
-        searchRequirement = new SearchRequirement.Builder().build();
-        return searchRequirement;
-    }
-
     private long maxId;
     private long minId;
     private long id;

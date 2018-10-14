@@ -23,7 +23,7 @@ public class TimeTest {
 
         boolean actual = true;
         long time = end - start;
-        boolean excepted = (time < 5_000);
+        boolean excepted = (time < 15_000);
 
         assertEquals(actual, excepted);
     }
@@ -41,7 +41,7 @@ public class TimeTest {
         long end = System.currentTimeMillis();
         boolean actual = true;
         long time = end - start;
-        boolean excepted = (time < 5_000);
+        boolean excepted = (time < 15_000);
 
         assertEquals(actual, excepted);
     }
