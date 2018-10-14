@@ -22,6 +22,8 @@ public class TextReader {
                 allText.append(str);
             }
 
+            LOGGER.info("File was correctly read");
+
         } catch (IOException e) {
             LOGGER.fatal("file exists");
             throw new RuntimeException("File exists on the next path: " + path);

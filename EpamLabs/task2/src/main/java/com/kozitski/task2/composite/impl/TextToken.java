@@ -1,12 +1,16 @@
 package com.kozitski.task2.composite.impl;
 
 import com.kozitski.task2.composite.AbstractText;
+import com.kozitski.task2.util.parser.impl.TextAllParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class TextToken implements AbstractText {
+    private static final Logger LOGGER = LogManager.getLogger(TextToken.class);
     private List<TextSymbol> symbols = new ArrayList<>();
 
     public TextSymbol getSymbol(int index) {

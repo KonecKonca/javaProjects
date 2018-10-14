@@ -15,9 +15,9 @@ public class MainTest {
         TextAll textAll = parser.parse(text);
 
 //        System.out.println(textAll.getParagraph(0).getSentence(1));
+//        System.out.println(TextOperations.sortSentencesByTokenLength(textAll));
 
-        System.out.println(TextOperations.sortParagraphsByNumOFSentences(textAll));
-
+        System.out.println(TextOperations.reverseSortTokensByNumberOfSymbol(textAll, "a").getParagraph(0).getSentence(0));
 
     }
 

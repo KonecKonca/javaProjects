@@ -4,12 +4,16 @@ import com.kozitski.task2.composite.AbstractText;
 import com.kozitski.task2.composite.impl.TextAll;
 import com.kozitski.task2.composite.impl.TextParagraph;
 import com.kozitski.task2.util.parser.AbstractTextParser;
+import com.kozitski.task2.util.reader.TextReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class ParagraphParser implements AbstractTextParser {
+    private static final Logger LOGGER = LogManager.getLogger(ParagraphParser.class);
     private static final String SPLIT_PARAGRAPH_REGEX = "(?<=[.{1}!?])\\s";
     private SentenceParser sentenceParser = new SentenceParser();
 
@@ -22,6 +26,8 @@ public class ParagraphParser implements AbstractTextParser {
         for(String s : allStr){
             paragraph.add(sentenceParser.parse(s));
         }
+
+        LOGGER.info("Paragraph was parsed");
 
         return paragraph;
     }

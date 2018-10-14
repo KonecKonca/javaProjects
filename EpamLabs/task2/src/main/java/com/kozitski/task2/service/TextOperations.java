@@ -2,16 +2,28 @@ package com.kozitski.task2.service;
 
 import com.kozitski.task2.composite.impl.TextAll;
 import com.kozitski.task2.composite.impl.TextParagraph;
+import com.kozitski.task2.composite.impl.TextSentence;
+import com.kozitski.task2.composite.impl.TextToken;
+import com.kozitski.task2.util.parser.impl.TextAllParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.util.Integers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class TextOperations {
+    private static final Logger LOGGER = LogManager.getLogger(TextOperations.class);
 
     public static TextAll sortParagraphsByNumOFSentences(TextAll text){
+        if(text == null){
+            LOGGER.error("text can't be null");
+            throw new RuntimeException("text can't be null");
+        }
+
         TextAll result = new TextAll();
 
         List<TextParagraph> paragraphs = new ArrayList<>();
@@ -23,21 +35,99 @@ public class TextOperations {
             result.add(paragraph);
         }
 
+        LOGGER.info("Paragraphs was sorted by number of sentences");
+
         return result;
     }
     public static TextAll sortSentencesByTokenLength(TextAll text){
+        if(text == null){
+            LOGGER.error("text can't be null");
+            throw new RuntimeException("text can't be null");
+        }
+
         TextAll result = new TextAll();
 
+        for(int i = 0; i < text.getNumOfParagraphs(); i++){
+            TextParagraph paragraph = text.getParagraph(i);
+            TextParagraph resultParagraph = new TextParagraph();
 
+            for(int j = 0; j < paragraph.getNumOfSentences(); j++){
+                TextSentence sentence = paragraph.getSentence(j);
+                List<TextToken> tokens = new ArrayList<>();
+                for(int z = 0; z < sentence.getNumOfTokens(); z++){
+                    tokens.add(sentence.getToken(z));
+                }
+                tokens = tokens.stream().sorted( (e1, e2) -> e1.getNumOfSymbols() - e2.getNumOfSymbols()).collect(Collectors.toList());
+
+                TextSentence resultSentence = new TextSentence();
+                for(TextToken token : tokens){
+                        resultSentence.add(token);
+                }
+                resultParagraph.add(resultSentence);
+            }
+
+            result.add(resultParagraph);
+        }
+
+        LOGGER.info("Sentences was sorted by length of tokens");
 
         return result;
     }
-    public static TextAll reverseSortTokensByNumberOfSymbol(TextAll text){
+    public static TextAll reverseSortTokensByNumberOfSymbol(TextAll text, String searchSymbol){
+        if(text == null){
+            LOGGER.error("text can't be null");
+            throw new RuntimeException("text can't be null");
+        }
+
         TextAll result = new TextAll();
+        TextParagraph resultParagraph = new TextParagraph();
+        TextSentence resultSentence = new TextSentence();
+        result.add(resultParagraph);
+        resultParagraph.add(resultSentence);
 
+        List<TextToken> tokens = new ArrayList<>();
+        for(int i = 0; i < text.getNumOfParagraphs(); i++){
+            TextParagraph paragraph = text.getParagraph(i);
+            for(int j = 0; j < paragraph.getNumOfSentences(); j++){
+                TextSentence sentence = paragraph.getSentence(j);
+                for(int z = 0; z < sentence.getNumOfTokens(); z++){
+                    tokens.add(sentence.getToken(z));
+                }
+            }
+        }
 
+        tokens.sort(Comparator.comparing( o -> getNumberMentionedSymbolInToken((TextToken) o, searchSymbol))
+                .thenComparing( (e1, e2) -> ((TextToken) e1).getTextMessage().compareToIgnoreCase(((TextToken) e2).getTextMessage())));
+        for(TextToken token : tokens){
+            resultSentence.add(token);
 
+        }
+
+        LOGGER.info("Tokens was sorted in reverse order by number of mentioned symbols");
+
+        return result;
+    }
+
+    private static int getNumberMentionedSymbolInToken(TextToken token, String searchSymbol){
+        int result = 0;
+        for(int i = 0; i < token.getNumOfSymbols(); i++){
+            if(searchSymbol.equals(token.getSymbol(i).getTextMessage())){
+                result--;
+            }
+        }
         return result;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,12 +1,16 @@
 package com.kozitski.task2.composite.impl;
 
 import com.kozitski.task2.composite.AbstractText;
+import com.kozitski.task2.util.parser.impl.TextAllParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class TextParagraph implements AbstractText {
+    private static final Logger LOGGER = LogManager.getLogger(TextParagraph.class);
     private List<TextSentence> sentences = new ArrayList<>();
 
     public TextSentence getSentence(int index) {
@@ -27,6 +31,7 @@ public class TextParagraph implements AbstractText {
     @Override
     public boolean add(AbstractText sentence) {
         if(sentence instanceof TextSentence){
+            LOGGER.info("Sentence was added");
             return sentences.add((TextSentence) sentence);
         }
         return false;
@@ -34,6 +39,7 @@ public class TextParagraph implements AbstractText {
     @Override
     public boolean remove(AbstractText sentence) {
         if(sentence instanceof TextSentence){
+            LOGGER.info("Sentence was removed");
             return sentences.remove(sentence);
         }
         return false;
@@ -41,6 +47,7 @@ public class TextParagraph implements AbstractText {
 
     @Override
     public boolean removeAll() {
+        LOGGER.info("All Sentences were removed");
         sentences = new ArrayList<>();
         return true;
     }
