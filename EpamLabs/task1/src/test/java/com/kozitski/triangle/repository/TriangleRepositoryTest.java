@@ -111,38 +111,4 @@ public class TriangleRepositoryTest {
         };
     }
 
-    // !!!!!!!!!!!!!!!!!!!
-    @Test
-    public void sortByFirstPointTest(){
-        TriangleRepository repository = TriangleRepository.getTriangleRepository();
-        repository.sortTriangles(X_FIRST_POINT_FUNCTION, Y_FIRST_POINT_FUNCTION);
-        List<Triangle> expected = repository.getAllTriangles();
-
-        List<Triangle> actual = new ArrayList<>();
-        actual.add(triangles.get(4));
-        actual.add(triangles.get(0));
-        actual.add(triangles.get(3));
-        actual.add(triangles.get(2));
-        actual.add(triangles.get(1));
-        actual.add(triangles.get(5));
-
-        assertEquals(actual, expected);
-    }
-    @Test
-    public void sortByThirdPointXCoordinateTest(){
-        TriangleRepository repository = TriangleRepository.getTriangleRepository();
-        repository.sortTriangles(X_THIRD_POINT_FUNCTION);
-        List<Triangle> expected = repository.getAllTriangles();
-
-        List<Triangle> actual = new ArrayList<>();
-        actual.add(triangles.get(4));
-        actual.add(triangles.get(2));
-        actual.add(triangles.get(3));
-        actual.add(triangles.get(0));
-        actual.add(triangles.get(1));
-        actual.add(triangles.get(5));
-
-        assertEquals(actual, expected);
-    }
-
 }

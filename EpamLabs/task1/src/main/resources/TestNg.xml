@@ -8,6 +8,7 @@
         </classes>
     </test>
 
+
     <test name="MainTest">
         <classes>
             <class name="com.kozitski.triangle.register.TriangleRegisterTest"/>
