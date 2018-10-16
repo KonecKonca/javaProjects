@@ -11,6 +11,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+// Basic set of lambdas for Searching in repository
 public class SearchRequirement {
     private long maxId;
     private long minId;

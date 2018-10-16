@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TriangleRegister implements Observer{
+public class TriangleRegister implements Observer<Triangle>{
     private static TriangleRegister register;
     public static TriangleRegister getInstance(){
         if(register != null){

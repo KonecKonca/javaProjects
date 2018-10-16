@@ -10,24 +10,7 @@
 		<Appenders>
 			<Console name="Console" target="SYSTEM_OUT">
 				<PatternLayout pattern="${pattern_0}"/>
-			<!--	<filters>
-					<MarkerFilter marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY"/>
-				</filters>
-				-->
 			</Console>
-			<!-- <File name="File1" fileName="logs/text.log" bufferedIO="true">
-				<PatternLayout pattern="${pattern}"/>
-			</File> -->
-
-            <!--<RollingFile name="FileZip" fileName="${LOG_DIR}/text2.log" append="true"-->
-                         <!--filePattern = "${ARCHIVE_LOG_DIR}/${date:yyyy-MM-dd}/%d{yyyy-MM-dd_HH-mm}_%i.log.zip">-->
-                <!--<PatternLayout pattern="${pattern}"/>-->
-				<!--<BurstFilter level="INFO" rate="16" maxBurst="100"/>-->
-                <!--<Policies>-->
-                    <!--<SizeBasedTriggeringPolicy size="40 KB"/>-->
-                <!--</Policies>-->
-                <!--<DefaultRolloverStrategy max="10"/>-->
-			<!--</RollingFile>-->
 
 			<RollingFile name="File" fileName="logs/application.log" append="true"
 						 filePattern = "logs/${date:yyyy-MM-dd}/%d{yyyy-MM-dd_HH-mm}_%i.log">

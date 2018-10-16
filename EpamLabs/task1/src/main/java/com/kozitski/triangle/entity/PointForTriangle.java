@@ -63,4 +63,5 @@ public class PointForTriangle {
     public String toString() {
         return "(" + coordinateX + ", " + coordinateY + ")";
     }
+
 }

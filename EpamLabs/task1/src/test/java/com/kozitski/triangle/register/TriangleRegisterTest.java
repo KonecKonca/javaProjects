@@ -15,7 +15,6 @@ import static org.testng.Assert.*;
 
 public class TriangleRegisterTest {
 
-
     @Test(dataProvider = "dataForTrianglePerimeter")
     public void putGetPerimeterTest(double actual, Triangle triangle){
         TriangleRegister register = TriangleRegister.getInstance();

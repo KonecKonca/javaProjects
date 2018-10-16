@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+// Class wrapper for transmitting data about parsing file
 public class AllEnteredPoints {
     private List<PointForTriangle> points;
     private List<String> invalidStrings;

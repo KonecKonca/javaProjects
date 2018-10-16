@@ -11,7 +11,11 @@ import java.util.List;
 import static java.lang.Math.*;
 
 public class TriangleUtil {
-    private static final double PRECISION = 0.01;
+    private static double precision = 0.01;
+    public static void setPrecision(double PRECISION) {
+        TriangleUtil.precision = PRECISION;
+    }
+
     private static final Logger LOGGER = LogManager.getLogger(TriangleUtil.class);
 
     public static ArrayList<Double> calculateSides(PointForTriangle point1, PointForTriangle point2, PointForTriangle point3){
@@ -40,7 +44,7 @@ public class TriangleUtil {
         return false;
     }
     private static boolean isFirstDoubleBigger(double value1, double value2){
-        return (Math.abs(value1 - value2) < PRECISION);
+        return (Math.abs(value1 - value2) < precision);
     }
 
 }

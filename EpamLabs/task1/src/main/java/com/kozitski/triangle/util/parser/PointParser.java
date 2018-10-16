@@ -12,7 +12,7 @@ import java.util.List;
 
 public class PointParser {
     private static AllEnteredPoints allEnteredPoints;
-    private static final String SPACE_DELIMITER = "\\s+";
+    private static final String SPACE_DELIMITER = "\\p{Blank}+";
     private static final Logger LOGGER = LogManager.getLogger(PointParser.class);
 
     public static AllEnteredPoints getAllPoints(String path){

@@ -20,7 +20,7 @@ public class PointForTriangleValidator {
             properties.load(fileInputStream);
         } catch (IOException e) {
 
-            LOGGER.fatal("PointForTriangleValidator is not created (property file exists)");
+            LOGGER.error("PointForTriangleValidator is not created (property file exists)");
 
         }
     }

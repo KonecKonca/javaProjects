@@ -47,7 +47,7 @@ public class TriangleRepository implements Repository<Triangle> {
             LOGGER.error("Was received invalid comparators for compare");
         }
     }
-    @NotRealisable("It doesn't work now")
+    @NotRealisable("That method doesn't work now. Interchangeable with overloads methods higher")
     public void sortTriangles(Function<Triangle, Integer> comparator, Function<Triangle, Integer> ... additionalComparators){
         if(comparator != null && additionalComparators != null){
             Comparator<Triangle> compare = Comparator.comparing(comparator);
@@ -63,7 +63,6 @@ public class TriangleRepository implements Repository<Triangle> {
         }
     }
 
-
     @Override
     public void add(Triangle triangle) {
         triangleList.add(triangle);
@@ -73,12 +72,8 @@ public class TriangleRepository implements Repository<Triangle> {
         triangleList.remove(triangle);
     }
     @Override
-    public void update(Triangle triangle)  {
-        for(int i = 0; i < triangleList.size(); i++){
-            if(triangleList.get(i).equals(triangle)){
-                triangleList.set(i, triangle);
-            }
-        }
+    public void removeAll()  {
+        triangleList = new ArrayList<>();
     }
     @Override
     public Triangle get(int index) {

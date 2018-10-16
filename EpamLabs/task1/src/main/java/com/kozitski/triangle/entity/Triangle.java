@@ -18,13 +18,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class Triangle implements Observable {
+public class Triangle implements Observable<Observer<Triangle>>{
     private long triangleId;
+    // I decided that arrays of sides and angels are not duplicates of array of points
+    // (It is good decision if in future will rarely change points, and often use values of sides and angels)
     private List<Double> sides = new ArrayList<>(3);
     private List<Double> angles = new ArrayList<>(3);
     private List<PointForTriangle> points = new ArrayList<>(3);
 
-    private List<Observer> observers = new ArrayList<>();
+    private List<Observer<Triangle>> observers = new ArrayList<>();
     private static final Logger LOGGER = LogManager.getLogger(Triangle.class);
 
     private Triangle(){
@@ -76,7 +78,7 @@ public class Triangle implements Observable {
                 throw new IllegalArgumentException(e);
             }
 
-            points = new ArrayList<>(Arrays.asList(points.get(pointPositions.get(0)), points.get(pointPositions.get(1)), point));
+            points = new ArrayList<>(Arrays.asList(point,points.get(pointPositions.get(0)), points.get(pointPositions.get(1))));
             sides = TriangleUtil.calculateSides(points.get(0), points.get(1), points.get(2));
             angles = TriangleUtil.calculateAngles(sides.get(0), sides.get(1), sides.get(2));
 
@@ -89,16 +91,16 @@ public class Triangle implements Observable {
     }
 
     @Override
-    public void addObserver(Observer observer) {
+    public void addObserver(Observer<Triangle> observer) {
         observers.add(observer);
     }
     @Override
-    public void removeObserver(Observer observer) {
+    public void removeObserver(Observer<Triangle> observer) {
         observers.remove(observer);
     }
     @Override
     public void notifyObservers() {
-        for(Observer observer : observers){
+        for(Observer<Triangle> observer : observers){
             observer.handleEvent(this);
         }
     }

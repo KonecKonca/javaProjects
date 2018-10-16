@@ -8,11 +8,10 @@
         </classes>
     </test>
 
-
     <test name="MainTest">
         <classes>
             <class name="com.kozitski.triangle.register.TriangleRegisterTest"/>
-            <class name="com.kozitski.triangle.service.TriangleOperationsTest"/>
+            <class name="com.kozitski.triangle.service.TriangleOperationTest"/>
             <class name="com.kozitski.triangle.util.parser.PointParserTest"/>
             <class name="com.kozitski.triangle.util.reader.TXTPointReaderTest"/>
             <class name="com.kozitski.triangle.util.TriangleUtilTest"/>
