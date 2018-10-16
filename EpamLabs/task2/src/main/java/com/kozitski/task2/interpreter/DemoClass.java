@@ -6,12 +6,6 @@ public class DemoClass {
     public static void main(String[] args) {
 
 
-
-
-
-
-
-
         String expression = "2 4 + 7 * 3 3 + - 4 *";  //  ((2 + 4) * 7 - (3 + 3)) * 4
 
         PolishNotationParser interpreter = new PolishNotationParser();

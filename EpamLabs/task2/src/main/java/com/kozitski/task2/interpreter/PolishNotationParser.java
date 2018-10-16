@@ -1,7 +1,6 @@
 package com.kozitski.task2.interpreter;
 
 import com.kozitski.task2.interpreter.constants.MathOperations;
-import com.kozitski.task2.interpreter.constants.PriorityRangeOfExpression;
 
 import java.util.ArrayList;
 import java.util.Arrays;
