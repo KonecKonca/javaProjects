@@ -4,19 +4,16 @@ import com.kozitski.task2.composite.impl.TextAll;
 import com.kozitski.task2.composite.impl.TextParagraph;
 import com.kozitski.task2.composite.impl.TextSentence;
 import com.kozitski.task2.composite.impl.TextToken;
-import com.kozitski.task2.util.parser.impl.TextAllParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.util.Integers;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class TextOperations {
-    private static final Logger LOGGER = LogManager.getLogger(TextOperations.class);
+public class TextOperation {
+    private static final Logger LOGGER = LogManager.getLogger(TextOperation.class);
 
     public static TextAll sortParagraphsByNumOFSentences(TextAll text){
         if(text == null){
@@ -107,6 +104,8 @@ public class TextOperations {
 
         return result;
     }
+
+
 
     private static int getNumberMentionedSymbolInToken(TextToken token, String searchSymbol){
         int result = 0;

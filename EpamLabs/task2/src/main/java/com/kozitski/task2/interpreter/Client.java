@@ -5,7 +5,7 @@ import java.util.List;
 public class Client {
     private Context context = new Context();
 
-    public double handleExpression(List<MathExpression> expressions){
+    public int handleExpression(List<MathExpression> expressions){
             for(MathExpression terminal : expressions){
                 terminal.interpret(context);
             }
