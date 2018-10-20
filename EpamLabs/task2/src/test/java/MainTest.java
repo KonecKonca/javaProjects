@@ -19,20 +19,15 @@ public class MainTest {
 
         TextAllParser parser = new TextAllParser();
         String text = TextReader.readAllText(TextReader.INPUT_DATA_PATH);
+        ExpressionConverter converter = new ExpressionConverter();
+        String changeText = converter.replaceNumberExpressionsByNumber(text);
+        TextAll textAll = parser.parse(changeText);
 
-//        TextAll textAll = parser.parse(text);
-//
-////        System.out.println(textAll.getParagraph(0).getSentence(1));
-////        System.out.println(TextOperation.sortSentencesByTokenLength(textAll));
-//
+        System.out.println(textAll);
+
+//        System.out.println(TextOperation.sortSentencesByTokenLength(textAll));
 //        System.out.println("\n" + TextOperation.sortSentencesByTokenLength(textAll));
 
-
-        System.out.println("\n\n");
-
-
-        ExpressionConverter converter = new ExpressionConverter();
-        System.out.println(converter.replaceNumberExpressionsByNumber(text));
 
     }
 
@@ -51,7 +46,6 @@ public class MainTest {
         System.out.println("\n\n" + result + "\t\t" + ((7^5|1&2<<(2|5>>2&71))|1200));
 
     }
-
     public void tt(){
 
     }

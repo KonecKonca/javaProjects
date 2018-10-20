@@ -47,21 +47,21 @@ public class PolishNotationConverter {
 
 
 
-//            else if(expression.charAt(i) == '-'){
-//                StringBuilder number = new StringBuilder();
-//                int counter = i++;
-//                do {
-//                    number.append(expression.charAt(counter));
-//                    counter++;
-//                    if(counter >= expression.length()){
-//                        break;
-//                    }
-//                }
-//                while (!isCharacterOperator(String.valueOf(expression.charAt(counter))));
-//
-//                i = counter - 1;
-//                list.add("-" + number.reverse());
-//            }
+            else if(expression.charAt(i) == '-'){
+                StringBuilder number = new StringBuilder();
+                int counter = i++;
+                do {
+                    number.append(expression.charAt(counter));
+                    counter++;
+                    if(counter >= expression.length()){
+                        break;
+                    }
+                }
+                while (!isCharacterOperator(String.valueOf(expression.charAt(counter))));
+
+                i = counter - 1;
+                list.add(number.reverse().toString());
+            }
 
 
 

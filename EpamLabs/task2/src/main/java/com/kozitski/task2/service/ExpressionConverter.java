@@ -17,30 +17,19 @@ import java.util.regex.Pattern;
 public class ExpressionConverter {
     // search all number expressions
     private static final String NUMBER_EXPRESSION_REGEX = "\\p{Punct}*\\d[\\p{Punct}\\d]+";
-    private static final String TILDA_EXPRESSION_REGEX = "~\\d+";
 
     public String replaceNumberExpressionsByNumber(String text){
-        Pattern p = Pattern.compile(NUMBER_EXPRESSION_REGEX);
-        Matcher matcher = p.matcher(text);
-
         PolishNotationConverter polishNotationParser = new PolishNotationConverter();
         PolishNotationParser interpreter = new PolishNotationParser();
 
         List<String> mustReplace = getAllExpressions(text);
-        List<String> willReplace = convertToNumbers(reduceTilda(mustReplace));
+        List<String> willReplace = convertToNumbers(mustReplace);
 
-        System.out.println(mustReplace);
-        System.out.println(willReplace);
+        String result = text;
+        for (int i = 0; i < mustReplace.size(); i++) {
+            result = result.replace(mustReplace.get(i), willReplace.get(i));
+        }
 
-        System.out.println(13<<2);
-        System.out.println(3>>5);
-        System.out.println(6&9|(3&4));
-        System.out.println(5|(1&2&(3|(4&(1^5|6&47)|3)|2)|1));
-        System.out.println((71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78);
-        System.out.println((7^5|1&2<<(2|5>>2&71))|1200);
-
-
-        String result = "";
         return result;
     }
 
@@ -70,44 +59,6 @@ public class ExpressionConverter {
         }
 
         return result;
-    }
-    private List<String> reduceTilda(List<String> input){
-        List<String> result = new ArrayList<>();
-
-        for(String string : input){
-
-            if(isTildaPresent(string)){
-                String newString = "";
-
-                Pattern p = Pattern.compile(TILDA_EXPRESSION_REGEX);
-                Matcher m = p.matcher(string);
-                while (m.find()){
-                    String useless = m.group();
-                    int index = string.indexOf(useless);
-
-                    newString = string.substring(0, index);
-                    newString += ~Integer.parseInt(useless.substring(1));
-                    newString += string.substring(index + useless.length());
-
-                }
-                result.add(newString);
-            }
-            else {
-                result.add(string);
-            }
-
-        }
-
-        return result;
-    }
-    private boolean isTildaPresent(String string){
-        for(int i = 0; i < string.length(); i++){
-            if(string.charAt(i) == '~'){
-                return true;
-            }
-        }
-
-        return false;
     }
 
 }
