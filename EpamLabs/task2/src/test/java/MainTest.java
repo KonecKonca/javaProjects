@@ -29,7 +29,10 @@ public class MainTest {
 
 
         System.out.println("\n\n");
-        ExpressionConverter.convertToInteger(text);
+
+
+        ExpressionConverter converter = new ExpressionConverter();
+        System.out.println(converter.replaceNumberExpressionsByNumber(text));
 
     }
 
@@ -38,7 +41,7 @@ public class MainTest {
         String EXPRESSION = "(7^5|1&2<<(2|5>>2&71))|1200";  // (3|(2&1>>2|2))  // неправлиьно (мб знак перед скеобкой)  ((2&1>>2|2)|3)
 
         PolishNotationConverter polishNotationParser = new PolishNotationConverter();
-        System.out.println(polishNotationParser.calculatePolishNotation(EXPRESSION));
+            System.out.println(polishNotationParser.calculatePolishNotation(EXPRESSION));
         PolishNotationParser interpreter = new PolishNotationParser();
         List<MathExpression> list = interpreter.parse(polishNotationParser.calculatePolishNotation(EXPRESSION));
 
