@@ -1,9 +1,9 @@
 package com.kozitski.task2.service;
 
-import com.kozitski.task2.composite.impl.TextAll;
-import com.kozitski.task2.composite.impl.TextParagraph;
-import com.kozitski.task2.composite.impl.TextSentence;
-import com.kozitski.task2.composite.impl.TextToken;
+import com.kozitski.task2.composite.impl.redundant.TextAll;
+import com.kozitski.task2.composite.impl.redundant.TextParagraph;
+import com.kozitski.task2.composite.impl.redundant.TextSentence;
+import com.kozitski.task2.composite.impl.redundant.TextToken;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

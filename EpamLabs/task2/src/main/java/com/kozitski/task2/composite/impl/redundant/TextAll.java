@@ -1,12 +1,10 @@
-package com.kozitski.task2.composite.impl;
+package com.kozitski.task2.composite.impl.redundant;
 
 import com.kozitski.task2.composite.AbstractText;
-import com.kozitski.task2.util.parser.impl.TextAllParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class TextAll implements AbstractText {
@@ -27,7 +25,6 @@ public class TextAll implements AbstractText {
         paragraphs.forEach(o -> stringBuilder.append(o.getTextMessage()).append("\n\t"));
         return stringBuilder.toString();
     }
-
     @Override
     public boolean add(AbstractText paragraph) {
         if(paragraph instanceof TextParagraph){
@@ -50,6 +47,7 @@ public class TextAll implements AbstractText {
         LOGGER.info("Paragraphs were removed");
         return true;
     }
+
 
     @Override
     public String toString() {

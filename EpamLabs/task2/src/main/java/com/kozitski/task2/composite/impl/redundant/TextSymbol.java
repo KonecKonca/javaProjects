@@ -1,4 +1,4 @@
-package com.kozitski.task2.composite.impl;
+package com.kozitski.task2.composite.impl.redundant;
 
 import com.kozitski.task2.composite.AbstractText;
 
