@@ -1,6 +1,7 @@
 package com.kozitski.task2.util.parser.impl;
 
-import com.kozitski.task2.composite.impl.redundant.TextAll;
+import com.kozitski.task2.composite.impl.TextComponent;
+import com.kozitski.task2.composite.impl.TypeOfTextComponent;
 import com.kozitski.task2.util.parser.AbstractTextParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,8 +16,8 @@ public class TextAllParser implements AbstractTextParser {
     private ParagraphParser paragraphParser = new ParagraphParser();
 
     @Override
-    public TextAll parse(String str) {
-        TextAll text = new TextAll();
+    public TextComponent parse(String str) {
+        TextComponent text = new TextComponent(TypeOfTextComponent.TEXT);
 
         List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_ALL_TEXT_REGEXP)));
 
@@ -25,7 +26,6 @@ public class TextAllParser implements AbstractTextParser {
         }
 
         LOGGER.info("Text was parsed all");
-
         return text;
     }
 

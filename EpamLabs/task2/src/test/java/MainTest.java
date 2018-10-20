@@ -1,3 +1,4 @@
+import com.kozitski.task2.composite.impl.TextComponent;
 import com.kozitski.task2.composite.impl.redundant.TextAll;
 import com.kozitski.task2.service.ExpressionConverter;
 import com.kozitski.task2.util.parser.impl.TextAllParser;
@@ -13,8 +14,9 @@ public class MainTest {
         String text = TextReader.readAllText(TextReader.INPUT_DATA_PATH);
         ExpressionConverter converter = new ExpressionConverter();
         String changeText = converter.replaceNumberExpressionsByNumber(text);
-        TextAll textAll = parser.parse(changeText);
+        TextComponent textAll = parser.parse(changeText);
 
+        System.out.println(textAll.getTextMessage());
 
 
 

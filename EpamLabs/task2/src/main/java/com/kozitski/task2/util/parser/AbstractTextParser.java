@@ -1,5 +1,7 @@
 package com.kozitski.task2.util.parser;
 
+import com.kozitski.task2.composite.AbstractText;
+
 public interface AbstractTextParser {
-    Object parse(String text);
+    AbstractText parse(String text);
 }

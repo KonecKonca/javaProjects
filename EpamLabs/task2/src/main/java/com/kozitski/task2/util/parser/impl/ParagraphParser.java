@@ -1,5 +1,7 @@
 package com.kozitski.task2.util.parser.impl;
 
+import com.kozitski.task2.composite.impl.TextComponent;
+import com.kozitski.task2.composite.impl.TypeOfTextComponent;
 import com.kozitski.task2.composite.impl.redundant.TextParagraph;
 import com.kozitski.task2.util.parser.AbstractTextParser;
 import org.apache.logging.log4j.LogManager;
@@ -15,8 +17,8 @@ public class ParagraphParser implements AbstractTextParser {
     private SentenceParser sentenceParser = new SentenceParser();
 
     @Override
-    public TextParagraph parse(String str) {
-        TextParagraph paragraph = new TextParagraph();
+    public TextComponent parse(String str) {
+        TextComponent paragraph = new TextComponent(TypeOfTextComponent.PARAGRAPH);
 
         List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_PARAGRAPH_REGEX)));
 

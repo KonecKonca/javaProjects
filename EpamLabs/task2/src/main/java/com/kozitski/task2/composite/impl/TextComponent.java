@@ -9,11 +9,16 @@ import java.util.List;
 import java.util.Objects;
 
 public class TextComponent implements AbstractText {
-    private static final Logger LOGGER = LogManager.getLogger(AbstractText.class);
     private List<AbstractText> components = new ArrayList<>();
     private TypeOfTextComponent type;
 
 
+    public AbstractText getComponent(int index) {
+        return components.get(index);
+    }
+    public int getComponentSize() {
+        return components.size();
+    }
     public TypeOfTextComponent getType() {
         return type;
     }
@@ -50,30 +55,15 @@ public class TextComponent implements AbstractText {
     }
     @Override
     public boolean add(AbstractText abstractText) {
-        boolean result = components.add(abstractText);
-        if(result){
-            LOGGER.info("Component is added to: " + type);
-        }
-        else {
-            LOGGER.info("Component is not added to: " + type);
-        }
-        return result;
+        return components.add(abstractText);
     }
     @Override
     public boolean remove(AbstractText abstractText) {
-        boolean result = components.remove(abstractText);
-        if(result){
-            LOGGER.info("Component is removed from: " + type);
-        }
-        else {
-            LOGGER.info("Component is not removed from: " + type);
-        }
-        return result;
+        return components.remove(abstractText);
     }
     @Override
     public boolean removeAll() {
         components = new ArrayList<>();
-        LOGGER.info("All Components are removed from: " + type);
         return true;
     }
 
