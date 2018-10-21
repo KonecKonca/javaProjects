@@ -2,7 +2,7 @@ package com.kozitski.task2.interpreter;
 
 import java.util.ArrayDeque;
 
-public class Context {
+public class InterpreterContext {
     private ArrayDeque<Integer> contextValue = new ArrayDeque<>();
 
     public Integer pop() {

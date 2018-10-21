@@ -2,7 +2,6 @@ package com.kozitski.task2.util.parser.impl;
 
 import com.kozitski.task2.composite.impl.TextComponent;
 import com.kozitski.task2.composite.impl.TypeOfTextComponent;
-import com.kozitski.task2.composite.impl.redundant.TextParagraph;
 import com.kozitski.task2.util.parser.AbstractTextParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,20 +12,20 @@ import java.util.List;
 
 public class ParagraphParser implements AbstractTextParser {
     private static final Logger LOGGER = LogManager.getLogger(ParagraphParser.class);
-    private static final String SPLIT_PARAGRAPH_REGEX = "(?<=[.{1}!?])\\s";
+    private static final String SPLIT_ON_SENTENCES_REGEXP = "(?<=[.{1}!?])\\s";
     private SentenceParser sentenceParser = new SentenceParser();
 
     @Override
     public TextComponent parse(String str) {
         TextComponent paragraph = new TextComponent(TypeOfTextComponent.PARAGRAPH);
 
-        List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_PARAGRAPH_REGEX)));
+        List<String> allStr = new ArrayList<>(Arrays.asList(str.split(SPLIT_ON_SENTENCES_REGEXP)));
 
         for(String s : allStr){
             paragraph.add(sentenceParser.parse(s));
         }
 
-        LOGGER.info("Paragraph was parsed");
+        LOGGER.info("Paragraph was parsed on sentences");
 
         return paragraph;
     }

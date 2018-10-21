@@ -1,6 +1,8 @@
 package com.kozitski.task2.composite.impl;
 
 import com.kozitski.task2.composite.AbstractText;
+import com.kozitski.task2.composite.impl.symbol.TextLetter;
+import com.kozitski.task2.composite.impl.symbol.TextSign;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,20 +14,34 @@ public class TextComponent implements AbstractText {
     private List<AbstractText> components = new ArrayList<>();
     private TypeOfTextComponent type;
 
-
-    public AbstractText getComponent(int index) {
-        return components.get(index);
-    }
-    public int getComponentSize() {
-        return components.size();
-    }
-    public TypeOfTextComponent getType() {
-        return type;
+    public void add(int index, AbstractText element) {
+        components.add(index, element);
     }
     public TextComponent(TypeOfTextComponent type) {
         this.type = type;
     }
 
+    @Override
+    public int countOfOrderedSymbol(String symbol) {
+        int counter = 0;
+        for(AbstractText abstractText : components){
+            counter += abstractText.countOfOrderedSymbol(symbol);
+        }
+
+        return counter;
+    }
+    @Override
+    public TypeOfTextComponent getTypeOfTextComponent() {
+        return type;
+    }
+    @Override
+    public AbstractText getComponent(int index) {
+        return components.get(index);
+    }
+    @Override
+    public int getComponentsSize() {
+        return components.size();
+    }
     @Override
     public String getTextMessage() {
         StringBuilder stringBuilder = new StringBuilder();
@@ -33,16 +49,16 @@ public class TextComponent implements AbstractText {
         components.removeIf(Objects::isNull);
         switch (type){
             case TEXT:
-                components.forEach(o -> stringBuilder.append(o.getTextMessage()).append("\n\t"));
+                components.forEach(o -> stringBuilder.append("\n\t").append(o.getTextMessage()));
                 break;
             case PARAGRAPH:
-                components.forEach(o -> stringBuilder.append(o.getTextMessage()).append(" "));
-                break;
-            case SENTENCE:
                 components.forEach(o -> stringBuilder.append(o.getTextMessage()));
                 break;
-            case LEXEME:
+            case SENTENCE:
                 components.forEach(o -> stringBuilder.append(o.getTextMessage()).append(" "));
+                break;
+            case LEXEME:
+                components.forEach(o -> stringBuilder.append(o.getTextMessage()));
                 break;
             case WORD:
                 components.forEach(o -> stringBuilder.append(o.getTextMessage()));
@@ -88,8 +104,8 @@ public class TextComponent implements AbstractText {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         for(AbstractText paragraph : components){
-            stringBuilder.append(paragraph.getTextMessage());
             stringBuilder.append("\n\t");
+            stringBuilder.append(paragraph.getTextMessage());
         }
         return stringBuilder.toString();
     }

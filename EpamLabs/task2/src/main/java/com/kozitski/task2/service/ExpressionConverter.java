@@ -1,26 +1,25 @@
 package com.kozitski.task2.service;
 
-import com.kozitski.task2.interpreter.Client;
+import com.kozitski.task2.interpreter.InterpreterClient;
 import com.kozitski.task2.interpreter.MathExpression;
-import com.kozitski.task2.interpreter.PolishNotationParser;
-import com.kozitski.task2.util.parser.impl.TextAllParser;
+import com.kozitski.task2.interpreter.PolishNotationInterpreter;
 import com.kozitski.task2.util.polishnotation.PolishNotationConverter;
-import com.kozitski.task2.util.reader.TextReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.security.SecureRandom;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ExpressionConverter {
+public class ExpressionConverter{
     // search all number expressions
     private static final String NUMBER_EXPRESSION_REGEX = "\\p{Punct}*\\d[\\p{Punct}\\d]+";
+    private static final Logger LOGGER = LogManager.getLogger(ExpressionConverter.class);
 
     public String replaceNumberExpressionsByNumber(String text){
         PolishNotationConverter polishNotationParser = new PolishNotationConverter();
-        PolishNotationParser interpreter = new PolishNotationParser();
+        PolishNotationInterpreter interpreter = new PolishNotationInterpreter();
 
         List<String> mustReplace = getAllExpressions(text);
         List<String> willReplace = convertToNumbers(mustReplace);
@@ -29,6 +28,8 @@ public class ExpressionConverter {
         for (int i = 0; i < mustReplace.size(); i++) {
             result = result.replace(mustReplace.get(i), willReplace.get(i));
         }
+
+        LOGGER.info("All expressions in the text were replaced by numbers");
 
         return result;
     }
@@ -49,12 +50,12 @@ public class ExpressionConverter {
         List<String> result = new ArrayList<>();
 
         PolishNotationConverter polishNotationParser = new PolishNotationConverter();
-        PolishNotationParser interpreter = new PolishNotationParser();
+        PolishNotationInterpreter interpreter = new PolishNotationInterpreter();
 
         for(String value : input){
             List<MathExpression> mathExpressions = interpreter.parse(polishNotationParser.calculatePolishNotation(value));
-            Client client = new Client();
-            int res = client.handleExpression(mathExpressions);
+            InterpreterClient interpreterClient = new InterpreterClient();
+            int res = interpreterClient.handleExpression(mathExpressions);
             result.add(String.valueOf(res));
         }
 
@@ -62,3 +63,4 @@ public class ExpressionConverter {
     }
 
 }
+

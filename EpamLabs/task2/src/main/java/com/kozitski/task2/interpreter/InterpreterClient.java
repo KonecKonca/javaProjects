@@ -2,14 +2,14 @@ package com.kozitski.task2.interpreter;
 
 import java.util.List;
 
-public class Client {
-    private Context context = new Context();
+public class InterpreterClient {
+    private InterpreterContext interpreterContext = new InterpreterContext();
 
     public int handleExpression(List<MathExpression> expressions){
             for(MathExpression terminal : expressions){
-                terminal.interpret(context);
+                terminal.interpret(interpreterContext);
             }
-            return context.pop();
+            return interpreterContext.pop();
     }
 
 }

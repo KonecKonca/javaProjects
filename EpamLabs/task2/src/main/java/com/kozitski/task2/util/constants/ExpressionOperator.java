@@ -1,4 +1,4 @@
-package com.kozitski.task2.interpreter.constants;
+package com.kozitski.task2.util.constants;
 
 import java.util.ArrayList;
 import java.util.Arrays;

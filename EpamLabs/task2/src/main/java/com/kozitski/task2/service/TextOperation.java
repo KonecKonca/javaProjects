@@ -1,64 +1,134 @@
 package com.kozitski.task2.service;
 
-import com.kozitski.task2.composite.impl.redundant.TextAll;
-import com.kozitski.task2.composite.impl.redundant.TextParagraph;
-import com.kozitski.task2.composite.impl.redundant.TextSentence;
-import com.kozitski.task2.composite.impl.redundant.TextToken;
+import com.kozitski.task2.composite.AbstractText;
+import com.kozitski.task2.composite.impl.TextComponent;
+import com.kozitski.task2.composite.impl.TypeOfTextComponent;
+import com.kozitski.task2.composite.impl.symbol.TextLetter;
+import com.kozitski.task2.composite.impl.symbol.TextSign;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class TextOperation {
     private static final Logger LOGGER = LogManager.getLogger(TextOperation.class);
 
-    public static TextAll sortParagraphsByNumOFSentences(TextAll text){
-        if(text == null){
+    public static TextComponent sortParagraphsByNumOFSentences(TextComponent text) {
+            TextComponent result = new TextComponent(TypeOfTextComponent.TEXT);
+
+            if (text == null) {
+                LOGGER.error("text can't be null");
+                return result;
+            }
+
+            List<AbstractText> paragraphs = new ArrayList<>();
+            for (int i = 0; i < text.getComponentsSize(); i++) {
+                paragraphs.add(text.getComponent(i));
+            }
+            paragraphs = paragraphs.stream().sorted(Comparator.comparingInt(AbstractText::getComponentsSize)).collect(Collectors.toList());
+            for (AbstractText paragraph : paragraphs) {
+                result.add(paragraph);
+            }
+
+            LOGGER.info("Paragraphs was sorted by number of sentences");
+
+            return result;
+
+        }
+    // All signs witch are involved into word are not counting
+    public static TextComponent sortByLengthOfWordsTest(TextComponent text) {
+        TextComponent result = new TextComponent(TypeOfTextComponent.TEXT);
+
+        if (text == null) {
             LOGGER.error("text can't be null");
-            throw new RuntimeException("text can't be null");
+            return result;
         }
 
-        TextAll result = new TextAll();
+        for (int i = 0; i < text.getComponentsSize(); i++) {
+            AbstractText paragraph = text.getComponent(i);
+            TextComponent resultParagraph = new TextComponent(TypeOfTextComponent.PARAGRAPH);
 
-        List<TextParagraph> paragraphs = new ArrayList<>();
-        for(int i = 0; i < text.getNumOfParagraphs(); i++){
-            paragraphs.add(text.getParagraph(i));
-        }
-        paragraphs = paragraphs.stream().sorted( (e1, e2) -> e1.getNumOfSentences() - e2.getNumOfSentences()).collect(Collectors.toList());
-        for(TextParagraph paragraph : paragraphs){
-            result.add(paragraph);
-        }
+            for (int j = 0; j < paragraph.getComponentsSize(); j++) {
+                AbstractText sentence = paragraph.getComponent(j);
+                TextComponent resultSentence = new TextComponent(TypeOfTextComponent.SENTENCE);
 
-        LOGGER.info("Paragraphs was sorted by number of sentences");
+                List<TextComponent> allWords = new ArrayList<>();
+                List<TextSign> allSigns = new ArrayList<>();
+                for (int k = 0; k < sentence.getComponentsSize(); k++) {
+                    AbstractText lexeme = sentence.getComponent(k);
+                    for(int l = 0; l < lexeme.getComponentsSize(); l++){
+                        if(lexeme.getComponent(l) != null && lexeme.getComponent(l) instanceof TextComponent && lexeme.getComponent(l).getTypeOfTextComponent().equals(TypeOfTextComponent.WORD)){
+                            allWords.add((TextComponent)lexeme.getComponent(l));
+                        }
+                        else {
+                            allSigns.add((TextSign) lexeme.getComponent(l));
+                        }
+                    }
+                }
+                allWords.sort(((o1, o2) -> {
+                    int counter1 = 0;
+                    int counter2 = 0;
+                    for(int s = 0; s < o1.getComponentsSize(); s++){
+                        if(o1.getComponent(s) instanceof TextLetter){
+                            counter1++;
+                        }
+                    }
+                    for(int s = 0; s < o2.getComponentsSize(); s++){
+                        if(o2.getComponent(s) instanceof TextLetter){
+                            counter2++;
+                        }
+                    }
+                    return counter1 - counter2;
+                }));
+
+
+                for(TextComponent textComponent : allWords){
+                    resultSentence.add(textComponent);
+                }
+                for(TextSign sign : allSigns){
+                    resultSentence.add(sign);
+                }
+                resultParagraph.add(resultSentence);
+                }
+
+                result.add(resultParagraph);
+            }
+
+        LOGGER.info("Sentences was sorted by length of tokens");
 
         return result;
+
     }
-    public static TextAll sortSentencesByTokenLength(TextAll text){
+
+
+    public static TextComponent reverseSortLexemesByOrderSymbol(TextComponent text, String searchSymbol){
+        TextComponent result = new TextComponent(TypeOfTextComponent.TEXT);
+
         if(text == null){
             LOGGER.error("text can't be null");
-            throw new RuntimeException("text can't be null");
+            return result;
         }
 
-        TextAll result = new TextAll();
 
-        for(int i = 0; i < text.getNumOfParagraphs(); i++){
-            TextParagraph paragraph = text.getParagraph(i);
-            TextParagraph resultParagraph = new TextParagraph();
+        for (int i = 0; i < text.getComponentsSize(); i++) {
+            AbstractText paragraph = text.getComponent(i);
+            TextComponent resultParagraph = new TextComponent(TypeOfTextComponent.PARAGRAPH);
 
-            for(int j = 0; j < paragraph.getNumOfSentences(); j++){
-                TextSentence sentence = paragraph.getSentence(j);
-                List<TextToken> tokens = new ArrayList<>();
-                for(int z = 0; z < sentence.getNumOfTokens(); z++){
-                    tokens.add(sentence.getToken(z));
+            for (int j = 0; j < paragraph.getComponentsSize(); j++) {
+                AbstractText sentence = paragraph.getComponent(j);
+                TextComponent resultSentence = new TextComponent(TypeOfTextComponent.SENTENCE);
+
+                List<AbstractText> allLexemes = new ArrayList<>();
+                for (int k = 0; k < sentence.getComponentsSize(); k++) {
+                    allLexemes.add(sentence.getComponent(k));
                 }
-                tokens = tokens.stream().sorted( (e1, e2) -> e1.getNumOfSymbols() - e2.getNumOfSymbols()).collect(Collectors.toList());
+                allLexemes.sort(Comparator.comparing( o -> ((AbstractText) o).countOfOrderedSymbol(searchSymbol))
+                        .thenComparing( (e1, e2) -> ((AbstractText) e2).getTextMessage().compareToIgnoreCase(((AbstractText) e1).getTextMessage())));
+                Collections.reverse(allLexemes);
 
-                TextSentence resultSentence = new TextSentence();
-                for(TextToken token : tokens){
-                        resultSentence.add(token);
+                for(AbstractText lexeme : allLexemes){
+                    resultSentence.add(lexeme);
                 }
                 resultParagraph.add(resultSentence);
             }
@@ -66,58 +136,13 @@ public class TextOperation {
             result.add(resultParagraph);
         }
 
-        LOGGER.info("Sentences was sorted by length of tokens");
-
-        return result;
-    }
-    public static TextAll reverseSortTokensByNumberOfSymbol(TextAll text, String searchSymbol){
-        if(text == null){
-            LOGGER.error("text can't be null");
-            throw new RuntimeException("text can't be null");
-        }
-
-        TextAll result = new TextAll();
-        TextParagraph resultParagraph = new TextParagraph();
-        TextSentence resultSentence = new TextSentence();
-        result.add(resultParagraph);
-        resultParagraph.add(resultSentence);
-
-        List<TextToken> tokens = new ArrayList<>();
-        for(int i = 0; i < text.getNumOfParagraphs(); i++){
-            TextParagraph paragraph = text.getParagraph(i);
-            for(int j = 0; j < paragraph.getNumOfSentences(); j++){
-                TextSentence sentence = paragraph.getSentence(j);
-                for(int z = 0; z < sentence.getNumOfTokens(); z++){
-                    tokens.add(sentence.getToken(z));
-                }
-            }
-        }
-
-        tokens.sort(Comparator.comparing( o -> getNumberMentionedSymbolInToken((TextToken) o, searchSymbol))
-                .thenComparing( (e1, e2) -> ((TextToken) e1).getTextMessage().compareToIgnoreCase(((TextToken) e2).getTextMessage())));
-        for(TextToken token : tokens){
-            resultSentence.add(token);
-
-        }
-
         LOGGER.info("Tokens was sorted in reverse order by number of mentioned symbols");
 
         return result;
     }
 
-
-
-    private static int getNumberMentionedSymbolInToken(TextToken token, String searchSymbol){
-        int result = 0;
-        for(int i = 0; i < token.getNumOfSymbols(); i++){
-            if(searchSymbol.equals(token.getSymbol(i).getTextMessage())){
-                result--;
-            }
-        }
-        return result;
-    }
-
 }
+
 
 
 

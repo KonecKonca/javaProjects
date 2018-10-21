@@ -1,6 +1,7 @@
 package com.kozitski.task2.composite.impl.symbol;
 
 import com.kozitski.task2.composite.AbstractText;
+import com.kozitski.task2.composite.impl.TypeOfTextComponent;
 
 import java.util.Objects;
 
@@ -9,10 +10,14 @@ public class TextSign implements AbstractText {
     public TextSign(String sign) {
         this.sign = sign;
     }
-    public void setSign(String sign) {
-        this.sign = sign;
-    }
 
+    @Override
+    public int countOfOrderedSymbol(String symbol) {
+        if(sign.equalsIgnoreCase(symbol)){
+            return 1;
+        }
+        return 0;
+    }
     @Override
     public String getTextMessage() {
         return sign;
@@ -28,6 +33,18 @@ public class TextSign implements AbstractText {
     @Override
     public boolean removeAll() {
         return false;
+    }
+    @Override
+    public AbstractText getComponent(int index) {
+        throw new UnsupportedOperationException("That method is not for leaf object");
+    }
+    @Override
+    public int getComponentsSize() {
+        throw new UnsupportedOperationException("That method is not for leaf object");
+    }
+    @Override
+    public TypeOfTextComponent getTypeOfTextComponent() {
+        throw new UnsupportedOperationException("That method is not for leaf object");
     }
 
 

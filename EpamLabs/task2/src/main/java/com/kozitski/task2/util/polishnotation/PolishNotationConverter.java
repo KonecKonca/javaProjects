@@ -1,6 +1,6 @@
 package com.kozitski.task2.util.polishnotation;
 
-import com.kozitski.task2.interpreter.constants.ExpressionOperator;
+import com.kozitski.task2.util.constants.ExpressionOperator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -44,9 +44,6 @@ public class PolishNotationConverter {
                 i = counter - 1;
                 list.add(number.reverse().toString());
             }
-
-
-
             else if(expression.charAt(i) == '-'){
                 StringBuilder number = new StringBuilder();
                 int counter = i++;
@@ -62,9 +59,6 @@ public class PolishNotationConverter {
                 i = counter - 1;
                 list.add(number.reverse().toString());
             }
-
-
-
             else{
                 list.add(String.valueOf(expression.charAt(i)));
             }
@@ -74,115 +68,101 @@ public class PolishNotationConverter {
     }
 
     private String convert(List<String> expression){
-        ArrayDeque<String> kiev = new ArrayDeque<>();
-        ArrayDeque<String> moskov = new ArrayDeque<>();
+        ArrayDeque<String> result = new ArrayDeque<>();
+        ArrayDeque<String> forWait = new ArrayDeque<>();
 
         for(String character : expression){
              if(!character.equals("")){
                 if(!isCharacterOperator(character)){
-                    kiev.push(character);
+                    result.push(character);
                 }
                 else {
-                    if(moskov.isEmpty()){
-                        moskov.push(character);
+                    if(forWait.isEmpty()){
+                        forWait.push(character);
                     }
                     else{
-                        String lastWait = moskov.pop();
+                        String lastWait = forWait.pop();
 
                         if(ExpressionOperator.getExpressionOperator(character).getValue().equals("(")){
-                            moskov.push(lastWait);
-                            moskov.push(character);
+                            forWait.push(lastWait);
+                            forWait.push(character);
                         }
                         else if(ExpressionOperator.getExpressionOperator(character).getValue().equals(")") && !lastWait.equals("(")){
-                            kiev.push(lastWait);
+                            result.push(lastWait);
 
                             String lastPop = "";
-                            while (!moskov.isEmpty()){
-                                lastPop = moskov.pop();
+                            while (!forWait.isEmpty()){
+                                lastPop = forWait.pop();
 
                                 if(lastPop.equals("(")){
                                     break;
                                 }
                                 else{
-                                    kiev.push(lastPop);
+                                    result.push(lastPop);
                                 }
 
                             }
 
                         }
                         else if(ExpressionOperator.getExpressionOperator(lastWait).getValue().equals("(")){
-                            moskov.push(lastWait);
-                            moskov.push(character);
+                            forWait.push(lastWait);
+                            forWait.push(character);
                         }
                         else if(ExpressionOperator.getExpressionOperator(lastWait).getValue().equals(")")){
-                            moskov.push(lastWait);
+                            forWait.push(lastWait);
                         }
 
                         else if(ExpressionOperator.getExpressionOperator(character).getRate() > ExpressionOperator.getExpressionOperator(lastWait).getRate()){
-                            moskov.push(lastWait);
-                            moskov.push(character);
+                            forWait.push(lastWait);
+                            forWait.push(character);
                         }
                         else if(ExpressionOperator.getExpressionOperator(character).getRate() <= ExpressionOperator.getExpressionOperator(lastWait).getRate()){
-                            kiev.push(lastWait);
+                            result.push(lastWait);
 
                             String lastPop = "";
 
-                            if(!moskov.isEmpty()){
+                            if(!forWait.isEmpty()){
                                 while(true){
-                                    lastPop = moskov.pop();
+                                    lastPop = forWait.pop();
 
                                     if(lastPop.equals("(")){
-                                        moskov.push(lastPop);
-                                        moskov.push(character);
+                                        forWait.push(lastPop);
+                                        forWait.push(character);
                                         break;
                                     }
                                     if(ExpressionOperator.getExpressionOperator(lastPop).getRate() >= ExpressionOperator.getExpressionOperator(character).getRate()){
-                                        kiev.push(lastPop);
+                                        result.push(lastPop);
                                     }
                                     else if(ExpressionOperator.getExpressionOperator(lastPop).getRate() < ExpressionOperator.getExpressionOperator(character).getRate()){
-                                        moskov.push(lastPop);
-                                        moskov.push(character);
+                                        forWait.push(lastPop);
+                                        forWait.push(character);
                                         break;
                                     }
                                 }
                             }
 
                         }
-                        // Redundant
-                        else{
-                            kiev.push(lastWait);
-                            moskov.push(character);
-                        }
                     }
                 }
             }
         }
 
-        while (!moskov.isEmpty()){
-            String add = moskov.pop();
+        while (!forWait.isEmpty()){
+            String add = forWait.pop();
             if(!add.equals("(") && !add.equals(")")){
-                kiev.push(add);
+                result.push(add);
             }
         }
-//
-//        System.out.println("Kiev: " + kiev);
-//        System.out.println("Moscov: " + moskov);
 
-        LOGGER.debug("Kiev: " + kiev);  /// RENAME FUCKING KIEV and MOSCOW
-        LOGGER.debug("Moscov: " + moskov);
-
-        return reverseNotation(kiev);
+        return reverseNotation(result);
     }
     private boolean isCharacterOperator(String character){
-        for(int i = 0; i < expressionOperators.size(); i++){
-            if(expressionOperators.get(i).getValue().equals(character)){
+        for (ExpressionOperator expressionOperator : expressionOperators) {
+            if (expressionOperator.getValue().equals(character)) {
                 return true;
             }
         }
-        if(String.valueOf(character).equals(">") || String.valueOf(character).equals("<")){
-            return true;
-        }
-        return false;
+        return String.valueOf(character).equals(">") || String.valueOf(character).equals("<");
     }
     private String reverseNotation(ArrayDeque<String> deque){
         StringBuilder stringBuilder = new StringBuilder();
@@ -193,60 +173,9 @@ public class PolishNotationConverter {
         }
         stringBuilder.setLength(stringBuilder.length() - 1);
 
+        LOGGER.info("String converted successfully");
+
         return stringBuilder.reverse().toString();
-    }
-
-    @Deprecated
-    public String convert2(List<String> expression){
-        ArrayDeque<Integer> values = new ArrayDeque<>();
-        ArrayDeque<String> operators = new ArrayDeque<>();
-
-        for(String ex : expression){
-            if(isCharacterOperator(ex)){
-
-                if(operators.isEmpty()){
-                    operators.push(ex);
-                }
-                else{
-                    String pop = operators.pop();
-
-                    if((ExpressionOperator.getExpressionOperator(pop).getRate() < ExpressionOperator.getExpressionOperator(ex).getRate())
-                            || (ExpressionOperator.getExpressionOperator(pop).getRate() > ExpressionOperator.getExpressionOperator(ex).getRate()
-                                && ((ExpressionOperator.getExpressionOperator(pop).getValue().equals("(")) || ExpressionOperator.getExpressionOperator(pop).getValue().equals(")")))){
-                        operators.push(ex);
-                    }
-                    else{
-                        int second = values.pop();
-                        int first = values.pop();
-
-                        values.push(second);
-
-                    }
-
-                }
-
-            }
-            else {
-//                values.push(ex);
-            }
-        }
-
-        return "";
-    }
-    @Deprecated
-    private boolean isRateOfFirstOperatorBigger(ExpressionOperator operator1, ExpressionOperator operator2){
-        int firstOperator = 0;
-        int secondOperator = 0;
-        for(ExpressionOperator operator : expressionOperators){
-            if(operator1.equals(operator)){
-                firstOperator = operator.getRate();
-            }
-            else if(operator2.equals(operator)){
-                secondOperator = operator.getRate();
-            }
-        }
-
-        return  ((firstOperator > secondOperator) ? true : false);
     }
 
 }
