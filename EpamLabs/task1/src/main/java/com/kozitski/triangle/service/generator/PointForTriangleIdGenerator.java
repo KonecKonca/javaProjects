@@ -19,4 +19,5 @@ public class PointForTriangleIdGenerator {
             throw new RuntimeException("Id value is bigger than, allowed: " + counter);
         }
     }
+
 }
