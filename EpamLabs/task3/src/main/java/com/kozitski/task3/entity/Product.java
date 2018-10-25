@@ -1,8 +1,7 @@
 package com.kozitski.task3.entity;
 
-import com.kozitski.task3.util.constants.ProductType;
 import com.kozitski.task3.util.generator.ProductIdGenerator;
-import com.kozitski.task3.util.validation.ProductValidator;
+import com.kozitski.task3.validator.ProductValidator;
 
 import java.math.BigDecimal;
 import java.util.Objects;

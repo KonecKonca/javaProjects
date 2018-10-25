@@ -1,0 +1,432 @@
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:09 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:11:18 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:18 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:11:30 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:11:30 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:13:00 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:01 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:13:18 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:13:18 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:16:27 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:27 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:16:35 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:16:35 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:17:19 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:17:19 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:19:10 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:10 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:19:25 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:19:25 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:20:15 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:20:15 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:22:35 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:22:35 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:24:03 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:24:03 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:24:49 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:25:08 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:25:08 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:29:00 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:00 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:29:51 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:29:51 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:30:00 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:00 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:30:07 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:07 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 20:30:19 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 20:30:19 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 21:23:15 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:15 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 21:23:31 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:31 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 21:23:38 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:38 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 21:23:44 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:44 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 21:23:54 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 21:23:54 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:27:19 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:19 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:27:31 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:31 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:27:46 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:46 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:27:47 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:27:47 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:29:04 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:04 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:29:12 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:29:12 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:31:02 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:31:02 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:34:29 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:34:29 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:35:15 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:15 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:35:55 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:35:55 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:36:37 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:36:37 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:37:35 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:35 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:37:47 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.ParagraphParser - Paragraph was parsed
+2018-10-20 23:37:47 [main] INFO  task2.util.parser.impl.TextAllParser - Text was parsed all
+2018-10-20 23:38:08 [main] INFO  kozitski.task2.util.reader.TextReader - File was correctly read
+2018-10-20 23:38:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed
+2018-10-20 23:38:08 [main] INFO  task2.util.parser.impl.SentenceParser - Sentence was parsed

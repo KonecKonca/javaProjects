@@ -1,39 +1,51 @@
 package com.kozitski.task3.entity;
 
+import com.kozitski.task3.exception.LogisticBaseException;
 import com.kozitski.task3.service.wagonactivity.LogisticBaseActivity;
 import com.kozitski.task3.util.generator.WagonIdGenerator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.Objects;
 import java.util.Random;
 import java.util.concurrent.Callable;
 
-public class Wagon implements Callable<Integer>{
+public class Wagon implements Callable<Integer>, Comparable<Wagon>{
+    private static final Logger LOGGER = LogManager.getLogger(Wagon.class);
     private long wagonId = WagonIdGenerator.generateId();
     private List<Product> products;
     private LogisticBaseActivity activity;
-    // seconds
-    private int timeOfReturn;
-    private int numOfFlight;
+    private LogisticBase base;
 
-    public Wagon(int timeOfReturn, int numOfFlight) {
-        this.timeOfReturn = timeOfReturn;
-        this.numOfFlight = numOfFlight;
+
+    public Wagon() {
+        try {
+            base = LogisticBase.getInstance();
+        } catch (LogisticBaseException e) {
+            LOGGER.fatal("Base creating error", e);
+            throw new RuntimeException("Base creating error", e);
+        }
     }
 
     @Override
     public Integer call() throws Exception {
 
-        for(int i = 0; i < numOfFlight; i++){
+        Thread.sleep(new Random().nextInt(1000));
 
-
-
-
-        }
+        System.out.println("    " + wagonId + "    " + Thread.currentThread().getName());
+        return 1;
 
     }
 
+    @Override
+    public int compareTo(Wagon o) {
+        return o.products.get(0).getType().rate - products.get(0).getType().getRate();
+    }
+
+    public void doActivity(LogisticBase logisticBase){
+        activity.activity(logisticBase);
+    }
     public void setActivity(LogisticBaseActivity activity) {
         this.activity = activity;
     }
@@ -41,7 +53,7 @@ public class Wagon implements Callable<Integer>{
     public boolean add(Product product) {
         return this.products.add(product);
     }
-    public Product get(int index) {
+    public Product getProduct(int index) {
         return products.get(index);
     }
     public boolean remove(Object o) {
@@ -50,25 +62,19 @@ public class Wagon implements Callable<Integer>{
     public boolean removeAll(Collection<?> c) {
         return products.removeAll(c);
     }
+    public void setBase(LogisticBase base) {
+        this.base = base;
+    }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Wagon)) return false;
-        Wagon wagon = (Wagon) o;
-        return Objects.equals(wagonId, wagon.wagonId);
-    }
-    @Override
-    public int hashCode() {
-        return (int) wagonId;
-    }
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
 
-        stringBuilder.append("Wagon : ");
+        stringBuilder.append("Wagon : id-");
+        stringBuilder.append(wagonId);
+        stringBuilder.append(", ");
         stringBuilder.append(products);
-        stringBuilder.append(", Activity: ");
+        stringBuilder.append(", Activity- ");
         stringBuilder.append(activity);
 
         return stringBuilder.toString();

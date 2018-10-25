@@ -1,9 +1,13 @@
 package com.kozitski.task3.util.generator;
 
-import com.kozitski.task3.util.constants.PropertyPath;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.kozitski.task3.util.parameter.ProductParameter;
+import com.kozitski.task3.util.parameter.WagonParameter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -13,21 +17,25 @@ import java.util.concurrent.locks.ReentrantLock;
 public class WagonIdGenerator {
     private static final Logger LOGGER = LogManager.getLogger(WagonIdGenerator.class);
     private static final ReentrantLock LOCK = new ReentrantLock();
-    private static final Properties PROPERTIES;
+    private static final String WAGON_VALIDATION_PATH = "src/main/resources/data/validation/wagon.yml";
+
     static {
-        PROPERTIES = new Properties();
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 
-        try(FileInputStream inputStream = new FileInputStream(PropertyPath.ALLOWED_ID_PATH)){
-            PROPERTIES.load(inputStream);
+        WagonParameter wagonParameter;
+        try {
+
+            wagonParameter = mapper.readValue(new File(WAGON_VALIDATION_PATH), WagonParameter.class);
+            MAX_ID_BOUNDER = wagonParameter.getMaxWagonId();
+
         }
-        catch (IOException e){
-            LOGGER.error("Property file for indication allowed ID is not exist", e);
-            MAX_ID_BOUNDER = 1000;
+        catch (IOException e) {
+            LOGGER.error("Yaml file for indication allowed ID is not exist", e);
+            MAX_ID_BOUNDER = 1500;
         }
 
-        MAX_ID_BOUNDER = Long.parseLong(PROPERTIES.getProperty("maxWagonId"));
 
-        counter = new AtomicLong(1);
+        counter = new AtomicLong(0);
     }
 
     private static long MAX_ID_BOUNDER;
