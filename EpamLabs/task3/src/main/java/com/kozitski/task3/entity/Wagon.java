@@ -1,7 +1,7 @@
 package com.kozitski.task3.entity;
 
 import com.kozitski.task3.exception.LogisticBaseException;
-import com.kozitski.task3.service.wagonactivity.LogisticBaseActivity;
+import com.kozitski.task3.service.LogisticBaseActivity;
 import com.kozitski.task3.util.generator.WagonIdGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,6 +10,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.Callable;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     private static final Logger LOGGER = LogManager.getLogger(Wagon.class);
@@ -18,6 +19,11 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     private LogisticBaseActivity activity;
     private LogisticBase base;
 
+    private ReentrantLock lock = new ReentrantLock();
+
+    private final int NUMBER_OF_TRIPS = 3;
+    private int numberOfDoneTrips;
+    private int numberOfTransportedProduct;
 
     public Wagon() {
         try {
@@ -31,20 +37,45 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     @Override
     public Integer call() throws Exception {
 
-        Thread.sleep(new Random().nextInt(1000));
+        while (numberOfDoneTrips < NUMBER_OF_TRIPS){
+            numberOfTransportedProduct += activity.activity(this);
+            changeActivity();
+        }
 
-        System.out.println("    " + wagonId + "    " + Thread.currentThread().getName());
-        return 1;
+        return numberOfTransportedProduct;
+    }
 
+
+
+    public void doActivity() throws LogisticBaseException {
+        activity.activity(this);
+    }
+    private void changeActivity(){
+
+    }
+
+    public void notifyLock(){
+        lock.notify();
     }
 
     @Override
     public int compareTo(Wagon o) {
-        return o.products.get(0).getType().rate - products.get(0).getType().getRate();
-    }
+        int counterOfPerishable1 = 0;
+        int counterOfPerishable2 = 0;
 
-    public void doActivity(LogisticBase logisticBase){
-        activity.activity(logisticBase);
+        for(Product product : products){
+            if(product.getType().getRate() == 1){
+                counterOfPerishable1++;
+            }
+        }
+
+        for(Product product : ((Wagon) o).products){
+            if(product.getType().getRate() == 1){
+                counterOfPerishable2++;
+            }
+        }
+
+        return counterOfPerishable2 - counterOfPerishable1;
     }
     public void setActivity(LogisticBaseActivity activity) {
         this.activity = activity;
@@ -56,14 +87,17 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     public Product getProduct(int index) {
         return products.get(index);
     }
-    public boolean remove(Object o) {
+    public boolean remove(Product o) {
         return products.remove(o);
     }
-    public boolean removeAll(Collection<?> c) {
+    public boolean removeAll(Collection<? extends Product> c) {
         return products.removeAll(c);
     }
     public void setBase(LogisticBase base) {
         this.base = base;
+    }
+    public LogisticBase getBase() {
+        return base;
     }
 
     @Override

@@ -1,14 +1,10 @@
 package com.kozitski.task2.service;
 
 import com.kozitski.task2.composite.impl.TextComponent;
-import com.kozitski.task2.util.parser.impl.TextAllParser;
-import com.kozitski.task2.util.reader.TextReader;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
-import java.util.ArrayList;
 
 public class TextOperationTest {
     TextComponent text = TextComponentCreator.create();

@@ -1,10 +1,10 @@
 package com.kozitski.task2.service;
 
-import com.kozitski.task2.composite.AbstractText;
+import com.kozitski.task2.composite.CommonText;
 import com.kozitski.task2.composite.impl.TextComponent;
-import com.kozitski.task2.composite.impl.TypeOfTextComponent;
-import com.kozitski.task2.composite.impl.symbol.TextLetter;
-import com.kozitski.task2.composite.impl.symbol.TextSign;
+import com.kozitski.task2.composite.ComponentType;
+import com.kozitski.task2.composite.impl.TextLetter;
+import com.kozitski.task2.composite.impl.TextSign;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,19 +15,19 @@ public class TextOperation {
     private static final Logger LOGGER = LogManager.getLogger(TextOperation.class);
 
     public static TextComponent sortParagraphsByNumOFSentences(TextComponent text) {
-            TextComponent result = new TextComponent(TypeOfTextComponent.TEXT);
+            TextComponent result = new TextComponent(ComponentType.TEXT);
 
             if (text == null) {
                 LOGGER.error("text can't be null");
                 return result;
             }
 
-            List<AbstractText> paragraphs = new ArrayList<>();
+            List<CommonText> paragraphs = new ArrayList<>();
             for (int i = 0; i < text.getComponentsSize(); i++) {
                 paragraphs.add(text.getComponent(i));
             }
-            paragraphs = paragraphs.stream().sorted(Comparator.comparingInt(AbstractText::getComponentsSize)).collect(Collectors.toList());
-            for (AbstractText paragraph : paragraphs) {
+            paragraphs = paragraphs.stream().sorted(Comparator.comparingInt(CommonText::getComponentsSize)).collect(Collectors.toList());
+            for (CommonText paragraph : paragraphs) {
                 result.add(paragraph);
             }
 
@@ -38,7 +38,7 @@ public class TextOperation {
         }
     // All signs witch are involved into word are not counting
     public static TextComponent sortByLengthOfWordsTest(TextComponent text) {
-        TextComponent result = new TextComponent(TypeOfTextComponent.TEXT);
+        TextComponent result = new TextComponent(ComponentType.TEXT);
 
         if (text == null) {
             LOGGER.error("text can't be null");
@@ -46,19 +46,19 @@ public class TextOperation {
         }
 
         for (int i = 0; i < text.getComponentsSize(); i++) {
-            AbstractText paragraph = text.getComponent(i);
-            TextComponent resultParagraph = new TextComponent(TypeOfTextComponent.PARAGRAPH);
+            CommonText paragraph = text.getComponent(i);
+            TextComponent resultParagraph = new TextComponent(ComponentType.PARAGRAPH);
 
             for (int j = 0; j < paragraph.getComponentsSize(); j++) {
-                AbstractText sentence = paragraph.getComponent(j);
-                TextComponent resultSentence = new TextComponent(TypeOfTextComponent.SENTENCE);
+                CommonText sentence = paragraph.getComponent(j);
+                TextComponent resultSentence = new TextComponent(ComponentType.SENTENCE);
 
                 List<TextComponent> allWords = new ArrayList<>();
                 List<TextSign> allSigns = new ArrayList<>();
                 for (int k = 0; k < sentence.getComponentsSize(); k++) {
-                    AbstractText lexeme = sentence.getComponent(k);
+                    CommonText lexeme = sentence.getComponent(k);
                     for(int l = 0; l < lexeme.getComponentsSize(); l++){
-                        if(lexeme.getComponent(l) != null && lexeme.getComponent(l) instanceof TextComponent && lexeme.getComponent(l).getTypeOfTextComponent().equals(TypeOfTextComponent.WORD)){
+                        if(lexeme.getComponent(l) != null && lexeme.getComponent(l) instanceof TextComponent && lexeme.getComponent(l).getTypeOfTextComponent().equals(ComponentType.WORD)){
                             allWords.add((TextComponent)lexeme.getComponent(l));
                         }
                         else {
@@ -103,7 +103,7 @@ public class TextOperation {
 
 
     public static TextComponent reverseSortLexemesByOrderSymbol(TextComponent text, String searchSymbol){
-        TextComponent result = new TextComponent(TypeOfTextComponent.TEXT);
+        TextComponent result = new TextComponent(ComponentType.TEXT);
 
         if(text == null){
             LOGGER.error("text can't be null");
@@ -112,22 +112,22 @@ public class TextOperation {
 
 
         for (int i = 0; i < text.getComponentsSize(); i++) {
-            AbstractText paragraph = text.getComponent(i);
-            TextComponent resultParagraph = new TextComponent(TypeOfTextComponent.PARAGRAPH);
+            CommonText paragraph = text.getComponent(i);
+            TextComponent resultParagraph = new TextComponent(ComponentType.PARAGRAPH);
 
             for (int j = 0; j < paragraph.getComponentsSize(); j++) {
-                AbstractText sentence = paragraph.getComponent(j);
-                TextComponent resultSentence = new TextComponent(TypeOfTextComponent.SENTENCE);
+                CommonText sentence = paragraph.getComponent(j);
+                TextComponent resultSentence = new TextComponent(ComponentType.SENTENCE);
 
-                List<AbstractText> allLexemes = new ArrayList<>();
+                List<CommonText> allLexemes = new ArrayList<>();
                 for (int k = 0; k < sentence.getComponentsSize(); k++) {
                     allLexemes.add(sentence.getComponent(k));
                 }
-                allLexemes.sort(Comparator.comparing( o -> ((AbstractText) o).countOfOrderedSymbol(searchSymbol))
-                        .thenComparing( (e1, e2) -> ((AbstractText) e2).getTextMessage().compareToIgnoreCase(((AbstractText) e1).getTextMessage())));
+                allLexemes.sort(Comparator.comparing( o -> ((CommonText) o).countOfOrderedSymbol(searchSymbol))
+                        .thenComparing( (e1, e2) -> ((CommonText) e2).getTextMessage().compareToIgnoreCase(((CommonText) e1).getTextMessage())));
                 Collections.reverse(allLexemes);
 
-                for(AbstractText lexeme : allLexemes){
+                for(CommonText lexeme : allLexemes){
                     resultSentence.add(lexeme);
                 }
                 resultParagraph.add(resultSentence);

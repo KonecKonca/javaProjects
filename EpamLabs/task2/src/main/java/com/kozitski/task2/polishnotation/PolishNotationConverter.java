@@ -1,6 +1,5 @@
-package com.kozitski.task2.util.polishnotation;
+package com.kozitski.task2.polishnotation;
 
-import com.kozitski.task2.util.constants.ExpressionOperator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

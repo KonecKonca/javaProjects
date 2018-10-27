@@ -1,7 +1,5 @@
-package com.kozitski.task2.util.polishnotation;
+package com.kozitski.task2.polishnotation;
 
-import com.kozitski.task2.composite.impl.TextComponent;
-import com.kozitski.task2.service.TextOperation;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

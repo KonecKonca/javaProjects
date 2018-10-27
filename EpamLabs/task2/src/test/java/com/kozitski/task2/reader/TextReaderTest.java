@@ -1,8 +1,6 @@
-package com.kozitski.task2.util.reader;
+package com.kozitski.task2.reader;
 
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class TextReaderTest {
 

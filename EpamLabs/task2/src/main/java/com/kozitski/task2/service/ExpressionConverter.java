@@ -3,7 +3,7 @@ package com.kozitski.task2.service;
 import com.kozitski.task2.interpreter.InterpreterClient;
 import com.kozitski.task2.interpreter.MathExpression;
 import com.kozitski.task2.interpreter.PolishNotationInterpreter;
-import com.kozitski.task2.util.polishnotation.PolishNotationConverter;
+import com.kozitski.task2.polishnotation.PolishNotationConverter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

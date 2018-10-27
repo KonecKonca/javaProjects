@@ -1,41 +1,39 @@
 package com.kozitski.task2.composite.impl;
 
-import com.kozitski.task2.composite.AbstractText;
-import com.kozitski.task2.composite.impl.symbol.TextLetter;
-import com.kozitski.task2.composite.impl.symbol.TextSign;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.kozitski.task2.composite.CommonText;
+import com.kozitski.task2.composite.ComponentType;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class TextComponent implements AbstractText {
-    private List<AbstractText> components = new ArrayList<>();
-    private TypeOfTextComponent type;
+public class TextComponent implements CommonText {
+    private static final String TO_STRING_MESSAGE = "\n\t";
+    private List<CommonText> components = new ArrayList<>();
+    private ComponentType type;
 
-    public void add(int index, AbstractText element) {
+    public void add(int index, CommonText element) {
         components.add(index, element);
     }
-    public TextComponent(TypeOfTextComponent type) {
+    public TextComponent(ComponentType type) {
         this.type = type;
     }
 
     @Override
     public int countOfOrderedSymbol(String symbol) {
         int counter = 0;
-        for(AbstractText abstractText : components){
-            counter += abstractText.countOfOrderedSymbol(symbol);
+        for(CommonText commonText : components){
+            counter += commonText.countOfOrderedSymbol(symbol);
         }
 
         return counter;
     }
     @Override
-    public TypeOfTextComponent getTypeOfTextComponent() {
+    public ComponentType getTypeOfTextComponent() {
         return type;
     }
     @Override
-    public AbstractText getComponent(int index) {
+    public CommonText getComponent(int index) {
         return components.get(index);
     }
     @Override
@@ -51,17 +49,8 @@ public class TextComponent implements AbstractText {
             case TEXT:
                 components.forEach(o -> stringBuilder.append("\n\t").append(o.getTextMessage()));
                 break;
-            case PARAGRAPH:
-                components.forEach(o -> stringBuilder.append(o.getTextMessage()));
-                break;
             case SENTENCE:
                 components.forEach(o -> stringBuilder.append(o.getTextMessage()).append(" "));
-                break;
-            case LEXEME:
-                components.forEach(o -> stringBuilder.append(o.getTextMessage()));
-                break;
-            case WORD:
-                components.forEach(o -> stringBuilder.append(o.getTextMessage()));
                 break;
             default:
                 components.forEach(o -> stringBuilder.append(o.getTextMessage()));
@@ -70,17 +59,8 @@ public class TextComponent implements AbstractText {
         return stringBuilder.toString();
     }
     @Override
-    public boolean add(AbstractText abstractText) {
-        return components.add(abstractText);
-    }
-    @Override
-    public boolean remove(AbstractText abstractText) {
-        return components.remove(abstractText);
-    }
-    @Override
-    public boolean removeAll() {
-        components = new ArrayList<>();
-        return true;
+    public boolean add(CommonText commonText) {
+        return components.add(commonText);
     }
 
     @Override
@@ -94,8 +74,8 @@ public class TextComponent implements AbstractText {
     @Override
     public int hashCode() {
         int hashCode = type.hashCode();
-        for(AbstractText abstractText : components){
-            hashCode += abstractText.hashCode() * 31;
+        for(CommonText commonText : components){
+            hashCode += commonText.hashCode() * 31;
         }
 
         return hashCode;
@@ -103,8 +83,8 @@ public class TextComponent implements AbstractText {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        for(AbstractText paragraph : components){
-            stringBuilder.append("\n\t");
+        for(CommonText paragraph : components){
+            stringBuilder.append(TO_STRING_MESSAGE);
             stringBuilder.append(paragraph.getTextMessage());
         }
         return stringBuilder.toString();

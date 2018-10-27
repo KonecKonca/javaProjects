@@ -1,6 +1,9 @@
-package com.kozitski.task2.util.constants;
+package com.kozitski.task2.polishnotation;
 
 public class MathOperations {
+
+    private MathOperations() { }
+
     // for PolishNotationInterpreter
     public static final String OR_SIGN = "|";
     public static final String XOR_SIGN = "^";

@@ -1,7 +1,6 @@
 package com.kozitski.task2.interpreter;
 
-import com.kozitski.task2.util.constants.MathOperations;
-import com.kozitski.task2.util.constants.ExpressionOperator;
+import com.kozitski.task2.polishnotation.MathOperations;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,41 +1,33 @@
-package com.kozitski.task2.composite.impl.symbol;
+package com.kozitski.task2.composite.impl;
 
-import com.kozitski.task2.composite.AbstractText;
-import com.kozitski.task2.composite.impl.TypeOfTextComponent;
+import com.kozitski.task2.composite.CommonText;
+import com.kozitski.task2.composite.ComponentType;
 
 import java.util.Objects;
 
-public class TextLetter implements AbstractText {
-    private String letter;
-    public TextLetter(String letter) {
+public class TextLetter implements CommonText {
+    private char letter;
+    public TextLetter(char letter) {
         this.letter = letter;
     }
 
     @Override
     public int countOfOrderedSymbol(String symbol) {
-        if(letter.equalsIgnoreCase(symbol)){
+        if(String.valueOf(letter).equalsIgnoreCase(symbol)){
             return 1;
         }
         return 0;
     }
     @Override
     public String getTextMessage() {
-        return letter;
+        return String.valueOf(letter);
     }
     @Override
-    public boolean add(AbstractText abstractText) {
+    public boolean add(CommonText commonText) {
         return false;
     }
     @Override
-    public boolean remove(AbstractText abstractText) {
-        return false;
-    }
-    @Override
-    public boolean removeAll() {
-        return false;
-    }
-    @Override
-    public AbstractText getComponent(int index) {
+    public CommonText getComponent(int index) {
         throw new UnsupportedOperationException("That method is not for leaf object");
     }
     @Override
@@ -43,7 +35,7 @@ public class TextLetter implements AbstractText {
         throw new UnsupportedOperationException("That method is not for leaf object");
     }
     @Override
-    public TypeOfTextComponent getTypeOfTextComponent() {
+    public ComponentType getTypeOfTextComponent() {
         throw new UnsupportedOperationException("That method is not for leaf object");
     }
 
@@ -57,11 +49,11 @@ public class TextLetter implements AbstractText {
     }
     @Override
     public int hashCode() {
-        return 31 * letter.hashCode();
+        return letter;
     }
     @Override
     public String toString() {
-        return letter;
+        return String.valueOf(letter);
     }
 
 }

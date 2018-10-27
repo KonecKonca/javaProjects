@@ -1,4 +1,4 @@
-package com.kozitski.task2.util.reader;
+package com.kozitski.task2.reader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,8 +24,8 @@ public class TextReader {
             LOGGER.info("File was correctly read");
 
         } catch (IOException e) {
-            LOGGER.fatal("file exists");
-            throw new RuntimeException("File exists on the next path: " + path);
+            LOGGER.fatal("file exists", e);
+            throw new RuntimeException("File exists on the next path: " + path, e);
         }
 
         return allText.toString();

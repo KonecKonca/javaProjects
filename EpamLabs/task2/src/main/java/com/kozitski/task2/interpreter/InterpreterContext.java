@@ -11,8 +11,5 @@ public class InterpreterContext {
     public void push(Integer integer) {
         contextValue.push(integer);
     }
-    public Integer peek() {
-        return contextValue.peek();
-    }
 
 }

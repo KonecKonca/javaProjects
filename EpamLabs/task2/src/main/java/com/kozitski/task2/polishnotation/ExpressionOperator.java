@@ -1,4 +1,4 @@
-package com.kozitski.task2.util.constants;
+package com.kozitski.task2.polishnotation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

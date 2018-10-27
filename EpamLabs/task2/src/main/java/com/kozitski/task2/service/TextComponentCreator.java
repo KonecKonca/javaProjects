@@ -1,8 +1,8 @@
 package com.kozitski.task2.service;
 
 import com.kozitski.task2.composite.impl.TextComponent;
-import com.kozitski.task2.util.parser.impl.TextAllParser;
-import com.kozitski.task2.util.reader.TextReader;
+import com.kozitski.task2.parser.TextAllParser;
+import com.kozitski.task2.reader.TextReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
