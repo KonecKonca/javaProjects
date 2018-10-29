@@ -28,7 +28,7 @@ public class TextOperation {
             }
             paragraphs = paragraphs.stream().sorted(Comparator.comparingInt(CommonText::getComponentsSize)).collect(Collectors.toList());
             for (CommonText paragraph : paragraphs) {
-                result.add(paragraph);
+                result.addComponent(paragraph);
             }
 
             LOGGER.info("Paragraphs was sorted by number of sentences");
@@ -84,15 +84,15 @@ public class TextOperation {
 
 
                 for(TextComponent textComponent : allWords){
-                    resultSentence.add(textComponent);
+                    resultSentence.addComponent(textComponent);
                 }
                 for(TextSign sign : allSigns){
-                    resultSentence.add(sign);
+                    resultSentence.addComponent(sign);
                 }
-                resultParagraph.add(resultSentence);
+                resultParagraph.addComponent(resultSentence);
                 }
 
-                result.add(resultParagraph);
+                result.addComponent(resultParagraph);
             }
 
         LOGGER.info("Sentences was sorted by length of tokens");
@@ -128,12 +128,12 @@ public class TextOperation {
                 Collections.reverse(allLexemes);
 
                 for(CommonText lexeme : allLexemes){
-                    resultSentence.add(lexeme);
+                    resultSentence.addComponent(lexeme);
                 }
-                resultParagraph.add(resultSentence);
+                resultParagraph.addComponent(resultSentence);
             }
 
-            result.add(resultParagraph);
+            result.addComponent(resultParagraph);
         }
 
         LOGGER.info("Tokens was sorted in reverse order by number of mentioned symbols");

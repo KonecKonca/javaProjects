@@ -21,7 +21,7 @@ public class TextAllParser implements TextParser {
         List<String> allStr = new ArrayList<>(Arrays.asList(text.split(SPLIT_ON_PARAGRAPHS_REGEXP)));
 
         for(String s : allStr){
-            textComponent.add(paragraphParser.parse(s));
+            textComponent.addComponent(paragraphParser.parse(s));
         }
 
         LOGGER.info("Text was parsed on paragraphs");

@@ -12,9 +12,6 @@ public class TextComponent implements CommonText {
     private List<CommonText> components = new ArrayList<>();
     private ComponentType type;
 
-    public void add(int index, CommonText element) {
-        components.add(index, element);
-    }
     public TextComponent(ComponentType type) {
         this.type = type;
     }
@@ -59,7 +56,7 @@ public class TextComponent implements CommonText {
         return stringBuilder.toString();
     }
     @Override
-    public boolean add(CommonText commonText) {
+    public boolean addComponent(CommonText commonText) {
         return components.add(commonText);
     }
 

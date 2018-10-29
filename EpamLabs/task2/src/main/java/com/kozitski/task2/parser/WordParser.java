@@ -16,10 +16,10 @@ public class WordParser implements TextParser {
 
         for (int i = 0; i < word.length(); i++) {
             if(String.valueOf(word.charAt(i)).matches(CHECK_LETTER_REGEXP)){
-                textComponent.add(new TextLetter(word.charAt(i)));
+                textComponent.addComponent(new TextLetter(word.charAt(i)));
             }
             else {
-                textComponent.add(new TextSign(word.charAt(i)));
+                textComponent.addComponent(new TextSign(word.charAt(i)));
             }
         }
 

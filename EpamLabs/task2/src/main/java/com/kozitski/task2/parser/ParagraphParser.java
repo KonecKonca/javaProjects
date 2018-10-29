@@ -21,7 +21,7 @@ public class ParagraphParser implements TextParser {
         List<String> allStr = new ArrayList<>(Arrays.asList(paragraph.split(SPLIT_ON_SENTENCES_REGEXP)));
 
         for(String s : allStr){
-            textComponent.add(sentenceParser.parse(s));
+            textComponent.addComponent(sentenceParser.parse(s));
         }
 
         LOGGER.info("Paragraph was parsed on sentences");

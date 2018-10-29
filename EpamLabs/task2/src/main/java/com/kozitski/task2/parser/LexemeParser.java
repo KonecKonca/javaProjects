@@ -20,10 +20,10 @@ public class LexemeParser implements TextParser {
         String word = "";
         while(matcher.find()){
             word = matcher.group();
-            textComponent.add(wordParser.parse(word));
+            textComponent.addComponent(wordParser.parse(word));
         }
         if((lexeme.length() - word.length()) == 1){
-           textComponent.add(new TextSign(lexeme.charAt(lexeme.length() - 1)));
+           textComponent.addComponent(new TextSign(lexeme.charAt(lexeme.length() - 1)));
         }
 
         return textComponent;

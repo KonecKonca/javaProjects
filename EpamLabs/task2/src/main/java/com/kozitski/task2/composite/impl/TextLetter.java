@@ -23,7 +23,7 @@ public class TextLetter implements CommonText {
         return String.valueOf(letter);
     }
     @Override
-    public boolean add(CommonText commonText) {
+    public boolean addComponent(CommonText commonText) {
         return false;
     }
     @Override

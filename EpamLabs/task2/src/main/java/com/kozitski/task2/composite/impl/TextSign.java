@@ -23,7 +23,7 @@ public class TextSign implements CommonText {
         return String.valueOf(sign);
     }
     @Override
-    public boolean add(CommonText commonText) {
+    public boolean addComponent(CommonText commonText) {
         return false;
     }
     @Override

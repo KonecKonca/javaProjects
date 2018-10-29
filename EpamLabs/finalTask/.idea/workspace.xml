@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="finalTask:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/finalTask_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalTask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/TestNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task2/.idea/artifacts/task2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-19/2018-10-19_23-08_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-19/2018-10-19_23-23_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-19/2018-10-19_23-33_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-19/2018-10-19_23-55_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-20/2018-10-20_15-04_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-20/2018-10-20_15-07_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-20/2018-10-20_15-07_2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-20/2018-10-20_15-55_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-20/2018-10-20_20-11_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-20/2018-10-20_23-38_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_00-02_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_00-16_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_13-27_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_14-21_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_14-31_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_14-48_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_15-06_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_16-52_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-12_9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-18_9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-21/2018-10-21_18-28_9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/2018-10-25/2018-10-25_17-40_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/CommonText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/CommonText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/InterpreterContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/InterpreterContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/LexemeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/LexemeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/SentenceParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/TextAllParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/TextAllParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/WordParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/WordParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/reader/TextReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/reader/TextReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/service/TextOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/service/TextOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/fef.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/fef.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1678192582">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="106" />
+          <entry key="jsp" value="44" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="106" />
+          <entry key="JSP" value="44" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="jsp" value="1" />
+          <entry key="xhtml" value="2" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="JSP" value="1" />
+          <entry key="XHTML" value="2" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/view/efeef.xhtml" />
+        <option value="$PROJECT_DIR$/web/view/efef.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-86" />
+    <option name="y" value="23" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540842168568" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="finalTask:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_comkozitskipufar" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4008" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="finalTask:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4007" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="finalTask:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_comkozitskipufar_2" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4059" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="finalTask:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_comkozitskipufar_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4059" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4012" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="" />
+      <created>1540836076798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540836076798</updated>
+      <workItem from="1540836080475" duration="3606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3606000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.47727272" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3365801" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../Important topics/Логирование/Handlers/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/efeef.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5939">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#30621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>finalTask:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24862888" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|finalTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

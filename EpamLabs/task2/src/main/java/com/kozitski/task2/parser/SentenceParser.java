@@ -22,7 +22,7 @@ public class SentenceParser implements TextParser {
         allStr.removeIf(o -> o.equals(""));
 
         for(String s : allStr){
-            textComponent.add(lexemeParser.parse(s));
+            textComponent.addComponent(lexemeParser.parse(s));
         }
 
         LOGGER.info("Sentence was parsed on lexemes");
