@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Козицкий:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
-    <root id="archive" name="Козицкий.jar">
-      <element id="module-output" name="Козицкий" />
-    </root>
-  </artifact>
-</component>

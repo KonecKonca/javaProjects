@@ -1,3 +1,0 @@
-¬ файле hibernate.cfg.xml надо мен€ть в строке 
-<property name="hbm2ddl.auto">create</property>
-значение "create" на соответствующие запросу значени€
