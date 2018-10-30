@@ -1,6 +1,7 @@
 package reenrant;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 
@@ -18,6 +19,7 @@ public class ReentrantDeadLock {
         new  Thread(deadlock2).start();
 
 
+        // another deadLock))
 //        new Thread(() -> lock.lock()).start();
 //        new Thread(() -> lock.lock()).start();
 
@@ -27,6 +29,7 @@ public class ReentrantDeadLock {
 class Deadlock1 implements Runnable{
     private ReentrantLock reentrantLock = new ReentrantLock();
     private Deadlock2 deadlock;
+    private Condition condition = reentrantLock.newCondition();
     public void setDeadlock(Deadlock2 deadlock) {
         this.deadlock = deadlock;
     }
@@ -39,19 +42,21 @@ class Deadlock1 implements Runnable{
             deadlock.getReentrantLock().lock();
 
             System.out.println("task1");
-            reentrantLock.wait();
-            reentrantLock.notify();
+            condition.await();
+            condition.notify();
 
             System.out.println("task3");
-            reentrantLock.wait();
-            reentrantLock.notify();
+            condition.await();
+            condition.notify();
+
 
             System.out.println("task5");
-            reentrantLock.wait();
-            reentrantLock.notify();
+            condition.await();
+            condition.notify();
 
             deadlock.getReentrantLock().unlock();
-            reentrantLock.unlock();
+            condition.notify();
+
         }
         catch (InterruptedException e){
             e.printStackTrace();
@@ -68,6 +73,7 @@ class Deadlock1 implements Runnable{
 class Deadlock2 implements Runnable{
     private ReentrantLock reentrantLock = new ReentrantLock();
     private Deadlock1 deadlock;
+    private Condition condition = reentrantLock.newCondition();
     public void setDeadlock(Deadlock1 deadlock) {
         this.deadlock = deadlock;
     }
@@ -79,17 +85,17 @@ class Deadlock2 implements Runnable{
             deadlock.getReentrantLock().lock();
             reentrantLock.lock();
 
-            reentrantLock.wait();
+            condition.await();
             System.out.println("task2");
-            reentrantLock.notify();
+            condition.notify();
 
-            reentrantLock.wait();
+            condition.await();
             System.out.println("task4");
-            reentrantLock.notify();
+            condition.notify();
 
-            reentrantLock.wait();
+            condition.await();
             System.out.println("task6");
-            reentrantLock.notify();
+            condition.notify();
 
             reentrantLock.unlock();
             deadlock.getReentrantLock().unlock();
