@@ -1,0 +1,36 @@
+//версия используется в видео на точке 2:40
+
+import java.util.List;
+import org.hibernate.*;
+import models.Product;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		SessionFactory sessionFactory = HibernateUtil.getSessionfactory();
+		Session session = sessionFactory.openSession();
+		List<Product> products = null;
+		
+		try {
+		session.beginTransaction();
+		
+		Criteria criteria = session.createCriteria(Product.class);
+		
+		products = criteria.list();
+		
+		session.getTransaction().commit();
+		} catch(Exception e) {
+			session.getTransaction().rollback();
+			e.printStackTrace();
+		} finally {
+			session.close();
+			sessionFactory.close();
+		}
+
+		for(Product product: products) {
+			System.out.println(product.toString());
+		}
+	
+	}
+}

@@ -1,0 +1,39 @@
+//версия используется в видео на точке 13:10
+
+import java.util.*;
+
+import org.hibernate.*;
+
+import models.Product;
+import models.ProductCategory;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		SessionFactory sessionFactory = HibernateUtil.getSessionfactory();
+		Session session = sessionFactory.openSession();
+		List<Object []> products = null;
+		
+		try {
+		session.beginTransaction();
+		
+		SQLQuery query = session.createSQLQuery("SELECT {p.*}, {pc.*} FROM product p INNER JOIN product_category pc ON p.product_category_id = pc.id");
+		query.addEntity("p", Product.class);
+		query.addJoin("pc", "p.productCategory");
+		products = query.list();
+		
+		session.getTransaction().commit();
+		} catch(Exception e) {
+			session.getTransaction().rollback();
+			e.printStackTrace();
+		} finally {
+			session.close();
+			sessionFactory.close();
+		}
+		
+		for(Object []obj: products) {
+			System.out.println(obj[0].toString() + ((ProductCategory) obj[1]).getTitle());
+		}
+	}
+}

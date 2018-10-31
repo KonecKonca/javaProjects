@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SearchRequirement.java" line="24" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e0ec114-b460-4b31-aaae-4d940b6014b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/Wagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/exception/LogisticBaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/wagonactivity/LogisticBaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/constants/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/constants/PropertyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/generator/WagonIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/validation/ProductValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/validation/WagonIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/resources/TestNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/resources/data/allowedIdValues.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/resources/data/validation.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/efefegf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/fef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/validation/ProductValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/PointForTriangleIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/PointForTriangleIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/triangle$D__Drop_Dropbox_javaProjects_EpamLabs_task1_src_main_resources_TestNg_xml.ic" NAME="$PROJECT_DIR$/src/main/resources/TestNg.xml Coverage Results" MODIFIED="1539528901972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1030751981">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.88" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1" value="1" />
+          <entry key="10" value="1" />
+          <entry key="class" value="12" />
+          <entry key="java" value="744" />
+          <entry key="log" value="36" />
+          <entry key="properties" value="38" />
+          <entry key="txt" value="41" />
+          <entry key="xml" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="12" />
+          <entry key="JAVA" value="744" />
+          <entry key="Log" value="35" />
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Properties" value="38" />
+          <entry key="XML" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="139" />
+          <entry key="java" value="20468" />
+          <entry key="properties" value="500" />
+          <entry key="txt" value="1119" />
+          <entry key="xml" value="275" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="20468" />
+          <entry key="PLAIN_TEXT" value="1258" />
+          <entry key="Properties" value="500" />
+          <entry key="XML" value="265" />
+          <entry key="YAML" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1116557894">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.141" value="2" />
+          <entry key="project.open.time.147" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="46" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="46" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="10" />
+          <entry key="java" value="1982" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1982" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="603711974">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="474" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="474" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/TriangleValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="44" column="95" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
+              <folding>
+                <element signature="method#TriangleValidator#0;class#TriangleValidator#0" />
+                <element signature="method#validate#0;class#TriangleValidator#0" />
+                <element signature="method#validateSides#0;class#TriangleValidator#0" />
+                <element signature="method#checkSidesMathCondition#0;class#TriangleValidator#0" />
+                <element signature="method#validateAngles#0;class#TriangleValidator#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/PointForTriangleIdGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="TestNG Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.debug</find>
+      <find>.info</find>
+      <find>.log</find>
+      <find>logger</find>
+      <find>equals</find>
+      <find>equals(</find>
+      <find>@since</find>
+      <find>@since.*curent</find>
+      <find>void</find>
+      <find>Proper</find>
+      <find>firstXCoordinate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.info</replace>
+      <replace>.debug</replace>
+      <replace>LOGGER</replace>
+      <replace>Builder</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/registrator/TriangleRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/typicalsort/RequirementsParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/typicalsort/typicalSortRequirements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/sort/typicalSortRequirements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/compare/CompareRequirements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SortRequirements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/sort/SortRequirements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SearchRequirements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SearchRequirementsStatic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SearchRequirementStatic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/observer/Observed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/observer/Observable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/observer/TriangleObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/searchConfig.properties" />
+        <option value="$PROJECT_DIR$/task.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/time/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/service/PointParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/parser/PointParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/DataForTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/repository/FirstTestRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/sort/TriangleSortByFirstPoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/repository/TriangleRepositorySeparateTest.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/entity/PointForTriangle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/sort/TriangleSortByFirstPointTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/sort/SortByThirdPointXCoordinateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestNg.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/register/TriangleRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/TriangleUtilTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/triangle/repository/TriangleRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/TriangleRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/entity/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/Observable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/TriangleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/TriangleIdGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/TriangleOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/PointForTriangleValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/TriangleValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/annotations/NotRealisable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/constants/PathsForConfigFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/parser/AllEnteredPoints.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/parser/PointParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SearchRequirement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/TriangleUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/PointForTriangleIdGenerator.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.kozitski.triangle" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.kozitski.triangle" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kozitski" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kozitski" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="triangle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kozitski" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="triangle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Observable&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Observable.java&#10;Observer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Observer.java&#10;Repository&#9;FILE&#9;file://G:/epam/task1/src/main/java/com/kozitski/triangle/repository/Repository.java&#10;logger&#9;FILE&#9;jar://C:/Users/Андрей/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.0/log4j-api-2.11.0.jar!/org/apache/logging/log4j/Logger.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539704321468" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kozitski.triangle.register" />
+      <recent name="com.kozitski.triangle.repository" />
+      <recent name="com.kozitski.triangle.util.reader" />
+      <recent name="com.kozitski.triangle.validator" />
+      <recent name="com.kozitski.triangle.util.parser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\task1\src\main\resources\data\xx" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\task1\src\main\resources" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\task1\src\main\resources\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kozitski.triangle.util.sort" />
+      <recent name="com.kozitski.triangle.util.parser" />
+      <recent name="com.kozitski.triangle.service" />
+      <recent name="com.kozitski.triangle.entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\task1\src\main\resources\config" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\task1\src\main\resources" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\task1\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml">
+    <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNg.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleRepositoryTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kozitski.triangle.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kozitski.triangle.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.kozitski.triangle.repository.TriangleRepositoryTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleRepositoryTest.changePointTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kozitski.triangle.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kozitski.triangle.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.kozitski.triangle.repository.TriangleRepositoryTest" />
+      <option name="METHOD_NAME" value="changePointTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleRepositoryTest.searchWithFirstCoordinateTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kozitski.triangle.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kozitski.triangle.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.kozitski.triangle.repository.TriangleRepositoryTest" />
+      <option name="METHOD_NAME" value="searchWithFirstCoordinateTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleUtilTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kozitski.triangle.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kozitski.triangle.util" />
+      <option name="MAIN_CLASS_NAME" value="com.kozitski.triangle.util.TriangleUtilTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TriangleUtilTest" />
+      <item itemvalue="TestNG.D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml" />
+      <item itemvalue="TestNG.TriangleRepositoryTest.changePointTest" />
+      <item itemvalue="TestNG.TriangleRepositoryTest" />
+      <item itemvalue="TestNG.TriangleRepositoryTest.searchWithFirstCoordinateTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml" />
+        <item itemvalue="TestNG.TriangleRepositoryTest" />
+        <item itemvalue="TestNG.TriangleRepositoryTest.searchWithFirstCoordinateTest" />
+        <item itemvalue="TestNG.TriangleRepositoryTest.changePointTest" />
+        <item itemvalue="TestNG.TriangleUtilTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e0ec114-b460-4b31-aaae-4d940b6014b4" name="Default Changelist" comment="" />
+      <created>1538409093350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538409093350</updated>
+      <workItem from="1538409096494" duration="20005000" />
+      <workItem from="1538470572606" duration="6045000" />
+      <workItem from="1538482513388" duration="19396000" />
+      <workItem from="1538510030020" duration="503000" />
+      <workItem from="1538678786940" duration="3427000" />
+      <workItem from="1538816863064" duration="26311000" />
+      <workItem from="1538862161072" duration="158000" />
+      <workItem from="1538927993639" duration="410000" />
+      <workItem from="1538928687475" duration="56000" />
+      <workItem from="1538995548177" duration="3522000" />
+      <workItem from="1539000954887" duration="315000" />
+      <workItem from="1539001888017" duration="8795000" />
+      <workItem from="1539031080526" duration="8478000" />
+      <workItem from="1539090290149" duration="19001000" />
+      <workItem from="1539280110012" duration="2489000" />
+      <workItem from="1539351091699" duration="2175000" />
+      <workItem from="1539510781381" duration="17704000" />
+      <workItem from="1539691067168" duration="9212000" />
+      <workItem from="1539950136128" duration="15000" />
+      <workItem from="1540138187191" duration="786000" />
+      <workItem from="1540291640079" duration="3262000" />
+    </task>
+    <task id="LOCAL-00001" summary="EPAM task1 --- without loggers/fileInput">
+      <created>1538429554715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538429554715</updated>
+    </task>
+    <task id="LOCAL-00002" summary="EPAM task1 --- log4j">
+      <created>1538485623495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538485623495</updated>
+    </task>
+    <task id="LOCAL-00003" summary="EPAM task1 --- first done version">
+      <created>1538512991604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538512991604</updated>
+    </task>
+    <task id="LOCAL-00004" summary="EPAM task1 --- second done version 06.10">
+      <created>1538862234059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538862234059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="EPAM task1 --- epam task 1.2.1">
+      <created>1539039352837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539039352837</updated>
+    </task>
+    <task id="LOCAL-00006" summary="EPAM task1 --- epam task 1.2.2">
+      <created>1539125672771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539125672771</updated>
+    </task>
+    <task id="LOCAL-00007" summary="EPAM task1 --- epam task 1.2.3 with tests">
+      <created>1539538152352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539538152352</updated>
+    </task>
+    <task id="LOCAL-00008" summary="EPAM task1 --- epam task 1.2.4 end version 14.10">
+      <created>1539546950395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539546950395</updated>
+    </task>
+    <task id="LOCAL-00009" summary="EPAM task1 --- epam task 1.2.5 end version 16.10 SENT TO REVIEW">
+      <created>1539704265573</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539704265573</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TriangleRepositoryTest - 2018.10.16 at 16h 55m 27s.xml">
+      <configuration name="TriangleRepositoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleRepositoryTest - 2018.10.16 at 16h 55m 33s.xml">
+      <configuration name="TriangleRepositoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleRepositoryTest - 2018.10.16 at 16h 56m 49s.xml">
+      <configuration name="TriangleRepositoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleRepositoryTest - 2018.10.16 at 16h 57m 22s.xml">
+      <configuration name="TriangleRepositoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleRepositoryTest - 2018.10.16 at 16h 58m 33s.xml">
+      <configuration name="TriangleRepositoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleRepositoryTest_searchWithFirstCoordinateTest - 2018.10.16 at 16h 58m 40s.xml">
+      <configuration name="TriangleRepositoryTest.searchWithFirstCoordinateTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleRepositoryTest - 2018.10.16 at 16h 58m 47s.xml">
+      <configuration name="TriangleRepositoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Drop_Dropbox_javaProjects_EpamLabs_task1_src_main_resources_TestNg_xml - 2018.10.16 at 16h 59m 02s.xml">
+      <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Drop_Dropbox_javaProjects_EpamLabs_task1_src_main_resources_TestNg_xml - 2018.10.16 at 17h 02m 22s.xml">
+      <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Drop_Dropbox_javaProjects_EpamLabs_task1_src_main_resources_TestNg_xml - 2018.10.16 at 17h 35m 04s.xml">
+      <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task1/src/main/resources/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152065000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.20702006" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.29850745" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.74242425" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.17532468" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38528138" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.1396104" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.12554112" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064266" side_tool="true" weight="0.41532257" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33766234" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24466951" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="EPAM task1 --- without loggers/fileInput" />
+    <MESSAGE value="EPAM task1 --- log4j" />
+    <MESSAGE value="EPAM task1 --- first done version" />
+    <MESSAGE value="EPAM task1 --- second done version 06.10" />
+    <MESSAGE value="EPAM task1 --- epam task 1.2.1" />
+    <MESSAGE value="EPAM task1 --- epam task 1.2.2" />
+    <MESSAGE value="EPAM task1 --- epam task 1.2.3 with tests" />
+    <MESSAGE value="EPAM task1 --- epam task 1.2.4 end version 14.10" />
+    <MESSAGE value="EPAM task1 --- epam task 1.2.5 end version 16.10 SENT TO REVIEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="EPAM task1 --- epam task 1.2.5 end version 16.10 SENT TO REVIEW" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/validationConfigurations.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/searchConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/incorrectData.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/lessPoints.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/xx/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-10-16/2018-10-16_15-50_10.log" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-10-16/2018-10-16_15-50_1.log" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/sort/TriangleSortByFirstPointTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/sort/SortByThirdPointXCoordinateTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/service/TriangleOperationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/register/TriangleRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/parser/PointParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/validator/PointForTriangleValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/validator/TriangleValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" selection-start-line="26" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/util/TriangleUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/correctData.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/logs/application.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-10-16/2018-10-16_16-27_2.log" />
+    <entry file="file://$PROJECT_DIR$/task.txt" />
+    <entry file="file://$PROJECT_DIR$/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/repository/TriangleRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/exception/PointException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/TriangleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/entity/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="method#getInstance#0;class#Triangle#0" />
+            <element signature="method#changePoint#0;class#Triangle#0" />
+            <element signature="method#notifyObservers#0;class#Triangle#0" />
+            <element signature="method#equals#0;class#Triangle#0" />
+            <element signature="method#hashCode#0;class#Triangle#0" />
+            <element signature="method#toString#0;class#Triangle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/TriangleIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/TriangleOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/PointForTriangleValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="method#PointForTriangleValidator#0;class#PointForTriangleValidator#0" />
+            <element signature="method#validate#0;class#PointForTriangleValidator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/annotations/NotRealisable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/parser/AllEnteredPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/parser/PointParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/search/SearchRequirement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding>
+            <element signature="e#1328#2418#0" />
+            <element signature="e#3679#4506#0" />
+            <element signature="e#5229#5895#0" />
+            <element signature="e#5903#13892#0" />
+            <element signature="e#7024#9393#0" />
+            <element signature="e#9403#9664#0" />
+            <element signature="e#9673#9942#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/TriangleUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="method#calculateSides#0;class#TriangleUtil#0" />
+            <element signature="method#calculateAngles#0;class#TriangleUtil#0" />
+            <element signature="method#isCanBeTriangle#0;class#TriangleUtil#0" />
+            <element signature="method#isFirstDoubleBigger#0;class#TriangleUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/sort/SortRequirements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/TriangleRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/time/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/constants/PathsForConfigFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/entity/PointForTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="method#equals#0;class#PointForTriangle#0" />
+            <element signature="method#hashCode#0;class#PointForTriangle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/TriangleValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="44" column="95" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
+          <folding>
+            <element signature="method#TriangleValidator#0;class#TriangleValidator#0" />
+            <element signature="method#validate#0;class#TriangleValidator#0" />
+            <element signature="method#validateSides#0;class#TriangleValidator#0" />
+            <element signature="method#checkSidesMathCondition#0;class#TriangleValidator#0" />
+            <element signature="method#validateAngles#0;class#TriangleValidator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/service/generator/PointForTriangleIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>task1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

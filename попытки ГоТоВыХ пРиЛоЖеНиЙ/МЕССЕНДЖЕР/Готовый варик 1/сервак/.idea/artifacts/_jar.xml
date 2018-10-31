@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="МЕССЕНДЖЕР:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
+    <root id="archive" name="МЕССЕНДЖЕР.jar">
+      <element id="module-output" name="МЕССЕНДЖЕР" />
+    </root>
+  </artifact>
+</component>

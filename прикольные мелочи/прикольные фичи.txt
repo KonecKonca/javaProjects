@@ -1,0 +1,11 @@
+Runtime.getRuntime().availableProcessors() --- кол-во ядер процессора
+jfxPanel (в swing fx добавить)
+java -jar helloworld.jar(запуск jar-ника)
+alt + f8 ---(в режиме дебага(при запущ проге)) --- доп инфа, проще смотр знач перем
+сtrl + R -- заменять одинаковые строки 
+
+создание war - Архива
+jar -cfv name.war *
+
+https://o7planning.org/ru/10605/create-a-java-shopping-cart-web-application-using-spring-mvc-and-hibernate
+--- прикольные статьи по спрингу

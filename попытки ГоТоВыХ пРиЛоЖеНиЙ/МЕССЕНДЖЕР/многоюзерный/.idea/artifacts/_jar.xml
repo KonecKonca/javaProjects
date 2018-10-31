@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="многоюзерный:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
+    <root id="archive" name="многоюзерный.jar">
+      <element id="module-output" name="многоюзерный" />
+    </root>
+  </artifact>
+</component>

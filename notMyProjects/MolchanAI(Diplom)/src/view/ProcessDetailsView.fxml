@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:controller="view.ProcessDetailsController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox alignment="CENTER_LEFT" prefHeight="400.0" prefWidth="196.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="                        Название: Определение решений по автоматизации" textAlignment="RIGHT" />
+            <Label text="                        Тип: CobiT-процесс" />
+            <Label text="                        Стадия: Разработка и внедрение" />
+            <Label text="                        Цель: Извлечение выгоды в рамках срока,бюджета,стандартов." />
+            <Label text="                        Владелец: Иванов Иван" />
+            <Label text="                        Статус: На исполнении" />
+            <Label text="                        Длительность: 10 дн." />
+            <Label text="                        Период: 1 дн." />
+         </children>
+         <opaqueInsets>
+            <Insets left="20.0" right="20.0" top="50.0" />
+         </opaqueInsets>
+      </VBox>
+   </center>
+   <opaqueInsets>
+      <Insets left="20.0" top="20.0" />
+   </opaqueInsets>
+</BorderPane>
