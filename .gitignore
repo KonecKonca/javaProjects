@@ -1,0 +1,4 @@
+*.log
+*.war
+*.ear
+*.class
