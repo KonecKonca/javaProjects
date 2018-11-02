@@ -1,4 +1,4 @@
-package com.kozitski.pufar.entity;
+package com.kozitski.pufar.entity.user;
 
 import java.util.Objects;
 

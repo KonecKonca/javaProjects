@@ -1,9 +1,8 @@
 package com.kozitski.pufar.controller.autorization;
 
-import com.kozitski.pufar.entity.User;
-import com.kozitski.pufar.entity.UserStatus;
+import com.kozitski.pufar.entity.user.User;
+import com.kozitski.pufar.entity.user.UserStatus;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

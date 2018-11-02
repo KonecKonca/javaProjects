@@ -1,4 +1,3 @@
-
 <html>
 <head>
 
@@ -12,15 +11,30 @@
 </head>
 <body>
 
-    <style>
-        .error{
-            color: red;
-        }
-    </style>
+<style>
+    .error{
+        color: red;
+    }
+    .form{
+        background-image: url("https://s1.1zoom.ru/big3/158/354748-admin.jpg");
+        opacity: 0.9;
+        height: 100%;
 
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+    }
+
+</style>
+
+
+<div class="container-fluid"></div>
+
+<div class="form">
     <%--input for logout--%>
     <%--<form action="/logout" method="post">--%>
-        <%--<input type="submit" value="Log out" class="btn btn-primary"/>--%>
+    <%--<input type="submit" value="Log out" class="btn btn-primary"/>--%>
     <%--</form>--%>
 
     <br><br><br><br><br>
@@ -44,6 +58,7 @@
 
 
     </form>
+</div>
 
 
 </body>

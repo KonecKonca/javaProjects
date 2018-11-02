@@ -1,4 +1,4 @@
-package com.kozitski.pufar.entity;
+package com.kozitski.pufar.entity.user;
 
 public enum UserStatus {
     SIMPLE_USER, ADMIN, SUPER_ADMIN

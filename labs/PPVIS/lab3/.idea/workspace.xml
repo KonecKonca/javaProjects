@@ -2,78 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e39947-e554-470b-b8b9-44efe426b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/dataSources/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/ajax/LoginAjaxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/autorization/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/additional/problems.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/resources/validation/user.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/common/infoPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/.idea/dataSources/2f62969c-610c-4171-8d02-fd23deb0eb47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/next2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Important topics/БД/3 основных класса/src/MainCLass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/finalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/finalTask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/out/artifacts/finalTask_Web_exploded/WEB-INF/classes/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/out/artifacts/finalTask_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/out/artifacts/finalTask_Web_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/out/artifacts/finalTask_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/out/artifacts/finalTask_Web_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/input.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/target/classes/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/entity/LogisticBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/entity/ProductType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/entity/Wagon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/exception/LogisticBaseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/service/LogisticBaseActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/service/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/service/WagonActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/util/generator/ProductIdGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/util/generator/WagonIdGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/util/parameter/DataForBaseInitialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/util/parameter/ProductParameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/util/parameter/WagonParameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/target/classes/com/kozitski/task3/validator/ProductValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/user/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/web/index.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,10 +19,10 @@
     <session id="-585581732">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,20 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/release/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
               <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/release/src/main/webapp/WEB-INF/views/common/common.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -150,6 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,8 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,17 +254,18 @@
       <workItem from="1541115266460" duration="67000" />
       <workItem from="1541115492863" duration="760000" />
       <workItem from="1541175316651" duration="650000" />
+      <workItem from="1541184602742" duration="75000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1569000" />
+    <option name="totallyTimeSpent" value="1644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19340974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.040830944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,17 +332,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/webapp/WEB-INF/views/common/common.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#484#837#0#HTML" />
+            <element signature="e#852#1091#0#HTML" />
+            <element signature="e#1103#1249#0#HTML" />
+            <element signature="e#1265#1381#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/release/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release/src/main/webapp/WEB-INF/views/common/common.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
         </state>
       </provider>
     </entry>
