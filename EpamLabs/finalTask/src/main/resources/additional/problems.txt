@@ -1,0 +1,6 @@
+1) were some problems with JDBC from servlet, but worked good from simple Main
+    decision: put Connector-J to dir lib into current TomCat
+
+2)  Live edit --- we need in plugin in idea && plugin IntelliJ IDEA Support в Chrome
+
+3)

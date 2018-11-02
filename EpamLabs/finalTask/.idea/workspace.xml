@@ -7,63 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/finalTask_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/additional/sql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.idea/artifacts/task2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/CommonText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/ComponentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/composite/impl/TextSign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/InterpreterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/InterpreterContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/MathExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/interpreter/PolishNotationInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/LexemeParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/ParagraphParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/SentenceParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/TextAllParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/TextParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/parser/WordParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/polishnotation/ExpressionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/polishnotation/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/polishnotation/PolishNotationConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/reader/TextReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/service/ExpressionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/service/TextComponentCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/java/com/kozitski/task2/service/TextOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/resources/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/resources/additional/OperationPriority.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/resources/data/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/interpreter/InterpreterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/polishnotation/PolishNotationConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/reader/TextReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/service/ExpressionConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/service/TextComponentCreatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/service/TextOperationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/src/test/java/com/kozitski/task2/time/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2/task2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/asynch/LoginAsynchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/additional/problems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/validation/user.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/common/infoPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/js/jquery-1.5.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/js/jquery.validation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/js/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/.idea/dataSources/2f62969c-610c-4171-8d02-fd23deb0eb47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/next2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Important topics/БД/3 основных класса/src/MainCLass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/finalTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/WEB-INF/classes/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/input.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/entity/LogisticBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/entity/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/entity/ProductType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/entity/Wagon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/exception/LogisticBaseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/service/LogisticBaseActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/service/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/service/WagonActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/util/generator/ProductIdGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/util/generator/WagonIdGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/util/parameter/DataForBaseInitialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/util/parameter/ProductParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/util/parameter/WagonParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/classes/com/kozitski/task3/validator/ProductValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../попытки ГоТоВыХ пРиЛоЖеНиЙ/магаз/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,49 +75,109 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pufar@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pufar@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pufar@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pufar: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1678192582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="106" />
-          <entry key="jsp" value="44" />
-          <entry key="xml" value="8" />
+          <entry key="cell" value="86" />
+          <entry key="java" value="1580" />
+          <entry key="js" value="210" />
+          <entry key="jsp" value="750" />
+          <entry key="sql" value="58" />
+          <entry key="txt" value="238" />
+          <entry key="xhtml" value="115" />
+          <entry key="xml" value="89" />
+          <entry key="yml" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="106" />
-          <entry key="JSP" value="44" />
-          <entry key="XML" value="6" />
-          <entry key="YAML" value="2" />
+          <entry key="JAVA" value="1580" />
+          <entry key="JSP" value="750" />
+          <entry key="JavaScript" value="210" />
+          <entry key="PLAIN_TEXT" value="238" />
+          <entry key="SQL" value="55" />
+          <entry key="Scratch" value="89" />
+          <entry key="XHTML" value="115" />
+          <entry key="XML" value="84" />
+          <entry key="YAML" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="jsp" value="2" />
+          <entry key="SCHEMA:pufar" value="1" />
+          <entry key="css" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="33" />
+          <entry key="js" value="6" />
+          <entry key="jsp" value="13" />
+          <entry key="jsp___jb_old___" value="2" />
+          <entry key="jsp___jb_tmp___" value="1" />
           <entry key="log" value="1" />
-          <entry key="txt" value="1" />
-          <entry key="xhtml" value="2" />
-          <entry key="xml" value="5" />
+          <entry key="sql" value="5" />
+          <entry key="test_table" value="3" />
+          <entry key="txt" value="3" />
+          <entry key="xhtml" value="4" />
+          <entry key="xml" value="22" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSP" value="2" />
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="33" />
+          <entry key="JSP" value="13" />
+          <entry key="JavaScript" value="6" />
           <entry key="Log" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XHTML" value="2" />
-          <entry key="XML" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="4" />
+          <entry key="UML" value="1" />
+          <entry key="XHTML" value="4" />
+          <entry key="XML" value="22" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -123,22 +185,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="68">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LogoutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -148,7 +207,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="jsf" />
+        <option value="Enum" />
         <option value="Jsp File" />
         <option value="Class" />
       </list>
@@ -162,9 +223,40 @@
       <list>
         <option value="$PROJECT_DIR$/web/view/efeef.xhtml" />
         <option value="$PROJECT_DIR$/web/view/efef.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/xxx.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/dfef.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" />
+        <option value="$PROJECT_DIR$/web/view/i.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/additional/problems.txt" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/input.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/login.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/infoPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/UserStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LogoutController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/validation/user.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/ajax/LoginAjaxController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/ajax/LoginAsynController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/asynch/LoginAsynController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/asynch/LoginAsynchController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/validation.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/js/validation.js" />
       </list>
     </option>
   </component>
@@ -188,8 +280,24 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.kozitski.pufar" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.kozitski.pufar" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1440" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -232,18 +340,74 @@
               <item name="finalTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pufar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pufar" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pufar" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pufar" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
               <item name="finalTask" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
               <item name="finalTask" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,22 +416,31 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540845481184" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541184182154" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../labs/PPVIS/lab3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.3863248" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\resources\js" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\resources\css" />
       <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\webapp\view" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\webapp\view\common" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\webapp\js" />
+      <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\webapp\WEB-INF" />
       <recent name="D:\Drop\Dropbox\javaProjects\EpamLabs\finalTask\src\main\resources" />
     </key>
   </component>
@@ -283,7 +456,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="JdbcTestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kozitski.pufar.controller.JdbcTestController" />
+      <module name="finalTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="finalTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xxx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xxx" />
+      <module name="finalTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -388,7 +582,8 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="finalTask:Web exploded">
@@ -553,6 +748,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.JdbcTestController" />
+      <item itemvalue="Application.xxx" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.xxx" />
+        <item itemvalue="Application.JdbcTestController" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -567,17 +775,19 @@
       <workItem from="1540836080475" duration="3606000" />
       <workItem from="1540843398115" duration="1673000" />
       <workItem from="1540845779810" duration="646000" />
+      <workItem from="1541014109236" duration="911000" />
+      <workItem from="1541093157837" duration="8678000" />
+      <workItem from="1541159874877" duration="16954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5925000" />
+    <option name="totallyTimeSpent" value="32468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2765043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -586,26 +796,27 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.094387755" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4199134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39285713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.47727272" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.36688313" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.35459185" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.10660981" />
+      <window_info anchor="right" id="Database" order="6" weight="0.1359275" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -617,24 +828,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Important topics/Логирование/Handlers/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view/efeef.xhtml" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5939">
@@ -642,31 +839,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-439">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/2018-10-29/2018-10-29_22-18_2.log" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/additional/sql.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="160">
+          <caret line="874" column="16" selection-start-line="874" selection-start-column="16" selection-end-line="874" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xxx.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/AbstractAccountOperationManager.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/AccountOperationManager.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/AccountOperationManagerImpl.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/AnnoRunner.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/BankingAnnotation.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/SecurityLevelEnum.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/SecurityLogic.java" />
+    <entry file="file://$USER_HOME$/Desktop/annotation/SecurityFactory.java" />
+    <entry file="uml://DATABASE/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1.SCHEMA:pufar">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1.SCHEMA:pufar</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="321.0" y="365.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-54">
+          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="634" selection-start-line="634" selection-end-line="634" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalTask.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dfef.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
+    <entry file="das://f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1/schema/pufar/table/test_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/i.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/additional/problems.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/input.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.jsp___jb_tmp___">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.jsp___jb_old___">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="method#User#0;class#User#0" />
+            <element signature="method#equals#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/userInfo.jsp___jb_old___">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/common/infoPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106673">
+          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/js/jquery-1.5.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/js/jquery.validation.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/asynch/LoginAsynchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/validation/user.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/js/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -680,7 +1126,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24862888" />
+                <option value="0.2" />
                 <option value="0.5" />
               </list>
             </option>
@@ -689,11 +1135,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web (finalTask)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3863248" />
               </list>
             </option>
           </splitter-proportions>
@@ -704,7 +1150,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37094018" />
               </list>
             </option>
           </splitter-proportions>
@@ -716,7 +1162,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3863248" />
               </list>
             </option>
           </splitter-proportions>
@@ -724,11 +1170,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|finalTask</last-edited>
+          <last-edited>finalTask</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3863248" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -752,7 +1199,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3863248" />
               </list>
             </option>
           </splitter-proportions>
