@@ -28,8 +28,7 @@
         opacity: 0.9;
         height: 100%;
 
-
-
+        text-shadow: white 2px 2px 15px;
     }
 
 </style>
