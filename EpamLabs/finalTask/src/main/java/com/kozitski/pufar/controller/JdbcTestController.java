@@ -26,11 +26,11 @@ public class JdbcTestController extends HttpServlet {
         try(Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/pufar?serverTimezone=UTC&useSSL=false",
                 "root", "123ghu475R7px6")){
 
-            PreparedStatement statement = connection.prepareStatement("SELECT * FROM test_table");
+            PreparedStatement statement = connection.prepareStatement("SELECT * FROM statuses");
             ResultSet resultSet = statement.executeQuery();
 
             while (resultSet.next()){
-                resp.getWriter().write(resultSet.getString("id") + "\t" + resultSet.getString("name"));
+                resp.getWriter().write(resultSet.getString("status_id") + "\t" + resultSet.getString("value"));
             }
 
         }

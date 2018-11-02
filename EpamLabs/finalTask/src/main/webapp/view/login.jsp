@@ -16,6 +16,7 @@
         color: red;
         font-size: 19px;
         font-style: italic;
+        text-shadow: white 0 0 15px;
     }
     .form{
         background-image: url("https://s1.1zoom.ru/big3/158/354748-admin.jpg");

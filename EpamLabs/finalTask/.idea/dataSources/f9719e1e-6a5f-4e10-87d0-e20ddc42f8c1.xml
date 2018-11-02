@@ -951,23 +951,349 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="242" parent="13" name="test_table"/>
-    <column id="243" parent="242" name="id">
+    <table id="242" parent="13" name="chats"/>
+    <table id="243" parent="13" name="comments"/>
+    <table id="244" parent="13" name="dialoges"/>
+    <table id="245" parent="13" name="notifications"/>
+    <table id="246" parent="13" name="rates"/>
+    <table id="247" parent="13" name="statuses"/>
+    <table id="248" parent="13" name="units"/>
+    <table id="249" parent="13" name="users"/>
+    <column id="250" parent="242" name="chat_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="242" name="user1_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="242" name="user2_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="253" parent="242" name="chats_users_user_id_fk">
+      <ColNames>user1_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="254" parent="242" name="chats_users_user_id_fk_2">
+      <ColNames>user2_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="255" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>chat_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="256" parent="242" name="chats_users_user_id_fk">
+      <ColNames>user1_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="257" parent="242" name="chats_users_user_id_fk_2">
+      <ColNames>user2_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="258" parent="243" name="comment_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="259" parent="243" name="notification_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="260" parent="243" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="243" name="comment">
+      <Position>4</Position>
+      <DataType>varchar(500)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="262" parent="243" name="comments_notifications_notification_id_fk">
+      <ColNames>notification_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="263" parent="243" name="comments_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="264" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>comment_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="265" parent="243" name="comments_notifications_notification_id_fk">
+      <ColNames>notification_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>notifications</RefTableName>
+      <RefColNames>notification_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="266" parent="243" name="comments_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="267" parent="244" name="dialog_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="268" parent="244" name="user_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="269" parent="244" name="chat_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="270" parent="244" name="message">
+      <Position>4</Position>
+      <DataType>varchar(500)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="271" parent="244" name="time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="272" parent="244" name="dialoges_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="273" parent="244" name="dialoges_chats_chat_id_fk">
+      <ColNames>chat_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="274" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dialog_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="275" parent="244" name="dialoges_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="276" parent="244" name="dialoges_chats_chat_id_fk">
+      <ColNames>chat_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>chats</RefTableName>
+      <RefColNames>chat_id</RefColNames>
+    </foreign-key>
+    <column id="277" parent="245" name="notification_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="278" parent="245" name="message">
+      <Position>2</Position>
+      <DataType>varchar(1000)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="279" parent="245" name="unit_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="245" name="price">
+      <Position>4</Position>
+      <DataType>double|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="245" name="user_id">
+      <Position>5</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="245" name="date">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="283" parent="245" name="notifications_units_unit_id_fk">
+      <ColNames>unit_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="284" parent="245" name="notifications_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="285" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>notification_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="286" parent="245" name="notifications_units_unit_id_fk">
+      <ColNames>unit_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>units</RefTableName>
+      <RefColNames>unit_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="287" parent="245" name="notifications_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="288" parent="246" name="notification_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="246" name="user_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="246" name="mark">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="291" parent="246" name="rates_pk">
+      <ColNames>notification_id
+user_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="292" parent="246" name="rates_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="293" parent="246" name="rates_pk">
+      <ColNames>notification_id
+user_id</ColNames>
+      <UnderlyingIndexName>rates_pk</UnderlyingIndexName>
+    </key>
+    <foreign-key id="294" parent="246" name="rates_notifications_notification_id_fk">
+      <ColNames>notification_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>notifications</RefTableName>
+      <RefColNames>notification_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="295" parent="246" name="rates_users_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="296" parent="247" name="status_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="242" name="name">
+    <column id="297" parent="247" name="value">
       <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="245" parent="242" name="PRIMARY">
+    <key id="298" parent="247" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
+      <ColNames>status_id</ColNames>
       <Primary>1</Primary>
     </key>
+    <column id="299" parent="248" name="unit_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="248" name="name">
+      <Position>2</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="301" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>unit_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="302" parent="249" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="249" name="login">
+      <Position>2</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="249" name="password">
+      <Position>3</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="249" name="status">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="306" parent="249" name="users_login_uindex">
+      <ColNames>login</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="307" parent="249" name="status">
+      <ColNames>status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="308" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="309" parent="249" name="users_login_uindex">
+      <ColNames>login</ColNames>
+      <UnderlyingIndexName>users_login_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="310" parent="249" name="status">
+      <ColNames>status</ColNames>
+      <RefSchemaName>pufar</RefSchemaName>
+      <RefTableName>statuses</RefTableName>
+      <RefColNames>status_id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>
