@@ -7,24 +7,23 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.Callable;
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class LogisticBase implements Runnable{
+public class LogisticBase{
     private static final Logger LOGGER = LogManager.getLogger(LogisticBase.class);
     private static final int INITIAL_CAPACITY = 1000;
-    private static final int COUNT_OF_PLACES = 7;
-    private static final int TIME_OF_SERVICE = 3;
-
-    private static final int COUNT_OF_TERMINALS = 3;
-    private static int nowService;
+    private static final int BASE_CAPACITY = 5;
+    private static AtomicInteger currentCapasity = new AtomicInteger(0);
 
     private static LogisticBase base;
     private static ReentrantLock lock = new ReentrantLock();
     private static AtomicBoolean isCreate = new AtomicBoolean(false);
+    private Semaphore terminal = new Semaphore(3);
+
     private Queue<Wagon> wagons;  // offer/poll
     private ArrayDeque<Product> products;  // push/pollLast
 
@@ -46,7 +45,7 @@ public class LogisticBase implements Runnable{
             throw new LogisticBaseException("Base was not filed by products", e);
         }
     }
-    public static LogisticBase getInstance() throws LogisticBaseException{
+    public static LogisticBase getInstance() throws LogisticBaseException {
         if(!isCreate.get()){
             try {
                 lock.lock();
@@ -62,39 +61,70 @@ public class LogisticBase implements Runnable{
         return base;
     }
 
-    @Override
-    public void run() {
-        while (true){
-
-            try {
-
-                if(nowService < COUNT_OF_TERMINALS && wagons.size() > 0){
-                    TimeUnit.SECONDS.sleep(TIME_OF_SERVICE);
-                    wagons.poll().doActivity();
-
-                }
-
-            }
-            catch (LogisticBaseException | InterruptedException e) {
-                LOGGER.error("Operation under wagon was failed", e);
-            }
-
-        }
-    }
-
     public boolean offer(Wagon wagon) {
+
         try {
             lock.lock();
-            if(wagons.size() < COUNT_OF_PLACES){
-                boolean result = wagons.offer(wagon);
-                return result;
+
+            if(currentCapasity.get() >= BASE_CAPACITY){
+                return false;
+            }
+            else {
+                currentCapasity.incrementAndGet();
+                return wagons.offer(wagon);
             }
         }
         finally {
             lock.unlock();
         }
-        return false;
+
     }
+
+    // change
+    public void getProduct(){
+
+        try {
+            terminal.acquire();
+            Wagon currentWagon = wagons.poll();
+            for (int i = 0; i < currentWagon.getProductsSize(); i++) {
+                products.push(currentWagon.getProduct(i));
+            }
+
+            TimeUnit.SECONDS.sleep(2);
+
+        }
+        catch (InterruptedException e) {
+            LOGGER.error("Problems with terminal", e);
+        } finally {
+            terminal.release();
+            currentCapasity.decrementAndGet();
+        }
+
+    }
+    public int giveProduct(){
+
+        try {
+            terminal.acquire();
+            int number = 0;
+            Wagon currentWagon = wagons.poll();
+            for (int i = 0; i < Wagon.NUMBER_OF_GET_GIVE_PRODUCTS &&  products.size() > 0; i++) {
+                currentWagon.add(products.pollLast());
+                number = i;
+            }
+
+            TimeUnit.SECONDS.sleep(2);
+            return ++number;
+        }
+        catch (InterruptedException e) {
+            LOGGER.error("Problems with terminal", e);
+        } finally {
+            terminal.release();
+            currentCapasity.decrementAndGet();
+        }
+
+        return Wagon.NUMBER_OF_GET_GIVE_PRODUCTS;
+    }
+
 
     @Override
     public String toString() {

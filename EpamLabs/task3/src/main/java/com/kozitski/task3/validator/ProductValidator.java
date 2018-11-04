@@ -9,10 +9,11 @@ import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class ProductValidator {
     private static final Logger LOGGER = LogManager.getLogger(ProductValidator.class);
-    private static final String PRODUCT_VALIDATION_PATH = "src/main/resources/data/validation/product.yml";
+    private static final String PRODUCT_VALIDATION_PATH = "data/validation/product.yml";
 
     public boolean validate(String name, BigDecimal price){
         if(name == null || price == null){
@@ -23,8 +24,8 @@ public class ProductValidator {
 
         ProductParameter productParameter;
         try {
-
-            productParameter = mapper.readValue(new File(PRODUCT_VALIDATION_PATH), ProductParameter.class);
+            ClassLoader loader = ClassLoader.getSystemClassLoader();
+            productParameter = mapper.readValue(new File(Objects.requireNonNull(loader.getResource(PRODUCT_VALIDATION_PATH)).getFile()), ProductParameter.class);
 
         } catch (IOException e) {
             LOGGER.error("Property file for product validation is not exist", e);

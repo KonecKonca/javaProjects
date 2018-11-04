@@ -15,7 +15,7 @@ import java.util.*;
 
 public class DataForBaseInitialization {
     private static final Logger LOGGER = LogManager.getLogger(DataForBaseInitialization.class);
-    private static final String BASE_INITIALIZATION_PATH = "src/main/resources/data/initialization.yml";
+    private static final String BASE_INITIALIZATION_PATH = "data/initialization.yml";
     private List<String> names;
     private List<BigDecimal> prices;
     private List<String> types;
@@ -27,7 +27,8 @@ public class DataForBaseInitialization {
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 
         DataForBaseInitialization dataForBaseInitialization;
-        dataForBaseInitialization = mapper.readValue(new File(BASE_INITIALIZATION_PATH), DataForBaseInitialization.class);
+        ClassLoader loader = ClassLoader.getSystemClassLoader();
+        dataForBaseInitialization = mapper.readValue(new File(Objects.requireNonNull(loader.getResource(BASE_INITIALIZATION_PATH)).getFile()), DataForBaseInitialization.class);
 
         return dataForBaseInitialization;
     }

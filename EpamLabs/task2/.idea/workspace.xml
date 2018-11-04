@@ -10,62 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="epam lab 2.4.1 some changes">
-      <change afterPath="$PROJECT_DIR$/../finalTask/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/.idea/artifacts/finalTask_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/finalTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/task2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/CommonText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/ComponentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/composite/impl/TextSign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/InterpreterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/InterpreterContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/MathExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/interpreter/PolishNotationInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/parser/LexemeParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/parser/ParagraphParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/parser/SentenceParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/parser/TextAllParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/parser/TextParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/parser/WordParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/polishnotation/ExpressionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/polishnotation/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/polishnotation/PolishNotationConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/reader/TextReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/ExpressionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextComponentCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/additional/OperationPriority.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/interpreter/InterpreterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/polishnotation/PolishNotationConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/reader/TextReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/service/ExpressionConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/service/TextComponentCreatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/service/TextOperationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kozitski/task2/time/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/composite/CommonText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/composite/ComponentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/composite/impl/TextComponent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/composite/impl/TextComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/composite/impl/TextLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/composite/impl/TextSign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/interpreter/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/interpreter/InterpreterClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/interpreter/InterpreterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/interpreter/MathExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/interpreter/PolishNotationInterpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/parser/LexemeParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/parser/ParagraphParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/parser/SentenceParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/parser/TextAllParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/parser/TextParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/parser/WordParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/polishnotation/ExpressionOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/polishnotation/MathOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/polishnotation/PolishNotationConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/reader/TextReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/service/ExpressionConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/service/TextComponentCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kozitski/task2/service/TextOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/Wagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/WagonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/WagonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/generator/WagonIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/generator/WagonIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/validator/ProductValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/validator/ProductValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/fef.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/fef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/test-classes/com/kozitski/task3/util/fef.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/test-classes/com/kozitski/task3/util/fef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,9 +77,10 @@
     <session id="-1227265485">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
@@ -107,7 +89,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,7 +97,7 @@
           <entry key="MF" value="1" />
           <entry key="class" value="20" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="653" />
+          <entry key="java" value="654" />
           <entry key="jpg" value="8" />
           <entry key="log" value="2" />
           <entry key="ts" value="1" />
@@ -127,7 +109,7 @@
         <counts>
           <entry key="CLASS" value="20" />
           <entry key="Image" value="8" />
-          <entry key="JAVA" value="653" />
+          <entry key="JAVA" value="654" />
           <entry key="Log" value="2" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="47" />
@@ -228,7 +210,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/reader/TextReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -362,7 +354,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -381,6 +372,30 @@
               <item name="task2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="reader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
@@ -406,6 +421,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -583,6 +599,7 @@
       <workItem from="1540754163444" duration="1974000" />
       <workItem from="1540839092579" duration="2939000" />
       <workItem from="1540843398962" duration="966000" />
+      <workItem from="1541352668408" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
       <created>1539457879903</created>
@@ -704,12 +721,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157072000" />
+    <option name="totallyTimeSpent" value="157771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2299427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23352435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1056,8 +1074,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/reader/TextReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

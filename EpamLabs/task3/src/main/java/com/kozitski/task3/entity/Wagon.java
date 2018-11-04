@@ -2,14 +2,18 @@ package com.kozitski.task3.entity;
 
 import com.kozitski.task3.exception.LogisticBaseException;
 import com.kozitski.task3.service.LogisticBaseActivity;
+import com.kozitski.task3.service.WagonActivity;
 import com.kozitski.task3.util.generator.WagonIdGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.Callable;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Wagon implements Callable<Integer>, Comparable<Wagon>{
@@ -19,15 +23,17 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     private LogisticBaseActivity activity;
     private LogisticBase base;
 
-    private ReentrantLock lock = new ReentrantLock();
-
-    private final int NUMBER_OF_TRIPS = 3;
+    private boolean isEnded = false;
+    public static final int NUMBER_OF_GET_GIVE_PRODUCTS = 10;
+    public static final int NUMBER_OF_TRIPS = 1;
     private int numberOfDoneTrips;
     private int numberOfTransportedProduct;
 
     public Wagon() {
         try {
             base = LogisticBase.getInstance();
+            activity = WagonActivity.DURING_TRIP;
+            products = new ArrayList<>();
         } catch (LogisticBaseException e) {
             LOGGER.fatal("Base creating error", e);
             throw new RuntimeException("Base creating error", e);
@@ -35,27 +41,40 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     }
 
     @Override
-    public Integer call() throws Exception {
+    public Integer call() throws LogisticBaseException {
 
         while (numberOfDoneTrips < NUMBER_OF_TRIPS){
             numberOfTransportedProduct += activity.activity(this);
             changeActivity();
         }
 
+        isEnded = true;
+
         return numberOfTransportedProduct;
+
     }
 
-
-
-    public void doActivity() throws LogisticBaseException {
-        activity.activity(this);
-    }
     private void changeActivity(){
 
-    }
+        if (activity == WagonActivity.DURING_TRIP){
+            activity = WagonActivity.TRY_CALL_BASE;
+        }
 
-    public void notifyLock(){
-        lock.notify();
+        else if(activity == WagonActivity.TRY_CALL_BASE){
+            Random random = new Random();
+            if(random.nextBoolean()){
+                activity = WagonActivity.GET_PRODUCT;
+            }
+            else {
+                activity = WagonActivity.GIVE_PRODUCT;
+            }
+        }
+
+        else if(activity == WagonActivity.GIVE_PRODUCT || activity == WagonActivity.GET_PRODUCT){
+            activity = WagonActivity.DURING_TRIP;
+            numberOfDoneTrips++;
+        }
+
     }
 
     @Override
@@ -77,9 +96,6 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
 
         return counterOfPerishable2 - counterOfPerishable1;
     }
-    public void setActivity(LogisticBaseActivity activity) {
-        this.activity = activity;
-    }
 
     public boolean add(Product product) {
         return this.products.add(product);
@@ -87,17 +103,17 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     public Product getProduct(int index) {
         return products.get(index);
     }
-    public boolean remove(Product o) {
-        return products.remove(o);
-    }
-    public boolean removeAll(Collection<? extends Product> c) {
-        return products.removeAll(c);
-    }
-    public void setBase(LogisticBase base) {
-        this.base = base;
+    public int getProductsSize() {
+        return products.size();
     }
     public LogisticBase getBase() {
         return base;
+    }
+    public long getWagonId() {
+        return wagonId;
+    }
+    public boolean getIsEnded() {
+        return isEnded;
     }
 
     @Override
@@ -108,8 +124,6 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
         stringBuilder.append(wagonId);
         stringBuilder.append(", ");
         stringBuilder.append(products);
-        stringBuilder.append(", Activity- ");
-        stringBuilder.append(activity);
 
         return stringBuilder.toString();
     }

@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Objects;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.ReentrantLock;
@@ -17,15 +18,15 @@ import java.util.concurrent.locks.ReentrantLock;
 public class WagonIdGenerator {
     private static final Logger LOGGER = LogManager.getLogger(WagonIdGenerator.class);
     private static final ReentrantLock LOCK = new ReentrantLock();
-    private static final String WAGON_VALIDATION_PATH = "src/main/resources/data/validation/wagon.yml";
+    private static final String WAGON_VALIDATION_PATH = "data/validation/wagon.yml";
 
     static {
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 
         WagonParameter wagonParameter;
         try {
-
-            wagonParameter = mapper.readValue(new File(WAGON_VALIDATION_PATH), WagonParameter.class);
+            ClassLoader loader = ClassLoader.getSystemClassLoader();
+            wagonParameter = mapper.readValue(new File(Objects.requireNonNull(loader.getResource(WAGON_VALIDATION_PATH)).getFile()), WagonParameter.class);
             MAX_ID_BOUNDER = wagonParameter.getMaxWagonId();
 
         }
