@@ -3,10 +3,7 @@ package com.kozitski.task2.polishnotation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class PolishNotationConverter {
     private List<ExpressionOperator> expressionOperators;
@@ -28,7 +25,7 @@ public class PolishNotationConverter {
                 i++;
             }
 
-            else if(!isCharacterOperator(String.valueOf(expression.charAt(i)))){
+            else if(isNumber(String.valueOf(expression.charAt(i)))){
                 StringBuilder number = new StringBuilder();
                 int counter = i;
                 do {
@@ -38,7 +35,7 @@ public class PolishNotationConverter {
                         break;
                     }
                 }
-                while (!isCharacterOperator(String.valueOf(expression.charAt(counter))));
+                while (isNumber(String.valueOf(expression.charAt(counter))));
 
                 i = counter - 1;
                 list.add(number.reverse().toString());
@@ -53,7 +50,7 @@ public class PolishNotationConverter {
                         break;
                     }
                 }
-                while (!isCharacterOperator(String.valueOf(expression.charAt(counter))));
+                while (isNumber(String.valueOf(expression.charAt(counter))));
 
                 i = counter - 1;
                 list.add(number.reverse().toString());
@@ -72,7 +69,7 @@ public class PolishNotationConverter {
 
         for(String character : expression){
              if(!character.equals("")){
-                if(!isCharacterOperator(character)){
+                if(isNumber(character)){
                     result.push(character);
                 }
                 else {
@@ -82,14 +79,14 @@ public class PolishNotationConverter {
                     else{
                         String lastWait = forWait.pop();
 
-                        if(ExpressionOperator.getExpressionOperator(character).getValue().equals("(")){
+                        if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(character)).getValue().equals("(")){
                             forWait.push(lastWait);
                             forWait.push(character);
                         }
-                        else if(ExpressionOperator.getExpressionOperator(character).getValue().equals(")") && !lastWait.equals("(")){
+                        else if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(character)).getValue().equals(")") && !lastWait.equals("(")){
                             result.push(lastWait);
 
-                            String lastPop = "";
+                            String lastPop;
                             while (!forWait.isEmpty()){
                                 lastPop = forWait.pop();
 
@@ -103,22 +100,22 @@ public class PolishNotationConverter {
                             }
 
                         }
-                        else if(ExpressionOperator.getExpressionOperator(lastWait).getValue().equals("(")){
+                        else if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(lastWait)).getValue().equals("(")){
                             forWait.push(lastWait);
                             forWait.push(character);
                         }
-                        else if(ExpressionOperator.getExpressionOperator(lastWait).getValue().equals(")")){
+                        else if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(lastWait)).getValue().equals(")")){
                             forWait.push(lastWait);
                         }
 
-                        else if(ExpressionOperator.getExpressionOperator(character).getRate() > ExpressionOperator.getExpressionOperator(lastWait).getRate()){
+                        else if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(character)).getRate() > Objects.requireNonNull(ExpressionOperator.getExpressionOperator(lastWait)).getRate()){
                             forWait.push(lastWait);
                             forWait.push(character);
                         }
-                        else if(ExpressionOperator.getExpressionOperator(character).getRate() <= ExpressionOperator.getExpressionOperator(lastWait).getRate()){
+                        else if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(character)).getRate() <= Objects.requireNonNull(ExpressionOperator.getExpressionOperator(lastWait)).getRate()){
                             result.push(lastWait);
 
-                            String lastPop = "";
+                            String lastPop;
 
                             if(!forWait.isEmpty()){
                                 while(true){
@@ -129,10 +126,10 @@ public class PolishNotationConverter {
                                         forWait.push(character);
                                         break;
                                     }
-                                    if(ExpressionOperator.getExpressionOperator(lastPop).getRate() >= ExpressionOperator.getExpressionOperator(character).getRate()){
+                                    if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(lastPop)).getRate() >= Objects.requireNonNull(ExpressionOperator.getExpressionOperator(character)).getRate()){
                                         result.push(lastPop);
                                     }
-                                    else if(ExpressionOperator.getExpressionOperator(lastPop).getRate() < ExpressionOperator.getExpressionOperator(character).getRate()){
+                                    else if(Objects.requireNonNull(ExpressionOperator.getExpressionOperator(lastPop)).getRate() < Objects.requireNonNull(ExpressionOperator.getExpressionOperator(character)).getRate()){
                                         forWait.push(lastPop);
                                         forWait.push(character);
                                         break;
@@ -155,13 +152,13 @@ public class PolishNotationConverter {
 
         return reverseNotation(result);
     }
-    private boolean isCharacterOperator(String character){
+    private boolean isNumber(String character){
         for (ExpressionOperator expressionOperator : expressionOperators) {
             if (expressionOperator.getValue().equals(character)) {
-                return true;
+                return false;
             }
         }
-        return String.valueOf(character).equals(">") || String.valueOf(character).equals("<");
+        return !String.valueOf(character).equals(">") && !String.valueOf(character).equals("<");
     }
     private String reverseNotation(ArrayDeque<String> deque){
         StringBuilder stringBuilder = new StringBuilder();

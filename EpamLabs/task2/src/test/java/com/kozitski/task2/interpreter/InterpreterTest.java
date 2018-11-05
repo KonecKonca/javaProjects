@@ -10,8 +10,8 @@ import java.util.List;
 import static org.testng.Assert.assertEquals;
 
 public class InterpreterTest {
-    PolishNotationInterpreter interpreter;
-    InterpreterClient interpreterClient;
+    private PolishNotationInterpreter interpreter;
+    private InterpreterClient interpreterClient;
 
     @BeforeClass
     public void init(){

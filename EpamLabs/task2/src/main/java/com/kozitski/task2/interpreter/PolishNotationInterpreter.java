@@ -1,10 +1,10 @@
 package com.kozitski.task2.interpreter;
 
-import com.kozitski.task2.polishnotation.MathOperations;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static com.kozitski.task2.interpreter.MathOperations.*;
 
 public class PolishNotationInterpreter {
     private static final String SPLIT_REGEX = "\\p{Blank}+";
@@ -14,42 +14,42 @@ public class PolishNotationInterpreter {
 
         Arrays.asList(polishNotation.split(SPLIT_REGEX)).forEach( token -> {
              switch (token){
-                 case  MathOperations.AND_SIGN:  /// ExpressionOperator.MINUS.getValue() -- constant expression required
+                 case  AND_SIGN:
                      expressions.add(res-> res.push(res.pop() & res.pop()));
                      break;
-                 case MathOperations.LEFT_SHIFT_SIGN :
+                 case LEFT_SHIFT_SIGN :
                      expressions.add(res -> {
                          int right = res.pop();
                          int left = res.pop();
                          res.push(left << right);
                      });
                      break;
-                 case MathOperations.RIGHT_SHIFT_SIGN :
+                 case RIGHT_SHIFT_SIGN :
                      expressions.add(res -> {
                          int right = res.pop();
                          int left = res.pop();
                          res.push(left >> right);
                      });
                      break;
-                 case MathOperations.TILDE_SIGN :
+                 case TILDE_SIGN :
                      expressions.add(res-> res.push(~res.pop()));
                      break;
-                 case MathOperations.OR_SIGN :
+                 case OR_SIGN :
                      expressions.add(res-> res.push(res.pop() | res.pop()));
                      break;
-                 case MathOperations.XOR_SIGN :
+                 case XOR_SIGN :
                      expressions.add(res-> res.push(res.pop() ^ res.pop()));
                      break;
-                 case "+" :
+                 case PLUS_SIGN :
                      expressions.add(res -> res.push(res.pop() + res.pop()));
                      break;
-                 case  "-" :
+                 case  MINUS_SIGN :
                      expressions.add(res -> res.push(-res.pop() + res.pop()));
                      break;
-                 case "*" :
+                 case MULTIPLY_SIGN :
                      expressions.add(res -> res.push(res.pop() * res.pop()));
                      break;
-                 case "/" :
+                 case DIVISION_SIGN :
                      expressions.add(res -> res.push(1 / res.pop() * res.pop()));
                      break;
                  default:

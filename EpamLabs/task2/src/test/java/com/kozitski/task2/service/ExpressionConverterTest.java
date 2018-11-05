@@ -1,6 +1,5 @@
 package com.kozitski.task2.service;
 
-import com.kozitski.task2.interpreter.Expression;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,7 +10,7 @@ public class ExpressionConverterTest {
     @Test(dataProvider = "dataForReplaceNumberTest")
     public void testReplaceNumberExpressionsByNumber(String actual, String string){
         ExpressionConverter converter = new ExpressionConverter();
-        String expected = converter.replaceNumberExpressionsByNumber(string);
+        String expected = converter.replaceExpressionsByNumber(string);
 
         assertEquals(actual, expected);
     }

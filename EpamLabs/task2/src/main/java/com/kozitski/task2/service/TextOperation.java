@@ -36,8 +36,8 @@ public class TextOperation {
             return result;
 
         }
-    // All signs witch are involved into word are not counting
-    public static TextComponent sortByLengthOfWordsTest(TextComponent text) {
+    // All signs(TextSign.class) witch are involved into word are not counting
+    public static TextComponent sortByLengthOfWordsText(TextComponent text) {
         TextComponent result = new TextComponent(ComponentType.TEXT);
 
         if (text == null) {
@@ -100,8 +100,6 @@ public class TextOperation {
         return result;
 
     }
-
-
     public static TextComponent reverseSortLexemesByOrderSymbol(TextComponent text, String searchSymbol){
         TextComponent result = new TextComponent(ComponentType.TEXT);
 

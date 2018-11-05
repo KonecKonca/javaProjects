@@ -17,10 +17,7 @@ public class ExpressionConverter{
     private static final String NUMBER_EXPRESSION_REGEX = "\\p{Punct}*\\d[\\p{Punct}\\d]+";
     private static final Logger LOGGER = LogManager.getLogger(ExpressionConverter.class);
 
-    public String replaceNumberExpressionsByNumber(String text){
-        PolishNotationConverter polishNotationParser = new PolishNotationConverter();
-        PolishNotationInterpreter interpreter = new PolishNotationInterpreter();
-
+    public String replaceExpressionsByNumber(String text){
         List<String> mustReplace = getAllExpressions(text);
         List<String> willReplace = convertToNumbers(mustReplace);
 

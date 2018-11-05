@@ -15,7 +15,7 @@ public class TextComponentCreator {
         String text = TextReader.readAllText(TextReader.INPUT_DATA_PATH);
 
         ExpressionConverter converter = new ExpressionConverter();
-        String changeText = converter.replaceNumberExpressionsByNumber(text);
+        String changeText = converter.replaceExpressionsByNumber(text);
 
         LOGGER.info("TextComponent Object is created");
 

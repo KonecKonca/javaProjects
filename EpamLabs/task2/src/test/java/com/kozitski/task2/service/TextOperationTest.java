@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class TextOperationTest {
-    TextComponent text = TextComponentCreator.create();
+    private TextComponent text = TextComponentCreator.create();
 
     @Test(dataProvider = "dataForSortingByNumOfSentences")
     public void sortParagraphsByNumOFSentencesTest(int position, int expected){
@@ -28,7 +28,7 @@ public class TextOperationTest {
 
     @Test
     public void sortByLengthOfWordsTest(){
-        TextComponent sortedText = TextOperation.sortByLengthOfWordsTest(text);
+        TextComponent sortedText = TextOperation.sortByLengthOfWordsText(text);
         String expected = sortedText.toString();
         String actual = "\n" +
                 "\t0 9 It 52 has not but the only (five) also leap into survived centuries remaining unchanged electronic typesetting essentially - , , . " +

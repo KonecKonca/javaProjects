@@ -34,8 +34,8 @@ public class TextReader {
             }
 
         catch (IOException e) {
-            LOGGER.fatal("Problems with reading file, on next path: " + path, e);
-            throw new RuntimeException("Problems with reading file, on next path: " + path, e);
+            LOGGER.fatal("Problems with reading file, on the next path: " + path, e);
+            throw new RuntimeException("Problems with reading file, on the next path: " + path, e);
         }
 
         return allText.toString();
