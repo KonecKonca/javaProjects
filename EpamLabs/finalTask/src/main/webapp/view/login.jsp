@@ -19,7 +19,8 @@
         text-shadow: white 0 0 15px;
     }
     .form{
-        background-image: url("https://s1.1zoom.ru/big3/158/354748-admin.jpg");
+        background: url(image/phone.jpg) top right no-repeat;
+        /*background-image: url("https://s1.1zoom.ru/big3/158/354748-admin.jpg");*/
 
         -moz-background-size: 100%; /* Firefox 3.6+ */
         -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */

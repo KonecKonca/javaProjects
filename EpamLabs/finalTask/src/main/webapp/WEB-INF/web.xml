@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <resource-ref>
-        <description>DB Connection</description>
-        <res-ref-name></res-ref-name>
-    </resource-ref>
+    <error-page>
+        <!--<exception-type>java.lang.Exception</exception-type>-->
+        <error-code>404</error-code>
+        <location>/error</location>
+    </error-page>
 
 </web-app>
