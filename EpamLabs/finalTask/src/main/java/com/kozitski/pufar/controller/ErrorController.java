@@ -12,7 +12,6 @@ public class ErrorController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("!!!!!!!!!!!!!!!!!!");
         resp.sendRedirect("/view/error/404/errorPage.jsp");
     }
 

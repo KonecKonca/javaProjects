@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e39947-e554-470b-b8b9-44efe426b5e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/user/UserInfoPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/user/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/exception/PufarDAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/util/mapper/user/ConstantUserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/.idea/web service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/client/WebServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/service/WebServiceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/service/WebServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/service/impl/WebServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/connection/ProxyConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/connection/ProxyConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/asynch/LoginAsynchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/asynch/LoginAsynchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/ChatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/chat/MySQLChatDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/CommentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/DialogeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/NotificationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/RateDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/dao/user/MySQLUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/release/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/release/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,41 +45,31 @@
     <session id="-585581732">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ftl" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="12" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="FTL" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="12" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/release/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -60,10 +81,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -72,6 +93,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +200,30 @@
               <item name="release" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="andrei" type="462c0819:PsiDirectoryNode" />
+              <item name="ert" type="462c0819:PsiDirectoryNode" />
+              <item name="InterShop" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="andrei" type="462c0819:PsiDirectoryNode" />
+              <item name="ert" type="462c0819:PsiDirectoryNode" />
+              <item name="InterShop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,13 +260,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../EpamLabs/task3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -252,16 +297,18 @@
       <workItem from="1541175316651" duration="650000" />
       <workItem from="1541184602742" duration="75000" />
       <workItem from="1541269991086" duration="143000" />
+      <workItem from="1541602906620" duration="65000" />
+      <workItem from="1541605672745" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1787000" />
+    <option name="totallyTimeSpent" value="1900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2563966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31303725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,10 +382,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/andrei/ert/InterShop/dao/AtmDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/andrei/ert/InterShop/dao/AtmAdminDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/andrei/ert/InterShop/dao/AtmAdminDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/release/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/andrei/ert/InterShop/dao/AtmDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/src/main/java/andrei/ert/InterShop/service/AtmMainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>

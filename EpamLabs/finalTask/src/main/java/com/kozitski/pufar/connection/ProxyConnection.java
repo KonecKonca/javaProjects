@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
 
-public class ProxyConnection implements Connection {
+public class ProxyConnection implements Connection, AutoCloseable{
     private Connection connection;
 
     ProxyConnection(Connection connection) {
@@ -54,8 +54,8 @@ public class ProxyConnection implements Connection {
 
     @Override
     public void close() throws SQLException {
-        // here my be checking transaction
-//        PoolConnection.getInstance().releaseConnection(this);
+//         here my be checking transaction
+        PoolConnection.getInstance().releaseConnection(this);
     }
     public void realClose() throws SQLException{
         connection.close();

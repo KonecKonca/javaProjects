@@ -55,7 +55,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User: " + userId + " " + status;
+        return "UserServiceImpl: " + "id-" + userId + " login-" + login + " status-" + status;
     }
 
 }

@@ -1,6 +1,7 @@
 package com.kozitski.pufar.controller;
 
 import com.kozitski.pufar.connection.PoolConnection;
+import com.kozitski.pufar.exception.PufarDAOException;
 import com.mysql.fabric.jdbc.FabricMySQLDriver;
 
 import javax.servlet.ServletException;
@@ -54,7 +55,7 @@ public class JdbcTestController extends HttpServlet {
                         + resultSet.getString("password") + "\t" + resultSet.getString("status"));
             }
         }
-        catch (SQLException e) {
+        catch (SQLException | PufarDAOException e) {
             e.printStackTrace();
         }
 
