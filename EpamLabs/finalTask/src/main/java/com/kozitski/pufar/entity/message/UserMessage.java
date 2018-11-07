@@ -1,23 +1,41 @@
 package com.kozitski.pufar.entity.message;
 
+import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
 
 public class UserMessage {
     private String message;
     private Date date;
+    private Time time;
     private String senderLogin;
     private String receiverLogin;
 
     public UserMessage() {
     }
-    public UserMessage(String message, Date date, String senderLogin, String receiverLogin) {
+    public UserMessage(String message, Date date, Time time, String senderLogin, String receiverLogin) {
         this.message = message;
         this.date = date;
+        this.time = time;
         this.senderLogin = senderLogin;
         this.receiverLogin = receiverLogin;
     }
 
+    public String getMessage() {
+        return message;
+    }
+    public Date getDate() {
+        return date;
+    }
+    public String getSenderLogin() {
+        return senderLogin;
+    }
+    public String getReceiverLogin() {
+        return receiverLogin;
+    }
+    public Time getTime() {
+        return time;
+    }
 
     @Override
     public boolean equals(Object o) {

@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @WebServlet("/dialog")
 public class DialogController extends HttpServlet {
@@ -21,10 +22,13 @@ public class DialogController extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         DialogService dialogService = new DialogServiceImpl();
-        List<UserMessage> messages = dialogService.searchAllMessagesFromTo(1, 2);
+
+
+        List<UserMessage> messages = dialogService.searchAllMessagesBetweenWithLimit(1, 2, 1, 3);
 
         for(UserMessage userMessage : messages){
-            resp.getWriter().write(userMessage.toString() + "\n");
+            resp.getWriter().write(userMessage.getDate() + "\t  " + userMessage.getTime() +  ":: " + userMessage.getSenderLogin() + " to "
+                    + userMessage.getReceiverLogin() + " message: " + userMessage.getMessage() + "\n");
         }
 
     }

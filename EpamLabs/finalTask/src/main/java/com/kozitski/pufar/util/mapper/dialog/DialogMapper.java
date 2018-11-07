@@ -6,6 +6,7 @@ import com.kozitski.pufar.entity.user.UserStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -19,9 +20,10 @@ public class DialogMapper {
             String sender_login = resultSet.getString("sender_login");
             String receiver_login = resultSet.getString("receiver_login");
             String message = resultSet.getString("message");
+            Time time = resultSet.getTime("date");
             Date date = resultSet.getDate("date");
 
-            result.add(new UserMessage(message, date, sender_login, receiver_login));
+            result.add(new UserMessage(message, date, time, sender_login, receiver_login));
         }
 
         return result;

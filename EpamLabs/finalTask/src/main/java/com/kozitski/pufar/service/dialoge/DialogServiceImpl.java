@@ -15,11 +15,16 @@ public class DialogServiceImpl implements DialogService {
         // validation
         return dialogDAO.searchAllMessagesFromTo(fromUserId, toUserId);
     }
-
     @Override
     public List<UserMessage> searchAllMessagesBetween(long userId1, long userId2) {
 
         // validation
-        return null;
+        return dialogDAO.searchAllMessagesBetween(userId1, userId2);
+    }
+    @Override
+    public List<UserMessage> searchAllMessagesBetweenWithLimit(long userId1, long userId2, int since, int howMuch) {
+
+        // validation
+        return dialogDAO.searchAllMessagesBetweenWithLimit(userId1, userId2, since, howMuch);
     }
 }
