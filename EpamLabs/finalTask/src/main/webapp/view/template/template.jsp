@@ -6,13 +6,9 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <head>
-    <link href="templateStyle.css" rel="stylesheet" />
-    <script src="jsTemplate.js" type="text/javascript"></script>
+    <link href="css/templateStyle.css" rel="stylesheet" />
+    <script src="js/jsTemplate.js" type="text/javascript"></script>
 </head>
-
-<style>
-
-</style>
 
 <%--SOURCE WITH EXAMPLE--%>
 <%--https://bootsnipp.com/siframe/index.php/snippets/featured/bootstrap-v4-side-toggle-and-fixed-top-menu-responsive--%>
