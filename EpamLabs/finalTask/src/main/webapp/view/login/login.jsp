@@ -9,34 +9,10 @@
     <script src="js/jquery.validation.min.js" type="text/javascript"></script>
     <script src="js/validation.js" type="text/javascript"></script>
 
+    <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 <body>
-
-<style>
-    /*for error message*/
-    .error{
-        color: red;
-        font-size: 19px;
-        font-style: italic;
-        text-shadow: white 0 0 15px;
-    }
-    .form{
-             /*../image/phone.jpg*/
-        background: url(image/phone.jpg) top right no-repeat;
-        /*background-image: url("https://s1.1zoom.ru/big3/158/354748-admin.jpg");*/
-
-        -moz-background-size: 100%; /* Firefox 3.6+ */
-        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-        -o-background-size: 100%; /* Opera 9.6+ */
-        background-size: 100%; /* Современные браузеры */
-
-        opacity: 0.9;
-        height: 100%;
-
-        text-shadow: white 2px 2px 15px;
-    }
-
-</style>
 
 <div class="form">
 
