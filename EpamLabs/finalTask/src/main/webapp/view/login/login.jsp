@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 
@@ -12,6 +13,7 @@
 <body>
 
 <style>
+    /*for error message*/
     .error{
         color: red;
         font-size: 19px;
@@ -19,6 +21,7 @@
         text-shadow: white 0 0 15px;
     }
     .form{
+             /*../image/phone.jpg*/
         background: url(image/phone.jpg) top right no-repeat;
         /*background-image: url("https://s1.1zoom.ru/big3/158/354748-admin.jpg");*/
 
@@ -35,14 +38,7 @@
 
 </style>
 
-
-<%--<div class="container-fluid"></div>--%>
-
 <div class="form">
-    <%--input for logout--%>
-    <%--<form action="/logout" method="post">--%>
-    <%--<input type="submit" value="Log out" class="btn btn-primary"/>--%>
-    <%--</form>--%>
 
     <br><br><br><br><br>
     <center><h1>Input registration parameters</h1></center>
