@@ -1,0 +1,237 @@
+igor b, [09.11.18 15:13]
+package bsu.vm.logger;
+import java.io.PrintStream;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+public class LoggerFactory
+{
+    public static Object CreateLogObject(Object targetObject)
+    {
+        return createLogObject(targetObject, System.out);
+    }
+
+    public static Object createLogObject(Object targetObject, PrintStream outputStream)
+    {
+        return Proxy.newProxyInstance(targetObject.getClass().getClassLoader(), targetObject.getClass().getInterfaces(), new LoggerInvokationHandler(targetObject, outputStream));
+    }
+
+    private static class LoggerInvokationHandler implements InvocationHandler
+    {
+        private Object targetObject = null;
+        private ILoggingPolicy loggingPolicy = null;
+        private PrintStream outputStream = null;
+
+        public LoggerInvokationHandler(Object targetObject, PrintStream outputStream)
+        {
+            this.targetObject = targetObject;
+            this.outputStream = outputStream;
+            defineCustomAnnotations(targetObject);
+        }
+
+private void defineCustomAnnotations(Object targetObject) {
+      LoggingPolicyAnnotation policy = (LoggingPolicyAnnotation) targetObject.getClass().getAnnotation(LoggingPolicyAnnotation.class);
+            if(policy == null)
+            {
+              this.loggingPolicy = new DefaultLoggingPolicy();
+
+            }
+            else
+            {
+    this.loggingPolicy = (ILoggingPolicy) сreateInstanse(policy.loggingPolicy());
+            }
+     }
+
+        private Object сreateInstanse(Class type)
+        {
+  try {
+    Constructor defaultConstructor = type.getConstructor(new Class[]{});
+    return defaultConstructor.newInstance(new Object[]{});
+  } catch (SecurityException e) {
+    e.printStackTrace();
+  } catch (NoSuchMethodException e) {
+    e.printStackTrace();
+  } catch (IllegalArgumentException e) {
+    e.printStackTrace();
+  } catch (InstantiationException e) {
+    e.printStackTrace();
+  } catch (IllegalAccessException e) {
+    e.printStackTrace();
+  } catch (InvocationTargetException e) {
+    e.printStackTrace();
+  }
+  return null;
+        }
+
+        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
+        {
+          //Here I want to retain metadata for the method of the real object
+          //rather than for a method from interface which proxy implements.
+          Method realMethod = targetObject.getClass().getMethod(method.getName(), (Class[])method.getGenericParameterTypes());
+          if(realMethod == null)
+          {
+            realMethod = method;
+          }
+            LoggingAnnotation annotation = realMethod.getAnnotation(LoggingAnnotation.class);
+            if(annotation != null)
+            {
+              LoggingContext loggingContext = new LoggingContext(realMethod, args, this.outputStream);
+        this.loggingPolicy.onBeforeInvoke(annotation.logLevel(), loggingContext);
+        Object returnValue = null;
+        try
+        {
+          returnValue = method.invoke(targetObject, args);
+        }
+        //Here and below I use getCause() to obtain real exception that has been thrown
+        //during method invokation. This exception is the cause of InvocationTargetException , cause I use reflection.
+        catch (InvocationTargetException e)
+        {
+          loggingPolicy.onFailure(annotation.logLevel(), loggingContext, e.getCause());
+          throw e.getCause();
+        }
+                this.loggingPolicy.onAfterInvoke(annotation.logLevel(), loggingContext, returnValue);
+            }
+            try
+            {
+              return method.invoke(targetObject, args);
+            }
+            catch(InvocationTargetException e)
+            {
+              throw e.getCause();
+            }
+        }
+    }
+}
+//DefaultLoggingPolicy
+package bsu.vm.logger;
+
+public class DefaultLoggingPolicy implements ILoggingPolicy {
+
+igor b, [09.11.18 15:13]
+public void onBeforeInvoke(LogLevel level, LoggingContext context) {
+    if(level == LogLevel.Low)
+        {
+            context.getOutputStream().println(String.format("Method %s was invoked", context.getMethod().getName()));
+        }
+        else
+        {
+            StringBuilder argsString = new StringBuilder();
+            for(Object arg: context.getArguments())
+            {
+                argsString.append(arg.toString() + ',');
+            }
+            argsString.setLength(argsString.length() - 1);
+            context.getOutputStream().println(String.format("Method %s was invoked with parameters : %s", context.getMethod().getName(), argsString.toString()));
+        }
+
+  }
+
+  public void onAfterInvoke(LogLevel level, LoggingContext context, Object returnValue) {
+    if(level == LogLevel.Low)
+        {
+            context.getOutputStream().println(String.format("Method %s finished ", context.getMethod().getName()));
+        }
+        else
+        {
+          context.getOutputStream().println(String.format("Method %s finished with value : %s", context.getMethod().getName(), returnValue.toString()));
+        }
+  }
+
+  public void onFailure(LogLevel level, LoggingContext context, Throwable exception) {
+    context.getOutputStream().println(String.format("Exception '%s' was thrown", exception.toString()));
+  }
+
+
+}
+
+//ITestInterface
+package bsu.vm.tester;
+
+public interface ITestInterface
+{
+    int addition(int a, int b);
+
+    int difference(int a , int b);
+
+    int multiplication(int a, int b);
+
+    int quotient(int a , int b);
+
+}
+//Tester
+package bsu.vm.tester;
+import bsu.vm.logger.DefaultLoggingPolicy;
+import bsu.vm.logger.LogLevel;
+import bsu.vm.logger.LoggingAnnotation;
+import bsu.vm.logger.LoggingPolicyAnnotation;
+
+@LoggingPolicyAnnotation(loggingPolicy = DefaultLoggingPolicy.class)
+public class Tester implements ITestInterface
+{
+
+  @LoggingAnnotation(logLevel = LogLevel.High)
+    public int addition(int a, int b)
+    {
+        return a + b;
+    }
+
+    @LoggingAnnotation(logLevel = LogLevel.Low)
+    public int difference(int a, int b)
+    {
+        return a - b;
+    }
+
+    public int multiplication(int a, int b)
+    {
+       return a * b;
+    }
+
+    @LoggingAnnotation(logLevel = LogLevel.High)
+  public int quotient(int a, int b) {
+    return a / b;
+  }
+
+
+}
+import java.io.File;
+import java.io.PrintStream;
+
+import bsu.vm.logger.LoggerFactory;
+
+public class MainClass
+{
+
+    /**
+     * @param args
+     * @throws Exception
+     */
+    public static void main(String[] args) throws Exception
+    {
+        ITestInterface tester = new Tester();
+        Object obj = LoggerFactory.createLogObject(tester, System.out);
+        ITestInterface loggedTester = (ITestInterface) obj;
+
+        loggedTester.addition(1, 6);
+        loggedTester.difference(6, 2);
+        loggedTester.multiplication(43, 453);
+
+
+        try
+        {
+          loggedTester.quotient(343,5);
+          loggedTester.quotient(343, 0);
+        }
+        catch(Exception e)
+        {
+          // filter for all exception to show that log works fine
+
+        }
+
+
+
+    }
+
+}
