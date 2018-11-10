@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e39947-e554-470b-b8b9-44efe426b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/java/com/kozitski/pufar/controller/CommonTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/assets/img/user.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/assets/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/chat.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/common/commonTemplate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/infoPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/infoPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/finalTask/src/main/webapp/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +14,13 @@
     <session id="-585581732">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,15 +40,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/release/src/main/webapp/WEB-INF/views/common/common.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
+              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,9 +61,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="391" />
+    <option name="y" value="140" />
     <option name="width" value="1456" />
     <option name="height" value="916" />
   </component>
@@ -84,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -281,17 +270,18 @@
       <workItem from="1541602906620" duration="65000" />
       <workItem from="1541605672745" duration="48000" />
       <workItem from="1541694459099" duration="655000" />
+      <workItem from="1541848001609" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2555000" />
+    <option name="totallyTimeSpent" value="2566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="391" y="140" width="1456" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24355301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24713467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,10 +385,7 @@
     <entry file="file://$PROJECT_DIR$/release/src/main/webapp/WEB-INF/views/common/common.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
         </state>
       </provider>
     </entry>

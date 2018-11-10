@@ -2,8 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/css/media-queries.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/ico/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/img/backgrounds/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/img/backgrounds/1@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/jquery-migrate-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/jquery.backstretch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/retina-1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/retina-1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/css/media-queries.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/img/backgrounds/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/img/backgrounds/1@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery-migrate-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery.backstretch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/retina-1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/retina-1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/wow.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/assets/css/Footer-with-button-logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,7 +123,7 @@
         <counts>
           <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
@@ -87,7 +131,7 @@
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -210,7 +254,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="731">
               <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
             </state>
           </provider>
@@ -220,7 +264,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="142" column="1" lean-forward="true" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+              <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
               <folding>
                 <element signature="method#LogisticBase#0;class#LogisticBase#0" />
                 <element signature="method#init#0;class#LogisticBase#0" />
@@ -347,11 +391,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -360,7 +404,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -470,6 +513,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,7 +522,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541353606331" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../labs/AOIS/Map 6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -660,6 +704,7 @@
       <workItem from="1540832236601" duration="1397000" />
       <workItem from="1541174372921" duration="17000" />
       <workItem from="1541270151552" duration="18572000" />
+      <workItem from="1541848090448" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
       <created>1539457879903</created>
@@ -781,13 +826,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214538000" />
+    <option name="totallyTimeSpent" value="215135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1456" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.20095949" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.27292264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -997,9 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="47" />
-          <folding>
-            <element signature="method#test#0;class#fef#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,13 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding>
-            <element signature="method#Product#0;class#Product#0" />
-            <element signature="method#Product#1;class#Product#0" />
-            <element signature="method#equals#0;class#Product#0" />
-            <element signature="method#hashCode#0;class#Product#0" />
-            <element signature="method#toString#0;class#Product#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,20 +1066,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/generator/WagonIdGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="method#generateId#0;class#WagonIdGenerator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,10 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="initializer##0;class#ProductIdGenerator#0" />
-            <element signature="method#generateId#0;class#ProductIdGenerator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,9 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="method#validate#0;class#ProductValidator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,7 +1138,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
+        <state relative-caret-position="731">
           <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
         </state>
       </provider>
@@ -1127,7 +1146,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="142" column="1" lean-forward="true" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
           <folding>
             <element signature="method#LogisticBase#0;class#LogisticBase#0" />
             <element signature="method#init#0;class#LogisticBase#0" />
