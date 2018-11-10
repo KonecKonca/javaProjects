@@ -6,7 +6,10 @@
     <%--import bootstrap--%>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
+
+    <%--importnat for footer--%>
+    <script src="js/jquery-3.2.1.min.js"></script>
+
     <script src="js/jquery.validation.min.js" type="text/javascript"></script>
     <script src="js/validation.js" type="text/javascript"></script>
 

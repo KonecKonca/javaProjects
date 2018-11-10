@@ -6204,7 +6204,7 @@ button.close {
 
 
 .myEdit{
-  background: url(../../../img/phone.jpg) top right no-repeat;
+  background: url(../../img/phone.jpg) top right no-repeat;
   height: 100%;
 
   -moz-background-size: 100%; /* Firefox 3.6+ */

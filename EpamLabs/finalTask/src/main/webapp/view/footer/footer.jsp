@@ -91,10 +91,9 @@
     </div>
 </footer>
 
-
 <!-- Javascript -->
- <%--all visual of footer (MUST NOT USE)--%>
-<%--<script src="assets/js/jquery-3.2.1.min.js"></script>--%>
+<%--all visual--%>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
 <%--animation of footer--%>
 <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
 

@@ -3,4 +3,14 @@
 
 2)  Live edit --- we need in plugin in idea && plugin IntelliJ IDEA Support в Chrome
 
-3)
+3)  including of footer:
+      -      <%--importnat for footer--%>
+             <script src="assets/js/jquery-3.2.1.min.js"></script>
+      - copy folfer assets
+
+      -  add include
+      <div>
+          <jsp:include page="../footer/footer.jsp"/>
+      </div>
+
+4)

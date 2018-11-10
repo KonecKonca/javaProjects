@@ -18,7 +18,10 @@
     <![endif]-->
     <title>Dialogs</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <%--importnat for footer--%>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
 
 </head>
 
@@ -45,7 +48,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="assets/img/user.png" />
+                                                <img class="media-object img-circle " src="img/user.png" />
                                             </a>
                                             <div class="media-body" >
                                                 Donec sit amet ligula enim. Duis vel condimentum massa.
@@ -67,7 +70,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="assets/img/user.gif" />
+                                                <img class="media-object img-circle " src="img/user.gif" />
                                             </a>
                                             <div class="media-body" >
                                                 Donec sit amet ligula enim. Duis vel condimentum massa.
@@ -89,7 +92,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="assets/img/user.png" />
+                                                <img class="media-object img-circle " src="img/user.png" />
                                             </a>
                                             <div class="media-body" >
                                                 Donec sit amet ligula enim. Duis vel condimentum massa.
@@ -111,7 +114,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="assets/img/user.gif" />
+                                                <img class="media-object img-circle " src="img/user.gif" />
                                             </a>
                                             <div class="media-body" >
                                                 Donec sit amet ligula enim. Duis vel condimentum massa.
@@ -154,7 +157,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.png" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.png" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Alex Deo | User </h5>
@@ -171,7 +174,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.gif" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.gif" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Jhon Rexa | User </h5>
@@ -188,7 +191,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.png" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.png" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Alex Deo | User </h5>
@@ -205,7 +208,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.gif" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.gif" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Jhon Rexa | User </h5>
@@ -222,7 +225,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.png" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.png" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Alex Deo | User </h5>
@@ -239,7 +242,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.gif" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.gif" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Jhon Rexa | User </h5>
@@ -256,7 +259,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.png" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.png" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Alex Deo | User </h5>
@@ -273,7 +276,7 @@
 
                                         <div class="media">
                                             <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.gif" />
+                                                <img class="media-object img-circle" style="max-height:40px;" src="img/user.gif" />
                                             </a>
                                             <div class="media-body" >
                                                 <h5>Jhon Rexa | User </h5>
@@ -292,5 +295,10 @@
             </div>
         </div>
     </div>
+
+    <div>
+        <jsp:include page="../footer/footer.jsp"/>
+    </div>
+
 </body>
 </html>

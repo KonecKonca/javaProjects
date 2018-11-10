@@ -13,7 +13,7 @@
 .animate{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 
 .myEdit{
-    background: url(../../img/phone.jpg) top right no-repeat;
+    background: url(../../img/phone.jpg);
     height: 100%;
 
     -moz-background-size: 100%; /* Firefox 3.6+ */

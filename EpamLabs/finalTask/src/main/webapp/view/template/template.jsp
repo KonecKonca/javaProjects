@@ -8,6 +8,11 @@
 <head>
     <link href="css/templateStyle.css" rel="stylesheet" />
     <script src="js/jsTemplate.js" type="text/javascript"></script>
+
+
+    <%--importnat for footer--%>
+    <script src="js/jquery-3.2.1.min.js"></script>
+
 </head>
 
 <%--SOURCE WITH EXAMPLE--%>
@@ -123,6 +128,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col">
                         <div class="card">
@@ -150,24 +156,20 @@
                                         <td>Thornton</td>
                                         <td>@fat</td>
                                     </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
-    <%--<div>--%>
-        <%--<jsp:include page="../footer/footer.jsp"/>--%>
-    <%--</div>--%>
+
+    <div>
+        <jsp:include page="../footer/footer.jsp"/>
+    </div>
 
 </body>
