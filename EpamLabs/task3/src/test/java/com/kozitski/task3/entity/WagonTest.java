@@ -57,7 +57,6 @@ public class WagonTest {
         int actual = 0;
 
         int expected = actualWagon.compareTo(expectedWagon);
-        System.out.println(expected);
 
         assertNotEquals(actual, expected);
     }

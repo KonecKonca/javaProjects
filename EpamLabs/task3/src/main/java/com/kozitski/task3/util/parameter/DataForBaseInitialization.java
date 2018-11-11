@@ -22,15 +22,21 @@ public class DataForBaseInitialization {
 
     private DataForBaseInitialization(){ }
 
-    public static DataForBaseInitialization getInstance() throws IOException {
+    public static DataForBaseInitialization getInstance(){
 
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 
         DataForBaseInitialization dataForBaseInitialization;
         ClassLoader loader = ClassLoader.getSystemClassLoader();
-        dataForBaseInitialization = mapper.readValue(new File(Objects.requireNonNull(loader.getResource(BASE_INITIALIZATION_PATH)).getFile()), DataForBaseInitialization.class);
+        try {
+            dataForBaseInitialization = mapper.readValue(new File(Objects.requireNonNull(loader.getResource(BASE_INITIALIZATION_PATH)).getFile()), DataForBaseInitialization.class);
+            return dataForBaseInitialization;
+        }
+        catch (IOException e) {
+            LOGGER.fatal("Error in period of Base initialization", e);
+            throw new RuntimeException("Error in period of Base initialization", e);
+        }
 
-        return dataForBaseInitialization;
     }
     public Product createProduct(){
         String name;

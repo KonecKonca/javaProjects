@@ -17,7 +17,7 @@ public class LogisticBase{
     private static final Logger LOGGER = LogManager.getLogger(LogisticBase.class);
     private static final int INITIAL_CAPACITY = 1000;
     private static final int BASE_CAPACITY = 5;
-    private static AtomicInteger currentCapasity = new AtomicInteger(0);
+    private static AtomicInteger currentCapacity = new AtomicInteger(0);
 
     private static LogisticBase base;
     private static ReentrantLock lock = new ReentrantLock();
@@ -29,25 +29,19 @@ public class LogisticBase{
     private Queue<Wagon> wagons;  // offer/poll
     private ArrayDeque<Product> products;  // push/pollLast
 
-    private LogisticBase() throws LogisticBaseException {
+    private LogisticBase() {
         wagons = new PriorityQueue<>();
         products = new ArrayDeque<>();
 
         init();
     }
-    private void init() throws LogisticBaseException {
-        try {
-            DataForBaseInitialization initialization = DataForBaseInitialization.getInstance();
-            for (int i = 0; i < INITIAL_CAPACITY; i++) {
-                products.add(initialization.createProduct());
-            }
-
-        } catch (IOException e) {
-            LOGGER.fatal("Base was not filed by products", e);
-            throw new LogisticBaseException("Base was not filed by products", e);
+    private void init(){
+        DataForBaseInitialization initialization = DataForBaseInitialization.getInstance();
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            products.add(initialization.createProduct());
         }
     }
-    public static LogisticBase getInstance() throws LogisticBaseException {
+    public static LogisticBase getInstance() {
         if(!isCreate.get()){
             try {
                 lock.lock();
@@ -68,11 +62,11 @@ public class LogisticBase{
         try {
             offerLock.lock();
 
-            if(currentCapasity.get() >= BASE_CAPACITY){
+            if(currentCapacity.get() >= BASE_CAPACITY){
                 return false;
             }
             else {
-                currentCapasity.incrementAndGet();
+                currentCapacity.incrementAndGet();
                 return wagons.offer(wagon);
             }
         }
@@ -96,15 +90,14 @@ public class LogisticBase{
 
         }
         catch (InterruptedException e) {
-            LOGGER.error("Problems with terminal", e);
             throw new LogisticBaseException("Problems with terminal", e);
         } finally {
             terminal.release();
-            currentCapasity.decrementAndGet();
+            currentCapacity.decrementAndGet();
         }
 
     }
-    public int giveProduct() throws LogisticBaseException {
+    public int giveProduct(){
 
         try {
             terminal.acquire();
@@ -124,9 +117,9 @@ public class LogisticBase{
         }
         finally {
             terminal.release();
-            currentCapasity.decrementAndGet();
-            return Wagon.NUMBER_OF_GIVE_PRODUCTS;
+            currentCapacity.decrementAndGet();
         }
+
     }
 
 

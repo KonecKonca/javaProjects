@@ -12,12 +12,7 @@ public class TimeTest {
     @Test
     public void timeTest(){
         long start = System.currentTimeMillis();
-        try {
-            LogisticBase.getInstance();
-        }
-        catch (LogisticBaseException e) {
-            e.printStackTrace();
-        }
+        LogisticBase.getInstance();
         long end = System.currentTimeMillis();
 
         boolean actual = true;

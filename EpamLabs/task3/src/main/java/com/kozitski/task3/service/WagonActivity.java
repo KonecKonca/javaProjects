@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.TimeUnit;
 
 public class WagonActivity {
-    private static final Logger LOGGER = LogManager.getLogger(WagonActivity.class);
     private static final int TIME_OF_TRIP = 3;
 
 
@@ -18,7 +17,6 @@ public static final LogisticBaseActivity DURING_TRIP = wagon -> {
         TimeUnit.SECONDS.sleep(TIME_OF_TRIP);
 
     } catch (InterruptedException e) {
-        LOGGER.error("Error in period of wagon TRIP", e);
         throw new LogisticBaseException("Error int period of wagon TRIP", e);
     }
 

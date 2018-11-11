@@ -32,14 +32,9 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     private int numberOfTransportedProduct;
 
     public Wagon() {
-        try {
-            base = LogisticBase.getInstance();
-            activity = WagonActivity.DURING_TRIP;
-            products = new ArrayList<>();
-        } catch (LogisticBaseException e) {
-            LOGGER.fatal("Base creating error", e);
-            throw new RuntimeException("Base creating error", e);
-        }
+        base = LogisticBase.getInstance();
+        activity = WagonActivity.DURING_TRIP;
+        products = new ArrayList<>();
     }
 
     @Override
@@ -51,7 +46,6 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
                 TimeUnit.MILLISECONDS.sleep(TIME_OF_WAIT);
             }
             catch (InterruptedException e) {
-                LOGGER.error("Error in waiting period");
                 throw new LogisticBaseException("Error in waiting period", e);
             }
 
