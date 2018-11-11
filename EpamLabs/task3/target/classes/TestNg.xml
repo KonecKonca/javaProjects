@@ -4,14 +4,9 @@
 
     <test name="MainTest">
         <classes>
-            <class name="com.kozitski.task3.interpreter.InterpreterTest"/>
+            <class name="com.kozitski.task3.validator.ProductValidationTest"/>
+            <class name="com.kozitski.task3.entity.WagonTest"/>
 
-            <class name="com.kozitski.task3.service.ExpressionConverterTest"/>
-            <class name="com.kozitski.task3.service.TextComponentCreatorTest"/>
-            <class name="com.kozitski.task3.service.TextOperationTest"/>
-
-            <class name="com.kozitski.task3.util.polishnotation.PolishNotationConverterTest"/>
-            <class name="com.kozitski.task3.util.reader.TextReaderTest"/>
         </classes>
     </test>
 

@@ -21,6 +21,8 @@ public class LogisticBase{
 
     private static LogisticBase base;
     private static ReentrantLock lock = new ReentrantLock();
+
+    private static ReentrantLock offerLock = new ReentrantLock();
     private static AtomicBoolean isCreate = new AtomicBoolean(false);
     private Semaphore terminal = new Semaphore(3);
 
@@ -64,7 +66,7 @@ public class LogisticBase{
     public boolean offer(Wagon wagon) {
 
         try {
-            lock.lock();
+            offerLock.lock();
 
             if(currentCapasity.get() >= BASE_CAPACITY){
                 return false;
@@ -75,18 +77,18 @@ public class LogisticBase{
             }
         }
         finally {
-            lock.unlock();
+            offerLock.unlock();
         }
 
     }
 
     // change
-    public void getProduct(){
+    public void getProduct() throws LogisticBaseException {
 
         try {
             terminal.acquire();
             Wagon currentWagon = wagons.poll();
-            for (int i = 0; i < currentWagon.getProductsSize(); i++) {
+            for (int i = 0; i < Objects.requireNonNull(currentWagon).getProductsSize(); i++) {
                 products.push(currentWagon.getProduct(i));
             }
 
@@ -95,20 +97,21 @@ public class LogisticBase{
         }
         catch (InterruptedException e) {
             LOGGER.error("Problems with terminal", e);
+            throw new LogisticBaseException("Problems with terminal", e);
         } finally {
             terminal.release();
             currentCapasity.decrementAndGet();
         }
 
     }
-    public int giveProduct(){
+    public int giveProduct() throws LogisticBaseException {
 
         try {
             terminal.acquire();
             int number = 0;
             Wagon currentWagon = wagons.poll();
-            for (int i = 0; i < Wagon.NUMBER_OF_GET_GIVE_PRODUCTS &&  products.size() > 0; i++) {
-                currentWagon.add(products.pollLast());
+            for (int i = 0; i < Wagon.NUMBER_OF_GIVE_PRODUCTS &&  products.size() > 0; i++) {
+                Objects.requireNonNull(currentWagon).add(products.pollLast());
                 number = i;
             }
 
@@ -117,12 +120,13 @@ public class LogisticBase{
         }
         catch (InterruptedException e) {
             LOGGER.error("Problems with terminal", e);
-        } finally {
+            return 0;
+        }
+        finally {
             terminal.release();
             currentCapasity.decrementAndGet();
+            return Wagon.NUMBER_OF_GIVE_PRODUCTS;
         }
-
-        return Wagon.NUMBER_OF_GET_GIVE_PRODUCTS;
     }
 
 

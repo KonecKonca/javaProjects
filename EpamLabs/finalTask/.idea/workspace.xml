@@ -7,61 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/css/media-queries.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/ico/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/img/backgrounds/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/img/backgrounds/1@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/jquery-migrate-3.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/jquery.backstretch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/retina-1.1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/retina-1.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/wow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/template/assets/js/wow.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/additional/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/additional/problems.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/img/user.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/img/user.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/img/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/chat/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/chat.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/css/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/ico/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/img/backgrounds/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/img/backgrounds/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/img/backgrounds/1@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/img/backgrounds/1@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery-migrate-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/jquery-migrate-3.0.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery.backstretch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/jquery.backstretch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery.backstretch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/jquery.backstretch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/retina-1.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/retina-1.1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/retina-1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/retina-1.1.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/wow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/chat/assets/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/template/css/templateStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/template/css/templateStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/template/template.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/template/template.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/additional/sql.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/css/media-queries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/ico/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/img/backgrounds/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/img/backgrounds/1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery-migrate-3.0.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery.backstretch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/jquery.backstretch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/retina-1.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/retina-1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/assets/js/wow.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -109,7 +75,7 @@
     <session id="1678192582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.67" value="1" />
@@ -129,7 +95,7 @@
           <entry key="html" value="2" />
           <entry key="java" value="7932" />
           <entry key="js" value="210" />
-          <entry key="jsp" value="1909" />
+          <entry key="jsp" value="1937" />
           <entry key="properties" value="38" />
           <entry key="sql" value="226" />
           <entry key="txt" value="657" />
@@ -143,7 +109,7 @@
           <entry key="CSS" value="48" />
           <entry key="HTML" value="2" />
           <entry key="JAVA" value="7915" />
-          <entry key="JSP" value="1909" />
+          <entry key="JSP" value="1937" />
           <entry key="JavaScript" value="210" />
           <entry key="PLAIN_TEXT" value="679" />
           <entry key="Properties" value="38" />
@@ -210,20 +176,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1091">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/template/template.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="179" column="10" selection-start-line="179" selection-start-column="10" selection-end-line="179" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -307,12 +264,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/view/footer/css/styles.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/MainTestController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/chat/chat.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/footer/assets/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/additional/problems.txt" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/template/css/templateStyle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/template/template.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp" />
       </list>
     </option>
   </component>
@@ -475,34 +432,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -514,7 +443,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541856088182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541862295104" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../task3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -913,7 +842,7 @@
       <workItem from="1541353575483" duration="5075000" />
       <workItem from="1541438871277" duration="51691000" />
       <workItem from="1541790221161" duration="8442000" />
-      <workItem from="1541845869450" duration="8491000" />
+      <workItem from="1541845869450" duration="9502000" />
     </task>
     <task id="LOCAL-00001" summary="project maded autorization">
       <created>1541184225387</created>
@@ -1013,16 +942,23 @@
       <option name="project" value="LOCAL" />
       <updated>1541853454222</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="footer works">
+      <created>1541856167446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1541856167446</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119417000" />
+    <option name="totallyTimeSpent" value="120428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23667377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1032,7 +968,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32683983" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4090909" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.4199134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52922076" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1318,13 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1091">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/template/css/templateStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1334,8 +1263,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/template/template.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="179" column="10" selection-start-line="179" selection-start-column="10" selection-end-line="179" selection-end-column="10" />
+        <state relative-caret-position="276">
+          <caret line="147" column="62" lean-forward="true" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/footer/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
         </state>
       </provider>
     </entry>

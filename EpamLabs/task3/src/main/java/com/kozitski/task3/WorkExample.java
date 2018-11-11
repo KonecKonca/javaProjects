@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class MainClass {
+public class WorkExample {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
@@ -39,6 +39,7 @@ public class MainClass {
 
         }
 
+        service.shutdown();
 
     }
 

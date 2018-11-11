@@ -20,12 +20,14 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     private static final Logger LOGGER = LogManager.getLogger(Wagon.class);
     private long wagonId = WagonIdGenerator.generateId();
     private List<Product> products;
+
     private LogisticBaseActivity activity;
     private LogisticBase base;
 
     private boolean isEnded = false;
-    public static final int NUMBER_OF_GET_GIVE_PRODUCTS = 10;
-    public static final int NUMBER_OF_TRIPS = 1;
+    public static final int NUMBER_OF_GIVE_PRODUCTS = 10;
+    private static final int NUMBER_OF_TRIPS = 1;
+    private static final int TIME_OF_WAIT = 100;
     private int numberOfDoneTrips;
     private int numberOfTransportedProduct;
 
@@ -44,11 +46,22 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     public Integer call() throws LogisticBaseException {
 
         while (numberOfDoneTrips < NUMBER_OF_TRIPS){
+
+            try {
+                TimeUnit.MILLISECONDS.sleep(TIME_OF_WAIT);
+            }
+            catch (InterruptedException e) {
+                LOGGER.error("Error in waiting period");
+                throw new LogisticBaseException("Error in waiting period", e);
+            }
+
             numberOfTransportedProduct += activity.activity(this);
             changeActivity();
         }
 
         isEnded = true;
+
+        Thread.currentThread().interrupt();
 
         return numberOfTransportedProduct;
 
@@ -71,8 +84,9 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
         }
 
         else if(activity == WagonActivity.GIVE_PRODUCT || activity == WagonActivity.GET_PRODUCT){
-            activity = WagonActivity.DURING_TRIP;
             numberOfDoneTrips++;
+
+            activity = WagonActivity.DURING_TRIP;
         }
 
     }
@@ -100,6 +114,9 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
     public boolean add(Product product) {
         return this.products.add(product);
     }
+    public boolean addAll(Collection<? extends Product> c) {
+        return products.addAll(c);
+    }
     public Product getProduct(int index) {
         return products.get(index);
     }
@@ -118,14 +135,10 @@ public class Wagon implements Callable<Integer>, Comparable<Wagon>{
 
     @Override
     public String toString() {
-        StringBuilder stringBuilder = new StringBuilder();
-
-        stringBuilder.append("Wagon : id-");
-        stringBuilder.append(wagonId);
-        stringBuilder.append(", ");
-        stringBuilder.append(products);
-
-        return stringBuilder.toString();
+        return "Wagon : id-" +
+                wagonId +
+                ", " +
+                products;
     }
 
 }

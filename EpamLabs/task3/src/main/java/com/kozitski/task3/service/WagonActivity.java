@@ -9,13 +9,13 @@ import java.util.concurrent.TimeUnit;
 
 public class WagonActivity {
     private static final Logger LOGGER = LogManager.getLogger(WagonActivity.class);
-    private static final int TIME_OF_TREAP = 3;
+    private static final int TIME_OF_TRIP = 3;
 
 
 public static final LogisticBaseActivity DURING_TRIP = wagon -> {
     try {
         System.out.println("\t" + Thread.currentThread().getName() + ": wagon" + wagon.getWagonId() + " in treap");
-        TimeUnit.SECONDS.sleep(TIME_OF_TREAP);
+        TimeUnit.SECONDS.sleep(TIME_OF_TRIP);
 
     } catch (InterruptedException e) {
         LOGGER.error("Error in period of wagon TRIP", e);
@@ -53,7 +53,7 @@ public static final LogisticBaseActivity GET_PRODUCT = wagon -> {
     wagon.getBase().getProduct();
     System.out.println("\t" + Thread.currentThread().getName() + ": wagon" + wagon.getWagonId() + " is get products");
 
-    return Wagon.NUMBER_OF_GET_GIVE_PRODUCTS;
+    return Wagon.NUMBER_OF_GIVE_PRODUCTS;
 };
 
 

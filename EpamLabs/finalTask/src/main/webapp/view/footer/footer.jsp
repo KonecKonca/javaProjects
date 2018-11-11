@@ -8,8 +8,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Bootstrap Footer Template</title>
-
     <%--<!-- CSS -->--%>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -46,7 +44,7 @@
                 <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
                     <h3>Contact</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
-                    <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>
+                    <p><i class="fas fa-phone"></i> Phone: +375 (25) 955-03-17</p>
                     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>
                     <p><i class="fab fa-skype"></i> Skype: you_online</p>
                 </div>
