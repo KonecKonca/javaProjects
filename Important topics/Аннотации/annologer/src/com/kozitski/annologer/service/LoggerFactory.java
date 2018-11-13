@@ -1,22 +1,26 @@
-package annologger;
-
-import annologger.annotation.LoggingAnnotation;
-import annologger.annotation.LoggingPolicyAnnotation;
+package com.kozitski.annologer.service;
 
 import java.io.PrintStream;
-import java.lang.reflect.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
-public class LoggerFactory {
+public class LoggerFactory
+{
     public static Object CreateLogObject(Object targetObject)
     {
         return createLogObject(targetObject, System.out);
     }
 
-    public static Object createLogObject(Object targetObject, PrintStream outputStream) {
+    public static Object createLogObject(Object targetObject, PrintStream outputStream)
+    {
         return Proxy.newProxyInstance(targetObject.getClass().getClassLoader(), targetObject.getClass().getInterfaces(), new LoggerInvokationHandler(targetObject, outputStream));
     }
 
-    private static class LoggerInvokationHandler implements InvocationHandler {
+    private static class LoggerInvokationHandler implements InvocationHandler
+    {
         private Object targetObject = null;
         private ILoggingPolicy loggingPolicy = null;
         private PrintStream outputStream = null;

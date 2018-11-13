@@ -2,9 +2,12 @@ package test;
 
 import annologger.DefaultLoggingPolicy;
 import annologger.ITestInterface;
+import annologger.LogLevel;
+import annologger.annotation.LoggingAnnotation;
+import annologger.annotation.LoggingPolicyAnnotation;
 
 @LoggingPolicyAnnotation(loggingPolicy = DefaultLoggingPolicy.class)
-public class Tester implements ITestInterface {
+public class Tester<LoggingPolicyAnnotation> implements ITestInterface {
 
     @LoggingAnnotation(logLevel = LogLevel.High)
     public int addition(int a, int b)

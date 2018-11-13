@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc802b17-588b-426d-ba9d-b5c4d6f98329" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/annologger/ILoggingPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annologger/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annologger/annotation/LoggingAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annologger/annotation/LoggingPolicyAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/entity/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/entity/Wagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/service/WagonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/service/WagonActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/src/test/java/com/kozitski/task3/entity/WagonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/src/test/java/com/kozitski/task3/entity/WagonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/src/test/java/com/kozitski/task3/time/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/src/test/java/com/kozitski/task3/time/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annologger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annologger/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Tester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,32 +23,34 @@
     <session id="942500712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="27" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="27" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="76" />
+          <entry key="java" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="107" />
         </counts>
       </usages-collector>
     </session>
@@ -55,43 +58,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/annologger/LoggerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/annologger/DefaultLoggingPolicy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/annologger/LoggerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" selection-start-line="8" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/annologger/LogLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/MainClass.java">
+        <entry file="file://$PROJECT_DIR$/src/annologger/DefaultLoggingPolicy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="38" selection-start-line="38" selection-end-line="43" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -101,6 +98,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -120,10 +119,18 @@
         <option value="$PROJECT_DIR$/src/LoggerFactory.java" />
         <option value="$PROJECT_DIR$/src/DefaultLoggingPolicy.java" />
         <option value="$PROJECT_DIR$/src/ITestInterface.java" />
-        <option value="$PROJECT_DIR$/src/test/MainClass.java" />
         <option value="$PROJECT_DIR$/src/annologger/text.txt" />
         <option value="$PROJECT_DIR$/src/annologger/DefaultLoggingPolicy.java" />
+        <option value="$PROJECT_DIR$/src/annologger/annotations/LoggingPolicyAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/annologger/annotations/LoggingAnnotation.java" />
         <option value="$PROJECT_DIR$/src/test/Tester.java" />
+        <option value="$PROJECT_DIR$/src/annologger/LogLevel.java" />
+        <option value="$PROJECT_DIR$/src/annologger/annotation/LoggingAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/test/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/annologger/ILoggingPolicy.java" />
+        <option value="$PROJECT_DIR$/src/annologger/LoggingContext.java" />
+        <option value="$PROJECT_DIR$/src/annologger/annotation/LoggingPolicyAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/annologger/LoggerFactory.java" />
       </list>
     </option>
   </component>
@@ -145,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,18 +182,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541976057315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541978701157" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../EpamLabs/task3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="annologger" />
+      <recent name="annologger.annotations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Drop\Dropbox\javaProjects\Important topics\Аннотации\logger on annotations\src" />
     </key>
@@ -213,18 +224,20 @@
       <option name="presentableId" value="Default" />
       <updated>1541790488721</updated>
       <workItem from="1541790501232" duration="1305000" />
-      <workItem from="1541972644962" duration="1311000" />
+      <workItem from="1541972644962" duration="3053000" />
+      <workItem from="1542021895277" duration="668000" />
+      <workItem from="1542025159695" duration="508000" />
+      <workItem from="1542026266948" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2616000" />
+    <option name="totallyTimeSpent" value="5554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +245,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -242,6 +255,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.058441557" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,44 +281,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annologger/LoggerFactory.java">
+    <entry file="file://$USER_HOME$/Desktop/task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/annologger/ILoggingPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annologger/DefaultLoggingPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/annologger/ITestInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/annologger/LoggingContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/annologger/annotation/LoggingAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annologger/annotation/LoggingPolicyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annologger/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" selection-start-line="8" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annologger/LogLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annologger/DefaultLoggingPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="43" selection-end-column="10" />
         </state>
       </provider>
     </entry>

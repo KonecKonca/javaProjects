@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Wagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Аннотации/logger on annotations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Important topics/Аннотации/logger on annotations/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,7 +76,7 @@
     <session id="-1423778989">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -98,27 +93,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="224" />
+          <entry key="java" value="229" />
           <entry key="properties" value="11" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="8" />
           <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="224" />
+          <entry key="JAVA" value="229" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="11" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="8" />
           <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="33" />
-          <entry key="java" value="10724" />
+          <entry key="java" value="10726" />
           <entry key="properties" value="123" />
           <entry key="txt" value="83" />
           <entry key="xml" value="11" />
@@ -127,7 +122,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10724" />
+          <entry key="JAVA" value="10726" />
           <entry key="PLAIN_TEXT" value="116" />
           <entry key="Properties" value="123" />
           <entry key="XML" value="11" />
@@ -204,17 +199,7 @@
     <favorites_list name="comkozitskitask2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -292,14 +277,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task3/WorkExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/util/generator/WagonIdGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/util/generator/ProductIdGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/time/TimeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/entity/WagonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/entity/LogisticBaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestNg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Wagon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/parameter/DataForBaseInitialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Wagon.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/time/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kozitski/task3/entity/WagonTest.java" />
       </list>
     </option>
   </component>
@@ -379,15 +364,6 @@
               <item name="task3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,15 +373,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
@@ -437,7 +404,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541976057635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541976075366" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -618,7 +585,7 @@
       <workItem from="1541270151552" duration="18572000" />
       <workItem from="1541848090448" duration="5577000" />
       <workItem from="1541929144467" duration="9267000" />
-      <workItem from="1541975349155" duration="556000" />
+      <workItem from="1541975349155" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
       <created>1539457879903</created>
@@ -711,16 +678,17 @@
       <option name="project" value="LOCAL" />
       <updated>1541971523551</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="epam lab 3.2 complete">
+      <created>1541976085949</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541976085949</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WagonTest - 2018.11.11 at 22h 54m 46s.xml">
-      <configuration name="WagonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WagonTest - 2018.11.11 at 22h 55m 09s.xml">
-      <configuration name="WagonTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="WagonTest - 2018.11.11 at 22h 55m 46s.xml">
       <configuration name="WagonTest" configurationId="TestNG" />
     </history-entry>
@@ -745,15 +713,20 @@
     <history-entry file="D__Drop_Dropbox_javaProjects_EpamLabs_task3_src_main_resources_TestNg_xml - 2018.11.11 at 23h 24m 17s.xml">
       <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task3/src/main/resources/TestNg.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__Drop_Dropbox_javaProjects_EpamLabs_task3_src_main_resources_TestNg_xml - 2018.11.12 at 00h 39m 48s.xml">
+      <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task3/src/main/resources/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Drop_Dropbox_javaProjects_EpamLabs_task3_src_main_resources_TestNg_xml - 2018.11.12 at 00h 40m 48s.xml">
+      <configuration name="D:/Drop/Dropbox/javaProjects/EpamLabs/task3/src/main/resources/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229938000" />
+    <option name="totallyTimeSpent" value="230133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.17377399" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -762,7 +735,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009311" side_tool="true" weight="0.23827292" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.19805194" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.1504329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20670995" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -772,7 +745,7 @@
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.6594388" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.39718616" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.0508658" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.08225108" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -912,13 +885,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/service/WagonService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/WorkExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/ProductType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -986,20 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task3/time/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task3/entity/WagonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="49" column="94" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task3/entity/LogisticBaseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Product.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1010,20 +962,6 @@
             <element signature="method#equals#0;class#Product#0" />
             <element signature="method#hashCode#0;class#Product#0" />
             <element signature="method#toString#0;class#Product#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Wagon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-          <folding>
-            <element signature="method#Wagon#0;class#Wagon#0" />
-            <element signature="method#call#0;class#Wagon#0" />
-            <element signature="method#changeActivity#0;class#Wagon#0" />
-            <element signature="method#compareTo#0;class#Wagon#0" />
-            <element signature="method#toString#0;class#Wagon#0" />
           </folding>
         </state>
       </provider>
@@ -1100,10 +1038,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNg.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task3/time/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task3/entity/WagonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="49" column="94" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
+          <folding>
+            <element signature="method#init#0;class#WagonTest#0" />
+            <element signature="method#wagonCompareTestTrue#0;class#WagonTest#0" />
+            <element signature="method#dataForWagonCompareTestTrue#0;class#WagonTest#0" />
+            <element signature="method#wagonCompareTest#0;class#WagonTest#0" />
+            <element signature="method#dataForWagonCompareTestFalse#0;class#WagonTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/WorkExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/Wagon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="method#Wagon#0;class#Wagon#0" />
+            <element signature="method#call#0;class#Wagon#0" />
+            <element signature="method#changeActivity#0;class#Wagon#0" />
+            <element signature="method#compareTo#0;class#Wagon#0" />
+            <element signature="method#toString#0;class#Wagon#0" />
+          </folding>
         </state>
       </provider>
     </entry>

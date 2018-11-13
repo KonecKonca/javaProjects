@@ -1,13 +1,13 @@
-package test;
+package com.kozitski.annologer.tester;
 
-import annologger.ITestInterface;
-import annologger.LoggerFactory;
+import com.kozitski.annologer.service.ITestInterface;
+import com.kozitski.annologer.service.LoggerFactory;
 
 public class MainClass
 {
 
-
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception
+    {
         ITestInterface tester = new Tester();
         Object obj = LoggerFactory.createLogObject(tester, System.out);
         ITestInterface loggedTester = (ITestInterface) obj;
@@ -29,6 +29,5 @@ public class MainClass
         }
 
     }
-
 
 }

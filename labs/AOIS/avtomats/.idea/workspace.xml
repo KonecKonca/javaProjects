@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f233195-8515-4d3c-a467-e0b5ec9561fd" name="Default" comment="complit automat laba(5)&#10;some output changes" />
+    <list default="true" id="2f233195-8515-4d3c-a467-e0b5ec9561fd" name="Default" comment="complit automat laba(5)&#10;some output changes">
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/fiches/SpecificationAdvanced/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/service/DefaultLoggingPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/service/ITestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/service/LoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/tester/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/tester/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/ILoggingPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/annotation/LoggingAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/annotation/LoggingPolicyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/Map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/lab4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/Constituent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/Lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/library/MinimalizeFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/library/TypesOfFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/main/extension/DifficultExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/main/extension/Lab2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/main/extension/Lab3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/main/extension/Operand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/main/extension/Sign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/src/main/extension/SimpleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4(real)/lastYI/~$lab4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aois_3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/lab2.docx" beforeDir="false" />
+    </list>
     <ignored path="Козицкий.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,12 +60,12 @@
     <session id="2100571222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,7 +97,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -65,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -171,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +249,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -371,6 +412,7 @@
       <workItem from="1538327241511" duration="83000" />
       <workItem from="1538403866485" duration="749000" />
       <workItem from="1538513866225" duration="123000" />
+      <workItem from="1542044980231" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="complit automat laba(5)">
       <created>1538326570061</created>
@@ -390,13 +432,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38707000" />
+    <option name="totallyTimeSpent" value="38745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -405,7 +446,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8279221" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29545453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.039490446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lib/AutomateLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -513,6 +547,13 @@
             <element signature="method#addToAnalise#0;class#AutomateLogic#0" />
             <element signature="method#getState#0;class#AutomateLogic#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
         </state>
       </provider>
     </entry>

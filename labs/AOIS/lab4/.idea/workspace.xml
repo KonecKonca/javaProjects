@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8f3dcb-2750-47bd-a5a9-4ac76730fa66" name="Default" comment="wo" />
+    <list default="true" id="1d8f3dcb-2750-47bd-a5a9-4ac76730fa66" name="Default" comment="wo">
+      <change afterPath="$PROJECT_DIR$/../../../EpamLabs/fiches/SpecificationAdvanced/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/service/DefaultLoggingPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/service/ITestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/service/LoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/tester/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/annologer/src/com/kozitski/annologer/tester/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/ILoggingPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/annotation/LoggingAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/annotation/LoggingPolicyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EpamLabs/task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/annologger/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Important topics/Аннотации/logger on annotations/src/test/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avtomats/aois_3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.docx" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,17 +65,67 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1687694708">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            <state relative-caret-position="187">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="method#commonInput#0;class#MainClass#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/library/MinimalizeFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="method#checkComplienceOfFunction#0;class#MinimalizeFunctions#0" />
+                <element signature="method#parsingOnConstituents#0;class#MinimalizeFunctions#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/library/TypesOfFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,11 +185,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="36" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="323" />
+    <option name="y" value="378" />
+    <option name="width" value="1089" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,28 +199,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -157,6 +227,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -169,6 +240,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Drop\Dropbox\javaProjects\labs\AOIS\lab4\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,6 +333,7 @@
       <workItem from="1538246152730" duration="691000" />
       <workItem from="1538308288761" duration="6644000" />
       <workItem from="1538320229454" duration="166000" />
+      <workItem from="1542043775283" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="wo">
       <created>1538320263810</created>
@@ -269,12 +346,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46212000" />
+    <option name="totallyTimeSpent" value="46538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="323" y="378" width="1089" height="791" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2993197" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,13 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../ВАЖНЫЕ ТЕМЫ/Patterns/16)Iterator/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../ВАЖНЫЕ ТЕМЫ/Patterns/16)Iterator/src/MainClass.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
@@ -386,17 +457,20 @@
     <entry file="file://$PROJECT_DIR$/Map.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/TypesOfFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="method#commonInput#0;class#MainClass#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -411,13 +485,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/library/TypesOfFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="method#commonInput#0;class#MainClass#0" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
