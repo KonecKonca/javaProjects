@@ -15,7 +15,6 @@ import static com.kozitski.xml.builder.BuilderUtil.*;
 
 public class StaxXmlBuilder implements XmlBuilder {
 
-
     private List<Tariff> tariffs = new ArrayList<>();
     private XMLInputFactory inputFactory;
 

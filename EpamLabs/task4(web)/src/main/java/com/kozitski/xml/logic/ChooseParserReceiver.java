@@ -8,10 +8,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ParserReceiver {
+public class ChooseParserReceiver {
     private List<String> parsers;
 
-    public ParserReceiver() {
+    public ChooseParserReceiver() {
         parsers = new ArrayList<>(Arrays.asList(ParserType.stringValues()));
     }
 

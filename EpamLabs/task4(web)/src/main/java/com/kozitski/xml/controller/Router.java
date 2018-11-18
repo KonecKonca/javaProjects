@@ -1,6 +1,6 @@
 package com.kozitski.xml.controller;
 
-import static com.kozitski.xml.command.JSPPathConstant.INDEX_JSP;
+import static com.kozitski.xml.command.PathConstant.INDEX_JSP;
 
 public class Router {
 

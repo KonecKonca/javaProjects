@@ -34,4 +34,5 @@ public class LimitTariff extends Tariff {
                 "MbPrice: " + mbPrice + "\n";
 
     }
+
 }

@@ -13,7 +13,6 @@
         <FORM action="/upload" enctype="multipart/form-data" method="POST">
             Upload File:
             <INPUT type="file" name="content">
-            <br>
             <INPUT type="submit" value="Upload File">
         </FORM>
 

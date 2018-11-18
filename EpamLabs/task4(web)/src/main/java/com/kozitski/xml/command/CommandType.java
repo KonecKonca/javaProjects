@@ -1,11 +1,11 @@
 package com.kozitski.xml.command;
 
-import com.kozitski.xml.logic.ParserReceiver;
+import com.kozitski.xml.logic.ChooseParserReceiver;
+import com.kozitski.xml.logic.ShowXmlReceiver;
 
 public enum CommandType {
-    CHOOSE_PARSER_COMMAND(new ChooseParserCommand(new ParserReceiver())),
-    CHOOSE_XML_COMMAND(new ChooseXmlCommand()),
-    INPUT_XML_COMMAND(new InputXmlCommand());
+    CHOOSE_PARSER_COMMAND(new ChooseParserCommand(new ChooseParserReceiver())),
+    CHOOSE_XML_COMMAND(new ShowXmlCommand(new ShowXmlReceiver()));
 
     private Command command;
 

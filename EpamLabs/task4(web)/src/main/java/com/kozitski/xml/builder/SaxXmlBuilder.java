@@ -18,8 +18,6 @@ import java.util.List;
 import static com.kozitski.xml.builder.BuilderUtil.*;
 
 public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
-    private static final Logger LOGGER = LogManager.getLogger(SaxXmlBuilder.class);
-
     private SAXParser saxParser;
     private TariffXsdElement currentTag;
     private ArrayList<Tariff> tariffs = new ArrayList<>();

@@ -1,11 +1,5 @@
 package com.kozitski.xml.controller;
 
-import com.kozitski.xml.builder.ParserBuilderType;
-import com.kozitski.xml.entity.LimitTariff;
-import com.kozitski.xml.entity.Tariff;
-import com.kozitski.xml.entity.UnlimitTariff;
-import com.kozitski.xml.exception.XMLParseException;
-import com.kozitski.xml.builder.XmlParserBuilderFactory;
 import com.kozitski.xml.util.uploading.FileNameGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,9 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
+import static com.kozitski.xml.command.PathConstant.SHOW_FILE_CONTROLLER;
 
 @WebServlet(urlPatterns = {"/upload/*"})
 @MultipartConfig(fileSizeThreshold = 1024 * 1024
@@ -54,34 +47,10 @@ public class FileUploadingServlet extends HttpServlet {
                 // save into TomCat directory
                 part.write(fullName);
 
-                request.getRequestDispatcher("jsp/unlimitTariff.jsp").forward(request, response);
+                this.getServletContext().getRequestDispatcher(SHOW_FILE_CONTROLLER).forward(request, response);
             }
         }
 
-    }
-
-    private void callCommand(HttpServletRequest request, HttpServletResponse response, String fullName) {
-        try {
-            List<Tariff> list = new XmlParserBuilderFactory().createBuilder(ParserBuilderType.DOM_PARSER_BUILDER)
-                    .buildTariffs(fullName);
-
-            List<LimitTariff> limitList = new ArrayList<>();
-            List<UnlimitTariff> unlimitList = new ArrayList<>();
-
-            for(Tariff tariff : list){
-                if(tariff instanceof UnlimitTariff){
-                    unlimitList.add((UnlimitTariff)tariff);
-                }
-                else {
-                    limitList.add((LimitTariff)tariff);
-                }
-            }
-
-
-        }
-        catch (XMLParseException e) {
-            e.printStackTrace();
-        }
     }
 
 }

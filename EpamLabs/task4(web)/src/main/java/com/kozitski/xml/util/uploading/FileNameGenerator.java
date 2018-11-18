@@ -22,5 +22,16 @@ public class FileNameGenerator {
         }
 
     }
+    public static String getLastName(){
+
+        try {
+            lock.lock();
+            return FILE_NAME_PREFIX + nameCounter.get() + FILE_NAME_POSTFIX;
+        }
+        finally {
+            lock.unlock();
+        }
+
+    }
 
 }
