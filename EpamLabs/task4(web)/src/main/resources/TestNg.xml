@@ -4,15 +4,16 @@
 
     <test name="MainTest">
         <classes>
-            <class name="com.kozitski.task3.validator.ProductValidationTest"/>
-            <class name="com.kozitski.task3.entity.WagonTest"/>
+            <class name="com.kozitski.xml.factory.FactoryTest"/>
+            <class name="com.kozitski.xml.validator.SchemeValidatorTest"/>
+
 
         </classes>
     </test>
 
     <test name="TimeTest">
         <classes>
-            <class name="TimeTest"/>
+            <class name="com.kozitski.xml.time.TimeTest"/>
         </classes>
     </test>
 

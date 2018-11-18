@@ -3,7 +3,7 @@
 
     <limit-tariff>
         <name>Lemon</name>
-        <operator-name>Velcom</operator-name>
+        <operator-name>Velcom96</operator-name>
         <sms-price>99</sms-price>
 
         <parameters favourite-number="+375259550314">

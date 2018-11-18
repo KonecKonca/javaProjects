@@ -5,26 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0ec114-b460-4b31-aaae-4d940b6014b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/user/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/.idea/web service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/client/WebServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/service/WebServiceRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/service/WebServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Important topics/web service/sample/src/main/java/com/kozitski/koneckonca/service/impl/WebServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/release/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/.idea/artifacts/com_kozitski_pufar_Web2_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/com.kozitski.pufar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/FileUploadingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/exception/XMLParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/validator/SchemeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/TestNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/data/tariffs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/loadFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/showXML.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/java/task4/time/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/java/task4/validator/SchemeValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/resources/data/correct.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/resources/data/incorrect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/controller/InputFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/exception/XMLParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/validator/SchemeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/resources/data/xsd/template.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task4/validator/SchemeValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/test/resources/data/correct.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/test/resources/data/incorrect.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/ChatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/chat/MySQLChatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/CommentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/DialogeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/NotificationDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/RateDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/dao/user/MySQLUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/release/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/release/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/release/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/release/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/resources/TestNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/data/tariffs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/resources/data/tariffs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/data/template.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/data/xsd/template.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task3/time/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task4/time/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-nav-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +63,8 @@
     <session id="-1030751981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -54,7 +77,7 @@
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +85,7 @@
           <entry key="1" value="1" />
           <entry key="10" value="1" />
           <entry key="class" value="12" />
-          <entry key="java" value="747" />
+          <entry key="java" value="748" />
           <entry key="log" value="36" />
           <entry key="properties" value="38" />
           <entry key="txt" value="41" />
@@ -72,7 +95,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="747" />
+          <entry key="JAVA" value="748" />
           <entry key="Log" value="35" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="Properties" value="38" />
@@ -175,11 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/TriangleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="method#getTriangleRepository#0;class#TriangleRepository#0" />
                 <element signature="method#sortTriangles#0;class#TriangleRepository#0" />
@@ -189,6 +212,15 @@
                 <element signature="method#getAllTriangles#0;class#TriangleRepository#0" />
                 <element signature="method#toString#0;class#TriangleRepository#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -407,6 +439,25 @@
               <item name="triangle" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="reader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -708,6 +759,7 @@
       <workItem from="1540291640079" duration="3262000" />
       <workItem from="1541596307134" duration="782000" />
       <workItem from="1541597405284" duration="359000" />
+      <workItem from="1542359341212" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="EPAM task1 --- without loggers/fileInput">
       <created>1538429554715</created>
@@ -808,13 +860,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153206000" />
+    <option name="totallyTimeSpent" value="153340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2786533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2829513" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.29850745" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1024,14 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <element signature="method#getInstance#0;class#Triangle#0" />
-            <element signature="method#changePoint#0;class#Triangle#0" />
-            <element signature="method#notifyObservers#0;class#Triangle#0" />
-            <element signature="method#equals#0;class#Triangle#0" />
-            <element signature="method#hashCode#0;class#Triangle#0" />
-            <element signature="method#toString#0;class#Triangle#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,13 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1146,14 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="method#equals#0;class#PointForTriangle#0" />
-            <element signature="method#hashCode#0;class#PointForTriangle#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,13 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="44" column="95" lean-forward="true" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
-          <folding>
-            <element signature="method#TriangleValidator#0;class#TriangleValidator#0" />
-            <element signature="method#validate#0;class#TriangleValidator#0" />
-            <element signature="method#validateSides#0;class#TriangleValidator#0" />
-            <element signature="method#checkSidesMathCondition#0;class#TriangleValidator#0" />
-            <element signature="method#validateAngles#0;class#TriangleValidator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1217,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/TriangleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="method#getTriangleRepository#0;class#TriangleRepository#0" />
             <element signature="method#sortTriangles#0;class#TriangleRepository#0" />
@@ -1205,6 +1227,13 @@
             <element signature="method#getAllTriangles#0;class#TriangleRepository#0" />
             <element signature="method#toString#0;class#TriangleRepository#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
         </state>
       </provider>
     </entry>

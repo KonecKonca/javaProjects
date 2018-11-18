@@ -2,12 +2,12 @@
 <tariffs xmlns="http://www.example.com/tariffs">
 
     <limit-tariff>
-        <name>Lemon</name>
-        <operator-name>Velcom</operator-name>
+        <name>Lemon1</name>
+        <operator-name>Velcome</operator-name>
         <sms-price>99</sms-price>
 
         <parameters favourite-number="+375259550314">
-            <tarification>per_12_second</tarification>
+            <tariffication>per_12_second</tariffication>
             <pay-for-connection>40</pay-for-connection>
         </parameters>
 

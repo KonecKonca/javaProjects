@@ -2,7 +2,7 @@
 <tariffs xmlns="http://www.example.com/tariffs">
 
     <limit-tariff>
-        <name>Lemon</name>
+        <name>Lemon1</name>
         <operator-name>Velcom</operator-name>
         <sms-price>99</sms-price>
 

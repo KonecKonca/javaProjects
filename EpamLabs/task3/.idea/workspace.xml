@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../task4(web)/.idea/artifacts/com_kozitski_pufar_Web2_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/com.kozitski.pufar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/FileUploadingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/exception/XMLParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/util/uploading/FileNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/validator/SchemeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/TestNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/data/tariffs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/loadFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/showXML.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/java/task4/time/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/java/task4/validator/SchemeValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/resources/data/correct.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/resources/data/incorrect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/controller/InputFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/exception/XMLParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/validator/SchemeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/resources/data/xsd/template.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task4/validator/SchemeValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/test/resources/data/correct.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task4/src/test/resources/data/incorrect.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/resources/TestNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/data/tariffs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/resources/data/tariffs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/data/template.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/data/xsd/template.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task3/time/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task4/time/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-nav-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +121,8 @@
     <session id="-1423778989">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -87,13 +132,13 @@
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="229" />
+          <entry key="java" value="230" />
           <entry key="properties" value="11" />
           <entry key="txt" value="1" />
           <entry key="xml" value="8" />
@@ -103,7 +148,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="229" />
+          <entry key="JAVA" value="230" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="11" />
           <entry key="XML" value="8" />
@@ -199,7 +244,20 @@
     <favorites_list name="comkozitskitask2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="66" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
+              <folding>
+                <element signature="initializer##0;class#ProductIdGenerator#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -313,10 +371,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -324,8 +382,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,6 +414,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
@@ -399,6 +474,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,6 +663,7 @@
       <workItem from="1541848090448" duration="5577000" />
       <workItem from="1541929144467" duration="9267000" />
       <workItem from="1541975349155" duration="751000" />
+      <workItem from="1542363530057" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
       <created>1539457879903</created>
@@ -721,12 +799,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230133000" />
+    <option name="totallyTimeSpent" value="230863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.100286536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -957,23 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="method#Product#1;class#Product#0" />
-            <element signature="method#equals#0;class#Product#0" />
-            <element signature="method#hashCode#0;class#Product#0" />
-            <element signature="method#toString#0;class#Product#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="initializer##0;class#ProductIdGenerator#0" />
-            <element signature="method#generateId#0;class#ProductIdGenerator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,10 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="initializer##0;class#WagonIdGenerator#0" />
-            <element signature="method#generateId#0;class#WagonIdGenerator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,12 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-          <folding>
-            <element signature="method#getInstance#0;class#DataForBaseInitialization#0" />
-            <element signature="method#createProduct#0;class#DataForBaseInitialization#0" />
-            <element signature="method#generateType#0;class#DataForBaseInitialization#0" />
-            <element signature="method#toString#0;class#DataForBaseInitialization#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,15 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding>
-            <element signature="method#LogisticBase#0;class#LogisticBase#0" />
-            <element signature="method#init#0;class#LogisticBase#0" />
-            <element signature="method#getInstance#0;class#LogisticBase#0" />
-            <element signature="method#offer#0;class#LogisticBase#0" />
-            <element signature="method#getProduct#0;class#LogisticBase#0" />
-            <element signature="method#giveProduct#0;class#LogisticBase#0" />
-            <element signature="method#toString#0;class#LogisticBase#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,13 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="49" column="94" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
-          <folding>
-            <element signature="method#init#0;class#WagonTest#0" />
-            <element signature="method#wagonCompareTestTrue#0;class#WagonTest#0" />
-            <element signature="method#dataForWagonCompareTestTrue#0;class#WagonTest#0" />
-            <element signature="method#wagonCompareTest#0;class#WagonTest#0" />
-            <element signature="method#dataForWagonCompareTestFalse#0;class#WagonTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1077,12 +1113,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
           <folding>
-            <element signature="method#Wagon#0;class#Wagon#0" />
-            <element signature="method#call#0;class#Wagon#0" />
-            <element signature="method#changeActivity#0;class#Wagon#0" />
-            <element signature="method#compareTo#0;class#Wagon#0" />
-            <element signature="method#toString#0;class#Wagon#0" />
+            <element signature="initializer##0;class#ProductIdGenerator#0" />
           </folding>
         </state>
       </provider>
