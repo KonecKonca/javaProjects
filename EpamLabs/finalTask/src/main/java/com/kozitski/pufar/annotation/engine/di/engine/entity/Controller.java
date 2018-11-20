@@ -1,14 +1,14 @@
 package com.kozitski.pufar.annotation.engine.di.engine.entity;
 
 
-import com.kozitski.pufar.annotation.engine.di.engine.Inject;
+import com.kozitski.pufar.annotation.engine.di.engine.annotation.Inject;
 
 public class Controller {
 
-    @Inject(name = "dao")
+    @Inject(beanName = "dao")
     private DaoImpl daoImpl;
 
-    @Inject(name = "service")
+    @Inject(beanName = "service")
     private ServiceImpl serviceImpl;
 
     public void setDaoImpl(DaoImpl daoImpl) {

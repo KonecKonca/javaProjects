@@ -1,4 +1,4 @@
-package com.kozitski.pufar.annotation.engine.di.engine;
+package com.kozitski.pufar.annotation.engine.di.engine.annotation;
 
 
 import com.kozitski.pufar.annotation.engine.di.engine.entity.DaoImpl;

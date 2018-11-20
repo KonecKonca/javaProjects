@@ -1,4 +1,4 @@
-package com.kozitski.pufar.annotation.engine.di.engine;
+package com.kozitski.pufar.annotation.engine.di.engine.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 public @interface Inject {
 
-    String name() default "di.engine.entity";
+    String beanName() default "di.engine.entity";
 
 }

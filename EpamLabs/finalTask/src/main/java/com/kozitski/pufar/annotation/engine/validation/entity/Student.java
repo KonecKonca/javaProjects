@@ -12,7 +12,7 @@ import java.util.Objects;
 public class Student implements Validatable<Student>{
     @Validate(minLength = 5, maxLength = 24)
     private String firstName;
-    @Validate(minLength = 5, maxLength = 24)
+    @Validate(minLength = 5, maxLength = 24, forbiddenValue = "vasia")
     private String lastName;
 
     public static Student createStudent(String firstName, String lastName){
@@ -24,14 +24,6 @@ public class Student implements Validatable<Student>{
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
 
     public String getFirstName() {
         return firstName;
