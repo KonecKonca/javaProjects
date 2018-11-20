@@ -16,7 +16,6 @@ public class Language {
         System.out.println(new String(RU_BUNDLE.getString("value").getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8));
         System.out.println(EN_BUNDLE.getString("value"));
 
-
         // default
 //        System.out.println(ResourceBundle.getBundle("resource").getString("value"));
 
