@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/DITestServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/annotation/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/Inject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/annotation/Inject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/InjectionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/annotation/InjectionServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/MockApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/annotation/MockApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/RealApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/annotation/RealApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/annotation/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/entity/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/entity/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/entity/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/entity/DaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/entity/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/entity/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/validation/ValidationTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/validation/ValidationTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/additional/sql.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +57,7 @@
     <session id="1678192582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="1" />
@@ -98,7 +83,7 @@
           <entry key="jsp" value="1937" />
           <entry key="properties" value="38" />
           <entry key="sql" value="226" />
-          <entry key="txt" value="701" />
+          <entry key="txt" value="746" />
           <entry key="xhtml" value="115" />
           <entry key="xml" value="194" />
           <entry key="yml" value="96" />
@@ -111,7 +96,7 @@
           <entry key="JAVA" value="12458" />
           <entry key="JSP" value="1937" />
           <entry key="JavaScript" value="210" />
-          <entry key="PLAIN_TEXT" value="728" />
+          <entry key="PLAIN_TEXT" value="773" />
           <entry key="Properties" value="38" />
           <entry key="SQL" value="240" />
           <entry key="Scratch" value="938" />
@@ -183,8 +168,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/DITestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="391">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -417,6 +402,24 @@
               <item name="finalTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pufar" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pufar" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -453,7 +456,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542757636918" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542757759892" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Important topics/Регулярки/3)Наборы символов(+ спец наборы)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -871,7 +874,7 @@
       <workItem from="1542314400899" duration="1366000" />
       <workItem from="1542542473500" duration="2226000" />
       <workItem from="1542646697217" duration="19864000" />
-      <workItem from="1542721172243" duration="13436000" />
+      <workItem from="1542721172243" duration="13666000" />
     </task>
     <task id="LOCAL-00001" summary="project maded autorization">
       <created>1541184225387</created>
@@ -985,16 +988,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542755602092</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Golovach DI without properties config">
+      <created>1542757745757</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1542757745757</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157477000" />
+    <option name="totallyTimeSpent" value="157707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32089552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1004,7 +1015,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32683983" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.41558442" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.14718615" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27489176" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1091,7 +1102,8 @@
     <MESSAGE value="maket complete" />
     <MESSAGE value="footer works" />
     <MESSAGE value="My bad idea validation on annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="My bad idea validation on annotations" />
+    <MESSAGE value="Golovach DI without properties config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Golovach DI without properties config" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1470,8 +1482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/annotation/engine/di/engine/DITestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="391">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
