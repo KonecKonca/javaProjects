@@ -5,16 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0ec114-b460-4b31-aaae-4d940b6014b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../fiches/vk-java-sdk-master/vk-java-sdk-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/vk/main/com/example/vk/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/vk/main/com/example/vk/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/vk/main/com/example/vk/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/vk/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/vk/template.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/exception/PufarValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/TestSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/AspectValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/DefaultValidationParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/StringValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/ValidationAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/ValidationLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/info/StringValidationAspect.aj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/util/ValidatorRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/validator/StringValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/validation/input/validator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/util/language/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/util/language/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/controller/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/controller/index/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/resources/additional/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/additional/problems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/resources/validation/user.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/target/classes/TestNg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/target/classes/additional/sql.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/target/classes/log4j2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +49,8 @@
     <session id="-1030751981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -44,7 +63,7 @@
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,9 +71,9 @@
           <entry key="1" value="1" />
           <entry key="10" value="1" />
           <entry key="class" value="12" />
-          <entry key="java" value="750" />
+          <entry key="java" value="754" />
           <entry key="log" value="36" />
-          <entry key="properties" value="38" />
+          <entry key="properties" value="39" />
           <entry key="txt" value="41" />
           <entry key="xml" value="46" />
         </counts>
@@ -62,10 +81,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="750" />
+          <entry key="JAVA" value="754" />
           <entry key="Log" value="35" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Properties" value="38" />
+          <entry key="Properties" value="39" />
           <entry key="XML" value="46" />
         </counts>
       </usages-collector>
@@ -159,17 +178,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/PointForTriangleValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/constants/PathsForConfigFiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -298,7 +308,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -310,99 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -507,6 +424,132 @@
               <item name="triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="task1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -700,6 +743,8 @@
       <workItem from="1541597405284" duration="359000" />
       <workItem from="1542359341212" duration="134000" />
       <workItem from="1542652481614" duration="752000" />
+      <workItem from="1542917686242" duration="382000" />
+      <workItem from="1542918295825" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="EPAM task1 --- without loggers/fileInput">
       <created>1538429554715</created>
@@ -800,13 +845,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154092000" />
+    <option name="totallyTimeSpent" value="155425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1456" height="916" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2872493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.1769341" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.29850745" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -886,13 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/searchConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1119,13 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/TriangleValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="44" column="95" lean-forward="true" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/repository/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1137,15 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="method#getTriangleRepository#0;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#0;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#1;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#2;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#3;class#TriangleRepository#0" />
-            <element signature="method#getAllTriangles#0;class#TriangleRepository#0" />
-            <element signature="method#toString#0;class#TriangleRepository#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,17 +1184,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/searchConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/TriangleValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="44" column="95" lean-forward="true" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/constants/PathsForConfigFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/validator/PointForTriangleValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

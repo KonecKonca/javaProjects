@@ -10,40 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/entity/LogisticBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/entity/WagonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/time/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/exception/PufarValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/TestSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/AspectValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/DefaultValidationParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/StringValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/ValidationAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/ValidationLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/info/StringValidationAspect.aj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/util/ValidatorRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/validator/StringValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/validation/input/validator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/footer/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/css/media-queries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/ico/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/img/backgrounds/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/img/backgrounds/1@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery-migrate-3.0.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery.backstretch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/jquery.backstretch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/retina-1.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/retina-1.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/webapp/view/login/assets/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/controller/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/controller/index/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/resources/additional/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/additional/problems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/resources/validation/user.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/WorkExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/LogisticBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/entity/Wagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/WagonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/java/com/kozitski/task3/service/WagonActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/resources/TestNg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/com/kozitski/task3/util/fef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/classes/TestNg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/test-classes/com/kozitski/task3/util/fef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,9 +66,9 @@
     <session id="-1227265485">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.4" value="2" />
@@ -86,7 +78,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,7 +86,7 @@
           <entry key="MF" value="1" />
           <entry key="class" value="20" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="703" />
+          <entry key="java" value="704" />
           <entry key="jpg" value="9" />
           <entry key="log" value="2" />
           <entry key="ts" value="1" />
@@ -106,7 +98,7 @@
         <counts>
           <entry key="CLASS" value="20" />
           <entry key="Image" value="9" />
-          <entry key="JAVA" value="703" />
+          <entry key="JAVA" value="704" />
           <entry key="Log" value="2" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="48" />
@@ -208,20 +200,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task2/time/TimeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/reader/TextReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -361,7 +344,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -395,6 +377,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="reader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
@@ -437,6 +428,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -613,6 +605,7 @@
       <workItem from="1541439123226" duration="3412000" />
       <workItem from="1541967728583" duration="18000" />
       <workItem from="1541967924898" duration="12000" />
+      <workItem from="1542918072828" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
       <created>1539457879903</created>
@@ -741,13 +734,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161213000" />
+    <option name="totallyTimeSpent" value="162408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24283667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24641834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -899,9 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,10 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding>
-            <element signature="method#ExpressionOperator#0;class#ExpressionOperator#0" />
-            <element signature="method#getExpressionOperator#0;class#ExpressionOperator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/reader/TextReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="method#readAllText#0;class#TextReader#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/service/TextComponentCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1014,11 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="method#sortParagraphsByNumOFSentences#0;class#TextOperation#0" />
-            <element signature="method#sortByLengthOfWordsTest#0;class#TextOperation#0" />
-            <element signature="method#reverseSortLexemesByOrderSymbol#0;class#TextOperation#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,11 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="method#replaceExpressionsByNumber#0;class#ExpressionConverter#0" />
-            <element signature="method#getAllExpressions#0;class#ExpressionConverter#0" />
-            <element signature="method#convertToNumbers#0;class#ExpressionConverter#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,13 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="method#PolishNotationConverter#0;class#PolishNotationConverter#0" />
-            <element signature="method#calculatePolishNotation#0;class#PolishNotationConverter#0" />
-            <element signature="method#convert#0;class#PolishNotationConverter#0" />
-            <element signature="method#isCharacterOperator#0;class#PolishNotationConverter#0" />
-            <element signature="method#reverseNotation#0;class#PolishNotationConverter#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,6 +1058,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/additional/OperationPriority.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task2/time/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TestNg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1106,10 +1072,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/task2/time/TimeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task2/reader/TextReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        <state relative-caret-position="204">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
         </state>
       </provider>
     </entry>

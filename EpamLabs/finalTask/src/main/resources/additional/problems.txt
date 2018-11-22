@@ -13,4 +13,4 @@
           <jsp:include page="../footer/footer.jsp"/>
       </div>
 
-4)
+4) жарку для aspectj подкинуть тому

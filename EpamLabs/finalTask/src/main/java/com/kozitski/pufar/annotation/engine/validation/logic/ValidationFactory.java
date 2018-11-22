@@ -7,6 +7,7 @@ import com.kozitski.pufar.annotation.engine.validation.entity.Validatable;
 
 import java.lang.reflect.*;
 
+@Deprecated
 public class ValidationFactory{
 
     // попробую не делать никаких прокси, а просто пройтись по объекту и проверять аннотированные поля

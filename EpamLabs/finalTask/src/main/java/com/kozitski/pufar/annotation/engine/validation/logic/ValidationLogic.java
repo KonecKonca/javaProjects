@@ -5,6 +5,7 @@ import com.kozitski.pufar.annotation.sample.annotation.SecurityLevelEnum;
 
 import java.lang.reflect.Method;
 
+@Deprecated
 public class ValidationLogic {
 
     public void onInvoke(ValidateParameterTransfer transfer, Method method, Object[] args) {

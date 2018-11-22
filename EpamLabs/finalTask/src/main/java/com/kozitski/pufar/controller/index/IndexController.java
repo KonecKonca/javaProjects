@@ -1,5 +1,7 @@
 package com.kozitski.pufar.controller.index;
 
+import com.kozitski.pufar.validation.TestSample;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,5 +17,10 @@ public class IndexController extends HttpServlet {
 
         resp.sendRedirect("/view/index/index.jsp");
 
+
+        /// MUST BE DELETED ONLY FOR TESTING
+        TestSample.fasad();
+
     }
+
 }

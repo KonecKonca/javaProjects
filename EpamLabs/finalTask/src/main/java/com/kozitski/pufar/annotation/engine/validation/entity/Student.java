@@ -1,10 +1,6 @@
 package com.kozitski.pufar.annotation.engine.validation.entity;
 
 import com.kozitski.pufar.annotation.engine.validation.annotation.Validate;
-import com.kozitski.pufar.annotation.engine.validation.logic.ValidationFactory;
-
-import java.util.Objects;
-
 
     // смогу только для транзитных entity объектов, провекрка онли при их создании
     // @ вещаю на поля в конструкторе создаю объект без валидации, и потом редирект на default метод
