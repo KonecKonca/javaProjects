@@ -4,12 +4,12 @@ import com.kozitski.pufar.exception.PufarValidationException;
 import com.kozitski.pufar.validation.annotation.StringValid;
 import com.kozitski.pufar.validation.util.ValidatorRegister;
 import com.kozitski.pufar.validation.validator.Validator;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ import java.util.List;
 
 @Aspect
 public class ValidationAspect {
-    private static Logger LOGGER = LogManager.getLogger();
+    private static Logger LOGGER = LoggerFactory.getLogger(ValidationAspect.class);
 
 //    @Before("execution(@Entity * com.kozitski.pufar..*WithValid*(..))")
     @Before("@annotation(com.kozitski.pufar.validation.annotation.AspectValid)")

@@ -1,6 +1,10 @@
 package com.kozitski.pufar.controller.index;
 
 import com.kozitski.pufar.validation.TestSample;
+import com.kozitski.pufar.validation.aspect.ValidationAspect;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,6 +19,7 @@ public class IndexController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+
         resp.sendRedirect("/view/index/index.jsp");
 
 
@@ -24,3 +29,4 @@ public class IndexController extends HttpServlet {
     }
 
 }
+

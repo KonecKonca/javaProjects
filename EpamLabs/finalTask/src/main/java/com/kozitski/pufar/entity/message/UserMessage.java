@@ -1,5 +1,8 @@
 package com.kozitski.pufar.entity.message;
 
+import com.kozitski.pufar.validation.annotation.AspectValid;
+import com.kozitski.pufar.validation.annotation.StringValid;
+
 import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
@@ -13,6 +16,7 @@ public class UserMessage {
 
     public UserMessage() {
     }
+
     public UserMessage(String message, Date date, Time time, String senderLogin, String receiverLogin) {
         this.message = message;
         this.date = date;

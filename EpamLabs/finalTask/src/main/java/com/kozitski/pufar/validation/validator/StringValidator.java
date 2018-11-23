@@ -3,13 +3,14 @@ package com.kozitski.pufar.validation.validator;
 import com.kozitski.pufar.exception.PufarValidationException;
 import com.kozitski.pufar.validation.annotation.DefaultValidationParameter;
 import com.kozitski.pufar.validation.annotation.StringValid;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.kozitski.pufar.validation.aspect.ValidationAspect;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.annotation.Annotation;
 
 public class StringValidator implements Validator {
-    private static Logger LOGGER = LogManager.getLogger();
+    private static Logger LOGGER = LoggerFactory.getLogger(StringValidator.class);
     
     @Override
     public void validate(Annotation[] annotations, Object object) throws PufarValidationException {

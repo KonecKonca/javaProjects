@@ -43,8 +43,13 @@
                 </p>
 
                 <p class="error">
-                    Похоже, вы выбрали неправильный путь.<br> Не волнуйтесь, время от времени, это случается с каждым из нас.<br>
-                    Поисковая форма и ссылки ниже, помогут вам встать на путь истинный.</p>
+                    Request from: ${pageContext.errorData.requestURI} <br><br>
+                    ServletName ot type: ${pageContext.errorData.servletName}<br><br>
+                    StatusCode: ${pageContext.errorData.statusCode}<br><br>
+                    Exception: ${pageContext.errorData.throwable}
+                    <br>
+
+                </p>
                 <form action="" method="post" class="search">
                     <input type="search" name="" placeholder="поиск" class="input" />
                     <input type="submit" name="" value="" class="submit" />

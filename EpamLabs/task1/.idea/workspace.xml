@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0ec114-b460-4b31-aaae-4d940b6014b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/exception/PufarValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/TestSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/AspectValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/DefaultValidationParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/annotation/StringValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/ValidationAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/ValidationLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/aspect/info/StringValidationAspect.aj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/util/ValidatorRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/validator/StringValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/validation/validator/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/validation/input/validator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/annotation/engine/validation/logic/ValidationLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/controller/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/controller/index/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/resources/additional/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/resources/additional/problems.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/resources/validation/user.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/target/classes/TestNg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/target/classes/additional/sql.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../finalTask/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/entity/message/UserMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/entity/message/UserMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +23,7 @@
     <session id="-1030751981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
@@ -308,7 +282,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -848,7 +822,8 @@
     <option name="totallyTimeSpent" value="155425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="7" />
+    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.1769341" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.29850745" />
