@@ -1,9 +1,7 @@
 package com.kozitski.pufar.controller.index;
 
 import com.kozitski.pufar.validation.TestSample;
-import com.kozitski.pufar.validation.aspect.ValidationAspect;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.kozitski.pufar.validation.util.WebPathReturner;
 
 
 import javax.servlet.ServletException;
@@ -17,14 +15,16 @@ import java.io.IOException;
 public class IndexController extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
-        resp.sendRedirect("/view/index/index.jsp");
-
+        // must be performing Once for all application
+        WebPathReturner.setSf(request.getServletContext().getRealPath("/"));
 
         /// MUST BE DELETED ONLY FOR TESTING
         TestSample.fasad();
+
+
+        response.sendRedirect("/view/index/index.jsp");
 
     }
 

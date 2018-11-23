@@ -29,3 +29,7 @@ import java.lang.annotation.Annotation;
 
 
 //}
+
+
+
+//    @Before("execution(@Entity * com.kozitski.pufar..*WithValid*(..))")

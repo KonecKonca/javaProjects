@@ -20,7 +20,7 @@ import java.util.List;
 public class ValidationAspect {
     private static Logger LOGGER = LoggerFactory.getLogger(ValidationAspect.class);
 
-//    @Before("execution(@Entity * com.kozitski.pufar..*WithValid*(..))")
+
     @Before("@annotation(com.kozitski.pufar.validation.annotation.AspectValid)")
     public void validateString(JoinPoint joinPoint) throws PufarValidationException {
 
@@ -33,8 +33,6 @@ public class ValidationAspect {
 
 
     private void validate(JoinPoint joinPoint) throws PufarValidationException{
-
-//        Class.forName("com.kozitski.pufar.validation.validator.StringValidator").newInstance();
 
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         Annotation[][] annotations = methodSignature.getMethod().getParameterAnnotations();

@@ -1,43 +1,37 @@
 package com.kozitski.pufar.validation.util;
 
+import com.kozitski.pufar.exception.PufarValidationException;
 import com.kozitski.pufar.validation.validator.StringValidator;
 import com.kozitski.pufar.validation.validator.Validator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Properties;
+import java.util.*;
+
 
 public class ValidatorRegister {
-    private static final String VALIDATORS_PATH = "validation/input/validator.properties";
+    private static Logger LOGGER = LoggerFactory.getLogger(ValidatorRegister.class);
+    private static final String VALIDATOR_CONFIG_PATH = "WEB-INF/classes/validation/input/validator.properties";
 
+    public static ArrayList<Validator> initValidators() throws PufarValidationException {
 
-    public static ArrayList<Validator> initValidators() {
-        ArrayList<Validator> validators = new ArrayList<>();
-
-        File file = new File(Objects.requireNonNull(ClassLoader.getSystemClassLoader().getResource(VALIDATORS_PATH)).getFile());
-
+        String fullPath = (WebPathReturner.webPath + VALIDATOR_CONFIG_PATH);
         Properties properties = new Properties();
-        try {
-            properties.load(new FileInputStream(file));
+
+        try(FileInputStream fileInputStream = new FileInputStream(fullPath)) {
+            properties.load(fileInputStream);
         }
         catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error("Properties file with validation config was not founded", e);
+            throw new PufarValidationException("Properties file with validation config was not founded", e);
         }
 
-        String validatorName = (String) properties.get("stringValidator");
+        ArrayList<Object> keys = new ArrayList<>(properties.keySet());
+        ArrayList<Object> values = new ArrayList<>(properties.values());
 
-//        System.out.println(validatorName);
-
-        // FACTORY, каторая по имени возвращает класс
-
-        validators.add(new StringValidator());
-
-        return validators;
+        return new ArrayList<>(ValidatorFactory.getActiveValidators(keys, values));
     }
 
 }

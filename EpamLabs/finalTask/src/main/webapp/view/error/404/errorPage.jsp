@@ -5,7 +5,7 @@
   Time: 13:55
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isErrorPage="true" contentType="text/html; charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 
 <!--[if lt IE 7 ]><html class="ie ie6" lang="ru"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="ru"> <![endif]-->
@@ -20,7 +20,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="css/style.css">
+    <c:set var="context" value="${pageContext.request.contextPath}" />
+    <%--<script src="${context}/themes/js/jquery.js"></script>--%>
+
+    <link rel="stylesheet" href="${context}/view/error/404/css/style.css">
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,11 +46,11 @@
                 </p>
 
                 <p class="error">
-                    Request from: ${pageContext.errorData.requestURI} <br><br>
-                    ServletName ot type: ${pageContext.errorData.servletName}<br><br>
-                    StatusCode: ${pageContext.errorData.statusCode}<br><br>
-                    Exception: ${pageContext.errorData.throwable}
-                    <br>
+                    <strong>Request from:</strong> ${pageContext.errorData.requestURI} <br>
+                    <strong>ServletName ot type:</strong>  ${pageContext.errorData.servletName}<br>
+                    <strong>StatusCode:</strong>  ${pageContext.errorData.statusCode}<br>
+                    <strong>Exception:</strong>  ${pageContext.exception}<br>
+                    <strong>Message:</strong>  ${pageContext.exception.message}<br>
 
                 </p>
                 <form action="" method="post" class="search">
