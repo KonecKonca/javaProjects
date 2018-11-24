@@ -6,11 +6,16 @@ import com.kozitski.xml.entity.LimitTariff;
 import com.kozitski.xml.entity.Tariff;
 import com.kozitski.xml.entity.UnlimitTariff;
 import com.kozitski.xml.exception.XMLParseException;
+import com.kozitski.xml.util.uploading.FileNameGenerator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ShowXmlReceiver {
+    private static Logger LOGGER = LogManager.getLogger(ShowXmlReceiver.class);
+
     private List<LimitTariff> limitTariffs;
     private List<UnlimitTariff> unlimitTariffs;
     private ParserBuilderType xmlBuilderType = ParserBuilderType.DOM;
@@ -31,6 +36,8 @@ public class ShowXmlReceiver {
                 limitTariffs.add((LimitTariff)tariff);
             }
         }
+
+        LOGGER.info("Xml files parsed successfully");
 
     }
     private void chooseBuilder(String parserType){

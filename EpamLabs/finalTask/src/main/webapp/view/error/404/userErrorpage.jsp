@@ -1,5 +1,11 @@
-<%@ page isErrorPage="true" contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: Андрей
+  Date: 06.11.2018
+  Time: 13:55
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!--[if lt IE 7 ]><html class="ie ie6" lang="ru"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="ru"> <![endif]-->
@@ -29,30 +35,21 @@
 <div class="myEdit">
     <div class="comingcontainer">
         <div class="checkbacksoon">
+            <p>
+                <span class="go3d">4</span>
+                <span class="go3d">0</span>
+                <span class="go3d">4</span>
+                <span class="go3d">!</span>
+
+            </p>
 
             <p class="error">
-
-            <strong>Request from:</strong> ${pageContext.errorData.requestURI} <br>
-            <strong>ServletName ot type:</strong>  ${pageContext.errorData.servletName}<br>
-            <strong>StatusCode:</strong>  ${pageContext.errorData.statusCode}<br>
-            <strong>Message:</strong>  ${pageContext.exception.message}<br>
-
-            <strong>Exception:</strong>
-                <c:forEach var="traceElement" items="${pageContext.errorData.throwable.stackTrace}">
-                    <c:out value="${traceElement}"/>
-                </c:forEach>
-
-
+                Похоже, вы выбрали неправильный путь.<br> Не волнуйтесь, время от времени, это случается с каждым из нас.<br>
+                Поисковая форма и ссылки ниже, помогут вам встать на путь истинный.</p>
             <form action="" method="post" class="search">
                 <input type="search" name="" placeholder="поиск" class="input" />
                 <input type="submit" name="" value="" class="submit" />
             </form>
-
-            <br><br><br><br><br><br>
-
-            </p>
-
-
             <nav>
                 <ul>
                     <li><a href="#">Главная</a></li>

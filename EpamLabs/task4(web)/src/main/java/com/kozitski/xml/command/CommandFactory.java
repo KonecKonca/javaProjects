@@ -11,7 +11,7 @@ public class CommandFactory {
     public static Command chooseCommand(String commandName){
         Command command = CommandType.CHOOSE_PARSER_COMMAND.getCommand();
 
-        if(commandName == null || commandName.equals("")){
+        if(commandName == null || commandName.isEmpty()){
             return command;
         }
 
@@ -23,6 +23,8 @@ public class CommandFactory {
             LOGGER.error("Command is not found");
             return CommandType.CHOOSE_PARSER_COMMAND.getCommand();
         }
+
+        LOGGER.info("Command defined correctly");
 
         return command;
     }

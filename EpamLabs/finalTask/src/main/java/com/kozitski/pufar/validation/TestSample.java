@@ -3,6 +3,8 @@ package com.kozitski.pufar.validation;
 import com.kozitski.pufar.validation.annotation.AspectValid;
 import com.kozitski.pufar.validation.annotation.StringValid;
 
+import java.util.ArrayList;
+
 public class TestSample {
 
     public static void main(String[] args) {
@@ -35,7 +37,6 @@ public class TestSample {
     }
 
 }
-
 
 class UnderTest{
 

@@ -2,6 +2,8 @@ package com.kozitski.xml.builder;
 
 import com.kozitski.xml.entity.*;
 import com.kozitski.xml.exception.XMLParseException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -15,9 +17,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import static com.kozitski.xml.builder.BuilderUtil.*;
+import static com.kozitski.xml.builder.BuilderUtilConstant.*;
 
 public class DomXmlBuilder implements XmlBuilder {
+    private static final Logger LOGGER = LogManager.getLogger(DomXmlBuilder.class);
 
     @Override
     public List<Tariff> buildTariffs(String xmlPath) throws XMLParseException {
@@ -49,6 +52,8 @@ public class DomXmlBuilder implements XmlBuilder {
         for (int index = 0; index < unlimitTariffList.getLength(); index++) {
             tariffs.add(buildUnlimitTariff(unlimitTariffList.item(index)));
         }
+
+        LOGGER.info("Dom parser successfully parse xml document");
 
         return tariffs;
     }
@@ -101,7 +106,7 @@ public class DomXmlBuilder implements XmlBuilder {
 
         int OPERATOR_NAME_NUMBER = 3;
         String operatorName = getElement(tariffNodes, OPERATOR_NAME_NUMBER);
-        tariff.setOperatorName(OperatorName.getType(operatorName));
+        tariff.setOperatorName(OperatorName.valueOf(operatorName));
 
         int SMS_PRICE_NUMBER = 5;
         String smsPrice = getElement(tariffNodes, SMS_PRICE_NUMBER);
@@ -121,7 +126,7 @@ public class DomXmlBuilder implements XmlBuilder {
 
         int TARIFICATION_NUMBER = 1;
         String tarification = getElement(parametersNodes, TARIFICATION_NUMBER).toUpperCase();
-        parameters.setTarifficationType(TarifficationType.getType(tarification));
+        parameters.setTarifficationType(TarifficationType.valueOf(tarification));
 
         int PAY_FOR_CONNECTION_NUMBER = 3;
         String payForConnection = getElement(parametersNodes, PAY_FOR_CONNECTION_NUMBER);

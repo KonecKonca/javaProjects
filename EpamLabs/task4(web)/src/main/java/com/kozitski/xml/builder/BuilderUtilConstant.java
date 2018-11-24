@@ -1,6 +1,6 @@
 package com.kozitski.xml.builder;
 
-class BuilderUtil {
+class BuilderUtilConstant {
 
     static final String TRUE_VALUE = "true";
     static final char WHAT_REPLACE = '-';

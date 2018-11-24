@@ -11,7 +11,7 @@
 			<Console name="Console" target="SYSTEM_OUT">
 				<PatternLayout pattern="${pattern_0}"/>
 			</Console>
-			<RollingFile name="File" fileName="logs/application.log" append="true"
+			<RollingFile name="File" fileName="logXmlTask/application.log" append="true"
 						 filePattern = "logs/${date:yyyy-MM-dd}/%d{yyyy-MM-dd_HH-mm}_%i.log">
 				<PatternLayout pattern="${pattern}"/>
 				<Policies>

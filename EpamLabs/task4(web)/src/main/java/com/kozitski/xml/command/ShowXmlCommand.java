@@ -23,7 +23,7 @@ public class ShowXmlCommand implements Command{
     private static final String PARAM_PARSER = "parser";
     private ShowXmlReceiver receiver;
 
-    public ShowXmlCommand(ShowXmlReceiver receiver) {
+    ShowXmlCommand(ShowXmlReceiver receiver) {
         this.receiver = receiver;
     }
 
@@ -53,6 +53,8 @@ public class ShowXmlCommand implements Command{
 
             page = SHOW_TARIFF_JSP;
         }
+
+        LOGGER.info("Command worked successfully");
 
         router.setPagePath(page);
         return router;

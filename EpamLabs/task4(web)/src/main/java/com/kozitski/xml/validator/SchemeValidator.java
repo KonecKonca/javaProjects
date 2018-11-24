@@ -35,7 +35,8 @@ public class SchemeValidator {
             LOGGER.info("File:" + xmlPath + " was successfully validate");
             return true;
 
-        }catch (SAXException | IOException exception){
+        }
+        catch (SAXException | IOException exception){
             LOGGER.error("Parse exception", exception);
             return false;
         }

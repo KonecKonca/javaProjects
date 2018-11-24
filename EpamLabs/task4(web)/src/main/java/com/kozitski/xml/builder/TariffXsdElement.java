@@ -20,6 +20,7 @@ public enum TariffXsdElement {
     IS_INNER_CALLS,
     IS_INTERNET;
 
+    // instead common lang.Enum method, without Exception
     public static boolean containsElement(String test) {
 
         for (TariffXsdElement element : TariffXsdElement.values()) {

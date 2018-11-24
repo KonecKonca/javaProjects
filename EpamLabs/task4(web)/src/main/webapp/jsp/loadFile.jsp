@@ -11,10 +11,18 @@
         <p> Download Image </p>
 
         <FORM action="/upload" enctype="multipart/form-data" method="POST">
+            <input type="hidden" name="chooseXmlCommand" value="CHOOSE_XML_COMMAND">
+
             Upload File:
             <INPUT type="file" name="content">
             <INPUT type="submit" value="Upload File">
         </FORM>
+
+        <br><br><br>
+
+        <a href="${pageContext.request.contextPath}/index.jsp">
+            <h3>Choose another parser</h3>
+        </a>
 
     </center>
 

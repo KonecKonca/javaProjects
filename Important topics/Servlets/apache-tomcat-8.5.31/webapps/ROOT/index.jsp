@@ -15,6 +15,7 @@
             <br><br><br>
 
             <form action="/choose" method="post">
+                <input type="hidden" name="chooseParserCommand" value="CHOOSE_PARSER_COMMAND">
 
                 <input type="text" name="parser" required minlength="3" maxlength="4">
 

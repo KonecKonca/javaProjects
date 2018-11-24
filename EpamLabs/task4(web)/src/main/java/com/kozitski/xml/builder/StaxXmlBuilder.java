@@ -1,6 +1,8 @@
 package com.kozitski.xml.builder;
 
 import com.kozitski.xml.entity.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.xml.stream.*;
 import java.io.File;
@@ -11,9 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.kozitski.xml.builder.TariffXsdElement.*;
-import static com.kozitski.xml.builder.BuilderUtil.*;
+import static com.kozitski.xml.builder.BuilderUtilConstant.*;
 
 public class StaxXmlBuilder implements XmlBuilder {
+    private static final Logger LOGGER = LogManager.getLogger(StaxXmlBuilder.class);
 
     private List<Tariff> tariffs = new ArrayList<>();
     private XMLInputFactory inputFactory;
@@ -25,6 +28,9 @@ public class StaxXmlBuilder implements XmlBuilder {
     @Override
     public List<Tariff> buildTariffs(String xmlPath){
         build(xmlPath);
+
+        LOGGER.info("StaxXmlBuilder parser successfully parse xml document");
+
         return tariffs;
     }
 

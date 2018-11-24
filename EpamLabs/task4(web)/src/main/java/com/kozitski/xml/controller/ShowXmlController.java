@@ -2,6 +2,8 @@ package com.kozitski.xml.controller;
 
 
 import com.kozitski.xml.command.Command;
+import com.kozitski.xml.command.CommandFactory;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,21 +20,18 @@ public class ShowXmlController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        callCommand(request, response);
+        Command command = CommandFactory.chooseCommand(request.getParameter(CommandNameConstant.CHOOSE_XML_COMMAND));
 
-    }
-
-    private void callCommand(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        Command command = CHOOSE_XML_COMMAND.getCommand();
         Router router = command.execute(request);
 
         if(router.isForward()){
             request.getRequestDispatcher(router.getPagePath()).forward(request, response);
         }
+        else {
+            response.sendRedirect(router.getPagePath());
+        }
 
     }
-
 
 }
 

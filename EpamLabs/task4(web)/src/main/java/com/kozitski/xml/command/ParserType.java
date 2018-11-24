@@ -1,7 +1,5 @@
 package com.kozitski.xml.command;
 
-import com.kozitski.xml.builder.ParserBuilderType;
-
 public enum ParserType {
 
     DOM, SAX, STAX;

@@ -15,9 +15,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.kozitski.xml.builder.BuilderUtil.*;
+import static com.kozitski.xml.builder.BuilderUtilConstant.*;
 
 public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
+    private static final Logger LOGGER = LogManager.getLogger(SaxXmlBuilder.class);
+
     private SAXParser saxParser;
     private TariffXsdElement currentTag;
     private ArrayList<Tariff> tariffs = new ArrayList<>();
@@ -32,6 +34,8 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
         catch (ParserConfigurationException | SAXException e) {
             throw new XMLParseException("SAXParserFactory didn't create newInstance", e);
         }
+
+        LOGGER.info("SAX parser successfully parse xml document");
     }
 
     @Override
@@ -50,7 +54,7 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
     }
 
     @Override
-    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+    public void startElement(String uri, String localName, String qName, Attributes attributes){
 
         String tagName = qName.toUpperCase().replace(WHAT_REPLACE, ON_REPLACE);
         if (TariffXsdElement.containsElement(tagName)) {
@@ -94,7 +98,7 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
     }
 
     @Override
-    public void characters(char[] chars, int start, int length) throws SAXException {
+    public void characters(char[] chars, int start, int length) {
         if (currentTag != null) {
             switch (currentTag) {
                 case NAME: {
@@ -104,7 +108,7 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
                 }
                 case OPERATOR_NAME: {
                     String operatorName = new String(chars, start, length);
-                    currentTariff.setOperatorName(OperatorName.getType(operatorName));
+                    currentTariff.setOperatorName(OperatorName.valueOf(operatorName));
                     break;
                 }
                 case SMS_PRICE: {
@@ -118,7 +122,7 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
                     break;
                 }
                 case TARIFFICATION: {
-                    TarifficationType tarification = TarifficationType.getType(new String(chars, start, length).toUpperCase());
+                    TarifficationType tarification = TarifficationType.valueOf(new String(chars, start, length).toUpperCase());
                     currentParameters.setTarifficationType(tarification);
                     break;
                 }

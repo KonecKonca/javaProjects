@@ -23,7 +23,8 @@
                 <td>Favourite number</td>
                 <td>Internal call</td>
                 <td>External call</td>
-                <td>MB price</td>
+                <td>Internet</td>
+                <td>Payroll</td>
             </tr>
 
             <c:forEach var="element" items="${unlimitList}">
@@ -41,18 +42,18 @@
                     <td>########</td>
                 </tr>
                 <tr>
-                    <td><c:out value="${element.getName()}"/></td>
-                    <td><c:out value="${element.getOperatorName()}"/></td>
-                    <td><c:out value="${element.getSmsPrice()}"/></td>
+                    <td><c:out value="${element.name}"/></td>
+                    <td><c:out value="${element.operatorName}"/></td>
+                    <td><c:out value="${element.smsPrice}"/></td>
 
-                    <td><c:out value="${element.getTariffParameters().getTarifficationType()}"/></td>
-                    <td><c:out value="${element.getTariffParameters().getPayForConnection()}"/></td>
-                    <td><c:out value="${element.getTariffParameters().getFavouriteNumber()}"/></td>
+                    <td><c:out value="${element.tariffParameters.tarifficationType}"/></td>
+                    <td><c:out value="${element.tariffParameters.payForConnection}"/></td>
+                    <td><c:out value="${element.tariffParameters.favouriteNumber}"/></td>
 
-                    <td><c:out value="${element.isHasInternalCall() }"/></td>
-                    <td><c:out value="${element.isHasExternalCall()}"/></td>
-                    <td><c:out value="${element.isHasInternet()}"/></td>
-                    <td><c:out value="${element.getPayroll()}"/></td>
+                    <td><c:out value="${element.hasInternalCall }"/></td>
+                    <td><c:out value="${element.hasExternalCall}"/></td>
+                    <td><c:out value="${element.hasInternet}"/></td>
+                    <td><c:out value="${element.payroll}"/></td>
                 </tr>
             </c:forEach>
 
@@ -71,7 +72,6 @@
                 <td>Internal call</td>
                 <td>External call</td>
                 <td>Internet</td>
-                <td>Payroll</td>
             </tr>
 
             <c:forEach var="element" items="${limitList}">
@@ -86,24 +86,34 @@
                     <td>########</td>
                     <td>########</td>
                     <td>########</td>
-                    <td>########</td>
                 </tr>
                 <tr>
-                    <td><c:out value="${element.getName()}"/></td>
-                    <td><c:out value="${element.getOperatorName()}"/></td>
-                    <td><c:out value="${element.getSmsPrice()}"/></td>
+                    <td><c:out value="${element.name}"/></td>
+                    <td><c:out value="${element.operatorName}"/></td>
+                    <td><c:out value="${element.smsPrice}"/></td>
 
-                    <td><c:out value="${element.getTariffParameters().getTarifficationType()}"/></td>
-                    <td><c:out value="${element.getTariffParameters().getPayForConnection()}"/></td>
-                    <td><c:out value="${element.getTariffParameters().getFavouriteNumber()}"/></td>
+                    <td><c:out value="${element.tariffParameters.tarifficationType}"/></td>
+                    <td><c:out value="${element.tariffParameters.payForConnection}"/></td>
+                    <td><c:out value="${element.tariffParameters.favouriteNumber}"/></td>
 
-                    <td><c:out value="${element.getInternalCallPrice() }"/></td>
-                    <td><c:out value="${element.getExternalCallPrice()}"/></td>
-                    <td><c:out value="${element.getMbPrice()}"/></td>
+                    <td><c:out value="${element.internalCallPrice }"/></td>
+                    <td><c:out value="${element.externalCallPrice}"/></td>
+                    <td><c:out value="${element.mbPrice}"/></td>
                 </tr>
             </c:forEach>
 
         </table>
+
+
+        <br><br><br>
+
+        <a href="${pageContext.request.contextPath}/index.jsp">
+            <h3>Choose another parser</h3>
+        </a>
+
+        <a href="${pageContext.request.contextPath}/jsp/loadFile.jsp">
+            <h3>Choose another file</h3>
+        </a>
 
     </div>
 
