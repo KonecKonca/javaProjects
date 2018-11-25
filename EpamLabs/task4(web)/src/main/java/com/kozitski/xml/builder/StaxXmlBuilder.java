@@ -41,7 +41,7 @@ public class StaxXmlBuilder implements XmlBuilder {
         try {
             inputStream = new FileInputStream(new File(fileName));
             reader = inputFactory.createXMLStreamReader(inputStream);
-            // StAX parsing
+
             while (reader.hasNext()) {
                 int type = reader.next();
                 if (type == XMLStreamConstants.START_ELEMENT) {
@@ -69,11 +69,11 @@ public class StaxXmlBuilder implements XmlBuilder {
                 }
             }
         }
-        catch (XMLStreamException ex) {
-            System.err.println("StAX parsing error! " + ex.getMessage());
+        catch (XMLStreamException e) {
+            LOGGER.error("StAX parsing error! ", e);
         }
-        catch (FileNotFoundException ex) {
-            System.err.println("File " + fileName + " not found! " + ex);
+        catch (FileNotFoundException e) {
+            LOGGER.error("File " + fileName + " not found! ", e);
         }
         finally {
             try {
@@ -81,7 +81,7 @@ public class StaxXmlBuilder implements XmlBuilder {
                     inputStream.close();
                 }
             } catch (IOException e) {
-                System.err.println("Impossible close file "+fileName+" : "+e);
+                LOGGER.error("Impossible close file " +fileName+ " : ", e);
             }
         }
 
@@ -131,7 +131,7 @@ public class StaxXmlBuilder implements XmlBuilder {
             }
         }
 
-        throw new XMLStreamException("Unknown element in tag Student");
+        throw new XMLStreamException("Unknown element in tag (Tariff)");
     }
     private Tariff buildUnlimitTariff(XMLStreamReader reader) throws XMLStreamException {
         UnlimitTariff tariff = new UnlimitTariff();
@@ -191,7 +191,7 @@ public class StaxXmlBuilder implements XmlBuilder {
 
         }
 
-        throw new XMLStreamException("Unknown element in tag Student");
+        throw new XMLStreamException("Unknown element in tag (Tariff)");
     }
     private TariffParameters buildParameters(XMLStreamReader reader) throws XMLStreamException {
         TariffParameters tariffParameters = new TariffParameters();
@@ -227,7 +227,7 @@ public class StaxXmlBuilder implements XmlBuilder {
             }
         }
 
-        throw new XMLStreamException("Unknown element in tag Student");
+        throw new XMLStreamException("Unknown element in tag (Tariff)");
     }
 
     private String getXMLText(XMLStreamReader reader) throws XMLStreamException {

@@ -1,4 +1,4 @@
-package com.kozitski.xml.util.uploading;
+package com.kozitski.xml.util;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

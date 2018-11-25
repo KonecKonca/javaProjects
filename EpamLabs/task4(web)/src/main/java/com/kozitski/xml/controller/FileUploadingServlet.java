@@ -1,6 +1,6 @@
 package com.kozitski.xml.controller;
 
-import com.kozitski.xml.util.uploading.FileNameGenerator;
+import com.kozitski.xml.util.FileNameGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

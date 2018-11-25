@@ -6,14 +6,13 @@ import com.kozitski.xml.entity.LimitTariff;
 import com.kozitski.xml.entity.Tariff;
 import com.kozitski.xml.entity.UnlimitTariff;
 import com.kozitski.xml.exception.XMLParseException;
-import com.kozitski.xml.util.uploading.FileNameGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShowXmlReceiver {
+public class ShowXmlReceiver{
     private static Logger LOGGER = LogManager.getLogger(ShowXmlReceiver.class);
 
     private List<LimitTariff> limitTariffs;

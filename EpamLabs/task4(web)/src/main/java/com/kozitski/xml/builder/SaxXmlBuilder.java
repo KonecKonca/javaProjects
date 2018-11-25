@@ -68,15 +68,16 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
                 case UNLIMIT_TARIFF: {
                     currentTariff = new UnlimitTariff();
 
-                    boolean isInnerCalls = TRUE_VALUE.equalsIgnoreCase(attributes.getValue(0));
+                    int innerCallAttributeNumber = 0;
+                    boolean isInnerCalls = TRUE_VALUE.equalsIgnoreCase(attributes.getValue(innerCallAttributeNumber));
                     ((UnlimitTariff) currentTariff).setHasInternalCall(isInnerCalls);
 
-
-                    boolean isExternalCalls = TRUE_VALUE.equalsIgnoreCase(attributes.getValue(1));
+                    int externalCallAttributeNumber = 1;
+                    boolean isExternalCalls = TRUE_VALUE.equalsIgnoreCase(attributes.getValue(externalCallAttributeNumber));
                     ((UnlimitTariff) currentTariff).setHasExternalCall(isExternalCalls);
 
-
-                    boolean isInternet = TRUE_VALUE.equalsIgnoreCase(attributes.getValue(2));
+                    int internetAttributeNumber = 2;
+                    boolean isInternet = TRUE_VALUE.equalsIgnoreCase(attributes.getValue(internetAttributeNumber));
                     ((UnlimitTariff) currentTariff).setHasInternet(isInternet);
 
                     tariffs.add(currentTariff);
@@ -87,7 +88,8 @@ public class SaxXmlBuilder extends DefaultHandler implements XmlBuilder {
                     currentParameters = new TariffParameters();
                     currentTariff.setTariffParameters(currentParameters);
 
-                    String number = attributes.getValue(0);
+                    int favouritePhoneAttributeNumber = 0;
+                    String number = attributes.getValue(favouritePhoneAttributeNumber);
                     currentParameters.setFavouriteNumber(number);
 
                 }

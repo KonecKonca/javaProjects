@@ -4,7 +4,6 @@ import com.kozitski.xml.validator.SchemeValidator;
 import org.testng.annotations.Test;
 
 
-import static com.kozitski.xml.validator.SchemeValidator.XSD_PATH;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotEquals;
 
@@ -17,21 +16,21 @@ public class SchemeValidatorTest {
     public void testValidateTrue() {
 
         boolean actual = true;
-        boolean expected = SchemeValidator.validate(CORRECT_XML_PATH, XSD_PATH);
+        boolean expected = SchemeValidator.validate(CORRECT_XML_PATH, SchemeValidator.XSD_PATH);
         assertEquals(actual, expected);
     }
 
     @Test
     public void testValidateFalse() {
         boolean actual = true;
-        boolean expected = SchemeValidator.validate(INCORRECT_XML_PATH, XSD_PATH);
+        boolean expected = SchemeValidator.validate(INCORRECT_XML_PATH, SchemeValidator.XSD_PATH);
 
         assertNotEquals(actual, expected);
     }
 
     @Test(expectedExceptions = RuntimeException.class)
     public void testValidateFileNotFound() {
-        SchemeValidator.validate(DATA_FOR_FILE_NOT_FOUND , XSD_PATH);
+        SchemeValidator.validate(DATA_FOR_FILE_NOT_FOUND , SchemeValidator.XSD_PATH);
     }
 
 }

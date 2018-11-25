@@ -4,9 +4,8 @@ import com.kozitski.xml.controller.Router;
 import com.kozitski.xml.entity.LimitTariff;
 import com.kozitski.xml.entity.UnlimitTariff;
 import com.kozitski.xml.exception.XMLParseException;
-import com.kozitski.xml.logic.ChooseParserReceiver;
 import com.kozitski.xml.logic.ShowXmlReceiver;
-import com.kozitski.xml.util.uploading.FileNameGenerator;
+import com.kozitski.xml.util.FileNameGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

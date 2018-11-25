@@ -1,12 +1,11 @@
-package com.kozitski.xml.factory;
+package com.kozitski.xml.builder;
 
-import com.kozitski.xml.builder.*;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class FactoryTest {
+public class XmlBuilderFactoryTest {
 
     @Test(dataProvider = "dataFabricTest")
     public void fabricTest(Class actual, ParserBuilderType parserBuilderType){
@@ -20,7 +19,10 @@ public class FactoryTest {
         return new Object[][]{
             {DomXmlBuilder.class, ParserBuilderType.DOM_PARSER_BUILDER},
             {SaxXmlBuilder.class, ParserBuilderType.SAX_PARSER_BUILDER},
-            {StaxXmlBuilder.class, ParserBuilderType.STAX_PARSER_BUILDER}
+            {StaxXmlBuilder.class, ParserBuilderType.STAX_PARSER_BUILDER},
+            {DomXmlBuilder.class, ParserBuilderType.DOM},
+            {SaxXmlBuilder.class, ParserBuilderType.SAX},
+            {StaxXmlBuilder.class, ParserBuilderType.STAX}
         };
     }
 

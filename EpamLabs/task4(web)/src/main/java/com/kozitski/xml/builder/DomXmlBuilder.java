@@ -17,7 +17,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import static com.kozitski.xml.builder.BuilderUtilConstant.*;
 
 public class DomXmlBuilder implements XmlBuilder {
     private static final Logger LOGGER = LogManager.getLogger(DomXmlBuilder.class);
@@ -53,7 +52,7 @@ public class DomXmlBuilder implements XmlBuilder {
             tariffs.add(buildUnlimitTariff(unlimitTariffList.item(index)));
         }
 
-        LOGGER.info("Dom parser successfully parse xml document");
+        LOGGER.info("DOM parser successfully parse xml document");
 
         return tariffs;
     }
@@ -83,13 +82,13 @@ public class DomXmlBuilder implements XmlBuilder {
         buildTariff(unlimitTariff, node);
 
         String attributeIsExternallCalls = getAttribure(node, TariffXsdElement.IS_EXTERNAL_CALLS);
-        unlimitTariff.setHasExternalCall(TRUE_VALUE.equalsIgnoreCase(attributeIsExternallCalls));
+        unlimitTariff.setHasExternalCall(BuilderUtilConstant.TRUE_VALUE.equalsIgnoreCase(attributeIsExternallCalls));
 
         String attributeInnerCalls = getAttribure(node,TariffXsdElement.IS_INNER_CALLS);
-        unlimitTariff.setHasInternalCall(TRUE_VALUE.equalsIgnoreCase(attributeInnerCalls));
+        unlimitTariff.setHasInternalCall(BuilderUtilConstant.TRUE_VALUE.equalsIgnoreCase(attributeInnerCalls));
 
         String attributeIsInternet = getAttribure(node,TariffXsdElement.IS_INTERNET);
-        unlimitTariff.setHasInternet(TRUE_VALUE.equalsIgnoreCase(attributeIsInternet));
+        unlimitTariff.setHasInternet(BuilderUtilConstant.TRUE_VALUE.equalsIgnoreCase(attributeIsInternet));
 
         int PAYROLL_NUMBER = 9;
         String payroll = getElement(unlimitTariffyNodes, PAYROLL_NUMBER);
@@ -144,7 +143,7 @@ public class DomXmlBuilder implements XmlBuilder {
     }
     private String convertToXmlFormat(Enum element){
         String stringElement = element.toString();
-        return stringElement.replace('_','-').toLowerCase();
+        return stringElement.replace(BuilderUtilConstant.ON_REPLACE,BuilderUtilConstant.WHAT_REPLACE).toLowerCase();
     }
 
 }
