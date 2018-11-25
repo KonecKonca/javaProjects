@@ -16,7 +16,7 @@ public class LoginController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("view/login/login.jsp");
+        resp.sendRedirect("jsp/login/login.jsp");
     }
 
     @Override
@@ -30,7 +30,7 @@ public class LoginController extends HttpServlet {
         HttpSession session = request.getSession();
         if(user != null){
             session.setAttribute("user", user);
-            response.sendRedirect("view/profile.jsp");
+            response.sendRedirect("jsp/profile.jsp");
             return;
         }
 

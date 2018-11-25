@@ -24,9 +24,9 @@ public class IndexController extends HttpServlet {
         TestSample.fasad();
 
 
-        response.sendRedirect("/view/index/index.jsp");
+        //  /view/index/index.jsp
+        response.sendRedirect("index.jsp");
 
     }
 
 }
-

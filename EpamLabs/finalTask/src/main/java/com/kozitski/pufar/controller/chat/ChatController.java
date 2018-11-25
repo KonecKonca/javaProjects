@@ -12,7 +12,7 @@ public class ChatController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("/view/chat/chat.jsp");
+        resp.sendRedirect("/jsp/chat/chat.jsp");
     }
 
 }

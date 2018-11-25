@@ -12,7 +12,9 @@ public class CommonTestController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("/view/template/template.jsp");
+
+//        /view/template/template.jsp
+        resp.sendRedirect("/jsp/template/template.jsp");
     }
 
 }
