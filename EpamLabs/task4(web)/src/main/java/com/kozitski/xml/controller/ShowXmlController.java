@@ -31,6 +31,13 @@ public class ShowXmlController extends HttpServlet {
             response.sendRedirect(router.getPagePath());
         }
 
+
+        request.getServletContext().getAttribute();
+        request.getSession().getAttribute();
+        request.getAttribute();
+        request.getParaRemeter();
+
+
     }
 
 }
