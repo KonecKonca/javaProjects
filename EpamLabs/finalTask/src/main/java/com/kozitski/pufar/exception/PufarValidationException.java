@@ -1,6 +1,6 @@
 package com.kozitski.pufar.exception;
 
-public class PufarValidationException extends Exception{
+public class PufarValidationException extends RuntimeException{
 
     public PufarValidationException() {
         super();

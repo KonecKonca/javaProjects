@@ -1,11 +1,5 @@
 package com.kozitski.pufar.filter;
 
-import com.kozitski.pufar.validation.util.WebPathReturner;
-
-import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
-import java.io.IOException;
-
 //@WebFilter("/*")
 //public class StartFilter implements Filter {
 //

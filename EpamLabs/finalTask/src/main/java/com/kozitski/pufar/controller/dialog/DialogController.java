@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 @WebServlet("/dialog")
 public class DialogController extends HttpServlet {
@@ -27,7 +25,7 @@ public class DialogController extends HttpServlet {
         List<UserMessage> messages = dialogService.searchAllMessagesBetweenWithLimit(1, 2, 1, 3);
 
         for(UserMessage userMessage : messages){
-            resp.getWriter().write(userMessage.getDate() + "\t  " + userMessage.getTime() +  ":: " + userMessage.getSenderLogin() + " to "
+            resp.getWriter().write("\t  " + userMessage.getTime() +  ":: " + userMessage.getSenderLogin() + " to "
                     + userMessage.getReceiverLogin() + " message: " + userMessage.getMessage() + "\n");
         }
 

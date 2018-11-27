@@ -2,10 +2,8 @@ package com.kozitski.pufar.dao.dialoge;
 
 import com.kozitski.pufar.connection.PoolConnection;
 import com.kozitski.pufar.entity.message.UserMessage;
-import com.kozitski.pufar.entity.user.User;
 import com.kozitski.pufar.exception.PufarDAOException;
 import com.kozitski.pufar.util.mapper.dialog.DialogMapper;
-import com.kozitski.pufar.util.mapper.user.UserMapper;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -13,7 +11,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class MySQLDialogDao implements DialogDAO {
 

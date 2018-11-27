@@ -1,9 +1,8 @@
-package com.kozitski.pufar.validation.validator;
+package com.kozitski.pufar.validation.validator.primitive;
 
 import com.kozitski.pufar.exception.PufarValidationException;
-import com.kozitski.pufar.validation.annotation.DefaultValidationParameter;
-import com.kozitski.pufar.validation.annotation.StringValid;
-import com.kozitski.pufar.validation.aspect.ValidationAspect;
+import com.kozitski.pufar.validation.annotation.primitive.string.StringValid;
+import com.kozitski.pufar.validation.validator.Validator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +22,11 @@ public class StringValidator implements Validator {
 
     private void stringValidation(StringValid annotation, String string) throws PufarValidationException {
 
+        if(string == null){
+            LOGGER.error("String can not be null");
+            throw new PufarValidationException("String can not be null");
+        }
+
         int minLength = annotation.minLength();
         int maxLength = annotation.maxLength();
         String forbiddenValue = annotation.forbiddenValue();
@@ -41,9 +45,19 @@ public class StringValidator implements Validator {
 
         if(!string.matches(validateRegExp)){
             LOGGER.error(string + " is not valid diu to regexp(" + validateRegExp + ")");
-            throw new PufarValidationException(string + " is not valid diu to regexp(" + validateRegExp + ")");
+            throw new PufarValidationException("("  + string + ") is not valid diu to regexp(" + validateRegExp + ")");
         }
 
+        if(string.contains(annotation.xssPattern())){
+            LOGGER.error("message can be not XSS protected");
+            throw new PufarValidationException("message can be not XSS protected");
+        }
+
+    }
+
+    @Override
+    public String toString() {
+        return getValidatorName();
     }
 
 }

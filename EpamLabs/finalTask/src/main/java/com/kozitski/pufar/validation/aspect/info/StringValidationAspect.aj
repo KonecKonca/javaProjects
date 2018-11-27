@@ -5,8 +5,8 @@ import java.lang.annotation.Annotation;
 //public aspect StringValidationAspect {
 
 //    pointcut stringValidation() :
-//            execution(public * ((@StringValid *)+).*(..)) && within(@StringValid *);
-////            execution(* (@StringValid *).*(..));
+//            execution(public * ((@MessageValid *)+).*(..)) && within(@MessageValid *);
+////            execution(* (@MessageValid *).*(..));
 //
 //    before() : stringValidation(){
 //        Object[] args = thisJoinPoint.getArgs();

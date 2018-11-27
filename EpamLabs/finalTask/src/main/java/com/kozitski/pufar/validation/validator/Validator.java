@@ -8,4 +8,8 @@ public interface Validator {
 
     void validate(Annotation[] annotations, Object object) throws PufarValidationException;
 
+    default String getValidatorName() {
+        return this.getClass().getSimpleName();
+    }
+
 }

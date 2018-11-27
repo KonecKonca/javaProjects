@@ -27,4 +27,5 @@ public class DialogServiceImpl implements DialogService {
         // validation
         return dialogDAO.searchAllMessagesBetweenWithLimit(userId1, userId2, since, howMuch);
     }
+
 }

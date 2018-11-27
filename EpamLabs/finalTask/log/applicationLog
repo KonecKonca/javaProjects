@@ -1,0 +1,12 @@
+2018-11-27 19:19:55 INFO  ValidationAspect:25 - validation advice is executing
+2018-11-27 19:19:55 ERROR ValidatorRegister:27 - Properties file with validation config was not founded
+java.io.FileNotFoundException: null\WEB-INF\classes\validation\validator.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.kozitski.pufar.validation.util.ValidatorRegister.initValidators(ValidatorRegister.java:23)
+	at com.kozitski.pufar.validation.aspect.ValidationAspect.validate(ValidationAspect.java:39)
+	at com.kozitski.pufar.validation.aspect.ValidationAspect.validateString(ValidationAspect.java:27)
+	at com.kozitski.pufar.validation.TestSample.fasad(TestSample.java:24)
+	at com.kozitski.pufar.validation.TestSample.main(TestSample.java:10)

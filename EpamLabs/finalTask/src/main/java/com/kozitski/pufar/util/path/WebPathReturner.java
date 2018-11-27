@@ -1,9 +1,9 @@
-package com.kozitski.pufar.validation.util;
+package com.kozitski.pufar.util.path;
 
 
 public class WebPathReturner{
 
-    public static String webPath = "/WEB-INF/classes/validation/input";
+    public static String webPath;
 
     public static void setSf(String webPath) {
         WebPathReturner.webPath = webPath;

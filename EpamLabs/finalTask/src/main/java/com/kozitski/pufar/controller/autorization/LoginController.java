@@ -30,7 +30,7 @@ public class LoginController extends HttpServlet {
         HttpSession session = request.getSession();
         if(user != null){
             session.setAttribute("user", user);
-            response.sendRedirect("jsp/profile.jsp");
+            response.sendRedirect("jsp/profile/profile.jsp");
             return;
         }
 

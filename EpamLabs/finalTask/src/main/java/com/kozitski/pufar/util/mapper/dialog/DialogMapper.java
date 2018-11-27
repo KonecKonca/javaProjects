@@ -1,8 +1,6 @@
 package com.kozitski.pufar.util.mapper.dialog;
 
 import com.kozitski.pufar.entity.message.UserMessage;
-import com.kozitski.pufar.entity.user.User;
-import com.kozitski.pufar.entity.user.UserStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -23,7 +21,7 @@ public class DialogMapper {
             Time time = resultSet.getTime("date");
             Date date = resultSet.getDate("date");
 
-            result.add(new UserMessage(message, date, time, sender_login, receiver_login));
+            result.add(new UserMessage(message, time, sender_login, receiver_login));
         }
 
         return result;

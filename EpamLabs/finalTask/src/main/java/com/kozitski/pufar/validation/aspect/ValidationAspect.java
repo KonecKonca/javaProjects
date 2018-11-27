@@ -1,7 +1,6 @@
 package com.kozitski.pufar.validation.aspect;
 
 import com.kozitski.pufar.exception.PufarValidationException;
-import com.kozitski.pufar.validation.annotation.StringValid;
 import com.kozitski.pufar.validation.util.ValidatorRegister;
 import com.kozitski.pufar.validation.validator.Validator;
 import org.aspectj.lang.JoinPoint;
@@ -13,7 +12,6 @@ import org.slf4j.LoggerFactory;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
-import java.util.List;
 
 
 @Aspect
@@ -24,7 +22,7 @@ public class ValidationAspect {
     @Before("@annotation(com.kozitski.pufar.validation.annotation.AspectValid)")
     public void validateString(JoinPoint joinPoint) throws PufarValidationException {
 
-        LOGGER.info("advice is executing");
+        LOGGER.info("validation advice is executing");
 
         validate(joinPoint);
 

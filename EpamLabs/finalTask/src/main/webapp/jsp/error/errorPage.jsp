@@ -33,13 +33,13 @@
             <strong>Request from:</strong> ${pageContext.errorData.requestURI} <br>
             <strong>ServletName ot type:</strong>  ${pageContext.errorData.servletName}<br>
             <strong>StatusCode:</strong>  ${pageContext.errorData.statusCode}<br>
+            <strong>Exception:</strong> ${pageContext.exception} <br>
             <strong>Message:</strong>  ${pageContext.exception.message}<br>
 
-            <strong>Exception:</strong>
-                <c:forEach var="traceElement" items="${pageContext.errorData.throwable.stackTrace}">
-                    <c:out value="${traceElement}"/>
-                </c:forEach>
-
+            <strong>Case:</strong>
+            <c:forEach var="traceElement" items="${pageContext.errorData.throwable.stackTrace}">
+                <c:out value="${traceElement}"/>
+            </c:forEach>
 
             <form action="" method="post" class="search">
                 <input type="search" name="" placeholder="поиск" class="input" />

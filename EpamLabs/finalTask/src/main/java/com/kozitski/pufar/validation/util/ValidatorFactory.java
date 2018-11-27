@@ -1,46 +1,43 @@
 package com.kozitski.pufar.validation.util;
 
 import com.kozitski.pufar.validation.validator.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-// Will be good generate validators by string with classLoader (in use must be change only .property file)
 class ValidatorFactory {
+    private static Logger LOGGER = LoggerFactory.getLogger(ValidatorFactory.class);
 
     static ArrayList<Validator> getActiveValidators(List<Object> names, List<Object> isActive){
 
-        List<String> stringNames = new ArrayList<>();
+        List<String> stringKeys = new ArrayList<>();
         for(Object o : names){
-            stringNames.add(o.toString());
+            stringKeys.add(o.toString());
         }
 
-        List<Boolean> boolIsActive = new ArrayList<>();
+        List<String> stringPaths = new ArrayList<>();
         for(Object o : isActive){
-            boolIsActive.add(Boolean.valueOf(o.toString()));
+            stringPaths.add(o.toString());
         }
 
 
         ArrayList<Validator> activeValidators = new ArrayList<>();
 
-        for(int i = 0; i < boolIsActive.size(); i++){
-            if(boolIsActive.get(i)){
-                switch (stringNames.get(i)){
-                    case ValidatorType.STRING_VALIDATOR:
-                        activeValidators.add(new StringValidator());
-                        break;
-                    case ValidatorType.INT_VALIDATOR:
-                        activeValidators.add(new IntValidator());
-                        break;
-                    case ValidatorType.USER_VALIDATOR:
-                        activeValidators.add(new UserValidator());
-                        break;
-                    case ValidatorType.NOTIFICATION_VALIDATOR:
-                        activeValidators.add(new NotificationValidator());
-                        break;
-                }
+        for(int i = 0; i < stringPaths.size(); i++){
+
+            try {
+                Validator currentValidator = (Validator) Class.forName(stringPaths.get(i)).newInstance();
+                activeValidators.add(currentValidator);
             }
+            catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
+                LOGGER.warn("Validator is not founded (" +  stringKeys.get(i) + " : " + stringPaths.get(i) + ")");
+            }
+
         }
+
+        LOGGER.info("ARE ACTIVE next validators: " + activeValidators);
 
         return activeValidators;
     }
