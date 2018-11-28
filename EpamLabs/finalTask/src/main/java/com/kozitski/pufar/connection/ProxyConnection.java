@@ -1,11 +1,16 @@
 package com.kozitski.pufar.connection;
 
+import com.kozitski.pufar.exception.PufarDAOException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.sql.*;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
 
 public class ProxyConnection implements Connection, AutoCloseable{
+    private static Logger LOGGER = LoggerFactory.getLogger(ProxyConnection.class);
     private Connection connection;
 
     ProxyConnection(Connection connection) {
@@ -54,10 +59,15 @@ public class ProxyConnection implements Connection, AutoCloseable{
 
     @Override
     public void close() throws SQLException {
-//         here my be checking transaction
-        PoolConnection.getInstance().releaseConnection(this);
+        // TODO: [CLOSE CONNECTION] here my be checking transaction
+        try {
+            PoolConnection.getInstance().releaseConnection(this);
+        }
+        catch (PufarDAOException e) {
+            LOGGER.error("can not get PoolConnection instance");
+        }
     }
-    public void realClose() throws SQLException{
+    void realClose() throws SQLException{
         connection.close();
     }
 

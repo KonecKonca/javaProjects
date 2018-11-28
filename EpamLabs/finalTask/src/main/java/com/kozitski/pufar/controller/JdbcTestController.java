@@ -2,7 +2,6 @@ package com.kozitski.pufar.controller;
 
 import com.kozitski.pufar.connection.PoolConnection;
 import com.kozitski.pufar.exception.PufarDAOException;
-import com.mysql.fabric.jdbc.FabricMySQLDriver;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -42,8 +41,7 @@ public class JdbcTestController extends HttpServlet {
 
 
         try {
-            PoolConnection poolConnection = PoolConnection.getInstance("jdbc:mysql://localhost:3306/pufar?serverTimezone=UTC&useSSL=false",
-                    "root", "123ghu475R7px6");
+            PoolConnection poolConnection = PoolConnection.getInstance();
             Connection connection = poolConnection.getConnection();
 
             Statement statement = connection.createStatement();

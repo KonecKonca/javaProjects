@@ -1,23 +1,34 @@
 package com.kozitski.pufar.connection;
 
 import com.kozitski.pufar.exception.PufarDAOException;
+import com.kozitski.pufar.util.path.WebPathReturner;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import com.mysql.jdbc.Driver;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.*;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.Enumeration;
+import java.util.Properties;
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class PoolConnection {
-    private static final String DEFAULT_URL = "jdbc:mysql://localhost:3306/pufar?serverTimezone=UTC&useSSL=false";
-    private static final String DEFAULT_USER = "root";
-    private static final String DEFAULT_PASSWORD = "123ghu475R7px6";
+    private static Logger LOGGER = LoggerFactory.getLogger(PoolConnection.class);
+    private static final String PROPERTY_PATH = "/WEB-INF/classes/pooll/poolConnection.properties";
 
-    private CopyOnWriteArrayList<Connection> connections = new CopyOnWriteArrayList<>();
+    private static final int MIN_POOL_CAPACITY = 5;
+    private static final int MAX_POOL_CAPACITY = 20;
+    private static final int INITIAL_CAPACITY = 10;
 
-    private int initialCapacity = 10;
+    private ArrayBlockingQueue<Connection> freeConnections = new ArrayBlockingQueue<>(MAX_POOL_CAPACITY);
+    private ArrayBlockingQueue<Connection> releaseConnections = new ArrayBlockingQueue<>(MAX_POOL_CAPACITY);
 
     private static ReentrantLock lock = new ReentrantLock();
     private static PoolConnection poolConnection;
-    public static PoolConnection getInstance(String url, String user, String password) throws SQLException {
+    public static PoolConnection getInstance() throws PufarDAOException {
         if(poolConnection != null){
             return poolConnection;
         }
@@ -25,7 +36,11 @@ public class PoolConnection {
         try {
             lock.lock();
             if(poolConnection == null){
-                poolConnection = new PoolConnection(url, user, password);
+                try {
+                    poolConnection = new PoolConnection();
+                } catch (SQLException e) {
+                    throw new PufarDAOException("Can not get Instance", e);
+                }
             }
         }
         finally {
@@ -34,48 +49,104 @@ public class PoolConnection {
 
         return poolConnection;
     }
-    public static PoolConnection getInstance() throws SQLException {
-        return getInstance(DEFAULT_URL, DEFAULT_USER, DEFAULT_PASSWORD);
-    }
 
-    private PoolConnection(String url, String user, String password) throws SQLException {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        for (int i = 0; i < initialCapacity ; i++) {
-            connections.add(new ProxyConnection(DriverManager.getConnection(url, user, password)));
-        }
+    private PoolConnection() throws SQLException, PufarDAOException {
+        DriverManager.registerDriver(new Driver());
 
         init();
     }
-    private void init() throws SQLException {
+    private void init() throws PufarDAOException {
+
+        String fullPath = (WebPathReturner.webPath + PROPERTY_PATH);
+        Properties properties = new Properties();
+
+        try(FileInputStream fileInputStream = new FileInputStream(fullPath)) {
+            properties.load(fileInputStream);
+            ConnectionAttribute[] connectionAttributes = ConnectionAttribute.values();
+            for(ConnectionAttribute connectionAttribute : connectionAttributes){
+                connectionAttribute.setValue(properties.getProperty(connectionAttribute.toString()));
+            }
+
+        }
+        catch (IOException e) {
+            LOGGER.error("Error while reading properties", e);
+        }
+
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            try {
+                freeConnections.add(new ProxyConnection(DriverManager.getConnection(ConnectionAttribute.CONNECTION_URL.getValue(),
+                        ConnectionAttribute.USER_LOGIN.getValue(),ConnectionAttribute.USER_PASSWORD.getValue())));
+            }
+            catch (SQLException e) {
+                throw new PufarDAOException("Pool can not initialize", e);
+            }
+        }
 
     }
-
 
     public Connection getConnection() throws PufarDAOException {
 
-        // сделать увеличение кол-ва конестионс по неким параметрам (также и с уменьшением)
-        if(connections.size() < 1){
-            throw new PufarDAOException("");
+        try {
+            lock.lock();
+
+            Connection connection;
+
+            if(freeConnections.size() < MIN_POOL_CAPACITY && (freeConnections.size() + releaseConnections.size()) < MAX_POOL_CAPACITY){
+                connection = new ProxyConnection(DriverManager.getConnection(ConnectionAttribute.CONNECTION_URL.getValue(),
+                        ConnectionAttribute.USER_LOGIN.getValue(),ConnectionAttribute.USER_PASSWORD.getValue()));
+                releaseConnections.offer(connection);
+            }
+            else {
+                connection = freeConnections.take();
+            }
+
+            return connection;
+        }
+        catch (InterruptedException | SQLException e) {
+            throw new PufarDAOException("Can not get connection", e);
+        }
+        finally {
+            lock.unlock();
         }
 
-        Connection connection = connections.get(0);
-        connections.remove(0);
-        return connection;
     }
-    public void releaseConnection(Connection connection){
-        connections.add(connection);
-    }
+    void releaseConnection(Connection connection) throws SQLException {
 
-    public int getInitialCapacity() {
-        return initialCapacity;
+        try {
+            lock.lock();
+
+            if(freeConnections.size() > MIN_POOL_CAPACITY + INITIAL_CAPACITY){
+                ((ProxyConnection)connection).realClose();
+                for (int i = 0; i < MIN_POOL_CAPACITY - 1; i++) {
+                    ((ProxyConnection) freeConnections.take()).realClose();
+                }
+            }
+            else {
+                freeConnections.offer(connection);
+            }
+        } catch (InterruptedException e) {
+            LOGGER.error("connection take fell down", e);
+        } finally {
+            lock.unlock();
+        }
+
     }
-    public void setInitialCapacity(int initialCapacity) {
-        this.initialCapacity = initialCapacity;
+    public void destroy(){
+        try {
+            lock.lock();
+
+            for(Connection connection : freeConnections){
+                ((ProxyConnection)connection).realClose();
+            }
+            for(Connection connection : releaseConnections){
+                ((ProxyConnection)connection).realClose();
+            }
+            poolConnection = null;
+        } catch (SQLException e) {
+            LOGGER.error("Can not close connection", e);
+        } finally {
+            lock.unlock();
+        }
     }
 
 }

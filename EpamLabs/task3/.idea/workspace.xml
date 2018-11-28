@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638f0231-0a03-4e0d-8ce7-30dacc6ddae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../task4(web)/.idea/artifacts/com_kozitski_pufar_Web2_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/com.kozitski.pufar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/FileUploadingServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/exception/XMLParserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/util/uploading/FileNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/validator/SchemeValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/data/tariffs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/loadFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/showXML.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/java/task4/time/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/java/task4/validator/SchemeValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/resources/data/correct.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4(web)/src/test/resources/data/incorrect.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/controller/InputFileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/exception/XMLParserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/main/java/com/kozitski/task4/validator/SchemeValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/main/resources/data/xsd/template.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task4/validator/SchemeValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/test/resources/data/correct.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task4/src/test/resources/data/incorrect.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/resources/TestNg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/data/tariffs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/resources/data/tariffs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/resources/data/template.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/resources/data/xsd/template.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task3/time/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/test/java/com/kozitski/task4/time/TimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-nav-item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-nav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/bg-upper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finalTask/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,8 +77,8 @@
     <session id="-1423778989">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -132,13 +88,13 @@
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="230" />
+          <entry key="java" value="231" />
           <entry key="properties" value="11" />
           <entry key="txt" value="1" />
           <entry key="xml" value="8" />
@@ -148,7 +104,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="230" />
+          <entry key="JAVA" value="231" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="11" />
           <entry key="XML" value="8" />
@@ -244,15 +200,12 @@
     <favorites_list name="comkozitskitask2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/generator/ProductIdGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
-              <folding>
-                <element signature="initializer##0;class#ProductIdGenerator#0" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -382,6 +335,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,17 +376,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskitask2" type="b2602c69:ProjectViewProjectNode" />
@@ -474,7 +418,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -664,6 +607,7 @@
       <workItem from="1541929144467" duration="9267000" />
       <workItem from="1541975349155" duration="751000" />
       <workItem from="1542363530057" duration="730000" />
+      <workItem from="1543424995162" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="epam lab 2.1 -- before chain">
       <created>1539457879903</created>
@@ -799,13 +743,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230863000" />
+    <option name="totallyTimeSpent" value="230881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.100286536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906892" visible="true" weight="0.24355301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1060,13 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/util/parameter/ProductParameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1123,6 +1060,13 @@
           <folding>
             <element signature="initializer##0;class#ProductIdGenerator#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/task3/entity/LogisticBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
