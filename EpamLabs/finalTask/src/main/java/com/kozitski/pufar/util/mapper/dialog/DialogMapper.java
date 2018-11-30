@@ -19,7 +19,6 @@ public class DialogMapper {
             String receiver_login = resultSet.getString("receiver_login");
             String message = resultSet.getString("message");
             Time time = resultSet.getTime("date");
-            Date date = resultSet.getDate("date");
 
             result.add(new UserMessage(message, time, sender_login, receiver_login));
         }

@@ -14,7 +14,7 @@ public class Router {
         routeType = RouteType.FORWARD;
     }
 
-    String getPagePath() {
+    public String getPagePath() {
         return pagePath;
     }
     public void setPagePath(String pagePath) {
@@ -29,7 +29,7 @@ public class Router {
         }
     }
 
-    boolean isForward(){
+    public boolean isForward(){
         return routeType.getClass() == RouteType.FORWARD.getClass();
     }
 

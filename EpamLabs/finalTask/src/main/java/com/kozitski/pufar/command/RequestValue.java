@@ -1,5 +1,6 @@
 package com.kozitski.pufar.command;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class RequestValue {
@@ -43,6 +44,36 @@ public class RequestValue {
     }
     public String requestParameterGet(String key) {
         return requestParameter.get(key);
+    }
+
+
+    public Map<String, Object> getServletContextMap(){
+        return new HashMap<>(servletContext);
+    }
+    public Map<String, Object> getServletSessionMap(){
+        return new HashMap<>(servletSession);
+    }
+    public Map<String, Object> getRequestAttributeMap(){
+        return new HashMap<>(requestAttribute);
+    }
+    public Map<String, Object> getRequestParameterMap(){
+        return new HashMap<>(requestParameter);
+    }
+
+    public Object getAttribute(String key){
+        Object result = servletContext.get(key);
+
+        if(result == null){
+            result = servletSession.get(key);
+        }
+        if(result == null){
+            result = requestAttribute.get(key);
+        }
+        if(result == null){
+            result = requestParameter.get(key);
+        }
+
+        return result;
     }
 
 }

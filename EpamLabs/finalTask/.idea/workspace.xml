@@ -7,20 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ConnectionAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pooll/poolConnection.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/finalTask_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/finalTask_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContactCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/IndexCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/SpeakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../temporate/src/pack1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../temporate/src/pack2/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/WEB-INF/classes/TestNg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/WEB-INF/classes/additional/sql.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/finalTask_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ProxyConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ProxyConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/AbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/AbstractCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/RequestValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/RequestValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/DialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/DialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/PathDefinerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/PathDefinerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/dialog/DialogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/dialog/DialogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/request/RequestValueTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/request/RequestValueTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/chat/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/chat/chat.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/template/template.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/template/template.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../temporate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/out/production/проект2/start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../temporate/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/src/Pyatnashki.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/src/lib/ClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/src/lib/SystemLogic.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,13 +87,14 @@
     <session id="1678192582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.65" value="1" />
@@ -87,7 +105,7 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -95,16 +113,16 @@
           <entry key="aj" value="478" />
           <entry key="cell" value="935" />
           <entry key="css" value="207" />
-          <entry key="dummy" value="27" />
+          <entry key="dummy" value="31" />
           <entry key="html" value="2" />
-          <entry key="java" value="27331" />
+          <entry key="java" value="30081" />
           <entry key="js" value="210" />
-          <entry key="jsp" value="2992" />
+          <entry key="jsp" value="3107" />
           <entry key="properties" value="303" />
           <entry key="sql" value="226" />
-          <entry key="txt" value="1019" />
+          <entry key="txt" value="1033" />
           <entry key="xhtml" value="115" />
-          <entry key="xml" value="278" />
+          <entry key="xml" value="280" />
           <entry key="yml" value="96" />
         </counts>
       </usages-collector>
@@ -113,15 +131,15 @@
           <entry key="AspectJ" value="478" />
           <entry key="CSS" value="207" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="27314" />
-          <entry key="JSP" value="2992" />
+          <entry key="JAVA" value="30063" />
+          <entry key="JSP" value="3107" />
           <entry key="JavaScript" value="210" />
-          <entry key="PLAIN_TEXT" value="1046" />
+          <entry key="PLAIN_TEXT" value="1064" />
           <entry key="Properties" value="303" />
-          <entry key="SQL" value="240" />
+          <entry key="SQL" value="241" />
           <entry key="Scratch" value="938" />
           <entry key="XHTML" value="115" />
-          <entry key="XML" value="264" />
+          <entry key="XML" value="266" />
           <entry key="YAML" value="110" />
         </counts>
       </usages-collector>
@@ -133,19 +151,19 @@
           <entry key="chats" value="13" />
           <entry key="class" value="26" />
           <entry key="comments" value="5" />
-          <entry key="css" value="96" />
-          <entry key="dialoges" value="17" />
+          <entry key="css" value="97" />
+          <entry key="dialoges" value="21" />
           <entry key="gif" value="1" />
           <entry key="html" value="16" />
           <entry key="iml" value="1" />
-          <entry key="java" value="905" />
+          <entry key="java" value="978" />
           <entry key="jpg" value="30" />
           <entry key="js" value="26" />
-          <entry key="jsp" value="146" />
+          <entry key="jsp" value="149" />
           <entry key="jsp___jb_old___" value="4" />
           <entry key="jsp___jb_tmp___" value="4" />
           <entry key="log" value="2" />
-          <entry key="notifications" value="19" />
+          <entry key="notifications" value="20" />
           <entry key="otf" value="1" />
           <entry key="png" value="20" />
           <entry key="properties" value="47" />
@@ -157,9 +175,9 @@
           <entry key="ttf" value="1" />
           <entry key="txt" value="21" />
           <entry key="units" value="10" />
-          <entry key="users" value="23" />
+          <entry key="users" value="27" />
           <entry key="xhtml" value="4" />
-          <entry key="xml" value="73" />
+          <entry key="xml" value="75" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
@@ -167,14 +185,14 @@
         <counts>
           <entry key="AspectJ" value="18" />
           <entry key="CLASS" value="26" />
-          <entry key="CSS" value="96" />
-          <entry key="Database Element" value="117" />
+          <entry key="CSS" value="97" />
+          <entry key="Database Element" value="126" />
           <entry key="Font" value="2" />
           <entry key="HTML" value="16" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="51" />
-          <entry key="JAVA" value="905" />
-          <entry key="JSP" value="146" />
+          <entry key="JAVA" value="978" />
+          <entry key="JSP" value="149" />
           <entry key="JavaScript" value="26" />
           <entry key="Log" value="2" />
           <entry key="Manifest" value="1" />
@@ -185,7 +203,7 @@
           <entry key="Scratch" value="4" />
           <entry key="UML" value="4" />
           <entry key="XHTML" value="4" />
-          <entry key="XML" value="73" />
+          <entry key="XML" value="75" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -194,24 +212,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/chat/chat.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-              <folding>
-                <element signature="method#getConnection#0;class#PoolConnection#0" />
-                <element signature="method#releaseConnection#0;class#PoolConnection#0" />
-                <element signature="method#destroy#0;class#PoolConnection#0" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ConnectionAttribute.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContactCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="442">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -227,16 +240,13 @@
         <option value="AnnotationType" />
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>?</find>
-      <find>AccountOperationManager</find>
-      <find>арер</find>
       <find>withValid</find>
       <find>\</find>
       <find>checkedValue</find>
@@ -264,6 +274,9 @@
       <find>matches</find>
       <find>public</find>
       <find>ConnectionAttribute</find>
+      <find>.*,</find>
+      <find>Home</find>
+      <find>nav-link</find>
     </findStrings>
     <replaceStrings>
       <replace>u3</replace>
@@ -279,28 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/notification/IntDefaultValidationParameter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/notification/IntValid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/notification/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/message/Notification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/DialogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/dialog/DialogMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/comment/comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/comment/NotificatioComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/message/UserMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/comment/NotificationComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/notification/Notification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/notification/UnitType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/string/StringDefaultValidationParameter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/string/StringValid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/doouble/DoubleValid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/comment/NotificationDefaultValidationParameter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/comment/NotificationValid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/message/CommentValidationParameter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/message/CommentValid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/user/CommentValid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/user/CommentValidationParameter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/DoubleValidator.java" />
@@ -324,12 +315,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/NotificationValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/UserValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/WebMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pooll/poolConnection.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ConnectionAttribute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ProxyConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ConnectionAttribute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContatcCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContacеCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/AbstractCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/IndexCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/DialogController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/template/template.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/Router.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/RequestValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/request/RequestValueTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/SpeakerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/PathDefinerFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/dialog/DialogMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContactCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/chat/chat.jsp" />
       </list>
     </option>
   </component>
@@ -402,7 +415,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,42 +455,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pufar" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
               <item name="finalTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comkozitskipufar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finalTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pooll" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543440173562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543618180812" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task4(web)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.23589744" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.20526724" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -904,7 +910,8 @@
       <workItem from="1543161252894" duration="10715000" />
       <workItem from="1543267223042" duration="7010000" />
       <workItem from="1543325439185" duration="24096000" />
-      <workItem from="1543423827685" duration="11357000" />
+      <workItem from="1543423827685" duration="12177000" />
+      <workItem from="1543494614122" duration="33118000" />
     </task>
     <task id="LOCAL-00001" summary="project maded autorization">
       <created>1541184225387</created>
@@ -1074,11 +1081,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543355678160</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="finalTask Pool complete">
+      <created>1543440217431</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1543440217431</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266394000" />
+    <option name="totallyTimeSpent" value="300332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1092,7 +1106,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2228145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1102,7 +1116,42 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32575756" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27272728" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.6212121" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.044372294" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.47727272" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.033549782" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.31709957" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.114718616" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.122294374" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.35459185" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.11727079" />
+      <window_info anchor="right" id="Database" order="6" weight="0.09488273" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32575756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.20021646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.121212125" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1121,41 +1170,6 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.11727079" />
-      <window_info anchor="right" id="Database" order="6" weight="0.21748401" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22974414" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32683983" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.14285715" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52922076" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.47727272" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.31709957" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.08982684" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32900432" />
-      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.122294374" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.35459185" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1988273" />
       <window_info anchor="right" id="Database" order="6" weight="0.21748401" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1196,289 +1210,25 @@
     <MESSAGE value="view without duplicates" />
     <MESSAGE value="finalTask start introducing command" />
     <MESSAGE value="finalTask end with validator (engine + adaptation)" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalTask end with validator (engine + adaptation)" />
+    <MESSAGE value="finalTask Pool complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalTask Pool complete" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java</url>
-          <line>57</line>
-          <properties class="com.kozitski.pufar.connection.PoolConnection" method="init">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java</url>
-          <line>96</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="response" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/DialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/dialog/DialogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/TestSample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/doouble/DoubleDefaultValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/notification/UnitType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/doouble/DoubleValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/DoubleValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/validation/validator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/integer/IntDefaultValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/integer/IntValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/IntValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/error/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="458" column="1" selection-start-line="458" selection-start-column="1" selection-end-line="458" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/error/errorPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="36" column="75" lean-forward="true" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/string/StringDefaultValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/primitive/string/StringValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/comment/CommentValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/message/MessageValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/notification/NotificationDefaultValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/user/UserValidationParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/comment/CommentValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/user/UserValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/message/MessageValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/notification/NotificationValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/StringValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" selection-start-line="45" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/comment/NotificationComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="method#NotificationComment#1;class#NotificationComment#0" />
-            <element signature="method#equals#0;class#NotificationComment#0" />
-            <element signature="method#hashCode#0;class#NotificationComment#0" />
-            <element signature="method#toString#0;class#NotificationComment#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/message/UserMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/MessageValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/notification/Notification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/NotificationValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="82" selection-start-line="82" selection-end-line="86" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/UserValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="71" column="96" lean-forward="true" selection-start-line="71" selection-start-column="96" selection-end-line="71" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/WebMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/additional/database.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
-          <folding>
-            <element signature="e#3605#3606#0" expanded="true" />
-            <element signature="e#3644#3645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1486,17 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/CommentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="83" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="83" />
-          <folding>
-            <element signature="method#validate#0;class#CommentValidator#0" />
-            <element signature="method#commentValidation#0;class#CommentValidator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1511,146 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="397" column="48" selection-start-line="397" selection-start-column="48" selection-end-line="397" selection-end-column="48" />
-          <folding>
-            <element signature="docComment;class#ArrayBlockingQueue#0" />
-            <element signature="e#2421#2664#0" />
-            <element signature="e#2741#2764#0" />
-            <element signature="e#2796#2850#0" />
-            <element signature="e#2875#2921#0" />
-            <element signature="e#2945#2983#0" />
-            <element signature="e#3118#3154#0" />
-            <element signature="e#3190#3224#0" />
-            <element signature="e#3268#3301#0" />
-            <element signature="e#3344#3514#0" />
-            <element signature="e#3584#3626#0" />
-            <element signature="e#3715#3758#0" />
-            <element signature="e#3862#3964#0" />
-            <element signature="e#3862#4088#0" />
-            <element signature="e#4094#4212#0" />
-            <element signature="e#4094#4519#0" />
-            <element signature="e#4253#4288#0" />
-            <element signature="e#4525#4645#0" />
-            <element signature="e#4525#5107#0" />
-            <element signature="e#4680#4715#0" />
-            <element signature="e#5113#5263#0" />
-            <element signature="e#5113#6518#0" />
-            <element signature="e#5315#5350#0" />
-            <element signature="e#5828#5851#0" />
-            <element signature="e#6524#6767#0" />
-            <element signature="e#6856#7312#0" />
-            <element signature="e#6856#7618#0" />
-            <element signature="e#7624#8441#0" />
-            <element signature="e#7624#9144#0" />
-            <element signature="e#9150#9668#0" />
-            <element signature="e#9739#10201#0" />
-            <element signature="e#9739#10561#0" />
-            <element signature="e#10567#10816#0" />
-            <element signature="e#10567#11152#0" />
-            <element signature="e#11158#11444#0" />
-            <element signature="e#11158#11992#0" />
-            <element signature="e#11998#12211#0" />
-            <element signature="e#12217#12514#0" />
-            <element signature="e#12520#12987#0" />
-            <element signature="e#12993#13220#0" />
-            <element signature="e#13226#13298#0" />
-            <element signature="e#13349#13472#0" />
-            <element signature="e#13349#13666#0" />
-            <element signature="e#13672#13740#0" />
-            <element signature="e#13795#14340#0" />
-            <element signature="e#13795#14562#0" />
-            <element signature="e#14568#15404#0" />
-            <element signature="e#14568#16102#0" />
-            <element signature="e#16108#16487#0" />
-            <element signature="e#16108#17126#0" />
-            <element signature="e#17132#17650#0" />
-            <element signature="e#17132#18235#0" />
-            <element signature="e#18241#20074#0" />
-            <element signature="e#18241#20938#0" />
-            <element signature="e#20944#21675#0" />
-            <element signature="e#21681#21811#0" />
-            <element signature="e#21681#22593#0" />
-            <element signature="e#22599#22846#0" />
-            <element signature="e#22954#23201#0" />
-            <element signature="e#22954#24648#0" />
-            <element signature="e#24654#25026#0" />
-            <element signature="e#25100#27656#0" />
-            <element signature="e#25100#33577#0" />
-            <element signature="e#27683#27760#0" />
-            <element signature="e#27683#27975#0" />
-            <element signature="e#27853#27965#0" />
-            <element signature="e#27985#28040#0" />
-            <element signature="e#28074#28120#0" />
-            <element signature="e#28157#28195#0" />
-            <element signature="e#28427#28769#0" />
-            <element signature="e#28427#30533#0" />
-            <element signature="e#28831#28866#0" />
-            <element signature="e#30543#30630#0" />
-            <element signature="e#30543#30761#0" />
-            <element signature="e#30771#30925#0" />
-            <element signature="e#30771#31732#0" />
-            <element signature="e#31247#31258#0" />
-            <element signature="e#31742#31915#0" />
-            <element signature="e#31742#32666#0" />
-            <element signature="e#32181#32192#0" />
-            <element signature="e#32676#32889#0" />
-            <element signature="e#32676#33250#0" />
-            <element signature="e#33260#33347#0" />
-            <element signature="e#33260#33571#0" />
-            <element signature="e#33583#34506#0" />
-            <element signature="e#33583#48517#0" />
-            <element signature="e#34562#34612#0" />
-            <element signature="e#34650#34716#0" />
-            <element signature="e#34754#34822#0" />
-            <element signature="e#34863#34922#0" />
-            <element signature="e#34960#35028#0" />
-            <element signature="e#35067#35128#0" />
-            <element signature="e#35173#35210#0" />
-            <element signature="e#35252#35320#0" />
-            <element signature="e#35374#35534#0" />
-            <element signature="e#35591#35656#0" />
-            <element signature="e#35714#36961#0" />
-            <element signature="e#36687#36712#0" />
-            <element signature="e#36971#37089#0" />
-            <element signature="e#37099#37350#0" />
-            <element signature="e#37360#37496#0" />
-            <element signature="e#37360#37850#0" />
-            <element signature="e#37860#38018#0" />
-            <element signature="e#37860#39430#0" />
-            <element signature="e#38076#38111#0" />
-            <element signature="e#38575#38627#0" />
-            <element signature="e#39440#39802#0" />
-            <element signature="e#39440#40354#0" />
-            <element signature="e#39847#39873#0" />
-            <element signature="e#40364#40650#0" />
-            <element signature="e#40364#40854#0" />
-            <element signature="e#40864#41629#0" />
-            <element signature="e#41016#41041#0" />
-            <element signature="e#41469#41492#0" />
-            <element signature="e#41639#42595#0" />
-            <element signature="e#42024#42052#0" />
-            <element signature="e#42605#43968#0" />
-            <element signature="e#43529#43589#0" />
-            <element signature="e#43874#43900#0" />
-            <element signature="e#43978#44284#0" />
-            <element signature="e#43978#44809#0" />
-            <element signature="e#44619#44679#0" />
-            <element signature="e#44819#45038#0" />
-            <element signature="e#45048#45219#0" />
-            <element signature="e#45048#47302#0" />
-            <element signature="e#47312#47467#0" />
-            <element signature="e#47312#47908#0" />
-            <element signature="e#47676#47732#0" />
-            <element signature="e#47910#47952#0" />
-            <element signature="e#48523#49089#0" />
-            <element signature="e#48523#49278#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1705,20 +1304,561 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/ConnectionAttribute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/connection/PoolConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
           <folding>
+            <element signature="method#getInstance#0;class#PoolConnection#0" />
+            <element signature="method#init#0;class#PoolConnection#0" />
             <element signature="method#getConnection#0;class#PoolConnection#0" />
             <element signature="method#releaseConnection#0;class#PoolConnection#0" />
             <element signature="method#destroy#0;class#PoolConnection#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/InjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="docComment;class#ArrayList#0" />
+            <element signature="e#4436#4480#0" />
+            <element signature="e#4538#4610#0" />
+            <element signature="e#4674#4874#0" />
+            <element signature="e#4954#5273#0" />
+            <element signature="e#5362#5466#0" />
+            <element signature="e#5494#5747#0" />
+            <element signature="e#5494#6146#0" />
+            <element signature="e#6152#6228#0" />
+            <element signature="e#6327#6648#0" />
+            <element signature="e#6327#7122#0" />
+            <element signature="e#7128#7344#0" />
+            <element signature="e#7128#7574#0" />
+            <element signature="e#7580#7855#0" />
+            <element signature="e#7580#8306#0" />
+            <element signature="e#8062#8122#0" />
+            <element signature="e#8312#8559#0" />
+            <element signature="e#8565#8762#0" />
+            <element signature="e#8768#8999#0" />
+            <element signature="e#9074#9287#0" />
+            <element signature="e#9074#9786#0" />
+            <element signature="e#9792#10039#0" />
+            <element signature="e#10045#10166#0" />
+            <element signature="e#10223#10368#0" />
+            <element signature="e#10437#10868#0" />
+            <element signature="e#10952#11296#0" />
+            <element signature="e#10952#11642#0" />
+            <element signature="e#11648#11992#0" />
+            <element signature="e#11648#12348#0" />
+            <element signature="e#12354#12548#0" />
+            <element signature="e#12354#12927#0" />
+            <element signature="e#12933#13510#0" />
+            <element signature="e#13603#14933#0" />
+            <element signature="e#13603#15311#0" />
+            <element signature="e#15466#15724#0" />
+            <element signature="e#15466#15823#0" />
+            <element signature="e#15829#16189#0" />
+            <element signature="e#15829#16368#0" />
+            <element signature="e#16374#16576#0" />
+            <element signature="e#16374#16734#0" />
+            <element signature="e#16740#17149#0" />
+            <element signature="e#16740#17464#0" />
+            <element signature="e#17470#17820#0" />
+            <element signature="e#17470#18220#0" />
+            <element signature="e#18226#18901#0" />
+            <element signature="e#18226#19411#0" />
+            <element signature="e#19417#19841#0" />
+            <element signature="e#19847#19965#0" />
+            <element signature="e#19847#20150#0" />
+            <element signature="e#20156#20848#0" />
+            <element signature="e#20156#21156#0" />
+            <element signature="e#21162#21958#0" />
+            <element signature="e#21162#22495#0" />
+            <element signature="e#22501#23147#0" />
+            <element signature="e#22501#23586#0" />
+            <element signature="e#23592#23901#0" />
+            <element signature="e#23592#24047#0" />
+            <element signature="e#24053#24119#0" />
+            <element signature="e#24053#24283#0" />
+            <element signature="e#24289#24503#0" />
+            <element signature="e#24610#25399#0" />
+            <element signature="e#24610#25526#0" />
+            <element signature="e#25532#26435#0" />
+            <element signature="e#25532#26561#0" />
+            <element signature="e#26567#27585#0" />
+            <element signature="e#26946#27007#0" />
+            <element signature="e#27591#27928#0" />
+            <element signature="e#27591#28525#0" />
+            <element signature="e#28531#28642#0" />
+            <element signature="e#28531#29289#0" />
+            <element signature="e#29295#29869#0" />
+            <element signature="e#29295#30068#0" />
+            <element signature="e#30074#30304#0" />
+            <element signature="e#30391#30649#0" />
+            <element signature="e#30723#30782#0" />
+            <element signature="e#30723#32999#0" />
+            <element signature="e#31097#31550#0" />
+            <element signature="e#31560#32014#0" />
+            <element signature="e#32024#32033#0" />
+            <element signature="e#32024#32829#0" />
+            <element signature="e#32839#32993#0" />
+            <element signature="e#33005#33068#0" />
+            <element signature="e#33005#34687#0" />
+            <element signature="e#33144#33223#0" />
+            <element signature="e#33465#33918#0" />
+            <element signature="e#33928#34273#0" />
+            <element signature="e#34283#34681#0" />
+            <element signature="e#34693#36293#0" />
+            <element signature="e#34693#36466#0" />
+            <element signature="e#36472#36939#0" />
+            <element signature="e#36945#45276#0" />
+            <element signature="e#37164#37484#0" />
+            <element signature="e#37494#37761#0" />
+            <element signature="e#37771#37938#0" />
+            <element signature="e#37948#38045#0" />
+            <element signature="e#38055#38292#0" />
+            <element signature="e#38302#38566#0" />
+            <element signature="e#38576#38884#0" />
+            <element signature="e#39005#39396#0" />
+            <element signature="e#39492#44162#0" />
+            <element signature="class#39690:44151" />
+            <element signature="method#next#0;class#39690:44151" />
+            <element signature="method#previous#0;class#39690:44151" />
+            <element signature="method#forEachRemaining#0;class#39690:44151" />
+            <element signature="method#remove#0;class#39690:44151" />
+            <element signature="method#set#0;class#39690:44151" />
+            <element signature="method#add#0;class#39690:44151" />
+            <element signature="method#checkForComodification#0;class#39690:44151" />
+            <element signature="e#44172#44357#0" />
+            <element signature="e#44367#44538#0" />
+            <element signature="e#44548#44724#0" />
+            <element signature="e#44853#45021#0" />
+            <element signature="e#45031#45270#0" />
+            <element signature="e#45282#45804#0" />
+            <element signature="e#45810#46335#0" />
+            <element signature="e#46462#46525#0" />
+            <element signature="e#46462#51697#0" />
+            <element signature="e#48770#48825#0" />
+            <element signature="e#48770#49139#0" />
+            <element signature="e#49149#49615#0" />
+            <element signature="e#49625#49957#0" />
+            <element signature="e#49967#50515#0" />
+            <element signature="e#50525#51462#0" />
+            <element signature="e#51703#53300#0" />
+            <element signature="e#51820#51866#0" />
+            <element signature="e#53306#53814#0" />
+            <element signature="e#53820#54148#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/CommentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="83" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="83" />
+          <folding>
+            <element signature="method#validate#0;class#CommentValidator#0" />
+            <element signature="method#commentValidation#0;class#CommentValidator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/AbstractCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding>
+            <element signature="method#init#0;class#AbstractCommand#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/IndexCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/DialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/template/templateStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/template/template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="method#setRouteType#0;class#Router#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/ServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="484" column="26" selection-start-line="484" selection-start-column="26" selection-end-line="484" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#ServletRequest#0" />
+            <element signature="docComment;method#getAttribute#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getAttributeNames#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getCharacterEncoding#0;class#ServletRequest#0" />
+            <element signature="docComment;method#setCharacterEncoding#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getContentLength#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getContentLengthLong#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getContentType#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getInputStream#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getParameter#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getParameterNames#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getParameterValues#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getParameterMap#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getProtocol#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getScheme#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getServerName#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getServerPort#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getReader#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getRemoteAddr#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getRemoteHost#0;class#ServletRequest#0" />
+            <element signature="docComment;method#setAttribute#0;class#ServletRequest#0" />
+            <element signature="docComment;method#removeAttribute#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getLocale#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getLocales#0;class#ServletRequest#0" />
+            <element signature="docComment;method#isSecure#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getRequestDispatcher#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getRealPath#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getRemotePort#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getLocalName#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getLocalAddr#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getLocalPort#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getServletContext#0;class#ServletRequest#0" />
+            <element signature="docComment;method#startAsync#0;class#ServletRequest#0" />
+            <element signature="docComment;method#startAsync#1;class#ServletRequest#0" />
+            <element signature="docComment;method#isAsyncStarted#0;class#ServletRequest#0" />
+            <element signature="docComment;method#isAsyncSupported#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getAsyncContext#0;class#ServletRequest#0" />
+            <element signature="docComment;method#getDispatcherType#0;class#ServletRequest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="359" column="13" lean-forward="true" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/request/RequestValueTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="method#transformFrom#0;class#RequestValueTransformer#0" />
+            <element signature="method#transformTo#0;class#RequestValueTransformer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/path/WebPathReturner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/dialog/SpeakerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/RequestValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="method#RequestValue#0;class#RequestValue#0" />
+            <element signature="method#RequestValue#1;class#RequestValue#0" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+            <element signature="method#getAttribute#0;class#RequestValue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/user/MySQLUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="method#User#0;class#User#0" />
+            <element signature="method#User#1;class#User#0" />
+            <element signature="method#equals#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/ConstantUserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/PathDefinerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3005">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#PreparedStatement#0" />
+            <element signature="e#1541#2332#0" />
+            <element signature="e#2388#3337#0" />
+            <element signature="e#3388#4389#0" />
+            <element signature="e#4466#5045#0" />
+            <element signature="e#5123#5672#0" />
+            <element signature="e#5744#6295#0" />
+            <element signature="e#6369#6917#0" />
+            <element signature="e#6987#7535#0" />
+            <element signature="e#7607#8154#0" />
+            <element signature="e#8228#8778#0" />
+            <element signature="e#8854#9414#0" />
+            <element signature="e#9498#10196#0" />
+            <element signature="e#10272#10946#0" />
+            <element signature="e#11021#11668#0" />
+            <element signature="e#11761#12311#0" />
+            <element signature="e#12404#12970#0" />
+            <element signature="e#13073#14170#0" />
+            <element signature="e#14288#15731#0" />
+            <element signature="e#15881#16897#0" />
+            <element signature="e#17029#17607#0" />
+            <element signature="e#17661#17733#0" />
+            <element signature="e#17764#18642#0" />
+            <element signature="e#18743#20767#0" />
+            <element signature="e#20843#22387#0" />
+            <element signature="e#22507#22820#0" />
+            <element signature="e#22867#24037#0" />
+            <element signature="e#24199#24895#0" />
+            <element signature="e#24966#25679#0" />
+            <element signature="e#25752#26465#0" />
+            <element signature="e#26538#27256#0" />
+            <element signature="e#27331#28692#0" />
+            <element signature="e#28755#29823#0" />
+            <element signature="e#29930#30998#0" />
+            <element signature="e#31105#32194#0" />
+            <element signature="e#32311#34399#0" />
+            <element signature="e#34574#35268#0" />
+            <element signature="e#35347#35885#0" />
+            <element signature="e#36035#36704#0" />
+            <element signature="e#36779#37763#0" />
+            <element signature="e#37845#38806#0" />
+            <element signature="e#38910#39706#0" />
+            <element signature="e#39785#41136#0" />
+            <element signature="e#41236#42714#0" />
+            <element signature="e#42824#44324#0" />
+            <element signature="e#44426#45361#0" />
+            <element signature="e#45446#48064#0" />
+            <element signature="e#48188#49302#0" />
+            <element signature="e#49420#50454#0" />
+            <element signature="e#50590#51760#0" />
+            <element signature="e#51934#53236#0" />
+            <element signature="e#53341#54562#0" />
+            <element signature="e#54664#56027#0" />
+            <element signature="e#56148#57413#0" />
+            <element signature="e#57504#58838#0" />
+            <element signature="e#58925#60293#0" />
+            <element signature="e#60390#61779#0" />
+            <element signature="e#61945#64591#0" />
+            <element signature="e#61945#64811#0" />
+            <element signature="e#64817#65801#0" />
+            <element signature="e#64817#65995#0" />
+            <element signature="e#66001#67179#0" />
+            <element signature="e#66001#67332#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="236" column="11" selection-start-line="236" selection-start-column="11" selection-end-line="236" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1/schema/pufar/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="method#createUser#0;class#UserMapper#0" />
+            <element signature="method#createUsers#0;class#UserMapper#0" />
+            <element signature="method#defineUserStatus#0;class#UserMapper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1/schema/pufar/table/notifications">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1/schema/pufar/table/dialoges">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="78" column="112" selection-start-line="78" selection-start-column="112" selection-end-line="78" selection-end-column="112" />
+          <folding>
+            <element signature="method#searchAllMessagesFromTo#0;class#MySQLDialogDao#0" />
+            <element signature="method#searchAllMessagesBetween#0;class#MySQLDialogDao#0" />
+            <element signature="method#searchMessagesBetweenWithLimit#0;class#MySQLDialogDao#0" />
+            <element signature="method#searchPopularUser#0;class#MySQLDialogDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/dialog/DialogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="method#createMessages#0;class#DialogMapper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/PagePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContactCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/chat/chat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
     </entry>

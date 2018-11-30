@@ -15,7 +15,7 @@ public class UserMapper {
         long userId = resultSet.getLong("user_id");
         String login = resultSet.getString("login");
         String password = resultSet.getString("password");
-        UserStatus status = defineUserStatus(resultSet.getString("value"));
+        UserStatus status = defineUserStatus(resultSet.getString("status"));
 
         return new User(userId, login, password, status);
 
@@ -27,7 +27,7 @@ public class UserMapper {
             long userId = resultSet.getLong("user_id");
             String login = resultSet.getString("login");
             String password = resultSet.getString("password");
-            UserStatus status = defineUserStatus(resultSet.getString("value"));
+            UserStatus status = defineUserStatus(resultSet.getString("status"));
 
             result.add(new User(userId, login, password, status));
         }

@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav animate side-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home
+                            <a class="nav-link" href="#">Dialogues
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -48,9 +48,18 @@
                     </ul>
                     <ul class="navbar-nav ml-md-auto d-md-flex">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
+
+                            <form action="/speaker" method="post">
+                                <input type="hidden" name="showOpponents" value="GET_CONTACT">
+
+                                <input type="submit" name="button1" value="Dialogues" class="nav-link">
+
+                                <%--<a class="nav-link" href="/speaker">Dialogues--%>
+                                    <%--<span class="sr-only">(current)</span>--%>
+                                <%--</a>--%>
+
+                            </form>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Top Menu Items</a>

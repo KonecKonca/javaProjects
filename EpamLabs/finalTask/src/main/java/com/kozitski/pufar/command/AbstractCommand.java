@@ -32,10 +32,10 @@ public abstract class AbstractCommand {
 
     }
 
-    public AbstractCommand(RequestValue request) {
+    public AbstractCommand() {
         init();
     }
 
-    public abstract Router execute();
+    public abstract Router execute(RequestValue request);
 
 }

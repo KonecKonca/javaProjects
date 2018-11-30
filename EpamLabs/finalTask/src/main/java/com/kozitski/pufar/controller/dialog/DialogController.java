@@ -22,7 +22,7 @@ public class DialogController extends HttpServlet {
         DialogService dialogService = new DialogServiceImpl();
 
 
-        List<UserMessage> messages = dialogService.searchAllMessagesBetweenWithLimit(1, 2, 1, 3);
+        List<UserMessage> messages = dialogService.searchMessagesBetweenWithLimit(1, 2, 1, 3);
 
         for(UserMessage userMessage : messages){
             resp.getWriter().write("\t  " + userMessage.getTime() +  ":: " + userMessage.getSenderLogin() + " to "

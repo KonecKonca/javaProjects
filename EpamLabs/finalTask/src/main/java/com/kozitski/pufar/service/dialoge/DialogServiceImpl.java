@@ -3,11 +3,13 @@ package com.kozitski.pufar.service.dialoge;
 import com.kozitski.pufar.dao.dialoge.DialogDAO;
 import com.kozitski.pufar.dao.dialoge.MySQLDialogDao;
 import com.kozitski.pufar.entity.message.UserMessage;
+import com.kozitski.pufar.entity.user.User;
 
 import java.util.List;
 
 public class DialogServiceImpl implements DialogService {
-    DialogDAO dialogDAO = new MySQLDialogDao();
+
+    private DialogDAO dialogDAO = new MySQLDialogDao();
 
     @Override
     public List<UserMessage> searchAllMessagesFromTo(long fromUserId, long toUserId) {
@@ -22,10 +24,15 @@ public class DialogServiceImpl implements DialogService {
         return dialogDAO.searchAllMessagesBetween(userId1, userId2);
     }
     @Override
-    public List<UserMessage> searchAllMessagesBetweenWithLimit(long userId1, long userId2, int since, int howMuch) {
+    public List<UserMessage> searchMessagesBetweenWithLimit(long userId1, long userId2, int since, int howMuch) {
 
         // validation
-        return dialogDAO.searchAllMessagesBetweenWithLimit(userId1, userId2, since, howMuch);
+        return dialogDAO.searchMessagesBetweenWithLimit(userId1, userId2, since, howMuch);
     }
+    @Override
+    public List<User> searchPopularUser(long forWhomUserId, int howMuch) {
+        return dialogDAO.searchPopularUser(forWhomUserId, howMuch);
+    }
+
 
 }

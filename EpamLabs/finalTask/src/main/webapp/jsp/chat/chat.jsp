@@ -31,6 +31,10 @@
                     <div class="panel panel-info">
                         <div class="panel-heading">
                             Your Dialog with ...
+
+                            ${topUsers}<br>
+                            ${lastMessages}
+
                         </div>
                         <div class="panel-body">
                             <ul class="media-list">

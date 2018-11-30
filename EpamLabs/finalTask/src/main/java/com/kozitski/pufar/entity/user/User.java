@@ -52,7 +52,6 @@ public class User {
     public int hashCode() {
         return Objects.hash(getUserId());
     }
-
     @Override
     public String toString() {
         return "UserServiceImpl: " + "id-" + userId + " login-" + login + " status-" + status;

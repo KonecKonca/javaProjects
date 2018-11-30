@@ -13,6 +13,10 @@ public class PathDefinerFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
         // must be performing Once for all application
         WebPathReturner.setSf( filterConfig.getServletContext().getRealPath("/"));
+
+        // todo: must be defined during registration
+        filterConfig.getServletContext().setAttribute("userId", "1");
+
     }
 
     @Override
