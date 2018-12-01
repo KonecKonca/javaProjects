@@ -19,283 +19,94 @@
 </head>
 
 <style>
-
 </style>
 
 <body style="font-family:Verdana">
-    <div class="myEdit">
-        <div class="container">
-            <div class="row " style="padding-top:40px;">
-                <br /><br />
-                <div class="col-md-8">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            Your Dialog with ...
+<div class="myEdit">
+    <div class="container">
+        <div class="row " style="padding-top:40px;">
+            <br /><br />
+            <div class="col-md-8">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        Your Dialog with <strong>${topUsers.get(0).login}</strong>
 
-                            ${topUsers}<br>
-                            ${lastMessages}
+                    </div>
+                    <div class="panel-body">
+                        <ul class="media-list">
 
-                        </div>
-                        <div class="panel-body">
-                            <ul class="media-list">
+                            <c:forEach var="message" items="${lastMessages}">
 
                                 <li class="media">
-
                                     <div class="media-body">
-
                                         <div class="media">
                                             <a class="pull-left" href="#">
                                                 <img class="media-object img-circle " src="${context}/image/chat/user.png" />
                                             </a>
                                             <div class="media-body" >
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.Donec sit amet ligula enim.
-                                                Duis vel condimentum massa.
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
+                                                    ${message.message}
                                                 <br />
-                                                <small class="text-muted">Alex Deo | 23rd June at 5:00pm</small>
+                                                <small class="text-muted">${message.senderLogin} | ${message.time}</small>
                                                 <hr />
                                             </div>
                                         </div>
-
                                     </div>
                                 </li>
-                                <li class="media">
+                            </c:forEach>
 
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="${context}/image/chat/user.gif" />
-                                            </a>
-                                            <div class="media-body" >
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.Donec sit amet ligula enim.
-                                                Duis vel condimentum massa.
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-                                                <br />
-                                                <small class="text-muted">Jhon Rexa | 23rd June at 5:00pm</small>
-                                                <hr />
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="${context}/image/chat/user.png" />
-                                            </a>
-                                            <div class="media-body" >
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.Donec sit amet ligula enim.
-                                                Duis vel condimentum massa.
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-                                                <br />
-                                                <small class="text-muted">Alex Deo | 23rd June at 5:00pm</small>
-                                                <hr />
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle " src="${context}/image/chat/user.gif" />
-                                            </a>
-                                            <div class="media-body" >
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.Donec sit amet ligula enim.
-                                                Duis vel condimentum massa.
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-                                                <br />
-                                                <small class="text-muted">Jhon Rexa | 23rd June at 5:00pm</small>
-                                                <hr />
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="panel-footer">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Enter Message" />
-                                <span class="input-group-btn">
-                                        <button class="btn btn-info" type="button">SEND</button>
-                                    </span>
+                            <div class="panel-footer">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Message" />
+                                    <span class="input-group-btn">
+                                                <button class="btn btn-info" type="button">SEND</button>
+                                            </span>
+                                </div>
                             </div>
-                        </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        All chats
+                    </div>
+                    <div class="panel-body">
+                        <ul class="media-list">
+
+                            <c:forEach var="user" items="${topUsers}">
+
+                                <li class="media">
+                                    <div class="media-body">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.png" />
+                                            </a>
+                                            <div class="media-body" >
+                                                <h5>${user.login} [${user.status}] </h5>
+                                                <small class="text-muted">Active From 3 hours</small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                            </c:forEach>
+
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            All chats
-                        </div>
-                        <div class="panel-body">
-                            <ul class="media-list">
-
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.png" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Alex Deo | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.gif" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Jhon Rexa | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.png" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Alex Deo | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.gif" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Jhon Rexa | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.png" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Alex Deo | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.gif" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Jhon Rexa | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.png" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Alex Deo | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" style="max-height:40px;" src="${context}/image/chat/user.gif" />
-                                            </a>
-                                            <div class="media-body" >
-                                                <h5>Jhon Rexa | User </h5>
-
-                                                <small class="text-muted">Active From 3 hours</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div>
-        <jsp:include page="../footer/footer.jsp"/>
-    </div>
+<div>
+    <jsp:include page="../footer/footer.jsp"/>
+</div>
 
 </body>
 </html>

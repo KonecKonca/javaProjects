@@ -9,12 +9,14 @@ import com.kozitski.pufar.entity.user.User;
 import com.kozitski.pufar.service.dialoge.DialogService;
 import com.kozitski.pufar.service.dialoge.DialogServiceImpl;
 
+import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class GetContactCommand extends AbstractCommand {
-    private static final int HOW_MUCH_USERS = 10;
-    private static final int HOW_MUCH_MESSAGES = 15;
+    private static final int HOW_MUCH_USERS = 7;
+    private static final int HOW_MUCH_MESSAGES = 20;
 
     // since what message (for checking message history)
 //    public static final int

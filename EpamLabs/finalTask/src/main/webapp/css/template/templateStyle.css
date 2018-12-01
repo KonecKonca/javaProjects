@@ -14,6 +14,8 @@
 
 .myEdit{
     background: url(../../image/phone.jpg);
+    /*don't work*/
+    background-repeat: repeat-y;
     height: 100%;
 
     -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -21,6 +23,9 @@
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
 }
+/*.container{*/
+    /*overflow:scroll;*/
+/*}*/
 .animate{
     opacity: 0.835;
 }
