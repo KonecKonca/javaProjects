@@ -7,7 +7,6 @@ import com.kozitski.pufar.command.Router;
 
 public class IndexCommand extends AbstractCommand {
 
-
     @Override
     public Router execute(RequestValue request) {
 
@@ -16,6 +15,5 @@ public class IndexCommand extends AbstractCommand {
 
         return router;
     }
-
 
 }

@@ -21,15 +21,19 @@ public class RequestValue {
     }
 
     public Object servletContextPut(String key, Object value) {
+        servletContext.remove(key);
         return servletContext.put(key, value);
     }
     public Object servletSessionPut(String key, Object value) {
+        servletSession.remove(key);
         return servletSession.put(key, value);
     }
     public Object requestAttributePut(String key, Object value) {
+        requestAttribute.remove(key);
         return requestAttribute.put(key, value);
     }
     public Object requestParameterPut(String key, String value) {
+        requestParameter.remove(key);
         return requestParameter.put(key, value);
     }
 

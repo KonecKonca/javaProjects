@@ -1,5 +1,6 @@
 package com.kozitski.pufar.validation.aspect;
 
+import com.kozitski.pufar.exception.PufarDAOException;
 import com.kozitski.pufar.exception.PufarValidationException;
 import com.kozitski.pufar.validation.util.ValidatorRegister;
 import com.kozitski.pufar.validation.validator.Validator;
@@ -20,17 +21,22 @@ public class ValidationAspect {
 
 
     @Before("@annotation(com.kozitski.pufar.validation.annotation.AspectValid)")
-    public void validateString(JoinPoint joinPoint) throws PufarValidationException {
+    public void validateString(JoinPoint joinPoint) throws RuntimeException {
 
         LOGGER.info("validation advice is executing");
 
-        validate(joinPoint);
+        try {
+            validate(joinPoint);
+        }
+        catch (PufarValidationException e) {
+            LOGGER.error("Annotation Validation engine is not working", e);
+        }
 
         LOGGER.info("validation complete successfully");
     }
 
 
-    private void validate(JoinPoint joinPoint) throws PufarValidationException{
+    private void validate(JoinPoint joinPoint) throws PufarValidationException {
 
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         Annotation[][] annotations = methodSignature.getMethod().getParameterAnnotations();

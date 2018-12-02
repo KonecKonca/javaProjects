@@ -15,7 +15,7 @@ public class UserMapper {
         long userId = resultSet.getLong("user_id");
         String login = resultSet.getString("login");
         String password = resultSet.getString("password");
-        UserStatus status = defineUserStatus(resultSet.getString("status"));
+        UserStatus status = defineUserStatus(resultSet.getString("value"));
 
         return new User(userId, login, password, status);
 
@@ -24,10 +24,13 @@ public class UserMapper {
         ArrayList<User> result = new ArrayList<>();
 
         while (resultSet.next()){
+
             long userId = resultSet.getLong("user_id");
             String login = resultSet.getString("login");
             String password = resultSet.getString("password");
+
             UserStatus status = defineUserStatus(resultSet.getString("status"));
+            System.out.println(status);
 
             result.add(new User(userId, login, password, status));
         }
@@ -36,7 +39,7 @@ public class UserMapper {
 
     }
 
-    private static UserStatus defineUserStatus(String status){
+    public static UserStatus defineUserStatus(String status){
 
         switch (status.toUpperCase()){
 

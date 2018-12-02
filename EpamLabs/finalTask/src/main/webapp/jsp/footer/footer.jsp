@@ -38,23 +38,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-lg-3 footer-about wow fadeInUp">
-                    <img class="logo-footer" src="${context}/image/footer/logo.png" alt="${context}/image/footer/logo-footer" data-at2x="${context}/image/footer/logo.png">
+                    <img class="logo-footer" src="${context}/image/footer/footerLogo.png" alt="${context}/image/footer/footerLogo.png" data-at2x="${context}/image/footer/footerLogo.png">
                     <p>
-                        We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
+                        We are open space for private announcements
                     </p>
-                    <p><a href="#">Our Team</a></p>
+                    <p><a href="https://vk.com/htmlgerasim">Our VK public</a></p>
                 </div>
                 <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
                     <h3>Contact</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Belarus, Minsk</p>
                     <p><i class="fas fa-phone"></i> Phone: +375 (25) 955-03-17</p>
-                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>
-                    <p><i class="fab fa-skype"></i> Skype: you_online</p>
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:andrei.kozitsky@mail.ru">andrei.kozitsky@mail.ru</a></p>
+                    <p><i class="fab fa-skype"></i> Skype: andrei.kozitsky00</p>
                 </div>
                 <div class="col-md-4 col-lg-4 footer-links wow fadeInUp">
                     <div class="row">
                         <div class="col">
-                            <h3>Links</h3>
+                            <h3>Navigation</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -78,14 +78,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 footer-copyright">
-                    &copy; Bootstrap Footer Template by <a href="https://azmind.com">AZMIND</a>
+                    &copy; Site was designed by <a href="https://vk.com/akozitsky">Andrei Kozitski</a>
                 </div>
                 <div class="col-md-6 footer-social">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i></a>
+                    <a href="https://plus.google.com/discover?hl=ru"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.instagram.com/?hl=ru"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>

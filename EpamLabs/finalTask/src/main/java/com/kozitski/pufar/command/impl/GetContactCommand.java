@@ -8,9 +8,11 @@ import com.kozitski.pufar.entity.message.UserMessage;
 import com.kozitski.pufar.entity.user.User;
 import com.kozitski.pufar.service.dialoge.DialogService;
 import com.kozitski.pufar.service.dialoge.DialogServiceImpl;
+import com.kozitski.pufar.validation.annotation.primitive.string.StringValid;
 
 import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -27,8 +29,24 @@ public class GetContactCommand extends AbstractCommand {
     public Router execute(RequestValue requestValue) {
         Router router = new Router();
 
-        int currentUserId = Integer.parseInt(requestValue.getAttribute("userId").toString());
-        List<User> users = dialogService.searchPopularUser(currentUserId, HOW_MUCH_USERS);
+        User currentUser = ((User)(requestValue.getAttribute("currentUser")));
+        long currentUserId = currentUser.getUserId();
+
+        // todo: anonymous class
+        ArrayList<User> users = new ArrayList<User>(dialogService.searchPopularUser(currentUserId, HOW_MUCH_USERS)){
+
+            @Override
+            public User get(int index) {
+                if(index == 0 && size() == 0){
+                    return null;
+                }
+                else {
+                    return super.get(index);
+                }
+            }
+
+        };
+
 
         List<UserMessage> lastMessagesWithTopUser = null;
         if(users.size() > 0){
@@ -41,6 +59,5 @@ public class GetContactCommand extends AbstractCommand {
 
         return router;
     }
-
 
 }

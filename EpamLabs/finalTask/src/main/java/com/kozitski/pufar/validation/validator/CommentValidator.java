@@ -1,10 +1,7 @@
 package com.kozitski.pufar.validation.validator;
 
 import com.kozitski.pufar.entity.comment.NotificationComment;
-import com.kozitski.pufar.exception.PufarValidationException;
 import com.kozitski.pufar.validation.annotation.comment.CommentValid;
-import com.kozitski.pufar.validation.annotation.primitive.string.StringValid;
-import com.kozitski.pufar.validation.validator.primitive.StringValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +11,7 @@ public class CommentValidator implements Validator{
     private static Logger LOGGER = LoggerFactory.getLogger(CommentValidator.class);
 
     @Override
-    public void validate(Annotation[] annotations, Object object) throws PufarValidationException {
+    public void validate(Annotation[] annotations, Object object) throws RuntimeException {
         for(Annotation annotation : annotations){
             if(annotation instanceof CommentValid && object instanceof NotificationComment){
                 commentValidation((CommentValid) annotation, (NotificationComment) object);
@@ -26,7 +23,7 @@ public class CommentValidator implements Validator{
 
         if(comment == null || comment.getComment() == null || comment.getComment().isEmpty()){
             LOGGER.error("NotificationComment can not be and contains NULL");
-            throw new PufarValidationException("NotificationComment can not be and contains NULL");
+            throw new RuntimeException("NotificationComment can not be and contains NULL");
         }
 
         int minMessageSize = annotation.minMessageSize();
@@ -39,13 +36,13 @@ public class CommentValidator implements Validator{
         String realMessage = comment.getComment();
         if(realMessage.contains(annotation.xssPattern())){
             LOGGER.error("message can be not XSS protected");
-            throw new PufarValidationException("message can be not XSS protected");
+            throw new RuntimeException("message can be not XSS protected");
         }
 
         String pattern = annotation.stringPattern();
         if(!realMessage.matches(pattern)){
             LOGGER.error("("  + realMessage + ") is not valid diu to regexp(" + pattern + ")");
-            throw new PufarValidationException("("  + realMessage + ") is not valid diu to regexp(" + pattern + ")");
+            throw new RuntimeException("("  + realMessage + ") is not valid diu to regexp(" + pattern + ")");
         }
 
 
@@ -56,7 +53,7 @@ public class CommentValidator implements Validator{
 
         if(commentId < 0 || userId < 0 || commentId > maxId || userId > maxId){
             LOGGER.error("id is not in allowed range [" + minId +  ", " + maxId + "] (" + commentId + ", "  + userId + ")");
-            throw new PufarValidationException("id is not in allowed range [" + minId +  ", " + maxId + "] (" + commentId + ", "  + userId + ")");
+            throw new RuntimeException("id is not in allowed range [" + minId +  ", " + maxId + "] (" + commentId + ", "  + userId + ")");
         }
 
     }

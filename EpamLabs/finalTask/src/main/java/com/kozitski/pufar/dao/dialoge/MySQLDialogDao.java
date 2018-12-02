@@ -115,7 +115,7 @@ public class MySQLDialogDao implements DialogDAO {
     }
 
     @Override
-    public List<User> searchPopularUser(long forWhomUserId, int howMuch) {
+    public ArrayList<User> searchPopularUser(long forWhomUserId, int howMuch) {
 
         String sql = "(SELECT u1.user_id, u1.login, u1.password, u1.status FROM users u1 " +
                 "INNER JOIN dialoges d1 ON u1.user_id = d1.user_receiver_id WHERE d1.user_sender_id = ? GROUP BY u1.login ORDER BY d1.date) " +
@@ -125,7 +125,7 @@ public class MySQLDialogDao implements DialogDAO {
 
 
 
-        List<User> users;
+        ArrayList<User> users;
 
         try(Connection connection = PoolConnection.getInstance().getConnection()){
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -143,9 +143,9 @@ public class MySQLDialogDao implements DialogDAO {
             return new ArrayList<>();
         }
 
+
+
         return users;
-
-
     }
 
 }

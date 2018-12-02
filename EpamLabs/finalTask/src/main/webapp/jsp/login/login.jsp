@@ -27,9 +27,11 @@
 <div class="form">
 
     <br><br><br><br><br>
-    <center><h1>Input registration parameters</h1></center>
+    <center><h1>Input your login and password</h1></center>
     <br>
     <form action="/login" method="post" id="loginForm">
+
+        <input type="hidden" value="LOGIN" name="loginCommand">
 
         <table align="center">
             <tr>

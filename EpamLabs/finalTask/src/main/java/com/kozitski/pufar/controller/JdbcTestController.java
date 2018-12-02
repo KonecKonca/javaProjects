@@ -49,7 +49,7 @@ public class JdbcTestController extends HttpServlet {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM USERS");
 
             while (resultSet.next()){
-                resp.getWriter().write(resultSet.getString("user_id") + "\t" + resultSet.getString("login")
+                resp.getWriter().write(resultSet.getLong("user_id") + "\t" + resultSet.getString("login")
                         + resultSet.getString("password") + "\t" + resultSet.getString("status"));
             }
         }

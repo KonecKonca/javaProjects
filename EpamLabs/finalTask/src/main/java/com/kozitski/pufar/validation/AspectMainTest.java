@@ -11,7 +11,7 @@ import com.kozitski.pufar.validation.annotation.message.MessageValid;
 import com.kozitski.pufar.validation.annotation.notification.NotificationValid;
 import com.kozitski.pufar.validation.annotation.primitive.doouble.DoubleValid;
 import com.kozitski.pufar.validation.annotation.primitive.integer.IntValid;
-import com.kozitski.pufar.validation.annotation.primitive.string.*;
+import com.kozitski.pufar.validation.annotation.primitive.string.StringValid;
 import com.kozitski.pufar.validation.annotation.user.UserValid;
 
 import javax.servlet.ServletException;
@@ -19,12 +19,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.stream.events.Comment;
 import java.io.IOException;
-import java.sql.Time;
 
 @WebServlet("/forName")
-public class WebMain  extends HttpServlet {
+public class AspectMainTest extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -50,10 +48,10 @@ public class WebMain  extends HttpServlet {
 //        test.message(new UserMessage("efefef@!*", new Time(43654242), "efefeef", "23453535"));
 
 //        @NotificationValid not success
-//        test.notification(new Notification(2, "3r43", UnitType.OTHER, 23.5, 343, null));
+        test.notification(new Notification(2, "3r43", UnitType.OTHER, 23.5, 343, null));
 
         //@UserValid not success
-//        test.user(new User());
+        test.user(new User());
 
     }
 

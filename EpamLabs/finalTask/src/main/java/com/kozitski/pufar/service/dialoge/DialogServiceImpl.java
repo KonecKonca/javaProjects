@@ -5,6 +5,7 @@ import com.kozitski.pufar.dao.dialoge.MySQLDialogDao;
 import com.kozitski.pufar.entity.message.UserMessage;
 import com.kozitski.pufar.entity.user.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DialogServiceImpl implements DialogService {
@@ -30,7 +31,7 @@ public class DialogServiceImpl implements DialogService {
         return dialogDAO.searchMessagesBetweenWithLimit(userId1, userId2, since, howMuch);
     }
     @Override
-    public List<User> searchPopularUser(long forWhomUserId, int howMuch) {
+    public ArrayList<User> searchPopularUser(long forWhomUserId, int howMuch) {
         return dialogDAO.searchPopularUser(forWhomUserId, howMuch);
     }
 

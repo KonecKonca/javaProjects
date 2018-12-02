@@ -8,6 +8,8 @@ public enum PagePath {
     ADMIN_ERROR_PAGE("jsp/error/errorPage.jsp"),
     LOGIN_PAGE("jsp/login/login.jsp"),
     TEMPLATE_PAGE("jsp/template/template.jsp"),
+    ERROR_PAGE("jsp/error/errorPage.jsp"),
+
 
     INFO_PAGE("jsp/infoPage.jsp"),
     PROFILE_PAGE("jsp/profile/profile.jsp");

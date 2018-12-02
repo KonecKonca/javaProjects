@@ -1,10 +1,7 @@
 package com.kozitski.pufar.validation.validator;
 
 import com.kozitski.pufar.entity.message.UserMessage;
-import com.kozitski.pufar.entity.notification.Notification;
-import com.kozitski.pufar.exception.PufarValidationException;
 import com.kozitski.pufar.validation.annotation.message.MessageValid;
-import com.kozitski.pufar.validation.annotation.notification.NotificationValid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +11,7 @@ public class MessageValidator implements Validator{
     private static Logger LOGGER = LoggerFactory.getLogger(MessageValidator.class);
 
     @Override
-    public void validate(Annotation[] annotations, Object object) throws PufarValidationException {
+    public void validate(Annotation[] annotations, Object object) throws RuntimeException {
         for(Annotation annotation : annotations){
             if(annotation instanceof MessageValid && object instanceof UserMessage){
                 messageValidation((MessageValid) annotation, (UserMessage) object);
@@ -28,12 +25,12 @@ public class MessageValidator implements Validator{
                 || userMessage.getSenderLogin() == null || userMessage.getReceiverLogin() == null){
 
             LOGGER.error("Notification can not be and contains NULL");
-            throw new PufarValidationException("Notification can not be and contains NULL");
+            throw new RuntimeException("Notification can not be and contains NULL");
         }
 
         if(userMessage.getReceiverLogin().isEmpty() || userMessage.getSenderLogin().isEmpty() || userMessage.getMessage().isEmpty() ){
             LOGGER.error("Notification can not contains EMPTY Strings");
-            throw new PufarValidationException("Notification can not contains EMPTY Strings");
+            throw new RuntimeException("Notification can not contains EMPTY Strings");
         }
 
         int minMessageSize = annotation.minMessageSize();
@@ -41,7 +38,7 @@ public class MessageValidator implements Validator{
         int realMessageSize = userMessage.getMessage().length();
         if(realMessageSize < minMessageSize || realMessageSize > maxMessageSize){
             LOGGER.error("message is not in allowed range [" + minMessageSize +  ", " + maxMessageSize + "] (" + realMessageSize + ")");
-            throw new PufarValidationException("message is not in allowed range [" + minMessageSize +  ", " + maxMessageSize + "] (" + realMessageSize + ")");
+            throw new RuntimeException("message is not in allowed range [" + minMessageSize +  ", " + maxMessageSize + "] (" + realMessageSize + ")");
         }
 
         int minLoginSize = annotation.minLoginSize();
@@ -50,11 +47,11 @@ public class MessageValidator implements Validator{
         int senderLoginSize = userMessage.getSenderLogin().length();
         if(receiverLoginSize < minLoginSize || receiverLoginSize > maxLoginSize){
             LOGGER.error("message is not in allowed range [" + minLoginSize +  ", " + maxLoginSize + "] (" + receiverLoginSize + ")");
-            throw new PufarValidationException("message is not in allowed range [" + minLoginSize +  ", " + maxLoginSize + "] (" + receiverLoginSize + ")");
+            throw new RuntimeException("message is not in allowed range [" + minLoginSize +  ", " + maxLoginSize + "] (" + receiverLoginSize + ")");
         }
         if(senderLoginSize < minLoginSize || senderLoginSize > maxLoginSize){
             LOGGER.error("message is not in allowed range [" + minLoginSize +  ", " + maxLoginSize + "] (" + senderLoginSize + ")");
-            throw new PufarValidationException("message is not in allowed range [" + minLoginSize +  ", " + maxLoginSize + "] (" + senderLoginSize + ")");
+            throw new RuntimeException("message is not in allowed range [" + minLoginSize +  ", " + maxLoginSize + "] (" + senderLoginSize + ")");
         }
 
         String message = userMessage.getMessage();
@@ -63,21 +60,21 @@ public class MessageValidator implements Validator{
         String xssPattern = annotation.xssPattern();
         if(message.contains(xssPattern) || senderLogin.contains(xssPattern) || receiverLogin.contains(xssPattern)){
             LOGGER.error("message can be not XSS protected");
-            throw new PufarValidationException("message can be not XSS protected");
+            throw new RuntimeException("message can be not XSS protected");
         }
 
         String pattern = annotation.stringPattern();
         if(!senderLogin.matches(pattern)){
             LOGGER.error("("  + senderLogin + ") is not valid diu to regexp(" + pattern + ")");
-            throw new PufarValidationException("("  + senderLogin + ") is not valid diu to regexp(" + pattern + ")");
+            throw new RuntimeException("("  + senderLogin + ") is not valid diu to regexp(" + pattern + ")");
         }
         if(!receiverLogin.matches(pattern)){
             LOGGER.error("("  + receiverLogin + ") is not valid diu to regexp(" + pattern + ")");
-            throw new PufarValidationException("("  + receiverLogin + ") is not valid diu to regexp(" + pattern + ")");
+            throw new RuntimeException("("  + receiverLogin + ") is not valid diu to regexp(" + pattern + ")");
         }
         if(!message.matches(pattern)){
             LOGGER.error("("  + message + ") is not valid diu to regexp(" + pattern + ")");
-            throw new PufarValidationException("("  + message + ") is not valid diu to regexp(" + pattern + ")");
+            throw new RuntimeException("("  + message + ") is not valid diu to regexp(" + pattern + ")");
         }
 
     }
