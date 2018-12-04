@@ -40,4 +40,5 @@ public class Tariff {
                 "TariffParameters: " + tariffParameters + "\n";
 
     }
+
 }

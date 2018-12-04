@@ -20,6 +20,11 @@ import static com.kozitski.xml.command.PathConstant.SHOW_TARIFF_JSP;
 public class ShowXmlCommand implements Command{
     private static final Logger LOGGER = LogManager.getLogger(Command.class);
     private static final String PARAM_PARSER = "parser";
+
+    private static final String DIRECTORY_NAME = "data";
+    private static final String LIMIT_LIST = "limitList";
+    private static final String UNLIMIT_LIST = "unlimitList";
+
     private ShowXmlReceiver receiver;
 
     ShowXmlCommand(ShowXmlReceiver receiver) {
@@ -35,7 +40,7 @@ public class ShowXmlCommand implements Command{
 
         if(parserType != null && !parserType.isEmpty()){
 
-            String loadXmlPath = request.getServletContext().getRealPath("") + "data" + File.separator + FileNameGenerator.getLastName();
+            String loadXmlPath = request.getServletContext().getRealPath("") + DIRECTORY_NAME + File.separator + FileNameGenerator.getLastName();
             try {
                 receiver.init(parserType, loadXmlPath);
             }
@@ -47,8 +52,8 @@ public class ShowXmlCommand implements Command{
             List<LimitTariff> limitTariffs = receiver.getLimitTariffs();
             List<UnlimitTariff> unlimitTariffs = receiver.getUnlimitTariffs();
 
-            request.setAttribute("limitList", limitTariffs);
-            request.setAttribute("unlimitList", unlimitTariffs);
+            request.setAttribute(LIMIT_LIST, limitTariffs);
+            request.setAttribute(UNLIMIT_LIST, unlimitTariffs);
 
             page = SHOW_TARIFF_JSP;
         }

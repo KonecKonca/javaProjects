@@ -62,16 +62,16 @@ public class DomXmlBuilder implements XmlBuilder {
         NodeList limitTariffNodes = node.getChildNodes();
         buildTariff(limitTariff, node);
 
-        int PRICE_IN_MINUTE_EXTERNAL_CALLS_NUMBER = 9;
-        String priceExtrnal = getElement(limitTariffNodes, PRICE_IN_MINUTE_EXTERNAL_CALLS_NUMBER);
+        int priceInMinuteExternalCallsNumber = 9;
+        String priceExtrnal = getElement(limitTariffNodes, priceInMinuteExternalCallsNumber);
         limitTariff.setExternalCallPrice(Double.parseDouble(priceExtrnal));
 
-        int PRICE_IN_MINUTE_INNER_CALLS_NUMBER = 11;
-        String priceInner = getElement(limitTariffNodes, PRICE_IN_MINUTE_INNER_CALLS_NUMBER);
+        int priceInMinuteInnerCallsNumber = 11;
+        String priceInner = getElement(limitTariffNodes, priceInMinuteInnerCallsNumber);
         limitTariff.setInternalCallPrice(Double.parseDouble(priceInner));
 
-        int PRICE_FOR_MB_INTERNET_NUMBER = 13;
-        String priceInternet = getElement(limitTariffNodes, PRICE_FOR_MB_INTERNET_NUMBER);
+        int priceForMbInternetNumber = 13;
+        String priceInternet = getElement(limitTariffNodes, priceForMbInternetNumber);
         limitTariff.setMbPrice(Double.parseDouble(priceInternet));
 
         return limitTariff;
@@ -90,8 +90,8 @@ public class DomXmlBuilder implements XmlBuilder {
         String attributeIsInternet = getAttribure(node,TariffXsdElement.IS_INTERNET);
         unlimitTariff.setHasInternet(BuilderUtilConstant.TRUE_VALUE.equalsIgnoreCase(attributeIsInternet));
 
-        int PAYROLL_NUMBER = 9;
-        String payroll = getElement(unlimitTariffyNodes, PAYROLL_NUMBER);
+        int payrollNumber = 9;
+        String payroll = getElement(unlimitTariffyNodes, payrollNumber);
         unlimitTariff.setPayroll(Double.parseDouble(payroll));
 
         return unlimitTariff;
@@ -99,21 +99,21 @@ public class DomXmlBuilder implements XmlBuilder {
     private void buildTariff(Tariff tariff, Node node) {
         NodeList tariffNodes = node.getChildNodes();
 
-        int NAME_NUMBER = 1;
-        String name = getElement(tariffNodes, NAME_NUMBER);
+        int nameNumber = 1;
+        String name = getElement(tariffNodes, nameNumber);
         tariff.setName(name);
 
-        int OPERATOR_NAME_NUMBER = 3;
-        String operatorName = getElement(tariffNodes, OPERATOR_NAME_NUMBER);
+        int operatorNameNumber = 3;
+        String operatorName = getElement(tariffNodes, operatorNameNumber);
         tariff.setOperatorName(OperatorName.valueOf(operatorName));
 
-        int SMS_PRICE_NUMBER = 5;
-        String smsPrice = getElement(tariffNodes, SMS_PRICE_NUMBER);
+        int smsPriceNumber = 5;
+        String smsPrice = getElement(tariffNodes, smsPriceNumber);
         tariff.setSmsPrice(Integer.valueOf(smsPrice));
 
 
-        int PARAMETERS_NUMBER = 7;
-        tariff.setTariffParameters(buildParameters(tariffNodes.item(PARAMETERS_NUMBER)));
+        int parametersNumber = 7;
+        tariff.setTariffParameters(buildParameters(tariffNodes.item(parametersNumber)));
 
     }
     private TariffParameters buildParameters(Node parametersNode) {
@@ -123,12 +123,12 @@ public class DomXmlBuilder implements XmlBuilder {
         String attributeIsExternallCalls = getAttribure(parametersNode, TariffXsdElement.FAVOURITE_NUMBER);
         parameters.setFavouriteNumber(attributeIsExternallCalls);
 
-        int TARIFICATION_NUMBER = 1;
-        String tarification = getElement(parametersNodes, TARIFICATION_NUMBER).toUpperCase();
+        int tarificationNumber = 1;
+        String tarification = getElement(parametersNodes, tarificationNumber).toUpperCase();
         parameters.setTarifficationType(TarifficationType.valueOf(tarification));
 
-        int PAY_FOR_CONNECTION_NUMBER = 3;
-        String payForConnection = getElement(parametersNodes, PAY_FOR_CONNECTION_NUMBER);
+        int payForConnectionNumber = 3;
+        String payForConnection = getElement(parametersNodes, payForConnectionNumber);
         parameters.setPayForConnection(Double.parseDouble(payForConnection));
 
         return parameters;

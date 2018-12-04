@@ -16,7 +16,6 @@ import java.util.Objects;
 
 public class SchemeValidator {
     public final static String XSD_PATH = "data/xsd/template.xsd";
-    public final static String XML_PATH = "data/Life.xml";
     private final static Logger LOGGER = LogManager.getLogger(SchemeValidator.class);
     private static ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 

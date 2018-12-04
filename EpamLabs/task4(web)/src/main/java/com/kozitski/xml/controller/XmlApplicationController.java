@@ -11,13 +11,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet("/choose")
-public class StartPageController extends HttpServlet {
+@WebServlet("/controller")
+public class XmlApplicationController extends HttpServlet {
+
+    private static final String CHOOSE_PARSER_COMMAND = "chooseCommand";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        Command command = CommandFactory.chooseCommand(request.getParameter(CommandNameConstant.CHOOSE_PARSER_COMMAND));
+        Command command = CommandFactory.chooseCommand(request.getParameter(CHOOSE_PARSER_COMMAND));
 
         Router router = command.execute(request);
 

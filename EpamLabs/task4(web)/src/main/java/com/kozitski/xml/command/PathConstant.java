@@ -6,6 +6,6 @@ public class PathConstant {
     public static final String SHOW_TARIFF_JSP = "jsp/showTariff.jsp";
     public static final String LOAD_FILE_JSP = "jsp/loadFile.jsp";
 
-    public static final String SHOW_FILE_CONTROLLER = "/show";
+    public static final String CONTROLLER = "/controller";
 
 }

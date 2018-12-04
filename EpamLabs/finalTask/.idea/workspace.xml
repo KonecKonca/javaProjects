@@ -6,52 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="chat 1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/entity/user/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/RunFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/login/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/autorization/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/autorization/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/encoder/PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/footer/footerLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9719e1e-6a5f-4e10-87d0-e20ddc42f8c1.xml" afterDir="false" />
+    <list default="true" id="cd490fd5-07dc-4109-84c5-ee618a2efa3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../labs/AOIS/lab7/src/Lab7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labs/AOIS/lab8/src/lab8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/applicationLog" beforeDir="false" afterPath="$PROJECT_DIR$/log/applicationLog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/PagePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/PagePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/RequestValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/RequestValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContactCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/GetContactCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/IndexCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/command/impl/IndexCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/JdbcTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/MainTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/MainTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/controller/autorization/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/DialogDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/dialoge/MySQLDialogDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/user/MySQLUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/user/MySQLUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/dao/user/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/exception/PufarValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/exception/PufarValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/PathDefinerFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/StartFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/filter/StartFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/service/dialoge/DialogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/util/mapper/user/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/WebMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/AspectMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/aspect/ValidationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/aspect/ValidationAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/CommentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/CommentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/MessageValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/MessageValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/NotificationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/NotificationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/UserValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/DoubleValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/DoubleValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/IntValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/IntValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/StringValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/validator/primitive/StringValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/additional/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/additional/problems.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/footer/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/footer/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/footer/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/template/template.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/template/template.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/builder/DomXmlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/builder/DomXmlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/command/PathConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/command/PathConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/command/ShowXmlCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/command/ShowXmlCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/CommandNameConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/FileUploadingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/FileUploadingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/ShowXmlController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/StartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/controller/XmlApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/entity/OperatorName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/entity/OperatorName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/entity/Tariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/entity/Tariff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/validator/SchemeValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/java/com/kozitski/xml/validator/SchemeValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/loadFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../task4(web)/src/main/webapp/jsp/loadFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../temporate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temporate/src/pack2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../temporate/src/pack2/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,13 +74,14 @@
     <session id="1678192582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="1" />
@@ -121,7 +95,7 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -136,7 +110,7 @@
           <entry key="jsp" value="3726" />
           <entry key="properties" value="303" />
           <entry key="sql" value="229" />
-          <entry key="txt" value="1121" />
+          <entry key="txt" value="1159" />
           <entry key="xhtml" value="115" />
           <entry key="xml" value="280" />
           <entry key="yml" value="96" />
@@ -150,7 +124,7 @@
           <entry key="JAVA" value="34612" />
           <entry key="JSP" value="3726" />
           <entry key="JavaScript" value="210" />
-          <entry key="PLAIN_TEXT" value="1161" />
+          <entry key="PLAIN_TEXT" value="1199" />
           <entry key="Properties" value="303" />
           <entry key="SQL" value="244" />
           <entry key="Scratch" value="965" />
@@ -172,7 +146,7 @@
           <entry key="gif" value="1" />
           <entry key="html" value="16" />
           <entry key="iml" value="1" />
-          <entry key="java" value="1124" />
+          <entry key="java" value="1125" />
           <entry key="jpg" value="30" />
           <entry key="js" value="26" />
           <entry key="jsp" value="161" />
@@ -207,7 +181,7 @@
           <entry key="HTML" value="16" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="54" />
-          <entry key="JAVA" value="1124" />
+          <entry key="JAVA" value="1125" />
           <entry key="JSP" value="161" />
           <entry key="JavaScript" value="26" />
           <entry key="Log" value="2" />
@@ -226,7 +200,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -379,7 +353,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -411,6 +385,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -455,7 +430,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -463,9 +437,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543770021890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543770224013" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task4(web)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../labs/AOIS/lab7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -862,6 +836,7 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.TestSample" />
       <item itemvalue="Application.ValidationTestClass" />
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.LoginCommand" />
@@ -916,7 +891,10 @@
       <workItem from="1543423827685" duration="12177000" />
       <workItem from="1543494614122" duration="33276000" />
       <workItem from="1543666261980" duration="19983000" />
-      <workItem from="1543750545708" duration="16627000" />
+      <workItem from="1543750545708" duration="17355000" />
+      <workItem from="1543788890580" duration="106000" />
+      <workItem from="1543877400856" duration="920000" />
+      <workItem from="1543957818679" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="project maded autorization">
       <created>1541184225387</created>
@@ -1107,11 +1085,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543672128149</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="chat 1.(1 final) complete validation">
+      <created>1543770194618</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543770194618</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337100000" />
+    <option name="totallyTimeSpent" value="340818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1123,9 +1108,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1135,7 +1120,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32575756" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.7012987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.07251082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1232,7 +1217,8 @@
     <MESSAGE value="finalTask Pool complete" />
     <MESSAGE value="start release chat" />
     <MESSAGE value="chat 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat 1.0" />
+    <MESSAGE value="chat 1.(1 final) complete validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="chat 1.(1 final) complete validation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1246,13 +1232,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/annotation/message/MessageValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/pufar/validation/aspect/info/StringValidationAspect.aj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1295,10 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,15 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;class#Exception#0" />
-            <element signature="docComment;method#Exception#0;class#Exception#0" />
-            <element signature="docComment;method#Exception#1;class#Exception#0" />
-            <element signature="docComment;method#Exception#2;class#Exception#0" />
-            <element signature="docComment;method#Exception#3;class#Exception#0" />
-            <element signature="docComment;method#Exception#4;class#Exception#0" />
-            <element signature="method#Exception#4;class#Exception#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,9 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,13 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="method#servletContextPut#0;class#RequestValue#0" />
-            <element signature="method#servletSessionPut#0;class#RequestValue#0" />
-            <element signature="method#requestAttributePut#0;class#RequestValue#0" />
-            <element signature="method#requestParameterPut#0;class#RequestValue#0" />
-            <element signature="method#getAttribute#0;class#RequestValue#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1472,12 +1428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="method#searchUserById#0;class#MySQLUserDao#0" />
-            <element signature="method#searchUserByLogin#0;class#MySQLUserDao#0" />
-            <element signature="method#searchUsersByStatus#0;class#MySQLUserDao#0" />
-            <element signature="method#addUser#0;class#MySQLUserDao#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,11 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding>
-            <element signature="method#encode#0;class#PasswordEncoder#0" />
-            <element signature="method#comparePasswordsWithEncoding#0;class#PasswordEncoder#0" />
-            <element signature="method#comparePasswordsWithoutEncoding#0;class#PasswordEncoder#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,11 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
-          <folding>
-            <element signature="method#createUser#0;class#UserMapper#0" />
-            <element signature="method#createUsers#0;class#UserMapper#0" />
-            <element signature="method#defineUserStatus#0;class#UserMapper#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1537,10 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="method#transformFrom#0;class#RequestValueTransformer#0" />
-            <element signature="method#transformTo#0;class#RequestValueTransformer#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1548,12 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="117" column="78" selection-start-line="117" selection-start-column="78" selection-end-line="117" selection-end-column="78" />
-          <folding>
-            <element signature="method#searchAllMessagesFromTo#0;class#MySQLDialogDao#0" />
-            <element signature="method#searchAllMessagesBetween#0;class#MySQLDialogDao#0" />
-            <element signature="method#searchMessagesBetweenWithLimit#0;class#MySQLDialogDao#0" />
-            <element signature="method#searchPopularUser#0;class#MySQLDialogDao#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1631,9 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
-          <folding>
-            <element signature="method#init#0;class#StartFilter#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,6 +1575,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="37" column="106" selection-start-line="37" selection-start-column="106" selection-end-line="37" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lab7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1213">
+          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
         </state>
       </provider>
     </entry>

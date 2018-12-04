@@ -14,7 +14,7 @@ import javax.servlet.http.Part;
 import java.io.File;
 import java.io.IOException;
 
-import static com.kozitski.xml.command.PathConstant.SHOW_FILE_CONTROLLER;
+import static com.kozitski.xml.command.PathConstant.CONTROLLER;
 
 @WebServlet(urlPatterns = {"/upload/*"})
 @MultipartConfig(fileSizeThreshold = 1024 * 1024
@@ -47,7 +47,7 @@ public class FileUploadingServlet extends HttpServlet {
                 // save into TomCat directory
                 part.write(fullName);
 
-                this.getServletContext().getRequestDispatcher(SHOW_FILE_CONTROLLER).forward(request, response);
+                this.getServletContext().getRequestDispatcher(CONTROLLER).forward(request, response);
             }
         }
 

@@ -15,8 +15,8 @@
             <h3>stax</h3>
             <br><br><br>
 
-            <form action="/choose" method="post">
-                <input type="hidden" name="chooseParserCommand" value="CHOOSE_PARSER_COMMAND">
+            <form action="/controller" method="post">
+                <input type="hidden" name="chooseCommand" value="CHOOSE_PARSER_COMMAND">
 
                 <input type="text" name="parser" required minlength="3" maxlength="4">
 

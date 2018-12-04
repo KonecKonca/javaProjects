@@ -11,7 +11,7 @@
         <p> Download Image </p>
 
         <FORM action="/upload" enctype="multipart/form-data" method="POST">
-            <input type="hidden" name="chooseXmlCommand" value="CHOOSE_XML_COMMAND">
+            <input type="hidden" name="chooseCommand" value="CHOOSE_XML_COMMAND">
 
             Upload File:
             <INPUT type="file" name="content">
