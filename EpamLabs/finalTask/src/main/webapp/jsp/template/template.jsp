@@ -8,6 +8,8 @@
 
 <head>
 
+    <title>${locale.getValue("commonTitle")}</title>
+
     <c:set var="context" value="${pageContext.request.contextPath}" />
 
     <link href="${context}/css/template/templateStyle.css" rel="stylesheet" />
@@ -18,6 +20,7 @@
     <script src="${context}/js/footer/jquery-3.2.1.min.js"></script>
 
 </head>
+
 
 <%--SOURCE WITH EXAMPLE--%>
 <%--https://bootsnipp.com/siframe/index.php/snippets/featured/bootstrap-v4-side-toggle-and-fixed-top-menu-responsive--%>
@@ -35,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav animate side-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Dialogues
+                            <a class="nav-link" href="#">${locale.getValue("templateDialogButton")}
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -49,10 +52,10 @@
                     <ul class="navbar-nav ml-md-auto d-md-flex">
                         <li class="nav-item">
 
-                            <form action="/speaker" method="post">
-                                <input type="hidden" name="showOpponents" value="GET_CONTACT">
+                            <form action="/pufar" method="post">
+                                <input type="hidden" name="command" value="GET_CONTACT">
 
-                                <input type="submit" name="button1" value="Dialogues" class="nav-link">
+                                <input type="submit" name="button1" value="${locale.getValue("templateDialogButton")}" class="nav-link">
 
                                 <%--<a class="nav-link" href="/speaker">Dialogues--%>
                                     <%--<span class="sr-only">(current)</span>--%>
@@ -62,10 +65,7 @@
 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Top Menu Items</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">${locale.getValue("templateInfoButton")}</a>
                         </li>
                     </ul>
                 </div>

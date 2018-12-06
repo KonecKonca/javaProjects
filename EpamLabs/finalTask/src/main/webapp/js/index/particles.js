@@ -788,7 +788,7 @@ var pJS = function(tag_id, params){
 
   pJS.fn.modes.bubbleParticle = function(p){
 
-    /* on hover event */
+    /* on hover listener */
     if(pJS.interactivity.events.onhover.enable && isInArray('bubble', pJS.interactivity.events.onhover.mode)){
 
       var dx_mouse = p.x - pJS.interactivity.mouse.pos_x,
@@ -857,7 +857,7 @@ var pJS = function(tag_id, params){
     
     }
 
-    /* on click event */
+    /* on click listener */
     else if(pJS.interactivity.events.onclick.enable && isInArray('bubble', pJS.interactivity.events.onclick.mode)){
 
 
@@ -1069,7 +1069,7 @@ var pJS = function(tag_id, params){
     }
 
 
-    /* detect mouse pos - on hover / click event */
+    /* detect mouse pos - on hover / click listener */
     if(pJS.interactivity.events.onhover.enable || pJS.interactivity.events.onclick.enable){
 
       /* el on mousemove */
@@ -1107,7 +1107,7 @@ var pJS = function(tag_id, params){
 
     }
 
-    /* on click event */
+    /* on click listener */
     if(pJS.interactivity.events.onclick.enable){
 
       pJS.interactivity.el.addEventListener('click', function(){

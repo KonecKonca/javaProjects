@@ -9,7 +9,7 @@
     <meta name="author" content="" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Dialogs</title>
+    <title>${locale.getValue("commonTitle")}</title>
 
     <c:set var="context" value="${pageContext.request.contextPath}" />
 
@@ -29,7 +29,7 @@
             <div class="col-md-8">
                 <div class="panel panel-info">
                     <div class="panel-heading">
-                        Your Dialog with <strong>${topUsers.get(0).login}</strong>
+                        ${locale.getValue("chatTable")} <strong>${topUsers.get(0).login}</strong>
 
                     </div>
                     <div class="panel-body">
@@ -58,7 +58,7 @@
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Enter Message" />
                                     <span class="input-group-btn">
-                                                <button class="btn btn-info" type="button">SEND</button>
+                                                <button class="btn btn-info" type="button">${locale.getValue("chatSentButton")}</button>
                                             </span>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
             <div class="col-md-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        All chats
+                        ${locale.getValue("chatUserTable")}
                     </div>
                     <div class="panel-body">
                         <ul class="media-list">

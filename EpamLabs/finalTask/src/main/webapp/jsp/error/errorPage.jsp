@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Сраница ошибки 404</title>
+    <title>${locale.getValue("commonTitle")}</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width">
@@ -53,11 +53,9 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">О Сайте</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">${locale.getValue("userErrorMainButton")}</a></li>
+                    <li><a href="#">${locale.getValue("userErrorInfoButton")}</a></li>
+                    <li><a href="#">${locale.getValue("userErrorContactButton")}</a></li>
                 </ul>
             </nav>
 

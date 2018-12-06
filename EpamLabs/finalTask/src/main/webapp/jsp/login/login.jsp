@@ -4,7 +4,7 @@
 <html>
 <head>
 
-    <title>Login Page</title>
+    <title>${locale.getValue("commonTitle")}</title>
 
     <c:set var="context" value="${pageContext.request.contextPath}"/>
 
@@ -27,26 +27,26 @@
 <div class="form">
 
     <br><br><br><br><br>
-    <center><h1>Input your login and password</h1></center>
+    <center><h1>${locale.getValue("loginMessage")}</h1></center>
     <br>
-    <form action="/login" method="post" id="loginForm">
 
-        <input type="hidden" value="LOGIN" name="loginCommand">
+    <form action="/pufar" method="post" id="loginForm">
+
+        <input type="hidden" value="LOGIN" name="command">
 
         <table align="center">
             <tr>
-                <th align="right">Login:</th>
+                <th align="right">${locale.getValue("loginLabel")}</th>
                 <td><input type="text" name="login" placeholder="Login" class="form-control"/></td>
             </tr>
             <tr>
-                <th align="right">Password:</th>
+                <th align="right">${locale.getValue("passwordLabel")}</th>
                 <td><input type="password" name="password" placeholder="Password" class="form-control"/></td>
             </tr>
             <tr>
-                <td colspan="2" align="right"><input type="submit" value="Log in" class="btn btn-primary"/></td>
+                <td colspan="2" align="right"><input type="submit" value="${locale.getValue("loginButton")}" class="btn btn-primary"/></td>
             </tr>
         </table>
-
 
     </form>
 

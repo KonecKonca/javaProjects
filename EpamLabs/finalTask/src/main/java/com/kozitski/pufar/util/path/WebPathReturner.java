@@ -5,7 +5,7 @@ public class WebPathReturner{
 
     public static String webPath;
 
-    public static void setSf(String webPath) {
+    public static void setWebPath(String webPath) {
         WebPathReturner.webPath = webPath;
     }
 

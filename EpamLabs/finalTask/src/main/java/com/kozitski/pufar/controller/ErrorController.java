@@ -1,8 +1,7 @@
-package com.kozitski.pufar.controller.autorization;
+package com.kozitski.pufar.controller;
 
 import com.kozitski.pufar.command.*;
-import com.kozitski.pufar.entity.user.User;
-import com.kozitski.pufar.entity.user.UserStatus;
+import com.kozitski.pufar.command.impl.ErrorCommand;
 import com.kozitski.pufar.util.request.RequestValueTransformer;
 
 import javax.servlet.ServletException;
@@ -10,23 +9,22 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet("/login")
-public class LoginController extends HttpServlet {
-
-    private static final String COMMAND_NAME = "loginCommand";
+@WebServlet("/error")
+public class ErrorController extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("jsp/login/login.jsp");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        errorHandle(request, response);
     }
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        errorHandle(request, response);
+    }
 
-        AbstractCommand command = CommandFactory.chooseCommand(request.getParameter(COMMAND_NAME));
+    private void errorHandle(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        AbstractCommand command = new ErrorCommand();
         RequestValue requestValue = RequestValueTransformer.transformFrom(request);
 
         Router router = command.execute(requestValue);
@@ -38,8 +36,6 @@ public class LoginController extends HttpServlet {
         else {
             response.sendRedirect(router.getPagePath());
         }
-
-
     }
 
 }

@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Сраница ошибки 404</title>
+    <title>${locale.getValue("commonTitle")}</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width">
@@ -35,19 +35,16 @@
             </p>
 
             <p class="error">
-                Похоже, вы выбрали неправильный путь.<br> Не волнуйтесь, время от времени, это случается с каждым из нас.<br>
-                Поисковая форма и ссылки ниже, помогут вам встать на путь истинный.</p>
+                ${locale.getValue("userErrorMessage")}</p>
             <form action="" method="post" class="search">
                 <input type="search" name="" placeholder="поиск" class="input" />
                 <input type="submit" name="" value="" class="submit" />
             </form>
             <nav>
                 <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">О Сайте</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">${locale.getValue("userErrorMainButton")}</a></li>
+                    <li><a href="#">${locale.getValue("userErrorInfoButton")}</a></li>
+                    <li><a href="#">${locale.getValue("userErrorContactButton")}</a></li>
                 </ul>
             </nav>
 

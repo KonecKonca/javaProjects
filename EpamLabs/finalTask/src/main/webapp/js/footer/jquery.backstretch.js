@@ -223,7 +223,7 @@
           , oldImage = self.$wrap.find('img').addClass('deleteable')
           , evtOptions = { relatedTarget: self.$container[0] };
 
-        // Trigger the "before" event
+        // Trigger the "before" listener
         self.$container.trigger($.Event('backstretch.before', evtOptions), [self, newIndex]); 
 
         // Set the new index
@@ -264,7 +264,7 @@
                       })
                       .appendTo(self.$wrap);
 
-        // Hack for IE img onload event
+        // Hack for IE img onload listener
         self.$img.attr('src', self.images[newIndex]);
         return self;
       }

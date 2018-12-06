@@ -1,6 +1,8 @@
-package com.kozitski.pufar.filter.login;
+package com.kozitski.pufar.filter;
 
 import com.kozitski.pufar.entity.user.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -9,7 +11,9 @@ import java.io.IOException;
 import java.util.*;
 
 @WebFilter("/*")
-public class LoginFilter implements Filter {
+public class CheckAccessFilter implements Filter {
+    private static Logger LOGGER = LoggerFactory.getLogger(CheckAccessFilter.class);
+
     private static final Set<String> ONLY_FOR_AUTHORIZED_USER = Collections.unmodifiableSet(new HashSet<>(
             Arrays.asList("/chat", "/dialog", "/speaker")));
     private static final String CURRENT_USER = "currentUser";
@@ -27,7 +31,8 @@ public class LoginFilter implements Filter {
         if(!ONLY_FOR_AUTHORIZED_USER.contains(path)){
             filterChain.doFilter(req, resp);
         }
-        else if(ONLY_FOR_AUTHORIZED_USER.contains(path) && ((User) req.getServletContext().getAttribute(CURRENT_USER)).getStatus() != null){
+        else if(ONLY_FOR_AUTHORIZED_USER.contains(path) && ((User) ((HttpServletRequest) req).getSession().getAttribute(CURRENT_USER)).getStatus() != null){
+            LOGGER.warn("Not authorized user has not access");
             filterChain.doFilter(req, resp);
         }
         else {

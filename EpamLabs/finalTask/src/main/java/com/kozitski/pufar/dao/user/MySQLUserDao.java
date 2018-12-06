@@ -51,13 +51,11 @@ public class MySQLUserDao implements UserDao {
             preparedStatement.setString(1, login);
             ResultSet resultSet = preparedStatement.executeQuery();
 
+            User user = null;
             if(resultSet.next()){
-                System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+                user = UserMapper.createUser(resultSet);
             }
 
-            User user = UserMapper.createUser(resultSet);
-
-            System.out.println(user);
             return Optional.of(user);
         }
 

@@ -33,7 +33,7 @@ public class LoginCommand extends AbstractCommand {
             Optional<User> user = loginService.searchUserByLoginPassword(login, password);
 
             if(user.isPresent()){
-                request.servletContextPut(CURRENT_USER, user.get());
+                request.servletSessionPut(CURRENT_USER, user.get());
                 router.setPagePath(PagePath.TEMPLATE_PAGE.getJspPath());
             }
             else {

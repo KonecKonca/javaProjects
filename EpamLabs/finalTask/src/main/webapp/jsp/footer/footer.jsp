@@ -5,6 +5,8 @@
 
 <head>
 
+    <title>${locale.getValue("commonTitle")}</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,35 +42,33 @@
                 <div class="col-md-4 col-lg-3 footer-about wow fadeInUp">
                     <img class="logo-footer" src="${context}/image/footer/footerLogo.png" alt="${context}/image/footer/footerLogo.png" data-at2x="${context}/image/footer/footerLogo.png">
                     <p>
-                        We are open space for private announcements
+                        ${locale.getValue("footerDescription")}
                     </p>
-                    <p><a href="https://vk.com/htmlgerasim">Our VK public</a></p>
+                    <p><a href="https://vk.com/htmlgerasim">${locale.getValue("footerVK")}</a></p>
                 </div>
                 <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
-                    <h3>Contact</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Belarus, Minsk</p>
-                    <p><i class="fas fa-phone"></i> Phone: +375 (25) 955-03-17</p>
-                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:andrei.kozitsky@mail.ru">andrei.kozitsky@mail.ru</a></p>
-                    <p><i class="fab fa-skype"></i> Skype: andrei.kozitsky00</p>
+                    <h3>${locale.getValue("footerContact")}</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> ${locale.getValue("footerLocation")}</p>
+                    <p><i class="fas fa-phone"></i> ${locale.getValue("footerPhone")}</p>
+                    <p><i class="fas fa-envelope"></i> ${locale.getValue("footerEmail1")} <a href="mailto:andrei.kozitsky@mail.ru">${locale.getValue("footerEmail2")}</a></p>
+                    <p><i class="fab fa-skype"></i> ${locale.getValue("footerSkype")}</p>
                 </div>
                 <div class="col-md-4 col-lg-4 footer-links wow fadeInUp">
                     <div class="row">
                         <div class="col">
-                            <h3>Navigation</h3>
+                            <h3>${locale.getValue("footerNavigation")}</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <p><a class="scroll-link" href="#top-content">Top</a></p>
-                            <p><a class="scroll-link" href="#section-1">Section 1</a></p>
-                            <p><a class="scroll-link" href="#section-2">Section 2</a></p>
-                            <p><a class="scroll-link" href="#section-3">Section 3</a></p>
+                            <%--<p><a class="scroll-link" href="#top-content">Top</a></p>--%>
+                            <p><a class="scroll-link" href="#section-1">${locale.getValue("footerNavigationLink")}</a></p>
                         </div>
-                        <div class="col-md-6">
-                            <p><a class="scroll-link" href="#section-4">Section 4</a></p>
-                            <p><a href="#">Affiliates</a></p>
-                            <p><a href="#">Terms</a></p>
-                        </div>
+                        <%--<div class="col-md-6">--%>
+                            <%--<p><a class="scroll-link" href="#section-4">Section 4</a></p>--%>
+                            <%--<p><a href="#">Affiliates</a></p>--%>
+                            <%--<p><a href="#">Terms</a></p>--%>
+                        <%--</div>--%>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 footer-copyright">
-                    &copy; Site was designed by <a href="https://vk.com/akozitsky">Andrei Kozitski</a>
+                    ${locale.getValue("footerDisaner1")} <a href="https://vk.com/akozitsky">${locale.getValue("footerDisaner2")}</a>
                 </div>
                 <div class="col-md-6 footer-social">
                     <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
