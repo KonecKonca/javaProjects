@@ -1,5 +1,6 @@
 package com.kozitski.pufar.dao.user;
 
+import com.kozitski.pufar.dao.PufarDao;
 import com.kozitski.pufar.entity.user.User;
 import com.kozitski.pufar.entity.user.UserStatus;
 import com.kozitski.pufar.exception.PufarDAOException;
@@ -11,15 +12,14 @@ import com.kozitski.pufar.validation.annotation.user.UserValid;
 import java.util.ArrayList;
 import java.util.Optional;
 
-public interface UserDao {
+public interface UserDao extends PufarDao<User>{
 
-    @AspectValid
-    Optional<User> searchUserById(@IntValid long id);
-    @AspectValid
-    Optional<User> searchUserByLogin(@StringValid String login);
+    @Override
+    Optional<User> searchById(long id);
+
+    Optional<User> searchUserByLogin(String login);
     ArrayList<User> searchUsersByStatus(UserStatus status);
 
-    @AspectValid
-    void addUser(@UserValid User user) throws PufarDAOException;
+    User addUser(User user) throws PufarDAOException;
 
 }

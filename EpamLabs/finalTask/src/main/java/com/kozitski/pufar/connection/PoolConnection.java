@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.mysql.jdbc.Driver;
+import org.slf4j.Marker;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,7 +18,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class PoolConnection {
     private static Logger LOGGER = LoggerFactory.getLogger(PoolConnection.class);
-    private static final String PROPERTY_PATH = "/WEB-INF/classes/pooll/poolConnection.properties";
+    private static final String CONNECTION_URL = "jdbc:mysql://localhost:3306/pufar?serverTimezone=UTC&useSSL=false";
+    private static final String PROPERTY_PATH = "/WEB-INF/classes/poll/poolConnection.properties";
+    private Properties properties;
 
     private static final int MIN_POOL_CAPACITY = 5;
     private static final int MAX_POOL_CAPACITY = 20;
@@ -28,7 +31,7 @@ public class PoolConnection {
 
     private static ReentrantLock lock = new ReentrantLock();
     private static PoolConnection poolConnection;
-    public static PoolConnection getInstance() throws PufarDAOException {
+    public static PoolConnection getInstance(){
         if(poolConnection != null){
             return poolConnection;
         }
@@ -39,7 +42,8 @@ public class PoolConnection {
                 try {
                     poolConnection = new PoolConnection();
                 } catch (SQLException e) {
-                    throw new PufarDAOException("Can not get Instance", e);
+                    LOGGER.error("Can not get Instance", e);
+                    throw new RuntimeException("Can not get Instance", e);
                 }
             }
         }
@@ -50,23 +54,18 @@ public class PoolConnection {
         return poolConnection;
     }
 
-    private PoolConnection() throws SQLException, PufarDAOException {
+    private PoolConnection() throws SQLException {
         DriverManager.registerDriver(new Driver());
 
         init();
     }
-    private void init() throws PufarDAOException {
+    private void init() {
 
         String fullPath = (WebPathReturner.webPath + PROPERTY_PATH);
-        Properties properties = new Properties();
+        properties = new Properties();
 
         try(FileInputStream fileInputStream = new FileInputStream(fullPath)) {
             properties.load(fileInputStream);
-            ConnectionAttribute[] connectionAttributes = ConnectionAttribute.values();
-            for(ConnectionAttribute connectionAttribute : connectionAttributes){
-                connectionAttribute.setValue(properties.getProperty(connectionAttribute.toString()));
-            }
-
         }
         catch (IOException e) {
             LOGGER.error("Error while reading properties", e);
@@ -74,17 +73,18 @@ public class PoolConnection {
 
         for (int i = 0; i < INITIAL_CAPACITY; i++) {
             try {
-                freeConnections.add(new ProxyConnection(DriverManager.getConnection(ConnectionAttribute.CONNECTION_URL.getValue(),
-                        ConnectionAttribute.USER_LOGIN.getValue(),ConnectionAttribute.USER_PASSWORD.getValue())));
+                Connection connection = new ProxyConnection(DriverManager.getConnection(CONNECTION_URL, properties));
+                freeConnections.add(connection);
             }
             catch (SQLException e) {
-                throw new PufarDAOException("Pool can not initialize", e);
+                LOGGER.error("Pool can not initialize", e);
+                throw new RuntimeException("Pool can not initialize", e);
             }
         }
 
     }
 
-    public Connection getConnection() throws PufarDAOException {
+    public Connection getConnection() {
 
         try {
             lock.lock();
@@ -92,8 +92,7 @@ public class PoolConnection {
             Connection connection;
 
             if(freeConnections.size() < MIN_POOL_CAPACITY && (freeConnections.size() + releaseConnections.size()) < MAX_POOL_CAPACITY){
-                connection = new ProxyConnection(DriverManager.getConnection(ConnectionAttribute.CONNECTION_URL.getValue(),
-                        ConnectionAttribute.USER_LOGIN.getValue(),ConnectionAttribute.USER_PASSWORD.getValue()));
+                connection = new ProxyConnection(DriverManager.getConnection(CONNECTION_URL, properties));
                 releaseConnections.offer(connection);
             }
             else {
@@ -103,14 +102,14 @@ public class PoolConnection {
             return connection;
         }
         catch (InterruptedException | SQLException e) {
-            throw new PufarDAOException("Can not get connection", e);
+            throw new RuntimeException("Can not get connection", e);
         }
         finally {
             lock.unlock();
         }
 
     }
-    void releaseConnection(Connection connection) throws SQLException {
+    void releaseConnection(Connection connection) {
 
         try {
             lock.lock();
@@ -124,29 +123,30 @@ public class PoolConnection {
             else {
                 freeConnections.offer(connection);
             }
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e) {
             LOGGER.error("connection take fell down", e);
-        } finally {
+            throw new RuntimeException("connection take fell down", e);
+        }
+        finally {
             lock.unlock();
         }
 
     }
-    public void destroy(){
-        try {
-            lock.lock();
 
-            for(Connection connection : freeConnections){
-                ((ProxyConnection)connection).realClose();
+    public void destroy(){
+
+        for (int i = 0; i < freeConnections.size(); i++) {
+            try {
+                ProxyConnection connection = (ProxyConnection) freeConnections.take();
+                connection.realClose();
             }
-            for(Connection connection : releaseConnections){
-                ((ProxyConnection)connection).realClose();
+            catch (InterruptedException e) {
+                LOGGER.error("Connection close exception", e);
             }
-            poolConnection = null;
-        } catch (SQLException e) {
-            LOGGER.error("Can not close connection", e);
-        } finally {
-            lock.unlock();
         }
+
+        poolConnection = null;
     }
 
 }

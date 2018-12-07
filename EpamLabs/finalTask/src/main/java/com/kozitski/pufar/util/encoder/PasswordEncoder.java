@@ -14,7 +14,7 @@ public class PasswordEncoder {
     private static final String ENCODING_TYPE = "MD5";
 
     @AspectValid
-    public static String encode(@StringValid(minLength = 4, maxLength = 20) String password){
+    public static String encode(String password){
         StringBuilder stringBuilder = new StringBuilder();
 
         try {
@@ -34,8 +34,7 @@ public class PasswordEncoder {
         return stringBuilder.toString();
     }
 
-    public static boolean comparePasswordsWithEncoding(@StringValid(minLength = 4, maxLength = 20)String pass1,
-                                                       @StringValid(minLength = 4, maxLength = 20)String pass2){
+    public static boolean comparePasswordsWithEncoding(String pass1, String pass2){
         String encodedPass1 = encode(pass1);
         String encodedPass2 = encode(pass2);
         return encodedPass1.equals(encodedPass2);
@@ -44,10 +43,5 @@ public class PasswordEncoder {
         return pass1.trim().equals(pass2.trim());
     }
 
-    public static void main(String[] args) {
-        System.out.println(encode("12345"));
-        System.out.println(encode("321123"));
-        System.out.println(encode("x666x"));
-    }
 
 }

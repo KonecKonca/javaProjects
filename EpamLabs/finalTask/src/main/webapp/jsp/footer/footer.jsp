@@ -56,19 +56,32 @@
                 <div class="col-md-4 col-lg-4 footer-links wow fadeInUp">
                     <div class="row">
                         <div class="col">
-                            <h3>${locale.getValue("footerNavigation")}</h3>
+                            <h3>${locale.getValue("footerAdditional")}</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <%--<p><a class="scroll-link" href="#top-content">Top</a></p>--%>
-                            <p><a class="scroll-link" href="#section-1">${locale.getValue("footerNavigationLink")}</a></p>
+                            <p><a class="scroll-link" href="#section-1">${locale.getValue("footerAdditionalLink")}</a></p>
+
+                            <form action="/pufar" method="post" id="loginForm">
+                                <input type="hidden" value="CHANGE_LOCALE_RU" name="command">
+
+                                <input type="submit" value="ru" class="btn btn-outline-success"/>
+                            </form>
+                            <form action="/pufar" method="post" id="loginForm">
+                                <input type="hidden" value="CHANGE_LOCALE_EN" name="command">
+
+                                <input type="submit" value="en" class="btn btn-outline-success"/>
+                            </form>
                         </div>
-                        <%--<div class="col-md-6">--%>
-                            <%--<p><a class="scroll-link" href="#section-4">Section 4</a></p>--%>
-                            <%--<p><a href="#">Affiliates</a></p>--%>
-                            <%--<p><a href="#">Terms</a></p>--%>
-                        <%--</div>--%>
+
+                        <div class="col-md-6">
+                            <p><a href="${context}/index.jsp">${locale.getValue("footerIndexLink")}</a></p>
+                            <p><a href="${context}/jsp/login/login.jsp">${locale.getValue("footerLoginPage")}</a></p>
+                            <p><a href="${context}/jsp/template/template.jsp">${locale.getValue("footerTemplatePage")}</a></p>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -85,7 +98,9 @@
                     <a href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i></a>
                     <a href="https://plus.google.com/discover?hl=ru"><i class="fab fa-google-plus-g"></i></a>
                     <a href="https://www.instagram.com/?hl=ru"><i class="fab fa-instagram"></i></a>
+
                 </div>
+
             </div>
         </div>
     </div>

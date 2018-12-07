@@ -50,7 +50,30 @@
                     </div>
 
                 </div>
+
             </form>
+
+            <P class="mb-5"> ${locale.getValue("indexRegisterLabel")}</P>
+            <form action="/pufar" method="post">
+
+                <input type="hidden" value="REGISTRATION" name="command">
+
+                <table align="center">
+                    <tr>
+                        <th align="right"><div class="indexLabel">${locale.getValue("indexRegisterLogin")}</div></th>
+                        <td><input type="text" name="login" placeholder="${locale.getValue("indexRegisterLogin")}" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <th align="right"><div class="indexLabel">${locale.getValue("indexRegisterPassword")}</div></th>
+                        <td><input type="password" name="password" placeholder="${locale.getValue("indexRegisterPassword")}" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right"><input type="submit" value="${locale.getValue("indexRegisterButton")}" class="btn btn-outline-info"/></td>
+                    </tr>
+                </table>
+
+            </form>
+
 
             <div class="tm-social-icons-container text-xs-center">
                 <a href="" class="tm-social-link"><i class="fa fa-facebook"></i></a>

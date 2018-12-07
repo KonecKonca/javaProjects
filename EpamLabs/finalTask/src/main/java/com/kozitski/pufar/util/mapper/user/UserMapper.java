@@ -9,13 +9,18 @@ import java.util.ArrayList;
 
 
 public class UserMapper {
+    private static final String USER_ID = "user_id";
+    private static final String USER_LOGIN = "login";
+    private static final String USER_PASSWORD = "password";
+    private static final String USER_VALUE = "value";
+    private static final String USER_STATUS = "status";
 
     public static User createUser(ResultSet resultSet) throws SQLException {
 
-        long userId = resultSet.getLong("user_id");
-        String login = resultSet.getString("login");
-        String password = resultSet.getString("password");
-        UserStatus status = defineUserStatus(resultSet.getString("value"));
+        long userId = resultSet.getLong(USER_ID);
+        String login = resultSet.getString(USER_LOGIN);
+        String password = resultSet.getString(USER_PASSWORD);
+        UserStatus status = defineUserStatus(resultSet.getString(USER_VALUE));
 
         return new User(userId, login, password, status);
 
@@ -25,12 +30,11 @@ public class UserMapper {
 
         while (resultSet.next()){
 
-            long userId = resultSet.getLong("user_id");
-            String login = resultSet.getString("login");
-            String password = resultSet.getString("password");
+            long userId = resultSet.getLong(USER_ID);
+            String login = resultSet.getString(USER_LOGIN);
+            String password = resultSet.getString(USER_PASSWORD);
 
-            UserStatus status = defineUserStatus(resultSet.getString("status"));
-            System.out.println(status);
+            UserStatus status = defineUserStatus(resultSet.getString(USER_STATUS));
 
             result.add(new User(userId, login, password, status));
         }
@@ -39,7 +43,7 @@ public class UserMapper {
 
     }
 
-    public static UserStatus defineUserStatus(String status){
+    private static UserStatus defineUserStatus(String status){
 
         switch (status.toUpperCase()){
 

@@ -23,6 +23,9 @@ public class User {
     public void setLogin(String login) {
         this.login = login;
     }
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public long getUserId() {
         return userId;

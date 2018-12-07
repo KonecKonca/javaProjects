@@ -9,7 +9,6 @@ public class ErrorHandleService {
         String pagePath = PagePath.USER_ERROR_PAGE.getJspPath();
 
         if(status != null && status.equals(UserStatus.SUPER_ADMIN)){
-            System.out.println(status);
             pagePath = PagePath.ADMIN_ERROR_PAGE.getJspPath();
         }
 

@@ -1,7 +1,7 @@
 package com.kozitski.pufar.controller;
 
 import com.kozitski.pufar.command.*;
-import com.kozitski.pufar.command.impl.ErrorCommand;
+import com.kozitski.pufar.command.impl.error.ErrorCommand;
 import com.kozitski.pufar.util.request.RequestValueTransformer;
 
 import javax.servlet.ServletException;

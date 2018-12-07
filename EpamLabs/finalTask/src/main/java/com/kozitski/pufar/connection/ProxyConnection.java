@@ -58,17 +58,18 @@ public class ProxyConnection implements Connection, AutoCloseable{
     }
 
     @Override
-    public void close() throws SQLException {
-        // TODO: [CLOSE CONNECTION] here my be checking transaction
-        try {
-            PoolConnection.getInstance().releaseConnection(this);
-        }
-        catch (PufarDAOException e) {
-            LOGGER.error("can not get PoolConnection instance");
-        }
+    public void close(){
+        PoolConnection.getInstance().releaseConnection(this);
     }
-    void realClose() throws SQLException{
-        connection.close();
+    void realClose(){
+        try {
+            connection.setAutoCommit(true);
+            connection.close();
+        }
+        catch (SQLException e) {
+            LOGGER.error("connection is not closed", e);
+            throw new RuntimeException("connection is not closed", e);
+        }
     }
 
     @Override

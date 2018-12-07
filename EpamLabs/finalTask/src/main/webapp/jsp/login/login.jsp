@@ -37,11 +37,11 @@
         <table align="center">
             <tr>
                 <th align="right">${locale.getValue("loginLabel")}</th>
-                <td><input type="text" name="login" placeholder="Login" class="form-control"/></td>
+                <td><input type="text" name="login" placeholder="${locale.getValue("loginLabel")}" class="form-control"/></td>
             </tr>
             <tr>
-                <th align="right">${locale.getValue("passwordLabel")}</th>
-                <td><input type="password" name="password" placeholder="Password" class="form-control"/></td>
+                <th align="right">${locale.getValue("loginPasswordLabel")}</th>
+                <td><input type="password" name="password" placeholder="${locale.getValue("loginPasswordLabel")}" class="form-control"/></td>
             </tr>
             <tr>
                 <td colspan="2" align="right"><input type="submit" value="${locale.getValue("loginButton")}" class="btn btn-primary"/></td>

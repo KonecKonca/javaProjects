@@ -1,10 +1,11 @@
 package com.kozitski.pufar.command;
 
-import com.kozitski.pufar.command.impl.ErrorCommand;
-import com.kozitski.pufar.command.impl.GetContactCommand;
-import com.kozitski.pufar.command.impl.IndexCommand;
-import com.kozitski.pufar.command.impl.LoginCommand;
-import com.kozitski.pufar.service.error.ErrorHandleService;
+import com.kozitski.pufar.command.impl.*;
+import com.kozitski.pufar.command.impl.autorization.LoginCommand;
+import com.kozitski.pufar.command.impl.autorization.RegistrationCommand;
+import com.kozitski.pufar.command.impl.error.ErrorCommand;
+import com.kozitski.pufar.command.impl.locale.SetEnLocaleCommand;
+import com.kozitski.pufar.command.impl.locale.SetRuLocaleCommand;
 
 public enum CommandType {
 
@@ -12,6 +13,9 @@ public enum CommandType {
     GET_CONTACT(new GetContactCommand()),
     LOGIN(new LoginCommand()),
     ERROR(new ErrorCommand()),
+    CHANGE_LOCALE_RU(new SetRuLocaleCommand()),
+    CHANGE_LOCALE_EN(new SetEnLocaleCommand()),
+    REGISTRATION(new RegistrationCommand()),
 
     LOGOUT(new IndexCommand()),
     SHOW_DIALOGS(new IndexCommand()),

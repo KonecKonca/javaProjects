@@ -35,27 +35,30 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarText">
+
                     <ul class="navbar-nav animate side-nav">
+                        <%--<li class="nav-item">--%>
+                            <%--<a class="nav-link" href="#">${locale.getValue("templateDialogButton")}--%>
+                                <%--<span class="sr-only">(current)</span>--%>
+                            <%--</a>--%>
+                        <%--</li>--%>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">${locale.getValue("templateDialogButton")}
-                                <span class="sr-only">(current)</span>
-                            </a>
+                            <a class="nav-link" href="${context}/jsp/login/login.jsp">${locale.getValue("templateLoginLink")}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Side Menu Items</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="${context}/index.jsp">${locale.getValue("templateIndexLink")}</a>
                         </li>
                     </ul>
+
                     <ul class="navbar-nav ml-md-auto d-md-flex">
                         <li class="nav-item">
 
                             <form action="/pufar" method="post">
                                 <input type="hidden" name="command" value="GET_CONTACT">
 
-                                <input type="submit" name="button1" value="${locale.getValue("templateDialogButton")}" class="nav-link">
+                                <input type="submit" name="button1" value="${locale.getValue("templateDialogButton")}" class="btn btn-outline-info">
 
                                 <%--<a class="nav-link" href="/speaker">Dialogues--%>
                                     <%--<span class="sr-only">(current)</span>--%>
@@ -65,7 +68,14 @@
 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">${locale.getValue("templateInfoButton")}</a>
+
+                            <form action="/pufar" method="post">
+                                <input type="hidden" name="command" value="notDefine">
+
+                                <input type="submit" value="${locale.getValue("templateInfoButton")}" class="btn btn-outline-info">
+
+                            </form>
+
                         </li>
                     </ul>
                 </div>

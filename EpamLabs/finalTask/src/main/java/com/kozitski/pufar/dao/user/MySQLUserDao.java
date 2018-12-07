@@ -21,12 +21,11 @@ public class MySQLUserDao implements UserDao {
     private static final String SEARCH_USER_BY_ID = "SELECT u.user_id, u.login, u.password, s.value FROM users u LEFT JOIN statuses s ON u.status = s.status_id WHERE user_id = ?";
     private static final String SEARCH_USER_BY_LOGIN = "SELECT u.user_id , u.login, u.password, s.value FROM users u LEFT JOIN statuses s ON u.status = s.status_id WHERE u.login = ?";
     private static final String SEARCH_USER_BY_STATUS = "SELECT u.user_id, u.login, u.password, s.value FROM users u LEFT JOIN statuses s ON u.status = s.status_id WHERE s.value = ?";
-
     private static final String INSERT_NEW_USER_COMMON = "INSERT INTO users values(null, ?, ?, ?)";
 
     //  need in debug
     @Override
-    public Optional<User> searchUserById(long id) {
+    public Optional<User> searchById(long id) {
 
         try(Connection  connection = PoolConnection.getInstance().getConnection()){
             PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_USER_BY_ID);
@@ -38,7 +37,7 @@ public class MySQLUserDao implements UserDao {
             return Optional.of(user);
         }
 
-        catch (PufarDAOException | SQLException e) {
+        catch (SQLException e) {
             return Optional.empty();
         }
 
@@ -56,10 +55,10 @@ public class MySQLUserDao implements UserDao {
                 user = UserMapper.createUser(resultSet);
             }
 
-            return Optional.of(user);
+            return Optional.ofNullable(user);
         }
 
-        catch (PufarDAOException | SQLException e) {
+        catch (SQLException e) {
             return Optional.empty();
         }
 
@@ -77,22 +76,19 @@ public class MySQLUserDao implements UserDao {
             result = UserMapper.createUsers(resultSet);
 
         }
-        catch (PufarDAOException | SQLException e) {
-            return new  ArrayList<>(0);
+        catch (SQLException e) {
+            return new  ArrayList<>();
         }
 
         return result;
     }
 
     @Override
-    public void addUser(User user) throws PufarDAOException {
-
-        String sql = "SELECT * FROM statuses";
+    public User addUser(User user) throws PufarDAOException {
 
         try(Connection  connection = PoolConnection.getInstance().getConnection()){
-            // my be not so hard
+            // my be not so hard LEVEL
             connection.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
-
             connection.setAutoCommit(false);
 
             PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_USER_BY_LOGIN);
@@ -100,26 +96,24 @@ public class MySQLUserDao implements UserDao {
             ResultSet resultSet = preparedStatement.executeQuery();
 
             if(resultSet.next()){
-                LOGGER.warn("User with input login already exist");
                 throw new PufarDAOException("User with input login already exist");
             }
             else {
                 PreparedStatement userAddStatement = connection.prepareStatement(INSERT_NEW_USER_COMMON);
-                preparedStatement.setString(1, user.getLogin());
-                preparedStatement.setString(2, user.getPassword());
-                preparedStatement.setInt(3, user.getStatus().ordinal() + USER_ORDINAL_STATUS_INCREMENT);
+                userAddStatement.setString(1, user.getLogin());
+                userAddStatement.setString(2, user.getPassword());
+                userAddStatement.setInt(3, user.getStatus().ordinal() + USER_ORDINAL_STATUS_INCREMENT);
 
+                userAddStatement.executeUpdate();
+                connection.commit();
+                LOGGER.info("User correctly added");
+
+                    return user;
             }
-
-            connection.setAutoCommit(true);
-
-            LOGGER.info("User correctly added");
         }
-        catch (PufarDAOException | SQLException e) {
-            LOGGER.warn("User not added", e);
+        catch (SQLException e) {
             throw new PufarDAOException("User not added", e);
         }
-
 
     }
 

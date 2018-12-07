@@ -1,4 +1,4 @@
-package com.kozitski.pufar.command.impl;
+package com.kozitski.pufar.command.impl.error;
 
 import com.kozitski.pufar.command.AbstractCommand;
 import com.kozitski.pufar.command.RequestValue;
