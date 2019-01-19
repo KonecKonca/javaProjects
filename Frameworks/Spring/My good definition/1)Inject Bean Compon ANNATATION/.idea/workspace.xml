@@ -2,141 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dfc6c1-7591-4b9e-871c-ee64a498da0c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/annotation/autoscan/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/annotation/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/ArmChear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/aop/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/aop/TimeCounterAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/aop/TimeTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/AbstractCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/Profession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/xml/SimpleUtilClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/aop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/subContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_context_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_expression_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/.springBeans" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/SpringAOP_24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/annotations/ShowResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/annotations/ShowTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/logging/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/main/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/objects/CustomFileFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/objects/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/postprocessors/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../22)SpringAOP_27_h/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4) AOP annotation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/aspects/WorkAspects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5)Long/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../labs/TIIT 2 sem/all last/расчётка/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../temporate/javaLogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../temporate/src/koneckonca/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/finalTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../EpamLabs/finalTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../EpamLabs/task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task1/src/main/java/com/kozitski/triangle/repository/TriangleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../EpamLabs/task1/src/main/java/com/kozitski/triangle/repository/TriangleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../EpamLabs/task2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task3/target/classes/TestNg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task3/target/classes/data/initialization.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task3/target/classes/data/validation/product.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task3/target/classes/data/validation/wagon.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task3/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task3/target/test-classes/com/kozitski/task3/validator/ProductValidationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../EpamLabs/task4(web)/src/main/webapp/jsp/loadFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../EpamLabs/task4(web)/src/main/webapp/jsp/loadFile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/check/ArmChear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5)Long/src/main/java/check/ArmChear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/check/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5)Long/src/main/java/check/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/check/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5)Long/src/main/java/check/Sofa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5)Long/src/main/java/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5)Long/src/main/java/main/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mytest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/check/ArmChear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/check/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/check/Sofa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3) AOP xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3) AOP xml/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3) AOP xml/src/main/resources/aspects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3) AOP xml/src/main/resources/aspects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/aspects/AspectClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/aspects/AspectClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/test/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/test/entities/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/test/entities/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/test/entities/Plumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/java/test/entities/Plumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/src/main/resources/annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/src/main/resources/annotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/Mytest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/classes/annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/target/classes/annotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/classes/aspects/AspectClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/target/classes/aspects/AspectClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/classes/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/target/classes/config/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/classes/test/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/target/classes/test/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/classes/test/entities/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/target/classes/test/entities/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/classes/test/entities/Plumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4) AOP annotation/target/classes/test/entities/Plumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4) AOP annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Important topics/Servlets/apache-tomcat-8.5.31/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Important topics/Servlets/apache-tomcat-8.5.31/conf/logging.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/dataSources/5de76cd8-7dae-4a08-9b6a-b8e1b62874cb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/dataSources/5de76cd8-7dae-4a08-9b6a-b8e1b62874cb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/src/main/java/andrei/ert/InterShop/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/src/main/java/andrei/ert/InterShop/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/src/main/java/andrei/ert/InterShop/config/system/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/src/main/java/andrei/ert/InterShop/config/system/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/src/main/java/andrei/ert/InterShop/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/src/main/java/andrei/ert/InterShop/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/target/InterShop-1.0-SNAPSHOT/WEB-INF/lib/InterShop-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/InterShop/target/InterShop-1.0-SNAPSHOT/WEB-INF/lib/InterShop-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/dataSources/5de76cd8-7dae-4a08-9b6a-b8e1b62874cb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/dataSources/5de76cd8-7dae-4a08-9b6a-b8e1b62874cb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/InterShop(Саморазвитие)/target/InterShop-1.0-SNAPSHOT/WEB-INF/lib/InterShop-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/InterShop(Саморазвитие)/target/InterShop-1.0-SNAPSHOT/WEB-INF/lib/InterShop-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/.idea/dataSources/f0661431-1959-4ee9-ad77-a82ee6aad5ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/.idea/dataSources/f0661431-1959-4ee9-ad77-a82ee6aad5ea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/src/main/java/andrei/ert/InterShop/controller/AtmMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/src/main/java/andrei/ert/InterShop/controller/AtmMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/target/InterShop-1.0-SNAPSHOT/WEB-INF/lib/InterShop-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/target/InterShop-1.0-SNAPSHOT/WEB-INF/lib/InterShop-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/target/InterShop-1.0-SNAPSHOT/WEB-INF/views/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/target/InterShop-1.0-SNAPSHOT/WEB-INF/views/common/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/target/InterShop-1.0-SNAPSHOT/WEB-INF/views/common/commonWihoutNavbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/PPVIS/lab3/release/target/InterShop-1.0-SNAPSHOT/WEB-INF/views/common/commonWihoutNavbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/TIIT 2 sem/all last/расчётка/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/TIIT 2 sem/all last/расчётка/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../labs/TIIT 2 sem/all last/расчётка/out/production/проект2/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../labs/TIIT 2 sem/all last/расчётка/out/production/проект2/start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../temporate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../temporate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../temporate/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../temporate/src/pack1/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../temporate/src/pack2/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/annotation/autoscan/Man.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/annotation/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/ArmChear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/annotation/entity/Sofa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/aop/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/aop/TimeCounterAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/aop/TimeTestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/AbstractCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/Profession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/xml/SimpleUtilClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/subContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5)Long/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5)Long/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5)Long/src/main/java/check/ArmChear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5)Long/src/main/java/check/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5)Long/src/main/java/check/Sofa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5)Long/src/main/java/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5)Long/src/main/java/main/MainClass.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -150,7 +56,7 @@
     <session id="1800743342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.58" value="1" />
@@ -195,35 +101,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/aop/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -315,17 +193,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Mytest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Mytest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -394,7 +262,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547916850545" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../22)SpringAOP_27_h/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5)LONG/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15234375" />
@@ -534,17 +402,17 @@
       <workItem from="1547754099880" duration="2010000" />
       <workItem from="1547756400815" duration="1090000" />
       <workItem from="1547795067516" duration="29325000" />
-      <workItem from="1547917158418" duration="1526000" />
+      <workItem from="1547917158418" duration="1879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44225000" />
+    <option name="totallyTimeSpent" value="44578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20988539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19197708" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -922,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="17">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
         </state>
       </provider>
@@ -954,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
