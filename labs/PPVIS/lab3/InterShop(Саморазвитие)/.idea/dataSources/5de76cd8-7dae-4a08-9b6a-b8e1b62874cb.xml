@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="InterShop">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
@@ -948,34 +948,34 @@
     </table>
     <column id="241" parent="239" name="product_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="242" parent="239" name="name">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="243" parent="239" name="description">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="244" parent="239" name="category">
       <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="245" parent="239" name="price">
       <Position>5</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="246" parent="239" name="rate">
       <Position>6</Position>
-      <DataType>double|0</DataType>
+      <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="247" parent="239" name="table_name_product_id_uindex">
@@ -993,29 +993,29 @@
     </key>
     <column id="250" parent="240" name="user_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="251" parent="240" name="name">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="252" parent="240" name="email">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="253" parent="240" name="age">
       <Position>4</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="254" parent="240" name="access">
       <Position>5</Position>
-      <DataType>varchar(3)|0</DataType>
+      <DataType>varchar(3)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="255" parent="240" name="user_user_id_uindex">

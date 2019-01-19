@@ -10,7 +10,7 @@
         <p> You choise <h2>${parser}</h2> parser</p>
         <p> Download Image </p>
 
-        <FORM action="/upload" enctype="multipart/form-data" method="POST">
+        <FORM action="/upoad" enctype="multipart/form-data" method="POST">
             <input type="hidden" name="chooseCommand" value="CHOOSE_XML_COMMAND">
 
             Upload File:

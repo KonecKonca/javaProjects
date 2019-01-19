@@ -20,6 +20,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         freeMarkerViewResolver.setOrder(1);
         freeMarkerViewResolver.setSuffix(".ftl");
         freeMarkerViewResolver.setPrefix("");
+
         return freeMarkerViewResolver;
     }
 

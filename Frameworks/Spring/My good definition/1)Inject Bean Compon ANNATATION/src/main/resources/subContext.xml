@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- carFactory can not be abstract, case with create object -->
+    <bean id="carFactory" class="entity.xml.CarFactory">
+        <lookup-method name="createCar" bean="car1"/>
+    </bean>
+    <bean id="utilReplacer" class="entity.xml.SimpleUtilClass"/>
+
+    <bean id="baseCarBean" abstract="true">
+        <property name="name" value="Jiguli"/>
+        <property name="age" value="42"/>
+    </bean>
+
+    <bean id="car1" class="entity.xml.Car" parent="baseCarBean">
+        <property name="owner" ref="owner"/>
+        <property name="models">
+            <list>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </list>
+        </property>
+
+        <replaced-method name="carMethod" replacer="utilReplacer"/>
+    </bean>
+
+    <bean id="car2" class="entity.xml.Car"
+          c:_2-ref="owner" depends-on="owner">
+
+        <constructor-arg value="Mersedes" />
+        <constructor-arg value="4" />
+
+    </bean>
+
+<!-- _________________________________________________________________________________________ -->
+
+    <bean id="owner" class="entity.xml.Owner"
+          p:age="18" scope="prototype" init-method="init" lazy-init="true">
+
+        <constructor-arg value="Andrei" />
+        <constructor-arg value="Kozitski" index="1" type="java.lang.String"/>
+
+        <property name="profession" value="MILITARY_MAN"/>
+
+    </bean>
+
+</beans>

@@ -1,5 +1,6 @@
 package test.entities;
 
+import aspects.WorkAspects;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,6 +20,7 @@ public class Common {
         this.xyiamber = xyiamber;
     }
 
+    @WorkAspects
     public void run(){
         plumber.work();
 

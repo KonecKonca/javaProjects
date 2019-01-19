@@ -2,13 +2,14 @@ package aspects;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Aspect
-public class AspectClass {
+@Qualifier("advices")
+@Aspect public class AspectClass {
 
-    @Pointcut("execution(* *(..))")  //"execution(* test.entities.Plumber.work(..))
+    @Pointcut("execution(* *(..)) && within(test.entities.*) && @annotation(aspects.WorkAspects)")  //"execution(* test.entities.Plumber.work(..))
     public void nameOfSrez(){}  // это имя среза
 
     @Before("execution (* test.entities.*.*(..))")

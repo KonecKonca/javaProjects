@@ -94,6 +94,9 @@
             text-shadow: white 0 0 4px;
             color: #013BBC;
         }
+        a{
+            color: #FFE3B9;
+        }
 
     </style>
 

@@ -107,4 +107,5 @@ public class TriangleRepository implements Repository<Triangle> {
         }
         return stringBuilder.toString();
     }
+
 }

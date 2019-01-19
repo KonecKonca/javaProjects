@@ -19,4 +19,5 @@ public class UserMapper implements RowMapper<User>{  // как преобраз�
         user.setAccess(resultSet.getString("access"));
         return user;
     }
+
 }
