@@ -5,13 +5,13 @@
        xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <context:annotation-config/>
-    <context:component-scan base-package="entity.annotation.autoscan"/>
+    <context:annotation-config />
+    <context:component-scan base-package="base.annotation.autoscan"/>
 
     <import resource="subContext.xml"/>
 
-    <bean id="aspectCounter" class="entity.aop.TimeCounterAspect"/>
-    <bean id="testClass" class="entity.aop.TimeTestClass"/>
+    <bean id="aspectCounter" class="base.aop.TimeCounterAspect"/>
+    <bean id="testClass" class="base.aop.TimeTestClass"/>
 
     <aop:config>
         <aop:aspect id="time" ref="aspectCounter">
