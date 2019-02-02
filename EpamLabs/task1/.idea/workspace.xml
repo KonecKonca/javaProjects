@@ -5,224 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0ec114-b460-4b31-aaae-4d940b6014b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/annotation/autoscan/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/annotation/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/annotation/entity/ArmChear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/annotation/entity/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/annotation/entity/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/annotation/entity/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/aop/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/aop/TimeCounterAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/aop/TimeTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/jdbc/MainJdbcClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/jdbc/MySQLDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/jdbc/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/jdbc/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/jdbc/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/AbstractCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/Profession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/base/xml/SimpleUtilClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/resources/txt/MyNotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM1.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM10.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM11.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM12.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM2.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM3.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM4.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM5.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM6.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM7.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/ATM8.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/WW_AllProducts.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/WW_Author.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/WW_OneProduct.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/WW_Registration.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/WW_UserInfo.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/common/common.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/common/commonWihoutNavbar.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/common/navbar.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/common/src/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/common/src/maxresdefault.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/common/src/paylink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/createUser.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/editUser.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/hello.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/showUser.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/views/usersList.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/6)/mvc/src/main/webapp/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/artifacts/SpringMVC_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/artifacts/SpringMVC_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__junit_junit_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/SpringMVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/java/ru/javabegin/training/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/java/ru/javabegin/training/objects/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/main/webapp/resources/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/SpringMVC_5/src/test/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__cglib_cglib_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_context_4_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/libraries/Maven__org_springframework_spring_expression_4_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/.springBeans" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/SpringAOP_24.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/annotations/ShowResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/annotations/ShowTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/logging/MyLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/main/Start.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/objects/CustomFileFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/objects/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/java/ru/javabegin/training/spring/aop/postprocessors/MyBeanPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/22)SpringAOP_27_h/src/main/resources/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/src/main/java/aspects/AspectClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/src/main/java/parent/Additional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/src/main/java/parent/ShareMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/src/main/java/test/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/src/main/java/test/Plumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/src/main/resources/aspects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/Mytest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/classes/aspects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/classes/aspects/AspectClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/classes/parent/Additional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/classes/parent/ShareMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/classes/test/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/classes/test/Plumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/3) AOP xml/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/common/aspects/AspectClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/common/aspects/WorkAspects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/common/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/common/test/entities/Common.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/common/test/entities/concrete/Plumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/common/test/entities/concrete/Xyiamber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/java/test/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/src/main/resources/annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/aspects/AspectClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/config/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/test/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/test/entities/Common.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/test/entities/Plumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/4) AOP annotation/target/classes/test/entities/Xyiamber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/annotation/autoscan/Man.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/annotation/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/annotation/entity/ArmChear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/annotation/entity/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/annotation/entity/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/annotation/entity/Sofa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/aop/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/aop/TimeCounterAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/aop/TimeTestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/AbstractCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/Owner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/Profession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/java/entity/xml/SimpleUtilClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/aop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/aop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/subContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/My good definition/5)Long/src/main/resources/subContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Important topics/Servlets/apache-tomcat-8.5.31/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labs/PPVIS/lab3/InterShop(Саморазвитие)/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/config/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/service/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/parts/security.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/src/main/java/GuavaStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/src/main/java/ImmutableCollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/guava/src/main/java/PreconditionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/src/main/java/com/kozitski/vaadin/VaadinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/src/main/java/com/kozitski/vaadin/components/EmployeeEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/src/main/java/com/kozitski/vaadin/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/src/main/java/com/kozitski/vaadin/repository/EmployeeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/vaadin/src/main/java/com/kozitski/vaadin/view/EmployeeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/Spring Boot/sweater-OneToManyMapping/src/main/java/com/example/sweater/service/UserSevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/java/com/example/sweater/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/greeting.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/greeting.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/parts/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/parts/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Spring/SpringBoot/sweaterBest/src/main/resources/templates/registration.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -238,10 +54,10 @@
     <session id="-1030751981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="12" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
@@ -253,7 +69,7 @@
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -261,21 +77,21 @@
           <entry key="1" value="1" />
           <entry key="10" value="1" />
           <entry key="class" value="12" />
-          <entry key="java" value="782" />
+          <entry key="java" value="783" />
           <entry key="log" value="36" />
           <entry key="properties" value="39" />
           <entry key="txt" value="41" />
-          <entry key="xml" value="47" />
+          <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="782" />
+          <entry key="JAVA" value="783" />
           <entry key="Log" value="35" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="Properties" value="39" />
-          <entry key="XML" value="47" />
+          <entry key="XML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -366,10 +182,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="414">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -510,63 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -676,6 +435,74 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -878,6 +705,8 @@
       <workItem from="1546602942193" duration="3824000" />
       <workItem from="1546699447125" duration="239000" />
       <workItem from="1548274519933" duration="118000" />
+      <workItem from="1549104212896" duration="75000" />
+      <workItem from="1549105559599" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="EPAM task1 --- without loggers/fileInput">
       <created>1538429554715</created>
@@ -978,13 +807,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163580000" />
+    <option name="totallyTimeSpent" value="163782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.14872068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.29850745" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1005,6 +834,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33766234" />
       <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1250,13 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/repository/TriangleRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/MultiplicatorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/Multiplicator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/register/Observer.java">
@@ -1277,14 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="101" column="34" lean-forward="true" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-          <folding>
-            <element signature="method#getInstance#0;class#Triangle#0" />
-            <element signature="method#changePoint#0;class#Triangle#0" />
-            <element signature="method#notifyObservers#0;class#Triangle#0" />
-            <element signature="method#equals#0;class#Triangle#0" />
-            <element signature="method#hashCode#0;class#Triangle#0" />
-            <element signature="method#toString#0;class#Triangle#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,11 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="method#getInstance#0;class#TriangleRegister#0" />
-            <element signature="method#TriangleRegister#0;class#TriangleRegister#0" />
-            <element signature="method#toString#0;class#TriangleRegister#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,22 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
-          <folding>
-            <element signature="method#getTriangleRepository#0;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#0;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#1;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#2;class#TriangleRepository#0" />
-            <element signature="method#sortTriangles#3;class#TriangleRepository#0" />
-            <element signature="method#getAllTriangles#0;class#TriangleRepository#0" />
-            <element signature="method#toString#0;class#TriangleRepository#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1420,7 +1214,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kozitski/triangle/util/reader/TXTPointReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kozitski/triangle/repository/TriangleRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>

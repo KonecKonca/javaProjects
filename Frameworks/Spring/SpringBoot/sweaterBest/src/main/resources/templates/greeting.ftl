@@ -2,8 +2,8 @@
 
 <@c.page>
 
-    <div>Hello, user</div>
-    <a href="/main">Main page</a>
+    <div>Hello, guest</div>
+    <div>This is a simple clone of Twiter</div>
 
 </@c.page>
 
